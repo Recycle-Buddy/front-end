@@ -5,8 +5,14 @@ Recycle Buddy is an Mobile App designed during a Code Fellows Hack-a-thon betwee
 
 If you're interested in contributing to this project, please reach out to us through the GitHub repository. 
 
-# TODO: Include Installing, deploying, testing, etc. instructions
+# Installing and running
 
+To install and run the project, simply download the project, then type:
+
+```
+cd PATH_TO_FOLDER
+npm start
+```
 
 # Version
 Currently in Pre-Alpha, Pre-Vertical Slice, Pre-MVP, Conceptual planning
