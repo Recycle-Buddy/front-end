@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
-import colors from '../assets/colors'
+import { Button, StyleSheet, Text, View, Image } from 'react-native';
+import colors from '../assets/colors.js'
+import images from '../assets/images.js'
 
 class Landing extends React.Component {
   render() {
@@ -22,8 +23,12 @@ class Landing extends React.Component {
         <View style={styles.container}>
           <Text style={styles.text}>Landing</Text>
         </View>
-        <View style={styles.bottomrow}>
-          <Text style={styles.text}>Landing</Text>
+        <View style={styles.bottomRow}>
+          <Image source={images.magglass} style={styles.bottomRowImages}/>
+          <Image source={images.camera} style={styles.bottomRowImages}/>
+          <Image source={images.recycleBook} style={styles.bottomRowImages}/>
+          <Image source={images.gear} style={styles.bottomRowImages}/>
+          <Text style={styles.text}>HERLLO</Text>
         </View>
       </View>
     );
@@ -44,9 +49,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#d6d7da',
   },
-  bottomrow: {
+  bottomRow: {
     flex: .2,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    borderRadius: 4,
+    borderWidth: 1,
+    borderColor: '#fff',
+  },
+  bottomRowImages: {
+    flex: .25
   },
   text: {
     color: colors.darktext
