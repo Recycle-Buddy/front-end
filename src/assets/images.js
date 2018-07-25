@@ -1,9 +1,9 @@
 const images = {
-    camera: require('./images/camera.svg'),
-    gear: require('./images/gear.svg'),
-    magGlass: require('./images/magnifying-glass.svg'),
-    recycleBook: require('./images/recycle-book.svg'),
-    recycleSymbol: require('./images/recycle-symbol.svg')
+    camera: require('./images/camera.png'),
+    gear: require('./images/gear.png'),
+    magGlass: require('./images/magnifying-glass.png'),
+    recycleBook: require('./images/recycle-book.png'),
+    recycleSymbol: require('./images/recycle-symbol.png')
 }
 
 export default images
