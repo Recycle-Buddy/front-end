@@ -1,5 +1,5 @@
 const colors = {
-    graygreen: '#4f5b52'
+    graygreen: '#4f5b52',
     darktext: '#303832'
 }
 
