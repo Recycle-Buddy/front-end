@@ -11,8 +11,11 @@ To install and run the project, simply download the project, then type:
 
 ```
 cd PATH_TO_FOLDER
+npm install
 npm start
 ```
+
+Then using Expo on your Android Phone, scan the QR code or navigate to the ip shown in the terminal (these directions are also in the terminal after the Packager has started).
 
 # Version
 Currently in Pre-Alpha, Pre-Vertical Slice, Pre-MVP, Conceptual planning
