@@ -1,28 +1,56 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View, Image } from 'react-native';
+import colors from '../assets/colors.js'
+import images from '../assets/images.js'
+
+import Navbar from '../components/Navbar.js'
+import FullWidthContainer from '../components/FullWidthContainer.js'
 
 class Landing extends React.Component {
   render() {
     return (
-      <View
-        style={styles.landing}>
-        <Text>Landing</Text>
-        <Button
-          title='Go To Search'
-          onPress={() => this.props.navigation.navigate('Search')}
-        />
+      <View style={styles.pageContainer}>
+        <View style={styles.contentContainer}>
+          <FullWidthContainer>
+            <Button
+              title='Go To Search!!'
+              onPress={() => this.props.navigation.navigate('Search')}
+            />
+          </FullWidthContainer>
+          <FullWidthContainer>
+            <Text style={styles.text}>Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second.</Text>
+          </FullWidthContainer>
+          <FullWidthContainer>
+            <Image source={images.recycleSymbol}/>
+            <Text style={styles.text}>Find local recycling center</Text>
+          </FullWidthContainer>
+          <FullWidthContainer>
+            <Image source={images.camera}/>
+            <Text style={styles.text}>Autodetect item</Text>
+          </FullWidthContainer>
+        </View>
+        <Navbar />
       </View>
     );
   }
 }
 
+
 const styles = StyleSheet.create({
-  landing: {
+  pageContainer: {
+    flex: 1
+  },
+  contentContainer: {
+    marginBottom: 130,
     flex: 1,
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: colors.transparent,
   },
+  text: {
+    color: colors.darktext
+  }
 });
 
 export default Landing;
