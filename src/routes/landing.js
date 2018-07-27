@@ -12,23 +12,28 @@ class Landing extends React.Component {
     return (
       <View style={styles.pageContainer}>
         <View style={styles.contentContainer}>
-          <FullWidthContainer>
+
+          <FullWidthContainer flex={columnContainerFlex}>
             <Button
               title='Go To Search!!'
               onPress={() => this.props.navigation.navigate('Search')}
             />
           </FullWidthContainer>
-          <FullWidthContainer>
-            <Text style={styles.text}>Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second.</Text>
+
+          <FullWidthContainer flex={columnContainerFlex}>
+            <Text style={styles.text}>Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!</Text>
           </FullWidthContainer>
-          <FullWidthContainer>
+
+          <FullWidthContainer flex={columnContainerFlex}>
             <Image source={images.recycleSymbol}/>
             <Text style={styles.text}>Find local recycling center</Text>
           </FullWidthContainer>
-          <FullWidthContainer>
+
+          <FullWidthContainer flex={columnContainerFlex}>
             <Image source={images.camera}/>
             <Text style={styles.text}>Autodetect item</Text>
           </FullWidthContainer>
+          
         </View>
         <Navbar />
       </View>
@@ -53,5 +58,10 @@ const styles = StyleSheet.create({
     color: colors.darktext
   }
 });
+
+// This value is equal to 1/(number of FullWidthContainer components)
+// It ensures the components will be equally distributed on the screen
+const columnContainerFlex = .25;
+
 
 export default Landing;

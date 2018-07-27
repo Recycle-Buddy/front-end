@@ -6,7 +6,7 @@ import metrics from '../themes/metrics.js'
 class FullWidthContainer extends React.Component {
   render() {
     return (
-      <View style={styles.columnContainer}>
+      <View style={{flex: this.props.flex, flexDirection: 'row'}}>
         <View style={styles.rowContainer}>
           {this.props.children}
         </View>
@@ -17,10 +17,6 @@ class FullWidthContainer extends React.Component {
 
 
 const styles = StyleSheet.create({
-  columnContainer: {
-    flex: .25,
-    flexDirection: 'row'
-  },
   rowContainer: {
     flex: 1,
     margin: metrics.thinMargin,
