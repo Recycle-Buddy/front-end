@@ -6,6 +6,7 @@ import metrics from '../themes/metrics.js'
 
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
+import LargeText from '../components/LargeText.js'
 
 class Landing extends React.Component {
   render() {
@@ -21,19 +22,19 @@ class Landing extends React.Component {
           </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
-            <Text style={styles.text}>Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!</Text>
+            <LargeText text="Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!" />
           </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
             <Image source={images.recycleSymbol}/>
-            <Text style={styles.text}>Find local recycling center</Text>
+            <LargeText text="Find local recycling center" />
           </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
             <Image source={images.camera}/>
-            <Text style={styles.text}>Autodetect item</Text>
+            <LargeText text="Autodetect item" />
           </FullWidthContainer>
-          
+
         </View>
         <Navbar />
       </View>
