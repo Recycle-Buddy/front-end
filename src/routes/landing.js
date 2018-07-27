@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, StyleSheet, Text, View, Image } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
+import metrics from '../themes/metrics.js'
 
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   contentContainer: {
-    marginBottom: 130,
+    marginBottom: metrics.navbarMargin,
     flex: 1,
     flexDirection: 'column',
     alignItems: 'center',

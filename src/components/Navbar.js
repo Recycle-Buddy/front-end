@@ -27,7 +27,7 @@ class Navbar extends React.Component {
 const styles = StyleSheet.create({
   navbar: {
     position: 'absolute', 
-    height: 100, 
+    height: 85, 
     bottom: 0, 
     width: '100%', 
     flexDirection: 'row', 

@@ -1,7 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import colors from '../assets/colors.js'
-import images from '../assets/images.js'
+import metrics from '../themes/metrics.js'
 
 class FullWidthContainer extends React.Component {
   render() {
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   rowContainer: {
     flex: 1,
-    margin: 10,
+    margin: metrics.thinMargin,
     backgroundColor: colors.white,
     borderRadius: 1,
     borderWidth: 1,
