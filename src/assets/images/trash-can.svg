@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="45px" height="53px" viewBox="0 0 45 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <polygon id="Combined-Shape" fill="#5B5B5B" points="1 11 1 6 11.1041943 6 15 1 29 1 33 6 44 6 44 11 40 11 37 53 8 53 5 11"></polygon>
+    <g id="trash-can" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Combined-Shape" fill="#5B5B5B" points="1 11 1 6 11.3391756 6 15.3255814 1 29.6511628 1 33.744186 6 45 6 45 11 40.9069767 11 37.8372093 53 8.1627907 53 5.09302326 11"></polygon>
+        <path d="M12,15 L14.1318905,45.138191" id="Path-5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M32,15 L34.1318905,45.138191" id="Path-5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" transform="translate(33.065945, 30.069095) scale(-1, 1) translate(-33.065945, -30.069095) "></path>
+        <path d="M23,15 L23,45" id="Path-6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+    </g>
 </svg>
