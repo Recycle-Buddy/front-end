@@ -22,6 +22,13 @@ class Landing extends React.Component {
           </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
+            <Button
+              title='Skip search and go to results'
+              onPress={() => this.props.navigation.navigate('Results')}
+            />
+          </FullWidthContainer>
+
+          <FullWidthContainer flex={columnContainerFlex}>
             <LargeText text="Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!" />
           </FullWidthContainer>
 
