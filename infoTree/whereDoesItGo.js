@@ -1,6 +1,6 @@
 //this list only contains the leaves of the tree structure
 //TODO: find array that includes the category titles "Air Conditioners & Heat Pumps" and integrate them into the tree structure
-export var whereDoesItGo = [
+var whereDoesItGo = [
 {label:"AC Unit",value:'/Seattle_Public_Utilities/MyServices/WhereDoesItGo/HouseholdItems/Appliances/AirConditionersHeatPumps/index.htm',hasChild:false},
 {label:"Heat Pumps",value:'/Seattle_Public_Utilities/MyServices/WhereDoesItGo/HouseholdItems/Appliances/AirConditionersHeatPumps/index.htm',hasChild:false},
 {label:"Heating Apparatus",value:'/Seattle_Public_Utilities/MyServices/WhereDoesItGo/HouseholdItems/Appliances/AirConditionersHeatPumps/index.htm',hasChild:false},

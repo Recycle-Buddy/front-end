@@ -1,9 +1,7 @@
-//import the current list of leaves from separate file
 import whereDoesItGo from './whereDoesItGo';
-import nodeList from './nodeList'
+import nodeList from './nodeList';
 
-//I found this on a github repo (under one of my starred Repos) so obviously it's not my own work
-//It has way more than we're looking for, so we could go through and trim it, but I'd like to keep most for now, and if efficiency becomes a problem we can work on it
+// This tree implementation is originally from https://github.com/benoitvallon/computer-science-in-javascript . Added and trimmed where necessary
 function Node(data) {
   this.data = data;
   this.children = [];
@@ -140,9 +138,8 @@ Tree.prototype.printByLevel = function() {
   }
   console.log(string.trim());
 };
-//takes in a leaf data string and returns it's address as a string formatted [num, num, ... num]
+//TODO: takes in a leaf data string and returns it's address as a string formatted [num, num, ... num]
 //where tree.root.children[num].children[num]...children[num].data is the string put in
-//TODO: make this work
 Tree.prototype.findAddress = function(data){
 	if(!this.contains(data, this.traverseBF)){
 		return console.log("Tree does not contain "+ data);
@@ -150,51 +147,62 @@ Tree.prototype.findAddress = function(data){
 	return true
 }
 
+Tree.prototype.findEveryLeaf = function(){
+	var leafArray = []
+	//TODO: find every leaf Node and push it into leafArray
+	return leafArray;
+}
 
-//formatting whereRecycleProto. Changes the value string to an array. 
+//finds the URL to scrape data from by adding parent's name to base URL
+Tree.prototype.findUrl = function(leaf){
+	url = "https://www.seattle.gov/util/MyServices/WhereDoesItGo/"
+	while(leaf.data!=='rootNode'){
+		url += leaf.data + "/";
+		//Bad Idea. Will fix
+		leaf = leaf.parent;
+	}
+	url += "index.htm";
+	return url
+}
+// End Tree Implementation
+
+
+
+
+
+
+
+
+
+
+
+//formatting whereDoesItGo. Changes the value string => array. 
 //This could be done with regular expressions, but an array containing the parents seems easier to me.
 //TODO: adapt for different inputs. because of the slice(4,-1) this could break easily when we include the category titles
-function formatRecycleObj(whereRecycleObj){
-  for(let i = 0; i<whereRecycleObj.length; i++){
-  	//splits into array and slices from WhereDoesItGo/[......]/index.htm
-    whereRecycleObj[i].value = whereRecycleObj[i].value.split("/").slice(4, -1)
-  }
-  return whereRecycleObj;
+function formatRecycleArray(whereRecycleArray){
+  whereRecycleArray.forEach(branchInfo => branchInfo.value = branchInfo.value.split("/").slice(4,-1))
+  return whereRecycleArray;
 }
 
-//creates a tree with a root node of "initialNode" with children of general recycle materials based on "Where does it go" on seattle.gov
+//creates a tree with a root node of "rootNode" with children of general recycle materials based on "Where does it go" on seattle.gov
 //each of those branches can have more branches with more specific recycling materials/objects
+export default function createRecycleTree(recycleArray){
+  var recycleTree = new Tree()
+  recycleTree.add("rootNode")
 
-//initialize tree with first node names rootNode
-var recycleTree = new Tree()
-recycleTree.add("rootNode")
-
-function createRecycleTree(recycleArray){
   //format object so its easier to use if it's not formatted
-  if(typeof recycleArray[0].value==="string"){
-    recycleArray = formatRecycleObj(recycleArray);
-  }
-  //loop through every object in recycleArray 
-  for(let i=0; i<recycleArray.length; i++){
-    //for every branch, this creates the branch structure, but no the leaves
-    for(let j=0; j<recycleArray[i].value.length; j++){
-      //check to see if the branch is in the tree already
-      if(!recycleTree.contains(recycleArray[i].value[j], recycleTree.traverseBF)){
-        // console.log(recycleArray[i].value[j])
-        // checks to make sure the branch's parent isn't the rootNode
-        if(recycleArray[i].value[j-1]){
-        	recycleTree.add(recycleArray[i].value[j], recycleArray[i].value[j-1])
-        } else {
-        	recycleTree.add(recycleArray[i].value[j], "rootNode")
-        }
-      }
+  (typeof recycleArray[0].value==="string") && (recycleArray = formatRecycleArray(recycleArray))
+
+  recycleArray.forEach(branchInfo => {
+    branchInfo.value.forEach((branchName, index) => 
+      !recycleTree.contains(branchName) && 
+        (branchInfo.value[index-1] ? recycleTree.add(branchName, branchInfo.value[index-1]) : recycleTree.add(branchName, "rootNode")
+      )
+    )
+    //add the leafs 
+    recycleTree.add(branchInfo.label, branchInfo.value[branchInfo.value.length-1])
     }
-    //adds the leaves 
-    recycleTree.add(recycleArray[i].label, recycleArray[i].value[recycleArray[i].value.length-1]);
-  }
-  // console.log(recycleTree);
+  )
   return recycleTree
 }
-
-//call the function
-createRecycleTree(whereDoesItGo);
+ 
