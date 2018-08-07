@@ -23,7 +23,7 @@ class Landing extends React.Component {
 
           <FullWidthContainer flex={columnContainerFlex}>
             <Button
-              title='Skip search and go to results' //Defenetly temporary. Eventually the search page will lead to the results page.
+              title='Skip search and go to results' //Definitely temporary. Eventually the search page will lead to the results page.
               onPress={() => this.props.navigation.navigate('Results')}
             />
           </FullWidthContainer>

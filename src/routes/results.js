@@ -11,7 +11,7 @@ import LargeText from '../components/LargeText.js'
 
 class Results extends React.Component {
   render() {
-    return ( //The info here is hardcoded, but we will enevtually want to make the info change depanding on the item scanned.
+    return ( //The info here is hardcoded, but we will enevtually want to make the info change depending on the item scanned.
       <View
         style={styles.results}>
         <Text style={styles.headerUpper}>How to recycle</Text>
@@ -21,7 +21,6 @@ class Results extends React.Component {
             <Image source={images.recycleSymbol}/>
             <Text>In recycling</Text>
           </View>
-          {/*The fact that there is a LOT of whitespace here disturbs me*/}
           <Text>Empty soda and bevrage cans should be rinsed first, then put in recycling</Text>
         </FullWidthContainer>
         <Button
@@ -33,7 +32,7 @@ class Results extends React.Component {
   }
 }
 
-const containerFlex = 1/1;
+const containerFlex = 1;
 
 const styles = StyleSheet.create({
   results: {
