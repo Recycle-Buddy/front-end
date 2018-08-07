@@ -7,6 +7,7 @@ import metrics from '../themes/metrics.js'
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
+import StaticInfo from '../components/static-info';
 
 class Landing extends React.Component {
   render() {
@@ -21,9 +22,15 @@ class Landing extends React.Component {
             />
           </FullWidthContainer>
 
-          <FullWidthContainer flex={columnContainerFlex}>
-            <LargeText text="Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!" />
-          </FullWidthContainer>
+          <StaticInfo 
+            containerFlex={columnContainerFlex} 
+            infoText="Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!"
+          />
+
+          <StaticInfo 
+            containerFlex={columnContainerFlex} 
+            infoText="Aluminium cans can actually be recycled and put back onto the shelf at your local grocery store in just about 2 months."
+          />
 
           <FullWidthContainer flex={columnContainerFlex}>
             <Image source={images.recycleSymbol}/>
