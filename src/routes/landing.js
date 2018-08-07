@@ -24,12 +24,6 @@ class Landing extends React.Component {
 
           <StaticInfo 
             containerFlex={columnContainerFlex} 
-            infoText="Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!"
-          />
-
-          <StaticInfo 
-            containerFlex={columnContainerFlex} 
-            infoText="Aluminium cans can actually be recycled and put back onto the shelf at your local grocery store in just about 2 months."
           />
 
           <FullWidthContainer flex={columnContainerFlex}>
