@@ -7,7 +7,7 @@ import metrics from '../themes/metrics.js'
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
-import StaticInfo from '../components/static-info';
+import StaticInfo from '../components/StaticInfo';
 
 class Landing extends React.Component {
   render() {
