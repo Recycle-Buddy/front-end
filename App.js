@@ -4,6 +4,7 @@ import { createStackNavigator } from 'react-navigation';
 
 import Landing from './src/routes/landing.js';
 import Search from './src/routes/search.js';
+import Results from './src/routes/results.js';
 
 
 // Seth - I have left this App.js in the root or now since it
@@ -18,6 +19,7 @@ const RootStack = createStackNavigator(
   {
     Landing: Landing,
     Search: Search,
+    Results: Results,
   },
   {
     initialRouteName: 'Landing',

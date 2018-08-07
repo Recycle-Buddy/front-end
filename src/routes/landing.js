@@ -25,6 +25,12 @@ class Landing extends React.Component {
           <StaticInfo 
             containerFlex={columnContainerFlex} 
           />
+          <FullWidthContainer flex={columnContainerFlex}>
+            <Button
+              title='Skip search and go to results' //Definitely temporary. Eventually the search page will lead to the results page.
+              onPress={() => this.props.navigation.navigate('Results')}
+            />
+          </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
             <Image source={images.recycleSymbol}/>
@@ -42,7 +48,6 @@ class Landing extends React.Component {
     );
   }
 }
-
 
 const styles = StyleSheet.create({
   pageContainer: {
@@ -63,7 +68,7 @@ const styles = StyleSheet.create({
 
 // This value is equal to 1/(number of FullWidthContainer components)
 // It ensures the components will be equally distributed on the screen
-const columnContainerFlex = .25;
+const columnContainerFlex = .2;
 
 
 export default Landing;
