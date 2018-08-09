@@ -6,7 +6,6 @@ import nodeList from './nodeList';
 
 function scrapeSeattle(url){
 	//TODO: Figure out best methods for getting HTML from a page, probably have to fake some headers
-	// $.(get) ?
 	fetch(url)
 	.then(html => scrapeHtml(html))
 	.catch(err => {
@@ -16,8 +15,12 @@ function scrapeSeattle(url){
 
 function scrapeHtml(html){
 	var howToDispose = {};
-	//Input: HTML from seattle.gov where does it go site
-	//Returns an object that holds formatted data as described in seattleGovScrape.js
+	/**
+	*Simplifies and normalizes scraped html into usable datastructure
+	*
+	*@param html scraped html from seattle.gov site
+	*@return tree of html nodes as described in seattleGovScrape.js
+	*/
 	//TODO: finalize data structure on seattleGovScrape.js, then build this
 	return howToDispose;
 }
