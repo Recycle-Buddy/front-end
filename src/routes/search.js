@@ -1,12 +1,13 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, View } from 'react-native';
+import LargeText from './../components/LargeText';
 
 class Search extends React.Component {
   render() {
     return (
       <View
         style={styles.search}>
-        <Text>Search</Text>
+        <LargeText>Search</LargeText>
         <Button
           title='Go To Landing'
           onPress={() => this.props.navigation.navigate('Landing')}

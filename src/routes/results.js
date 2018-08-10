@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, Image } from 'react-native';
+import { Button, StyleSheet, LargeText, View, Image } from 'react-native';
 
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
@@ -14,14 +14,14 @@ class Results extends React.Component {
     return ( //The info here is hardcoded, but we will enevtually want to make the info change depending on the item scanned.
       <View
         style={styles.results}>
-        <Text style={styles.headerUpper}>How to recycle</Text>
-        <Text style={styles.headerLower}>Beverage cans</Text>
+        <LargeText style={styles.headerUpper}>How to recycle</LargeText>
+        <LargeText style={styles.headerLower}>Beverage cans</LargeText>
         <FullWidthContainer flex={containerFlex}>
           <View style={{flexDirection: 'column'}}>
             <Image source={images.recycleSymbol}/>
-            <Text>In recycling</Text>
+            <LargeText>In recycling</LargeText>
           </View>
-          <Text>Empty soda and bevrage cans should be rinsed first, then put in recycling</Text>
+          <LargeText>Empty soda and bevrage cans should be rinsed first, then put in recycling</LargeText>
         </FullWidthContainer>
         <Button
           title='Go To Landing'
