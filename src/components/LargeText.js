@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-import standardStyle from '../assets/styles';
+import standardStyle from '../assets/styles.js';
 
 class LargeText extends React.Component {
   render() {
     return (
-      <Text style={standardStyle.standardStyle.standardStyle}>{this.props.text}</Text>
+      <Text style={standardStyle}>{this.props.text}</Text>
     );
   }
 }
