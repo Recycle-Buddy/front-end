@@ -9,7 +9,7 @@ import Results from './src/routes/results.js';
 
 // Seth - I have left this App.js in the root or now since it
 //        is the entry point and since we are using create-react-app
-//        it is not eacy to change the entry point so this file
+//        it is not eazy to change the entry point so this file
 //        should not be moved. (Please correct me if someone knows
 //        how to move it, as it should probably go into our SRC folder.)
 
