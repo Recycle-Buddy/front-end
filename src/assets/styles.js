@@ -2,11 +2,11 @@ import { StyleSheet } from 'react-native';
 import colors from './colors';
 import metrics from '../themes/metrics.js'
 
-let standardMargin = 16;
-let standardPadding = 16;
-let standardFontSize = 14;
+export const standardMargin = 16;
+export const standardPadding = 16;
+export const standardFontSize = 14;
 
-const standardStyle = StyleSheet.create({
+export const standardStyle = StyleSheet.create({
     standardStyle: {
         margin: standardMargin,
         padding: standardPadding,
@@ -22,5 +22,3 @@ const standardStyle = StyleSheet.create({
         backgroundColor: colors.transparent,
     }
 });
-
-export default {standardFontSize, standardMargin, standardPadding, standardStyle};

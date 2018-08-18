@@ -1,12 +1,13 @@
 import React from 'react';
-import { Button, StyleSheet, LargeText, View, Image } from 'react-native';
+import { Button, StyleSheet, View, Image } from 'react-native';
 
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
-import standardStyle from '../assets/styles.js'
+import {standardStyle} from '../assets/styles.js'
+import LargeText from '../components/LargeText.js'
 
 class Results extends React.Component {
   render() {
