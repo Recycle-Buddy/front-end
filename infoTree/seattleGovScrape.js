@@ -1,3 +1,8 @@
+let cheerio = require('cheerio');
+let jsonframe = require('jsonframe-cheerio');
+
+let $ = cheerio.load('https://www.seattle.gov/util/MyServices/WhereDoesItGo/HouseholdItems/Appliances/AirConditionersHeatPumps/index.htm');
+jsonframe($);
 /*
 
 <h1>Camera or Watch Batteries</h1>
@@ -17,7 +22,7 @@
 
 // This is a rough draft of the output of scraping data from seattle.gov.
 // The input of the function would be the HTML above
-//  
+
 var sampleObject= {
 	//the key comes from the URL used to find the HTML
 	key:"CameraWatchBatteries",
@@ -52,73 +57,37 @@ var sampleObject= {
 	]
 }
 
-//This type would store essentially every piece of data coming in, and might require less code and produce more information
-var sampleObject2 = {
-	//the key comes from the URL used to find the HTML
-	key:"CameraWatchBatteries",
-	info:[{
-		type:"h1",
-		text:"Camera or Watch Batteries",
-		class:null,
-		hasChild:[]
-	},
-	{
-		type:"h3",
-		text:"In garbage",
-		class:"garbage",
-		hasChild:[]
-	},
-	{
-		type:"p",
-		text:"Button cell batteries used in watches and some older camera models can go in the garbage.",
-		class:null,
-		hasChild:[]
-	},
-	{
-		type:"p",
-		text:"Button cell batteries are also used for:",
-		class:null,
-		hasChild:[]
-	},
-	{
-		type:"ul",
-		text:null,
-		class:null,
-		hasChild:[{
-			type:"li",
-			text:"Digital thermometers",
-			class:null,
-			hasChild:[]
-		},
-		{
-			type:"li",
-			text:"Pocket calculators",
-			class:null,
-			hasChild:[]
-		},
-		{
-			type:"li",
-			text:"Hearing aids",
-			class:null,
-			hasChild:[]
-		}]
-	},
-	{
-		type:"h3",
-		text:"Household hazardous waste facility",
-		class:"hazard",
-		hasChild:[]
-	},
-	{
-		type:"p",
-		text:'Bring camera and watch button cell batteries to a <a href="../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm" target="">household hazardous waste facility</a>, where the metals and very small amount of hazardous metals in the batteries will be reclaimed and recycled. No fee.',
-		class:null,
-		hasChild:[{
-			type:"a",
-			text:"household hazardous waste facility",
-			class:null,
-			hasChild:[]
-		}]
-	}
-]
+
+function scrapeHtml(){
+	var frame = {
+		key:"AirConditionersHeatPumps",
+		title:"h1",
+	} 
+	var recycleInfo = $('#region').scrape(frame);
+	console.log(recycleInfo);
+	return recycleInfo;
 }
+
+scrapHtml()
+
+function scrapeSeattle(url){
+	//TODO: Figure out best methods for getting HTML from a page, probably have to fake some headers
+	fetch("https://crossorigin.me/https://www.seattle.gov/util/MyServices/WhereDoesItGo/HouseholdItems/Appliances/AirConditionersHeatPumps/index.htm")
+	.then(response => response.text())
+	.then(html => console.log(html))
+	.catch(err => {
+		console.log("Could not connect to site: " + err.message)
+	})
+}
+
+scrapeSeattle("whatever");
+  // Initialize the DOM parser
+  // var parser = new DOMParser();
+  // Parse the text
+  // var doc = parser.parseFromString(html, "text/html");
+  
+  // You can now even select part of that html as you would in the regular DOM 
+  // Example:
+  // var docArticle = doc.querySelector('article').innerHTML;
+
+

@@ -3,6 +3,7 @@
 import createRecycleTree from './createRecycleTree';
 import whereDoesItGo from './whereDoesItGo';
 import nodeList from './nodeList';
+import scrapeHtml from './seattleGovScrape';
 
 function scrapeSeattle(url){
 	//TODO: Figure out best methods for getting HTML from a page, probably have to fake some headers
@@ -13,17 +14,7 @@ function scrapeSeattle(url){
 	})
 }
 
-function scrapeHtml(html){
-	var howToDispose = {};
-	/**
-	*Simplifies and normalizes scraped html into usable datastructure
-	*
-	*@param html scraped html from seattle.gov site
-	*@return tree of html nodes as described in seattleGovScrape.js
-	*/
-	//TODO: finalize data structure on seattleGovScrape.js, then build this
-	return howToDispose;
-}
+
 
 function createDataStore(whereDoesItGoArray){
 	var dataStore = {};
