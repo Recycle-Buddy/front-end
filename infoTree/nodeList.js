@@ -1,6 +1,6 @@
 //I believe this is the list of every branch with category titles,
 // TODO: figure out what this is and the best way to incorporate the category titles into the tree
-export var nodeList = [
+export const nodeList = [
 {"label":"Where Does It Go?","value":"/Seattle_Public_Utilities/MyServices/WhereDoesItGo/index.htm","hasChild":true},
 {"label":"Household Items","value":"","hasChild":true},
 {"label":"Appliances","value":"","hasChild":true},
@@ -534,4 +534,4 @@ export var nodeList = [
 {"label":"Trees or Brush","value":"/Seattle_Public_Utilities/MyServices/WhereDoesItGo/YardWaste/TreesBrush/index.htm","hasChild":false},
 {"label":"Wood Scraps, Shavings, or Sawdust","value":"/Seattle_Public_Utilities/MyServices/WhereDoesItGo/YardWaste/WoodScrapsShavings/index.htm","hasChild":false},
 {"label":"A-Z","value":"/Seattle_Public_Utilities/MyServices/WhereDoesItGo/A-Z/index.htm","hasChild":false}
-]
+];
