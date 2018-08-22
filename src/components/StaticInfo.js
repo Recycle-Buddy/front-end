@@ -7,7 +7,7 @@ import LargeText from './LargeText';
 import recycleFacts from '../data/recycling-facts.json';
 
 class StaticInfo extends Component {
-  insertRandomFact() {
+  getRandomFact() {
     const randomIndex = Math.floor(Math.random() * recycleFacts.length);
     return recycleFacts[randomIndex];
   }
@@ -17,7 +17,7 @@ class StaticInfo extends Component {
       <FullWidthContainer flex={this.props.containerFlex}>
         <LargeText
           style={styles.largeText}
-          text={this.insertRandomFact()} />
+          text={this.getRandomFact()} />
       </FullWidthContainer>
     );
   }
