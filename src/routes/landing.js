@@ -7,6 +7,7 @@ import metrics from '../themes/metrics.js'
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
+import StaticInfo from '../components/StaticInfo';
 
 class Landing extends React.Component {
   render() {
@@ -21,15 +22,14 @@ class Landing extends React.Component {
             />
           </FullWidthContainer>
 
+          <StaticInfo 
+            containerFlex={columnContainerFlex} 
+          />
           <FullWidthContainer flex={columnContainerFlex}>
             <Button
               title='Skip search and go to results' //Definitely temporary. Eventually the search page will lead to the results page.
               onPress={() => this.props.navigation.navigate('Results')}
             />
-          </FullWidthContainer>
-
-          <FullWidthContainer flex={columnContainerFlex}>
-            <LargeText text="Almost half of the food in the U.S. goes to waste - approximately 3,000 pounds per second!" />
           </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
@@ -48,7 +48,6 @@ class Landing extends React.Component {
     );
   }
 }
-
 
 const styles = StyleSheet.create({
   pageContainer: {
@@ -69,7 +68,7 @@ const styles = StyleSheet.create({
 
 // This value is equal to 1/(number of FullWidthContainer components)
 // It ensures the components will be equally distributed on the screen
-const columnContainerFlex = .25;
+const columnContainerFlex = .2;
 
 
 export default Landing;

@@ -5,7 +5,10 @@ import colors from '../assets/colors.js'
 class LargeText extends React.Component {
   render() {
     return (
-      <Text style={styles.text}>{this.props.text}</Text>
+      // Seth - Using the array notation here for style allows us to pass
+      //        styles in from the props and combine them with the inline
+      //        styles defined in this components stylesheet.
+      <Text style={[this.props.style, styles.text]}>{this.props.text}</Text>
     );
   }
 }
