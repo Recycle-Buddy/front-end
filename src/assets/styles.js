@@ -13,6 +13,10 @@ export const standardStyle = StyleSheet.create({
         fontSize: standardFontSize,
         color: colors.darktext,
     },
+    wrapper: {
+        flex: 1,
+        justifyContent: 'space-between',
+    },
     container: {
         marginBottom: metrics.navbarMargin,
         flex: 1,
