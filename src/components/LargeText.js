@@ -6,7 +6,10 @@ import {standardStyle} from '../assets/styles.js';
 class LargeText extends React.Component {
   render() {
     return (
-      <Text style={standardStyle.largeText}>{this.props.text}</Text>
+      // Seth - Using the array notation here for style allows us to pass
+      //        styles in from the props and combine them with the inline
+      //        styles defined in this components stylesheet.
+      <Text style={[this.props.style, standardStyle.largeText]}>{this.props.text}</Text>
     );
   }
 }
