@@ -17,11 +17,11 @@ class Results extends React.Component {
           <LargeText style={styles.headerUpper} text = "How to recycle"/>
           <LargeText style={styles.headerLower} text = "Beverage cans"/>
           <FullWidthContainer flex={containerFlex}>
-            <View style={{flexDirection: 'row', alignItems: 'center'}}>
-              <Image source={images.recycleSymbol} />
-              <LargeText text = "In recycling" style={{flex: 2}}/>
+            <View style={styles.instruction}>
+              <Image source={images.recycleSymbol} style={styles.icon}/>
+              <LargeText text = "In recycling" style={styles.instructionHeader}/>
             </View>
-            <LargeText text = "Empty soda and bevrage cans should be rinsed first, then put in recycling"/>
+            <LargeText text = "Empty soda and beverage cans should be rinsed first, then put in recycling"/>
           </FullWidthContainer>
           <Button
             title='Go To Landing'
@@ -52,6 +52,9 @@ const styles = StyleSheet.create({
   headerLower: {
     fontSize: 30
   },
+  instruction: {flexDirection: 'row', alignItems: 'center'},
+  instructionHeader: {flex: 2},
+  icon: {width: 50}, 
 });
 
 export default Results;

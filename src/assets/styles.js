@@ -7,7 +7,7 @@ export const standardPadding = 16;
 export const standardFontSize = 14;
 
 export const standardStyle = StyleSheet.create({
-    standardStyle: {
+    largeText: {
         margin: standardMargin,
         padding: standardPadding,
         fontSize: standardFontSize,
@@ -23,6 +23,5 @@ export const standardStyle = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: colors.transparent,
     }
 });

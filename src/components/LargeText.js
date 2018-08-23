@@ -6,15 +6,10 @@ import {standardStyle} from '../assets/styles.js';
 class LargeText extends React.Component {
   render() {
     return (
-      <Text style={standardStyle.standardStyle}>{this.props.text}</Text>
+      <Text style={standardStyle.largeText}>{this.props.text}</Text>
     );
   }
 }
-
-// Bad object: {
-//   "standardStyle": 23,
-//   "container": 24
-// }
 
 export default LargeText;
 
