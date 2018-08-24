@@ -84,13 +84,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infoTree/nodeList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="536" column="2" selection-start-line="536" selection-start-column="2" selection-end-line="536" selection-end-column="2" />
+            <state relative-caret-position="46">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#188#79154#0" />
               </folding>
             </state>
           </provider>
@@ -108,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infoTree/createDataStore.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -209,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535074077824</updated>
-      <workItem from="1535074080607" duration="2771000" />
+      <workItem from="1535074080607" duration="3392000" />
     </task>
     <task id="LOCAL-00001" summary="Serialize Tree&#10;&#10;Removed parent component so tree did not loop. Serializable through JSON.stringify()">
       <created>1535076317959</created>
@@ -222,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2771000" />
+    <option name="totallyTimeSpent" value="3392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -278,6 +279,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/infoTree/whereDoesItGo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="827" column="15" selection-start-line="827" selection-start-column="15" selection-end-line="827" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#207#123709#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/infoTree/recycleTree.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -301,22 +313,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infoTree/whereDoesItGo.js">
+    <entry file="file://$PROJECT_DIR$/infoTree/nodeList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="827" column="15" selection-start-line="827" selection-start-column="15" selection-end-line="827" selection-end-column="15" />
+        <state relative-caret-position="46">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#207#123709#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infoTree/createDataStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#188#79154#0" />
           </folding>
         </state>
       </provider>
@@ -331,10 +334,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infoTree/nodeList.js">
+    <entry file="file://$PROJECT_DIR$/infoTree/createDataStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="536" column="2" selection-start-line="536" selection-start-column="2" selection-end-line="536" selection-end-column="2" />
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
