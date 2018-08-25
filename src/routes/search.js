@@ -9,6 +9,13 @@ import Navbar from '../components/Navbar';
 import StaticInfo from '../components/StaticInfo';
 import FullWidthContainer from '../components/FullWidthContainer';
 
+import colors from '../assets/colors.js'
+import metrics from '../themes/metrics.js'
+
+import Navbar from '../components/Navbar';
+import StaticInfo from '../components/StaticInfo';
+import FullWidthContainer from '../components/FullWidthContainer';
+
 class Search extends React.Component {
   render() {
     return (
