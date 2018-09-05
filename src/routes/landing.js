@@ -38,8 +38,9 @@ class Landing extends React.Component {
           </FullWidthContainer>
 
           <FullWidthContainer flex={columnContainerFlex}>
-            <Image source={images.camera}/>
-            <LargeText text="Autodetect item" />
+            <Button
+              title = "Autodetect Item"
+              onPress={() => this.props.navigation.navigate('CameraIntro')}/>
           </FullWidthContainer>
 
         </View>
@@ -48,6 +49,9 @@ class Landing extends React.Component {
     );
   }
 }
+
+/*            <Image source={images.camera}/> Incase we need it
+            <LargeText text="Autodetect item" />*/
 
 const styles = StyleSheet.create({
   pageContainer: {
