@@ -26,7 +26,7 @@ class Search extends React.Component {
           />
 
         </View>
-        <Navbar />
+        <Navbar navigation={this.props.navigation} />
       </View>
     );
   }

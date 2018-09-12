@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Image } from 'react-native';
+import { StyleSheet, View, Image, TouchableNativeFeedback, ToastAndroid } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 
@@ -7,18 +7,26 @@ class Navbar extends React.Component {
   render() {
     return (
       <View style={styles.navbar}>
-        <View style={styles.imageContainer}>
+        <TouchableNativeFeedback
+          style={styles.imageContainer}
+          onPress={() => this.props.navigation.navigate("Search")}>
           <Image source={images.magGlass}/>
-        </View>
-        <View style={styles.imageContainer}>
+        </TouchableNativeFeedback>
+        <TouchableNativeFeedback 
+          style={styles.imageContainer}
+          onPress={() => this.props.navigation.navigate('CameraIntro')}>
           <Image source={images.camera}/>
-        </View>
-        <View style={styles.imageContainer}>
+        </TouchableNativeFeedback>
+        <TouchableNativeFeedback 
+          style={styles.imageContainer}
+          onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}>
           <Image source={images.recycleBook}/>
-        </View>
-        <View style={styles.imageContainer}>
+        </TouchableNativeFeedback>
+        <TouchableNativeFeedback 
+          style={styles.imageContainer}
+          onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}>
           <Image source={images.gear}/>
-        </View>
+        </TouchableNativeFeedback>
       </View>
     );
   }
