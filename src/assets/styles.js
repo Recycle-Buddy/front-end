@@ -24,9 +24,8 @@ export const standardStyle = StyleSheet.create({
         marginBottom: metrics.navbarMargin,
         flex:1,
         flexDirection: 'column',
-        backgroundColor: colors.transparent,
     },
-    ScrollViewItems: {
+    scrollViewItems: {
         alignItems: 'center',
         justifyContent: 'center',
     },
