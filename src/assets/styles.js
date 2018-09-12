@@ -17,11 +17,14 @@ export const standardStyle = StyleSheet.create({
         flex: 1,
         justifyContent: 'space-between',
     },
-    container: {
+    pageContainer: {
+        flex: 1
+    },
+    contentContainer: {
         marginBottom: metrics.navbarMargin,
-        flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-    }
+        backgroundColor: colors.transparent,
+    },
 });
