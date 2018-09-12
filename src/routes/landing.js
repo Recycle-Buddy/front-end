@@ -44,7 +44,7 @@ class Landing extends React.Component {
           </FullWidthContainer>
 
         </View>
-        <Navbar />
+        <Navbar navigation={this.props.navigation} />
       </View>
     );
   }

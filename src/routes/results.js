@@ -28,7 +28,7 @@ class Results extends React.Component {
             onPress={() => this.props.navigation.navigate('Landing')}
           />
         </View>
-        <Navbar/>
+        <Navbar navigation={this.props.navigation}/>
       </View>
     );
   }

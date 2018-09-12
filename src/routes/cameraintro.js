@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, Image } from 'react-native';
+import { Button, StyleSheet, Text, View, Image, ToastAndroid } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 import metrics from '../themes/metrics.js'
@@ -24,11 +24,13 @@ class CameraIntro extends React.Component {
           </FullWidthContainer>
 
           <FullWidthContainer flex={0.2}>
-            <Button title="Got it"/>
+            <Button 
+            title="Got it"
+            onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}/>
           </FullWidthContainer>
 
         </View>
-        <Navbar />
+        <Navbar navigation={this.props.navigation} />
       </View>
     );
   }
