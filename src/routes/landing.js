@@ -42,6 +42,12 @@ class Landing extends React.Component {
               title = "Autodetect Item"
               onPress={() => this.props.navigation.navigate('CameraIntro')}/>
           </FullWidthContainer>
+          
+          <FullWidthContainer flex={columnContainerFlex}>
+            <Button
+              title = "Go To Camera"
+              onPress={() => this.props.navigation.navigate('Camera')} />
+            </FullWidthContainer>
 
         </View>
         <Navbar navigation={this.props.navigation} />

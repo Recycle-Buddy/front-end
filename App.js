@@ -6,6 +6,7 @@ import Landing from './src/routes/landing.js';
 import Search from './src/routes/search.js';
 import Results from './src/routes/results.js';
 import CameraIntro from './src/routes/cameraintro.js';
+import CameraExample from './src/routes/expocamera';
 
 
 // Seth - I have left this App.js in the root or now since it
@@ -22,6 +23,7 @@ const RootStack = createStackNavigator(
     Search: Search,
     Results: Results,
     CameraIntro: CameraIntro,
+    Camera: CameraExample,
   },
   {
     initialRouteName: 'Landing',

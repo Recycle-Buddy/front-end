@@ -7,6 +7,7 @@ import metrics from '../themes/metrics.js'
 import Navbar from '../components/Navbar.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
+// import Camera from '../components/camera';
 
 class CameraIntro extends React.Component {
   render() {
@@ -28,7 +29,6 @@ class CameraIntro extends React.Component {
             title="Got it"
             onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}/>
           </FullWidthContainer>
-
         </View>
         <Navbar navigation={this.props.navigation} />
       </View>
