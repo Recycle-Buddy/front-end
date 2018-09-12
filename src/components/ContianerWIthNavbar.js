@@ -1,5 +1,5 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, ScrollView} from 'react-native';
 
 import {standardStyle} from '../assets/styles.js';
 
@@ -12,9 +12,9 @@ class ContianerWIthNavbar extends React.Component {
     //        styles in from the props and combine them with the inline
     //        styles defined in this components stylesheet.
     <View style={standardStyle.pageContainer}>
-        <View style={standardStyle.contentContainer}>
+        <ScrollView style={standardStyle.contentContainer} contentContainerStyle={standardStyle.ScrollViewItems}>
             {this.props.children}
-        </View>
+        </ScrollView>
         <Navbar navigation={this.props.navigation}/>
     </View> 
     );

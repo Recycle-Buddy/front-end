@@ -22,9 +22,12 @@ export const standardStyle = StyleSheet.create({
     },
     contentContainer: {
         marginBottom: metrics.navbarMargin,
+        flex:1,
         flexDirection: 'column',
+        backgroundColor: colors.transparent,
+    },
+    ScrollViewItems: {
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: colors.transparent,
     },
 });
