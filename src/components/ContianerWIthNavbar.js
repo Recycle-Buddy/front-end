@@ -1,6 +1,7 @@
 import React from 'react';
+import {View} from 'react-native';
 
-import {standardStyle, View} from '../assets/styles.js';
+import {standardStyle} from '../assets/styles.js';
 
 import Navbar from '../components/Navbar.js'
 
