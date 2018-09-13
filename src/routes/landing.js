@@ -7,12 +7,12 @@ import metrics from '../themes/metrics.js'
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
 import StaticInfo from '../components/StaticInfo';
-import ContainerWIthNavbar from '../components/ContainerWIthNavbar';
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 
 class Landing extends React.Component {
   render() {
     return (
-      <ContainerWIthNavbar navigation={this.props.navigation}>
+      <ContainerWithNavbar navigation={this.props.navigation}>
 
         <FullWidthContainer flex={columnContainerFlex}>
           <Button
@@ -43,7 +43,7 @@ class Landing extends React.Component {
             onPress={() => this.props.navigation.navigate('CameraIntro')}/>
         </FullWidthContainer>
 
-      </ContainerWIthNavbar>
+      </ContainerWithNavbar>
     );
   }
 }

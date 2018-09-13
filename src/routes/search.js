@@ -5,14 +5,14 @@ import LargeText from './../components/LargeText';
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
 
-import ContainerWIthNavbar from '../components/ContainerWIthNavbar';
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import StaticInfo from '../components/StaticInfo';
 import FullWidthContainer from '../components/FullWidthContainer';
 
 class Search extends React.Component {
   render() {
     return (
-      <ContainerWIthNavbar navigation={this.props.navigation}>
+      <ContainerWithNavbar navigation={this.props.navigation}>
         <FullWidthContainer flex={columnContainerFlex}>
           <Button
             title='Go To Landing'
@@ -24,7 +24,7 @@ class Search extends React.Component {
           containerFlex={columnContainerFlex}
         />
 
-      </ContainerWIthNavbar>
+      </ContainerWithNavbar>
     );
   }
 }

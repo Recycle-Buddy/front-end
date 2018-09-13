@@ -5,7 +5,7 @@ import {standardStyle} from '../assets/styles.js';
 
 import Navbar from '../components/Navbar.js'
 
-class ContainerWIthNavbar extends React.Component {
+class ContainerWithNavbar extends React.Component {
   render() {
     return (
     // Seth - Using the array notation here for style allows us to pass
@@ -21,4 +21,4 @@ class ContainerWIthNavbar extends React.Component {
   }
 }
 
-export default ContainerWIthNavbar;
+export default ContainerWithNavbar;

@@ -4,14 +4,14 @@ import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 import metrics from '../themes/metrics.js'
 
-import ContainerWIthNavbar from '../components/ContainerWIthNavbar';
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
 
 class CameraIntro extends React.Component {
   render() {
     return (
-      <ContainerWIthNavbar navigation={this.props.navigation}>
+      <ContainerWithNavbar navigation={this.props.navigation}>
         <FullWidthContainer flex={0.4}>
           <Image source={images.camera}/>
           <LargeText text="Autodetect item can take a picture of an item and get infomation about it."/>
@@ -26,7 +26,7 @@ class CameraIntro extends React.Component {
           title="Got it"
           onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}/>
         </FullWidthContainer>
-      </ContainerWIthNavbar>
+      </ContainerWithNavbar>
     );
   }
 }

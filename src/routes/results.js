@@ -4,7 +4,7 @@ import { Button, StyleSheet, View, Image } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 
-import ContainerWIthNavbar from '../components/ContainerWIthNavbar';
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import {standardStyle} from '../assets/styles.js'
 import LargeText from '../components/LargeText.js'
@@ -12,7 +12,7 @@ import LargeText from '../components/LargeText.js'
 class Results extends React.Component {
   render() {
     return ( //The info here is hardcoded, but we will enevtually want to make the info change depending on the item scanned.
-      <ContainerWIthNavbar navigation={this.props.navigation}>
+      <ContainerWithNavbar navigation={this.props.navigation}>
         <LargeText style={styles.headerUpper} text = "How to recycle"/>
         <LargeText style={styles.headerLower} text = "Beverage cans"/>
         <FullWidthContainer flex={containerFlex}>
@@ -26,7 +26,7 @@ class Results extends React.Component {
           title='Go To Landing'
           onPress={() => this.props.navigation.navigate('Landing')}
         />
-      </ContainerWIthNavbar>
+      </ContainerWithNavbar>
     );
   }
 }
