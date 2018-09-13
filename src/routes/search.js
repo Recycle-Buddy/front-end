@@ -5,29 +5,26 @@ import LargeText from './../components/LargeText';
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
 
-import Navbar from '../components/Navbar';
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import StaticInfo from '../components/StaticInfo';
 import FullWidthContainer from '../components/FullWidthContainer';
 
 class Search extends React.Component {
   render() {
     return (
-      <View style={styles.pageContainer}>
-        <View style={styles.contentContainer}>
-          <FullWidthContainer flex={columnContainerFlex}>
-            <Button
-              title='Go To Landing'
-              onPress={() => this.props.navigation.navigate('Landing')}
-            />
-          </FullWidthContainer>
-
-          <StaticInfo
-            containerFlex={columnContainerFlex}
+      <ContainerWithNavbar navigation={this.props.navigation}>
+        <FullWidthContainer flex={columnContainerFlex}>
+          <Button
+            title='Go To Landing'
+            onPress={() => this.props.navigation.navigate('Landing')}
           />
+        </FullWidthContainer>
 
-        </View>
-        <Navbar navigation={this.props.navigation} />
-      </View>
+        <StaticInfo
+          containerFlex={columnContainerFlex}
+        />
+
+      </ContainerWithNavbar>
     );
   }
 }
