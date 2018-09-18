@@ -9,8 +9,8 @@ class Navbar extends React.Component {
       <View style={styles.navbar}>
         <TouchableNativeFeedback
           style={styles.imageContainer}
-          onPress={() => this.props.navigation.navigate("Search")}>
-          <Image source={images.magGlass}/>
+          onPress={() => this.props.navigation.navigate("Landing")}>
+          <Image source={images.home}/>
         </TouchableNativeFeedback>
         <TouchableNativeFeedback 
           style={styles.imageContainer}
