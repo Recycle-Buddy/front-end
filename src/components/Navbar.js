@@ -20,12 +20,12 @@ class Navbar extends React.Component {
         <TouchableNativeFeedback 
           style={styles.imageContainer}
           onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}>
-          <Image source={images.recycleBook}/>
+          <Image source={images.recycleQuestions}/>
         </TouchableNativeFeedback>
         <TouchableNativeFeedback 
           style={styles.imageContainer}
           onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}>
-          <Image source={images.gear}/>
+          <Image source={images.listSymbol}/>
         </TouchableNativeFeedback>
       </View>
     );
