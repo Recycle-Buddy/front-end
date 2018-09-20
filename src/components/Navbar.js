@@ -10,22 +10,22 @@ class Navbar extends React.Component {
         <TouchableNativeFeedback
           style={styles.imageContainer}
           onPress={() => this.props.navigation.navigate("Landing")}>
-          <Image source={images.home}/>
+          <Image style={styles.image} source={images.home}/>
         </TouchableNativeFeedback>
         <TouchableNativeFeedback 
           style={styles.imageContainer}
           onPress={() => this.props.navigation.navigate('CameraIntro')}>
-          <Image source={images.camera}/>
+          <Image style={styles.image} source={images.camera}/>
         </TouchableNativeFeedback>
         <TouchableNativeFeedback 
           style={styles.imageContainer}
           onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}>
-          <Image source={images.recycleQuestions}/>
+          <Image style={styles.image} source={images.recycleQuestions}/>
         </TouchableNativeFeedback>
         <TouchableNativeFeedback 
           style={styles.imageContainer}
           onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}>
-          <Image source={images.listSymbol}/>
+          <Image style={styles.image} source={images.listSymbol}/>
         </TouchableNativeFeedback>
       </View>
     );
@@ -44,10 +44,14 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around'
   },
   imageContainer: {
-    flex: .25,
-    margin: 10,
+    flex: 1,
+    padding: 10,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  image: {
+    maxWidth: 50,
+    maxHeight: 50
   }
 });
 
