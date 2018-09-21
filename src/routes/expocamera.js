@@ -1,58 +1,54 @@
 import React from 'react';
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, Image, View, TouchableOpacity } from 'react-native';
 import { Camera, Permissions } from 'expo';
 
 class CameraExample extends React.Component {
   state = {
     hasCameraPermission: null,
     type: Camera.Constants.Type.back,
+    image: null
   };
 
   async componentWillMount() {
     const { status } = await Permissions.askAsync(Permissions.CAMERA);
     this.setState({ hasCameraPermission: status === 'granted' });
   }
- 
+
   snap = async () => {
     if (this.camera) {
-      let photo = await this.camera.takePictureAsync();
+      this.camera.takePictureAsync()
+        .then(photo => {
+          console.log('Photo URI: ', photo.uri, 'Photo: ', photo)
+          return photo;
+        })
+        .then(photo => {
+          this.setState({ image: photo })
+          return photo;
+        })
+        .then(photo => console.log('Photo: ', photo))
     }
+
   };
 
   render() {
     const { hasCameraPermission } = this.state;
+    console.log('Render State: ', this.state.image)
     if (hasCameraPermission === null) {
       return <View />;
     } else if (hasCameraPermission === false) {
       return <Text>No access to camera</Text>;
-    } else {
+    } else if(!this.state.image){
       return (
         <View style={{ flex: 1 }}>
-          <Camera style={{ flex: 1 }} type={this.state.type}>
+          <Camera
+            ref={ref => { this.camera = ref; }}
+            style={{ flex: 1 }} type={this.state.type}>
             <View
               style={{
                 flex: 1,
                 backgroundColor: 'transparent',
                 flexDirection: 'row',
               }}>
-              <TouchableOpacity
-                style={{
-                  flex: 0.1,
-                  alignSelf: 'flex-end',
-                  alignItems: 'center',
-                }}
-                onPress={() => {
-                  this.setState({
-                    type: this.state.type === Camera.Constants.Type.back
-                      ? Camera.Constants.Type.front
-                      : Camera.Constants.Type.back,
-                  });
-                }}>
-                <Text
-                  style={{ fontSize: 18, marginBottom: 10, color: 'white' }}>
-                  {' '}Flip{' '}
-                </Text>
-              </TouchableOpacity>
 
               <TouchableOpacity
                 style={{
@@ -60,13 +56,7 @@ class CameraExample extends React.Component {
                   alignSelf: 'flex-end',
                   alignItems: 'center',
                 }}
-                onPress={() => {
-                  this.setState({
-                    type: this.state.type === Camera.Constants.Type.back
-                      ? Camera.Constants.Type.front
-                      : Camera.Constants.Type.back,
-                  });
-                }}>
+                onPress={this.snap}>
                 <Text
                   style={{ fontSize: 18, marginBottom: 10, color: 'white' }}>
                   {' '}Take Picture{' '}
@@ -74,6 +64,14 @@ class CameraExample extends React.Component {
               </TouchableOpacity>
             </View>
           </Camera>
+        </View>
+      );
+    } else {
+      // Picture succesfully taken
+      console.log('Picture Taken?: ', this.state.image)
+      return (
+        <View >
+          <Image source={this.state.image} />
         </View>
       );
     }
