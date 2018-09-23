@@ -79,7 +79,7 @@ class CameraExample extends React.Component {
               </Text>
             </TouchableOpacity>
             <Image
-            style={{width: 450, height: 450, resizeMode: 'contain'}}
+            style={{width: 350, height: 300, resizeMode: 'contain'}}
             source={this.state.image} />
             <TouchableOpacity
             style={{
