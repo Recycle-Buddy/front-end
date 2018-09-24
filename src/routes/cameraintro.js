@@ -7,7 +7,6 @@ import metrics from '../themes/metrics.js'
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
-// import Camera from '../components/camera';
 
 class CameraIntro extends React.Component {
   render() {
