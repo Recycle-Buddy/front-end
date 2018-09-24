@@ -1,12 +1,14 @@
 import React from 'react';
 import { Text, StyleSheet, Image, View, TouchableOpacity } from 'react-native';
-import { Camera, Permissions } from 'expo';
+import { Svg, Camera, Permissions } from 'expo';
 
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
 
-import FullWidthContainer from '../components/FullWidthContainer.js'
-import Navbar from '../components/Navbar.js'
+import CameraButtonSVG from '../components/CameraButtonSvg';
+import LargeText from '../components/LargeText';
+import Navbar from '../components/Navbar'
+import FullWidthContainer from '../components/FullWidthContainer.js';
 
 class CameraExample extends React.Component {
   state = {
@@ -35,29 +37,36 @@ class CameraExample extends React.Component {
     const { hasCameraPermission } = this.state;
 
     const cameraView = (
-      <View style={{ flex: 1 }}>
+      <View style={{
+        flex: 1,
+        justifyContent: 'space-between',
+      }}>
         <Camera
           ref={ref => { this.camera = ref; }}
           style={{ flex: 1 }} type={this.state.type}>
           <View
             style={{
-              flex: 1,
-              backgroundColor: 'transparent',
+              position: 'absolute', 
               flexDirection: 'row',
+              backgroundColor: 'black',
+              height: 90,
+              width: '100%',
+              justifyContent: 'flex-start',
+              bottom: 0,
             }}>
-
-            <TouchableOpacity
+              <LargeText
+                style={{ width: '33%', alignSelf: 'center', textAlign: 'center', fontWeight: 'bold', color: 'white', margin: 0 }} text="Cancel"/>
+              <TouchableOpacity
               style={{
-                flex: 0.1,
+                width: '33%',
                 alignSelf: 'flex-end',
+                justifyContent: 'center',
                 alignItems: 'center',
+                height: 90,
               }}
               onPress={this.snap}>
-              <Text
-                style={{ fontSize: 18, marginBottom: 10, color: 'white' }}>
-                {' '}Take Picture{' '}
-              </Text>
-            </TouchableOpacity>
+              <CameraButtonSVG />
+              </TouchableOpacity>
           </View>
         </Camera>
       </View>);
