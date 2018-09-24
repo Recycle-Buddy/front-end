@@ -4,7 +4,7 @@ import { Button, StyleSheet, View, Image } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 
-import Navbar from '../components/Navbar.js'
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js'
 import {standardStyle} from '../assets/styles.js'
 import LargeText from '../components/LargeText.js'
@@ -12,24 +12,21 @@ import LargeText from '../components/LargeText.js'
 class Results extends React.Component {
   render() {
     return ( //The info here is hardcoded, but we will enevtually want to make the info change depending on the item scanned.
-      <View style = {standardStyle.wrapper}>
-        <View style={standardStyle.container}>
-          <LargeText style={styles.headerUpper} text = "How to recycle"/>
-          <LargeText style={styles.headerLower} text = "Beverage cans"/>
-          <FullWidthContainer flex={containerFlex}>
-            <View style={styles.instruction}>
-              <Image source={images.recycleSymbol} style={styles.icon}/>
-              <LargeText text = "In recycling" style={styles.instructionHeader}/>
-            </View>
-            <LargeText text = "Empty soda and beverage cans should be rinsed first, then put in recycling"/>
-          </FullWidthContainer>
-          <Button
-            title='Go To Landing'
-            onPress={() => this.props.navigation.navigate('Landing')}
-          />
-        </View>
-        <Navbar navigation={this.props.navigation}/>
-      </View>
+      <ContainerWithNavbar navigation={this.props.navigation}>
+        <LargeText style={styles.headerUpper} text = "How to recycle"/>
+        <LargeText style={styles.headerLower} text = "Beverage cans"/>
+        <FullWidthContainer flex={containerFlex}>
+          <View style={styles.instruction}>
+            <Image source={images.recycleSymbol} style={styles.icon}/>
+            <LargeText text = "In recycling" style={styles.instructionHeader}/>
+          </View>
+          <LargeText text = "Empty soda and beverage cans should be rinsed first, then put in recycling"/>
+        </FullWidthContainer>
+        <Button
+          title='Go To Landing'
+          onPress={() => this.props.navigation.navigate('Landing')}
+        />
+      </ContainerWithNavbar>
     );
   }
 }
