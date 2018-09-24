@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet, Image, View, TouchableOpacity } from 'react-native';
+import { Button, Text, StyleSheet, Image, View, TouchableOpacity } from 'react-native';
 import { Camera, Permissions } from 'expo';
 
 import colors from '../assets/colors.js'
@@ -84,34 +84,21 @@ class CameraExample extends React.Component {
       const pictureView = (
         <View style={styles.pageContainer}>
           <View style={styles.contentContainer}>
-            <TouchableOpacity
-            style={{
-              flex: .5,
-              alignSelf: 'center',
-              alignItems: 'center',
-            }}
-            // This is the function we need to create to send the data to the backend for ML and wait for a response!
-            onPress={() => console.log('Pic button pressed.. this is where we will send the pic data to the backend')}>
-              <Text
-                style={styles.largeButton}>
-              {' '}Send Picture To Recycle Buddy{' '}
-              </Text>
-            </TouchableOpacity>
+            <Button
+              style={{height: '40%'}}
+              title='Send To Recycle Buddy'
+              // This is the function we need to create to send the data to the backend for ML and wait for a response!
+              onPress={() => console.log('Pic button pressed.. this is where we will send the pic data to the backend')}
+            />
+
             <Image
-            style={{width: 350, height: 300, resizeMode: 'contain'}}
+            style={{ flex:1, alignSelf: 'stretch', margin: 10 }}
+            resizeMode={'contain'}
             source={this.state.image} />
-            <TouchableOpacity
-            style={{
-              flex: .5,
-              alignSelf: 'center',
-              alignItems: 'center',
-            }}
-            onPress={this.retakePicture}>
-              <Text
-                style={styles.smallButton}>
-              {' '}Re-take Picture{' '}
-              </Text>
-            </TouchableOpacity>
+            <Button
+              title='Re-take Picture'
+              onPress={this.retakePicture}
+            />
           </View>
           <Navbar navigation={this.props.navigation} />
         </View>
@@ -131,7 +118,10 @@ class CameraExample extends React.Component {
 
 const styles = StyleSheet.create({
   pageContainer: {
-    flex: 1
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+
   },
   contentContainer: {
     marginBottom: metrics.navbarMargin,
@@ -144,30 +134,6 @@ const styles = StyleSheet.create({
   text: {
     color: colors.darktext
   },
-  smallButton: {
-    fontSize: 16,
-    marginBottom: 5,
-    marginTop: 10,
-    color: colors.darktext,
-    backgroundColor: colors.white,
-    borderRadius: 1,
-    borderWidth: 1,
-    borderColor: colors.black,
-    alignItems: 'center',
-    justifyContent: 'space-around'
-  },
-  largeButton: {
-    fontSize: 20,
-    marginBottom: 5,
-    marginTop: 10,
-    color: colors.darktext,
-    backgroundColor: colors.white,
-    borderRadius: 3,
-    borderWidth: 2,
-    borderColor: colors.black,
-    alignItems: 'center',
-    justifyContent: 'space-around'
-  }
 });
 
 export default CameraExample;
