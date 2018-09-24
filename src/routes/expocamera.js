@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, StyleSheet, Image, View, TouchableOpacity } from 'react-native';
-import { Svg, Camera, Permissions } from 'expo';
+import { Camera, Permissions } from 'expo';
 
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
@@ -8,7 +8,6 @@ import metrics from '../themes/metrics.js'
 import CameraButtonSVG from '../components/CameraButtonSvg';
 import LargeText from '../components/LargeText';
 import Navbar from '../components/Navbar'
-import FullWidthContainer from '../components/FullWidthContainer.js';
 
 class CameraExample extends React.Component {
   state = {
@@ -35,6 +34,7 @@ class CameraExample extends React.Component {
 
   render() {
     const { hasCameraPermission } = this.state;
+    const { goBack } = this.props.navigation;
 
     const cameraView = (
       <View style={{
@@ -54,8 +54,18 @@ class CameraExample extends React.Component {
               justifyContent: 'flex-start',
               bottom: 0,
             }}>
-              <LargeText
-                style={{ width: '33%', alignSelf: 'center', textAlign: 'center', fontWeight: 'bold', color: 'white', margin: 0 }} text="Cancel"/>
+            <TouchableOpacity
+            style={{
+              width: '33%',
+              alignSelf: 'flex-end',
+              justifyContent: 'center',
+              alignItems: 'center',
+              height: 90,
+            }}
+            onPress={() => goBack()}>
+            <LargeText
+              style={{ alignSelf: 'center', textAlign: 'center', fontWeight: 'bold', color: 'white', margin: 0 }} text="Cancel"/>
+            </TouchableOpacity>
               <TouchableOpacity
               style={{
                 width: '33%',
