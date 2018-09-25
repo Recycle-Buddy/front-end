@@ -6,11 +6,12 @@ import Landing from './src/routes/landing.js';
 import Search from './src/routes/search.js';
 import Results from './src/routes/results.js';
 import CameraIntro from './src/routes/cameraintro.js';
+import CameraExample from './src/routes/expocamera';
 
 
 // Seth - I have left this App.js in the root or now since it
 //        is the entry point and since we are using create-react-app
-//        it is not eazy to change the entry point so this file
+//        it is not easy to change the entry point so this file
 //        should not be moved. (Please correct me if someone knows
 //        how to move it, as it should probably go into our SRC folder.)
 
@@ -22,6 +23,7 @@ const RootStack = createStackNavigator(
     Search: Search,
     Results: Results,
     CameraIntro: CameraIntro,
+    Camera: CameraExample,
   },
   {
     initialRouteName: 'Landing',
