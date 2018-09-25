@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button, Text, StyleSheet, Image, View, TouchableOpacity } from 'react-native';
-import { Camera, Permissions } from 'expo';
+import { Svg, Camera, Permissions } from 'expo';
 
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
 
-import CameraButtonSVG from '../components/CameraButtonSvg';
 import LargeText from '../components/LargeText';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import ContainerWithNavbar from '../components/ContainerWithNavbar';
 
 class CameraExample extends React.Component {
   state = {
@@ -35,6 +35,7 @@ class CameraExample extends React.Component {
   render() {
     const { hasCameraPermission } = this.state;
     const { goBack } = this.props.navigation;
+    const { Circle } = Svg;
 
     const cameraView = (
       <View style={{
@@ -43,39 +44,38 @@ class CameraExample extends React.Component {
       }}>
         <Camera
           ref={ref => { this.camera = ref; }}
-          style={{ flex: 1 }} type={this.state.type}>
+          style={{ flex: 1 }}
+          type={this.state.type}>
           <View
-            style={{
-              position: 'absolute', 
-              flexDirection: 'row',
-              backgroundColor: 'black',
-              height: 90,
-              width: '100%',
-              justifyContent: 'flex-start',
-              bottom: 0,
-            }}>
+            style={styles.cameraView}>
             <TouchableOpacity
-            style={{
-              width: '33%',
-              alignSelf: 'flex-end',
-              justifyContent: 'center',
-              alignItems: 'center',
-              height: 90,
-            }}
-            onPress={() => goBack()}>
-            <LargeText
-              style={{ alignSelf: 'center', textAlign: 'center', fontWeight: 'bold', color: 'white', margin: 0 }} text="Cancel"/>
+              style={styles.cancelButton}
+              onPress={() => goBack()} >
+              <LargeText
+                style={styles.cancelText}
+                text="Cancel"
+              />
             </TouchableOpacity>
               <TouchableOpacity
-              style={{
-                width: '33%',
-                alignSelf: 'flex-end',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: 90,
-              }}
-              onPress={this.snap}>
-              <CameraButtonSVG />
+                style={styles.captureButton}
+                onPress={this.snap} >
+                <Svg height="100" width="100">
+                  <Circle
+                    cx="50"
+                    cy="50"
+                    r="30"
+                    stroke={colors.white}
+                    strokeWidth="5"
+                    fill="none"
+                  />
+                  <Circle
+                    cx="50"
+                    cy="50"
+                    r="25"
+                    strokeWidth="0"
+                    fill={colors.white}
+                  />
+                </Svg>
               </TouchableOpacity>
           </View>
         </Camera>
@@ -121,7 +121,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-
   },
   contentContainer: {
     marginBottom: metrics.navbarMargin,
@@ -131,8 +130,35 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: colors.transparent,
   },
-  text: {
-    color: colors.darktext
+  cameraView: {
+    position: 'absolute',
+    flexDirection: 'row',
+    backgroundColor: 'black',
+    height: 90,
+    width: '100%',
+    justifyContent: 'flex-start',
+    bottom: 0,
+  },
+  cancelButton: {
+    width: '33%',
+    alignSelf: 'flex-end',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 90,
+  },
+  cancelText: {
+    alignSelf: 'center',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: 'white',
+    margin: 0   
+  },
+  captureButton: {
+    width: '33%',
+    alignSelf: 'flex-end',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 90,
   },
 });
 
