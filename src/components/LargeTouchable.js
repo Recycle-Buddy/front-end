@@ -16,7 +16,7 @@ class LargeTouchable extends React.PureComponent {
 				<View style={[tStyles.childWrapper, styles]}>
 					{this.props.children}
 				</View>
-    	</TouchableNativeFeedback>
+			</TouchableNativeFeedback>
 		);
 	}
 };
@@ -31,8 +31,8 @@ const tStyles = StyleSheet.create({
 		flex: 1,
 		borderWidth: 2,
 		borderRadius: 5,
-    borderColor: colors.black,
-    backgroundColor: colors.white,
+		borderColor: colors.black,
+		backgroundColor: colors.white,
 	}
 });
 
