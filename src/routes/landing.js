@@ -8,53 +8,41 @@ import FullWidthContainer from '../components/FullWidthContainer.js'
 import LargeText from '../components/LargeText.js'
 import StaticInfo from '../components/StaticInfo';
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
+import LargeTouchable from '../components/LargeTouchable';
 
 class Landing extends React.Component {
   render() {
     return (
       <ContainerWithNavbar navigation={this.props.navigation}>
 
-        <FullWidthContainer flex={columnContainerFlex}>
-          <Button
-            title='Go To Search!!'
-            onPress={() => this.props.navigation.navigate('Search')}
-          />
-        </FullWidthContainer>
+        <LargeTouchable onPress={() => this.props.navigation.navigate('Search')}>
+          <LargeText style={styles.callToAction} text="Go To Search (temporary)"/>
+        </LargeTouchable>
 
         <StaticInfo 
           containerFlex={columnContainerFlex} 
         />
 
-        <FullWidthContainer flex={columnContainerFlex}>
-          <Button
-            title='Skip search and go to results' //Definitely temporary. Eventually the search page will lead to the results page.
-            onPress={() => this.props.navigation.navigate('Results')}
-          />
-        </FullWidthContainer>
+        <LargeTouchable onPress={() => this.props.navigation.navigate('Results')}>
+          <LargeText style={styles.callToAction} text="Skip search and go to results" />
+        </LargeTouchable>
 
         <FullWidthContainer flex={columnContainerFlex}>
           <Image source={images.recycleSymbol}/>
           <LargeText text="Find local recycling center" />
         </FullWidthContainer>
 
-        <FullWidthContainer flex={columnContainerFlex}>
-          <Button
-            title = "Autodetect Item"
-            onPress={() => this.props.navigation.navigate('CameraIntro')}/>
-        </FullWidthContainer>
+        <LargeTouchable onPress={() => this.props.navigation.navigate('CameraIntro')}>
+          <Image source={images.camera}/>
+          <LargeText style={styles.callToAction} text="Autodetect Item"/>
+        </LargeTouchable>
 
       </ContainerWithNavbar>
     );
   }
 }
 
-/*            <Image source={images.camera}/> Incase we need it
-            <LargeText text="Autodetect item" />*/
-
 const styles = StyleSheet.create({
-  pageContainer: {
-    flex: 1
-  },
   contentContainer: {
     marginBottom: metrics.navbarMargin,
     flex: 1,
@@ -63,8 +51,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: colors.transparent,
   },
-  text: {
-    color: colors.darktext
+  callToAction: {
+    textAlign: 'center'
   }
 });
 
