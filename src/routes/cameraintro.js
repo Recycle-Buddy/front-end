@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.transparent,
   },
   text: {
-    color: colors.darktext
+    color: colors.black
   }
 });
 

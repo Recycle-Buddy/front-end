@@ -19,7 +19,8 @@ class FullWidthContainer extends React.Component {
 const styles = StyleSheet.create({
   rowContainer: {
     flex: 1,
-    margin: metrics.thinMargin,
+    marginTop: metrics.thinMargin,
+    marginBottom: metrics.thinMargin,
     backgroundColor: colors.white,
     borderRadius: 1,
     borderWidth: 1,
