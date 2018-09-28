@@ -45,11 +45,9 @@ def scrape_URL(URL, count):
             writeToFileString = ''
             tagType = node.name
             if tagType == 'p': mod = 1
-            #if tagType == 'div': continue
             replaceString = ''
             if tagType in replace:
                 replaceString = replace[tagType] + ': '
-                #writeToFileString += ('\t' * current_indent) + replaceString
             
             for child in node.contents:
                 if type(child) == NavigableString: 
