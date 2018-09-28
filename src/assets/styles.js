@@ -5,22 +5,25 @@ import metrics from '../themes/metrics.js'
 export const standardMargin = 16;
 export const standardPadding = 16;
 export const standardFontSize = 14;
+export const largeFontSize = 16;
+export const largeLineheight = largeFontSize * 1.5;
 
 export const standardStyle = StyleSheet.create({
     largeText: {
         margin: standardMargin,
-        padding: standardPadding,
-        fontSize: standardFontSize,
-        color: colors.darktext,
+        lineHeight: largeLineheight,
+        fontSize: largeFontSize,
+        color: colors.black,
     },
     wrapper: {
         flex: 1,
         justifyContent: 'space-between',
     },
     pageContainer: {
-        flex: 1
+        flex: 1,
     },
     contentContainer: {
+        padding: standardMargin,
         marginBottom: metrics.navbarMargin,
         flex:1,
         flexDirection: 'column',

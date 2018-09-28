@@ -24,7 +24,7 @@ class CameraIntro extends React.Component {
         <FullWidthContainer flex={0.2}>
           <Button 
           title="Got it"
-          onPress={() => ToastAndroid.show("Not there yet!", ToastAndroid.SHORT)}/>
+              onPress={() => this.props.navigation.navigate('Camera')} />
         </FullWidthContainer>
       </ContainerWithNavbar>
     );
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.transparent,
   },
   text: {
-    color: colors.darktext
+    color: colors.black
   }
 });
 

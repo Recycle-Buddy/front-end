@@ -12,10 +12,10 @@ class ContainerWithNavbar extends React.Component {
     //        styles in from the props and combine them with the inline
     //        styles defined in this components stylesheet.
     <View style={standardStyle.pageContainer}>
-        <ScrollView style={standardStyle.contentContainer} contentContainerStyle={standardStyle.scrollViewItems}>
-            {this.props.children}
-        </ScrollView>
-        <Navbar navigation={this.props.navigation}/>
+      <ScrollView style={standardStyle.contentContainer} contentContainerStyle={standardStyle.scrollViewItems}>
+        {this.props.children}
+      </ScrollView>
+      <Navbar navigation={this.props.navigation}/>
     </View> 
     );
   }
