@@ -22,6 +22,7 @@ class CameraExample extends React.Component {
   }
 
   snap = async () => {
+    console.log(this.state.hasCameraPermission)
     if (this.camera) {
       this.camera.takePictureAsync()
         .then(photo => this.setState({ image: photo }))
