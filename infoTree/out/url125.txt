@@ -1,0 +1,39 @@
+{
+	"title": "Lumber or Boards",
+	"heading": "In food and yard waste",
+	"para": "Unpainted and untreated wood goes in the food and yard waste:",
+	"list": {
+		"bullet": "All pieces must be less than 4 inches in diameter and under 4 feet long.",
+		"bullet": "Remove nails and all other non-wood materials.",
+		"bullet": "Break lumber and boards down so they fit in your bin with the lid closed.",
+		"bullet": {
+			"text": "Do not exceed ",
+			"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": " posted on your cart."
+
+		}
+
+	},
+	"heading": "In garbage",
+	"para": "Painted or treated wood goes in the garbage:",
+	"list": {
+		"bullet": "All pieces must be less than 4 inches in diameter and under 4 feet long.",
+		"bullet": "Break lumber and boards down so they fit in your bin with the lid closed.",
+		"bullet": {
+			"text": "Do not exceed ",
+			"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": "."
+
+		}
+
+	},
+	"heading": "Next to bin",
+	"para": "Lumber or boards which do not fit in your bin with the lid closed may be put in a plastic bag and placed next to your garbage bin on collection day. {{proj[4].rate_text}}",
+	"heading": "Transfer station",
+	"para": {
+		"text": "Bring lumber and wood boards to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+	}
+
+}

@@ -1,0 +1,6 @@
+{
+	"title": "LED Light Bulbs",
+	"heading": "In garbage",
+	"para": "LED light bulbs go in the garbage."
+
+}

@@ -1,0 +1,6 @@
+{
+	"title": "Greeting Cards",
+	"heading": "In recycling",
+	"para": "Greeting cards and other paper cards go in the recycling."
+
+}

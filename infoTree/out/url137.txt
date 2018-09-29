@@ -1,0 +1,29 @@
+{
+	"title": "Windows or Picture Glass",
+	"heading": "Donate",
+	"para": {
+		"text": "Some ",
+		"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply or second use stores"},
+		"text": " accept unbroken windows or other glass in good condition."
+
+	},
+	"heading": "In garbage",
+	"para": "Unbroken windows and window glass can go in the garbage:",
+	"list": {
+		"bullet": "Items must fit in your bin with the lid closed.",
+		"bullet": {
+			"text": "Don?t exceed the ",
+			"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": " printed on your bin."
+
+		}
+
+	},
+	"heading": "Transfer station",
+	"para": {
+		"text": "Bring windows and glass to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+	}
+
+}

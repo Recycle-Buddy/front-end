@@ -1,0 +1,31 @@
+{
+	"title": "Lawn Mowers or Power Equipment",
+	"heading": "Donate",
+	"para": {
+		"text": "Donate lawn mowers or power equipment in working condition to ",
+		"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+		"text": ". Call first to confirm acceptance policies."
+
+	},
+	"heading": "Transfer station",
+	"para": {
+		"text": "You must drain all gas and oil from lawn mowers and other power equipment. Bring emptied mowers and equipment to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+		"text": ". No charge for lawn mowers."
+
+	},
+	"heading": "Hazardous ? no charge",
+	"para": {
+		"text": "Bring gas and oil to a ",
+		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+		"text": ". No fee."
+
+	},
+	"list": {
+		"bullet": "Don?t mix fluids together!",
+		"bullet": "Put fluids in a sealed container that is 5 gallons or less.",
+		"bullet": "Limit 50 gallons per trip."
+
+	}
+
+}

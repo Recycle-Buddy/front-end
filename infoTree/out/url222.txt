@@ -1,0 +1,15 @@
+{
+	"title": "Laundry Detergent Jugs",
+	"heading": "In recycling",
+	"list": {
+		"bullet": "Plastic laundry detergent jugs",
+		"bullet": "Caps screwed onto the bottle"
+
+	},
+	"heading": "In garbage",
+	"list": {
+		"bullet": "Loose caps"
+
+	}
+
+}

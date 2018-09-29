@@ -1,0 +1,6 @@
+{
+	"title": "Styrofoam Cups",
+	"heading": "In garbage",
+	"para": "Styrofoam cups go in the garbage."
+
+}

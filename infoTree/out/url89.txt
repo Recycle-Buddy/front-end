@@ -1,0 +1,6 @@
+{
+	"title": "Holiday Lights",
+	"heading": "In garbage",
+	"para": "Christmas and holiday lights can go in the garbage."
+
+}

@@ -1,0 +1,20 @@
+{
+	"title": "Camera or Watch Batteries",
+	"heading": "In garbage",
+	"para": "Button cell batteries used in watches and some older camera models can go in the garbage.",
+	"para": "Button cell batteries are also used for:",
+	"list": {
+		"bullet": "Digital thermometers",
+		"bullet": "Pocket calculators",
+		"bullet": "Hearing aids"
+
+	},
+	"heading": "Household hazardous waste facility",
+	"para": {
+		"text": "Bring camera and watch button cell batteries to a ",
+		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+		"text": ", where the metals and very small amount of hazardous metals in the batteries will be reclaimed and recycled. No fee."
+
+	}
+
+}

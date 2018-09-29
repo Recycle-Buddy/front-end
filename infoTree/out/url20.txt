@@ -1,0 +1,13 @@
+{
+	"title": "Corks",
+	"heading": "In garbage",
+	"para": "Corks go in the garbage. They are too dense to compost or recycle.",
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Corks can also be recycled through the Cork ReHarvest Program, which has ",
+		"link": {"href": "http://www.corkforest.org/find-a-dropbox/", "text": "drop boxes"},
+		"text": " at PCC, Whole Foods Markets, and Wine World Warehouses."
+
+	}
+
+}

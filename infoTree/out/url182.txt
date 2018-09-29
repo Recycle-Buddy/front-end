@@ -1,0 +1,6 @@
+{
+	"title": "Spiral Bound Notebooks",
+	"heading": "In recycling",
+	"para": "Spiral bound notebooks go in the recycling. You don?t need to remove the metal or plastic binding."
+
+}

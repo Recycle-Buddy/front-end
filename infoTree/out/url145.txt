@@ -1,0 +1,15 @@
+{
+	"title": "Reusable Shopping Bags",
+	"heading": "In garbage",
+	"para": "Reusable cloth shopping bags can go in the garbage.",
+	"heading": "In recycling",
+	"para": "Thick, reusable plastic shopping bags go in the recycling. Bundle together with other recyclable plastic bags (such as newspaper bags, shopping bags, and dry cleaning bags) in a plastic bag.",
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Stained, worn out, ripped, or damaged cloth shopping bags can be turned into new products through ",
+		"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm", "text": "Threadcycle"},
+		"text": ". Some local thrift and second-hand stores are partners and will accept these items at their regular collection or drop box locations."
+
+	}
+
+}

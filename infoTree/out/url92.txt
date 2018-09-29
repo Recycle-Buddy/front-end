@@ -1,0 +1,8 @@
+{
+	"title": "Tissue Boxes",
+	"heading": "In recycling",
+	"para": "Tissue boxes go in the recycling.",
+	"heading": "In garbage",
+	"para": "Unused tissue goes in the garbage."
+
+}

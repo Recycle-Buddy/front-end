@@ -1,0 +1,8 @@
+{
+	"title": "Halogen or Xenon Light Bulbs",
+	"heading": "In garbage",
+	"para": "Halogen and Xenon light bulbs go in the garbage.",
+	"heading": "Did you know?",
+	"para": "Halogen and xenon light bulbs can?t be recycled because they have different melting points than recyclable glass bottles and jars."
+
+}

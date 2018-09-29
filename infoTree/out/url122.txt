@@ -1,0 +1,6 @@
+{
+	"title": "Magazines",
+	"heading": "In recycling",
+	"para": "Magazines go in the recycling."
+
+}

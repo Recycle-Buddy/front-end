@@ -1,0 +1,15 @@
+{
+	"title": "Plastic Water or Soda Bottles",
+	"heading": "In recycling",
+	"list": {
+		"bullet": "Empty plastic bottles",
+		"bullet": "Plastic bottle caps if attached to the empty bottle"
+
+	},
+	"heading": "In food and yard waste",
+	"list": {
+		"bullet": "Bottles labeled ?Compostable? or ?#7 PLA?"
+
+	}
+
+}

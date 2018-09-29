@@ -1,0 +1,27 @@
+{
+	"title": "Christmas Trees",
+	"heading": "Next to bin",
+	"para": "From 12/26/17 - 1/31/18, holiday trees, wreaths, and greens can be composted for free. Place on the curb next to your food and yard waste cart on your regular collection day.",
+	"list": {
+		"bullet": "Flocked and plastic trees or wreaths will be charged as extra garbage.",
+		"bullet": "Remove all decorations and lights, tinsel, metal clips, ornaments and bows.",
+		"bullet": "Trees must be cut into lengths to 4-feet or shorter.",
+		"bullet": "Bundle each section with sisal string or twine (not plastic)."
+
+	},
+	"para": "At apartments ? One tree may be placed next to each food and yard waste cart at no extra charge each collection day.",
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "From 12/26/17 - 1/31/18, bring Christmas trees to ",
+		"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+		"text": " for free. Starting 2/1/18, regular fees apply."
+
+	},
+	"list": {
+		"bullet": "Trees should not exceed 8-feet in length and must be free of decoration.",
+		"bullet": "Trunks should not exceed 4-inches in diameter.",
+		"bullet": "The stations will accept up to 3 trees per vehicle."
+
+	}
+
+}

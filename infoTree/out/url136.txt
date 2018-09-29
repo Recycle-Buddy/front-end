@@ -1,0 +1,20 @@
+{
+	"title": "Pesticides",
+	"heading": "Hazardous ? no charge",
+	"para": {
+		"text": "Bring pesticides to a ",
+		"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+		"text": ". No fee."
+
+	},
+	"heading": "In garbage",
+	"para": "Empty pesticide containers go in the garbage.",
+	"heading": "Did you know?",
+	"para": {
+		"text": "Find ways to avoid using pesticides from the ",
+		"link": {"href": "http://gardenhotline.org/", "text": "Garden Hotline"},
+		"text": "."
+
+	}
+
+}

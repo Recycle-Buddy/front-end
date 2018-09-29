@@ -1,0 +1,8 @@
+{
+	"title": "Garden Hoses",
+	"heading": "In garbage",
+	"para": "Hoses go in the garbage. Cut hose into pieces if it doesn?t fit in your bin with the lid closed.",
+	"heading": "Did you know?",
+	"para": "Old garden hoses can be repurposed to pad ropes used to support new or weak trees."
+
+}

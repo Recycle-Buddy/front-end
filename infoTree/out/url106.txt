@@ -1,0 +1,17 @@
+{
+	"title": "Drywall",
+	"heading": "In garbage",
+	"para": {
+		"text": "Drywall can go in the garbage. Break drywall down so it fits in your bin with the lid closed and does not exceed ",
+		"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+		"text": "."
+
+	},
+	"heading": "Transfer station",
+	"para": {
+		"text": "Bring drywall to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+	}
+
+}

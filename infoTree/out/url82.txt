@@ -1,0 +1,15 @@
+{
+	"title": "Broken Glass",
+	"heading": "In recycling",
+	"list": {
+		"bullet": "Broken bottles and jars 3-inches or larger."
+
+	},
+	"heading": "In garbage",
+	"list": {
+		"bullet": "All pieces of broken drinking glasses or wine glasses.",
+		"bullet": "Pieces of broken bottles and jars smaller than 3-inches."
+
+	}
+
+}

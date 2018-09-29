@@ -1,0 +1,8 @@
+{
+	"title": "Pet Food",
+	"heading": "In food and yard waste",
+	"para": "Both dry and wet pet food can be turned into valuable compost.",
+	"heading": "Did you know?",
+	"para": "Wrap wet pet food in newspaper, a paper bag, or a compostable bag to help keep your bin clean."
+
+}

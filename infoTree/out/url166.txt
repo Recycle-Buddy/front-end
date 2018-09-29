@@ -1,0 +1,48 @@
+{
+	"title": "Metal Sinks, Tubs or Fixtures",
+	"heading": "Donate and reuse",
+	"para": {
+		"text": "You can often ",
+		"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "donate or resell"},
+		"text": " sinks, tubs, and fixtures to ",
+		"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply stores"},
+		"text": " that specialize in salvage materials."
+
+	},
+	"para": {
+		"text": "Resell or give it away using sites like ",
+		"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+		"text": ", ",
+		"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"},
+		"text": ", and ",
+		"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+		"text": "."
+
+	},
+	"heading": "In recycling",
+	"para": "Metal sinks and fixtures go in the recycling:",
+	"list": {
+		"bullet": "They must be between 3 inches and 2 feet on all sides.",
+		"bullet": "Small amounts of plastic, wood, or rubber can be attached.",
+		"bullet": {
+			"text": "Don?t exceed the ",
+			"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": " printed on your bin."
+
+		}
+
+	},
+	"heading": "Curb-side pickup",
+	"para": {
+		"text": "Call SPU Customer Service at (206) 684-3000 to request ",
+		"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
+
+	},
+	"heading": "Transfer station",
+	"para": {
+		"text": "Bring metal sinks, tubs, and fixtures less than 8 feet on all sides to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+	}
+
+}

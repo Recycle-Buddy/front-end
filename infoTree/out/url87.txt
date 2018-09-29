@@ -1,0 +1,30 @@
+{
+	"title": "Asphalt Roofing",
+	"heading": "In garbage",
+	"para": "Asphalt roofing that doesn?t contain asbestos can go in the garbage:",
+	"list": {
+		"bullet": "Items must fit in your bin with the lid closed.",
+		"bullet": {
+			"text": "Don?t exceed the ",
+			"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": " printed on your bin."
+
+		}
+
+	},
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Bring asphalt roofing shingles that don?t contain asbestos to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+		"text": ". Fees apply."
+
+	},
+	"heading": "Hazardous",
+	"para": {
+		"text": "If you believe the roofing contains asbestos, contact the ",
+		"link": {"href": "http://www.pscleanair.org/185/Asbestos", "text": "Puget Sound Clean Air Agency"},
+		"text": " at (206) 343-8800."
+
+	}
+
+}

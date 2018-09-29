@@ -1,0 +1,23 @@
+{
+	"title": "Auto Glass",
+	"heading": "In garbage",
+	"para": "Broken auto glass can go in the garbage:",
+	"list": {
+		"bullet": "Glass must fit in your bin with the lid closed.",
+		"bullet": {
+			"text": "Don?t exceed the ",
+			"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": " printed on your bin."
+
+		}
+
+	},
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Bring auto glass to ",
+		"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+		"text": ". Fees apply."
+
+	}
+
+}

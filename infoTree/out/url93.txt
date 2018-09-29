@@ -1,0 +1,19 @@
+{
+	"title": "Gift Wrap",
+	"heading": "In recycling",
+	"list": {
+		"bullet": "Wrapping paper",
+		"bullet": "Paper gift bags",
+		"bullet": "Paper gift boxes",
+		"bullet": "Gift tissue paper"
+
+	},
+	"heading": "In garbage",
+	"list": {
+		"bullet": "Plastic gift wrap",
+		"bullet": "Foil gift wrap",
+		"bullet": "Plastic or foil gift bows"
+
+	}
+
+}

@@ -1,0 +1,17 @@
+{
+	"title": "Salvaged materials",
+	"heading": "Donate and reuse",
+	"para": {
+		"text": "You can often donate or resell these items to ",
+		"link": {"href": "../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply stores"},
+		"text": " that specialize in salvage materials."
+
+	},
+	"heading": "Transfer station",
+	"para": {
+		"text": "Bring salvaged building materials to ",
+		"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+	}
+
+}

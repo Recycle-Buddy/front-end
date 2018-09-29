@@ -1,0 +1,17 @@
+{
+	"title": "Gasoline",
+	"heading": "Hazardous ? no charge",
+	"para": {
+		"text": "Bring gasoline to a ",
+		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+		"text": ":"
+
+	},
+	"list": {
+		"bullet": "Put gas in a sealed container that is 5-gallons or less.",
+		"bullet": "Use gasoline-compatible containers (not food or milk jugs).",
+		"bullet": "Limit 30-gallons per trip."
+
+	}
+
+}

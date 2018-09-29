@@ -1,0 +1,36 @@
+{
+	"title": "Recycle Numbers 1-7",
+	"heading": "In recycling",
+	"para": "Nearly all plastics are recyclable in Seattle. This includes:",
+	"list": {
+		"bullet": "Yogurt containers",
+		"bullet": "Deli containers",
+		"bullet": "Bottles and jugs",
+		"bullet": "Plastic lids 3-inches across or larger",
+		"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle",
+		"bullet": "Clean plastic plant pots",
+		"bullet": "Tupperware",
+		"bullet": "Vitamin and pill bottles (not prescription vials)"
+
+	},
+	"heading": "In food and yard waste",
+	"para": "Plastic-like containers labeled ?Compostable? or ?#7 PLA? go in the food and yard waste.",
+	"para": {
+		"text": "Learn more about ",
+		"link": {"href": "../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"},
+		"(pdf)",
+		"text": "."
+
+	},
+	"heading": "In garbage",
+	"list": {
+		"bullet": "Styrofoam plates and cups",
+		"bullet": "Plastic utensils",
+		"bullet": "Dirty plates and cups with a shiny coating",
+		"bullet": "Dirty plastic-like materials that aren?t marked ?Compostable? or ?#7 PLA?"
+
+	},
+	"heading": "Did you know?",
+	"para": "Seattle doesn?t recycle by number because it?s not a reliable way to determine the recyclability of an item."
+
+}

@@ -1,0 +1,8 @@
+{
+	"title": "Produce or Bulk Food Bags",
+	"heading": "In garbage",
+	"para": "Plastic bags used for produce and bulk foods go in the garbage.",
+	"heading": "Did you know?",
+	"para": "These bags are not recycled because they often contain food residue or moisture."
+
+}

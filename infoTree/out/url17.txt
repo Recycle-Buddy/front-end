@@ -1,0 +1,8 @@
+{
+	"title": "Screws, Nails, Nuts or Bolts",
+	"heading": "In garbage",
+	"para": "Screws, nails, nuts, bolts, and other metal items smaller than 3-inches go in the garbage.",
+	"heading": "Did you know?",
+	"para": "Small metal items can fall through the sorting machinery at the recycling plant."
+
+}

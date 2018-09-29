@@ -1,0 +1,6 @@
+{
+	"title": "Vitamins",
+	"heading": "In garbage",
+	"para": "Put vitamins in a closed bottle or bag and put in the garbage."
+
+}

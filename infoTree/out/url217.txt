@@ -1,0 +1,17 @@
+{
+	"title": "Dirt or Soil",
+	"heading": "In garbage",
+	"para": {
+		"text": "Soil can go in your garbage if it doesn?t exceed the ",
+		"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+		"text": " printed on your bin."
+
+	},
+	"heading": "Transfer station",
+	"para": {
+		"text": "Bring soil to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+	}
+
+}

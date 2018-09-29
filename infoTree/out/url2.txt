@@ -1,0 +1,28 @@
+{
+	"title": "Fiberglass",
+	"para": {
+		"bold": "Caution:",
+		"text": " Fiberglass can irritate your skin and eyes. Wear gloves, googles, and protective clothing when handling."
+
+	},
+	"heading": "In garbage",
+	"para": "Fiberglass can go in the garbage:",
+	"list": {
+		"bullet": "Items must fit in your bin with the lid closed.",
+		"bullet": {
+			"text": "Don?t exceed the ",
+			"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"text": " printed on your bin."
+
+		}
+
+	},
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Bring fiberglass to ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+		"text": ". Fees apply."
+
+	}
+
+}

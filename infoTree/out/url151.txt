@@ -1,0 +1,6 @@
+{
+	"title": "Landline Telephones",
+	"heading": "In garbage",
+	"para": "Landline telephones go in the garbage."
+
+}

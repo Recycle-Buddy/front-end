@@ -1,0 +1,6 @@
+{
+	"title": "Frozen Food Boxes",
+	"heading": "In recycling",
+	"para": "Clean frozen food boxes and other food boxes go in the recycling."
+
+}

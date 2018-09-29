@@ -1,0 +1,20 @@
+{
+	"title": "VCRs",
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Find locations to recycle VCRs via the ",
+		"link": {"href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"},
+		"text": "."
+
+	},
+	"heading": "Curb-side pickup",
+	"para": {
+		"text": "Call SPU Customer Service at (206) 684-3000 to request ",
+		"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"},
+		"text": ". Fees apply."
+
+	},
+	"heading": "Did you know?",
+	"para": "VCRs can?t go in the garbage because they contain materials harmful to people, animals, and the environment."
+
+}

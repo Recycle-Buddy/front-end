@@ -1,0 +1,15 @@
+{
+	"title": "Bottle Caps",
+	"heading": "In recycling",
+	"list": {
+		"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle"
+
+	},
+	"heading": "In garbage",
+	"list": {
+		"bullet": "Loose plastic bottle caps",
+		"bullet": "Metal beer and soda caps"
+
+	}
+
+}

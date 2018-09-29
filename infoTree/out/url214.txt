@@ -1,0 +1,13 @@
+{
+	"title": "Small Household Appliances",
+	"heading": "In garbage",
+	"para": "Toasters, blenders, food processors and mixers can go in the garbage.",
+	"heading": "Drop-off locations",
+	"para": {
+		"text": "Some small household appliances can be recycled as scrap metal for free at ",
+		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+		"text": "."
+
+	}
+
+}

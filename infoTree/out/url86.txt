@@ -1,0 +1,6 @@
+{
+	"Disposable Diapers",
+	"heading": "In garbage",
+	"para": "Put all disposable (even if marked "compostable") diapers in a bag, tie off, and place in garbage."
+
+}

@@ -1,0 +1,6 @@
+{
+	"title": "Kleenex, Facial Tissue",
+	"heading": "In garbage",
+	"para": "Kleenex (facial tissue) goes in the garbage."
+
+}
