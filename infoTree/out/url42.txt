@@ -1,5 +1,5 @@
 {
-	URL42:[
+	"URL42":[
 		{"title": "Meat or Food Trays"},
 		{"heading": "In food and yard waste"},
 		{"para": "Brown or beige trays for meat, poultry, and fish go in the food and yard waste."},
@@ -9,4 +9,3 @@
 		{"para": "Brown or beige trays for meat, poultry, and fish are made from plant-based material and are compostable."}
 
 	]}
-}

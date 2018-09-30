@@ -1,8 +1,7 @@
 {
-	URL96:[
+	"URL96":[
 		{"title": "Gel Packs"},
 		{"heading": "In garbage"},
 		{"para": "Gel hot and cold packs go in the garbage. They are not recyclable or compostable."}
 
 	]}
-}

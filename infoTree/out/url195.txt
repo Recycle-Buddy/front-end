@@ -1,5 +1,5 @@
 {
-	URL195:[
+	"URL195":[
 		{"title": "Dry Cleaner Bags"},
 		{"heading": "In recycling"},
 		{"para": "Bundle dry cleaner bags together with other recyclable plastic bags (such as newspaper bags or grocery bags). Put bundle into one plastic bag, tie off, and put in the recycling."},
@@ -9,4 +9,3 @@
 		{"para": "Single plastic bags go in the garbage because they jam the machinery at the recycling facility."}
 
 	]}
-}

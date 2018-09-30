@@ -1,5 +1,5 @@
 {
-	URL190:[
+	"URL190":[
 		{"title": "Glass Bottles or Jars"},
 		{"heading": "In recycling ? rinse first"},
 		{"list": [
@@ -12,4 +12,3 @@
 		{"para": "Jars coated with oily food like peanut butter can be wiped first with a paper towel (put the paper towel in the food and yard waste). Very small amounts of peanut butter or food residue are okay."}
 
 	]}
-}

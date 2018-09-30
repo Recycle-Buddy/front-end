@@ -1,5 +1,5 @@
 {
-	URL84:[
+	"URL84":[
 		{"title": "Bicycles or Bike Parts"},
 		{"heading": "In recycling"},
 		{"para": "Clean metal bike parts 3-inches or larger can go in the recycling:"},
@@ -32,4 +32,3 @@
 		{"para": "Bike parts smaller than 3-inches go in the garbage."}
 
 	]}
-}

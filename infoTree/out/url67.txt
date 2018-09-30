@@ -1,5 +1,5 @@
 {
-	URL67:[
+	"URL67":[
 		{"title": "Alkaline Batteries"},
 		{"heading": "Drop-off locations"},
 		{"para": [
@@ -25,4 +25,3 @@
 		]}
 
 	]}
-}

@@ -1,5 +1,5 @@
 {
-	URL9:[
+	"URL9":[
 		{"title": "Clean Wood Waste"},
 		{"heading": "In food and yard waste"},
 		{"para": "Clean, untreated and unpainted wood goes in the food and yard waste."},
@@ -37,4 +37,3 @@
 		{"para": "Compost processing equipment removes metal staples and nails. However, the equipment can?t remove plastic."}
 
 	]}
-}

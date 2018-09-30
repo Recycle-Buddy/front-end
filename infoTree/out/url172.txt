@@ -1,5 +1,5 @@
 {
-	URL172:[
+	"URL172":[
 		{"title": "Food-soiled Paper"},
 		{"heading": "In food and yard waste"},
 		{"para": "Uncoated paper with food or grease on it goes in the food and yard waste. This includes:"},
@@ -16,4 +16,3 @@
 		{"para": "The shiny coating on paper plates and cups is usually plastic. Scrape the coating with your fingernail or a knife. If wax collects under your fingernail, the coating is wax. Wax-coated cups and plates can go in your food waste bin."}
 
 	]}
-}

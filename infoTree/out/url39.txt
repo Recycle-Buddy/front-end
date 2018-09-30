@@ -1,5 +1,5 @@
 {
-	URL39:[
+	"URL39":[
 		{"title": "Fireworks"},
 		{"heading": "Hazardous"},
 		{"para": "Call the Seattle Police Firing Range at (206) 684-7470 to dispose of small, unused residential fireworks."},
@@ -12,4 +12,3 @@
 		]}
 
 	]}
-}

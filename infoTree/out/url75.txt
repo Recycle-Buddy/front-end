@@ -1,5 +1,5 @@
 {
-	URL75:[
+	"URL75":[
 		{"title": "Carpet or Padding"},
 		{"heading": "In garbage"},
 		{"para": "Carpet and padding can go in the garbage. Cut into smaller pieces if carpet or padding doesn?t fit in your bin with the lid closed."},
@@ -17,4 +17,3 @@
 		]}
 
 	]}
-}

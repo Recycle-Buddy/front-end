@@ -1,5 +1,5 @@
 {
-	URL80:[
+	"URL80":[
 		{"title": "Jewelry or Coins"},
 		{"heading": "In garbage"},
 		{"para": "You can put jewelry and coins in the garbage."},
@@ -7,4 +7,3 @@
 		{"para": "You can donate jewelry and coins to thrift stores, and can often sell these items to jewelry buyers or coin and precious metal dealers."}
 
 	]}
-}

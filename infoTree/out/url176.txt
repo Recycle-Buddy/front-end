@@ -1,5 +1,5 @@
 {
-	URL176:[
+	"URL176":[
 		{"title": "Propane Tanks"},
 		{"heading": "Hazardous"},
 		{"para": [
@@ -13,4 +13,3 @@
 		{"para": "Empty propane or gas canisters under 2-pounds can go in the garbage."}
 
 	]}
-}

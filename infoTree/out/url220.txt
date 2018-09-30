@@ -1,5 +1,5 @@
 {
-	URL220:[
+	"URL220":[
 		{"title": "Fluorescent Light Bulbs"},
 		{"heading": "Hazardous ? no charge"},
 		{"para": [
@@ -14,4 +14,3 @@
 		{"para": "Fluorescent tubes and CFLs are banned from the garbage because they contain mercury, which is highly toxic. To prevent breaking the tubes or bulbs and releasing mercury when storing or transporting, wrap them in newspaper or put back in their original packaging."}
 
 	]}
-}

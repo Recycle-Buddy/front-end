@@ -1,9 +1,8 @@
 {
-	URL198:[
+	"URL198":[
 		{"title": "Flushable Wipes"},
 		{"heading": "In garbage"},
 		{"para": "Baby wipes, wet wipes, cleaning wipes, and any wipes labeled ?flushable? go in your garbage."},
 		{"para": "If flushed down your toilet, they can clog your sewer pipes."}
 
 	]}
-}

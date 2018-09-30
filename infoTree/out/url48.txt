@@ -1,5 +1,5 @@
 {
-	URL48:[
+	"URL48":[
 		{"title": "Window Blinds"},
 		{"heading": "Reuse"},
 		{"para": [
@@ -18,4 +18,3 @@
 		{"para": "Plastic, vinyl, and wooden blinds go in the garbage."}
 
 	]}
-}

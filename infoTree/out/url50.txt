@@ -1,8 +1,7 @@
 {
-	URL50:[
+	"URL50":[
 		{"title": "6-Pack Plastic Rings"},
 		{"heading": "In garbage"},
 		{"para": "Snip the plastic rings from 6-pack cans so none of the rings are intact."}
 
 	]}
-}

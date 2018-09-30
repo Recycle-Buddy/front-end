@@ -1,9 +1,8 @@
 {
-	URL159:[
+	"URL159":[
 		{"title": "Blister Packages"},
 		{"heading": "In garbage"},
 		{"para": "Put blister packages in the garbage. They aren?t recyclable."},
 		{"para": "Blister packages are the clear hard-to-open plastic packaging from items such as batteries and small electronics."}
 
 	]}
-}

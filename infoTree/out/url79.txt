@@ -1,5 +1,5 @@
 {
-	URL79:[
+	"URL79":[
 		{"title": "Glass or Ceramic Household Items"},
 		{"heading": "Donate and reuse"},
 		{"para": [
@@ -25,4 +25,3 @@
 		{"para": "These items can?t be recycled by Seattle because they have different melting points than recyclable glass."}
 
 	]}
-}

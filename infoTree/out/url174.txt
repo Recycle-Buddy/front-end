@@ -1,5 +1,5 @@
 {
-	URL174:[
+	"URL174":[
 		{"title": "Contaminated Dirt or Soil"},
 		{"heading": "In garbage"},
 		{"para": [
@@ -18,4 +18,3 @@
 		{"para": "For dirt that contains hazardous materials, call the household hazards line at (206) 296-4692. Hours are 9 a.m. ? 4:30 p.m., Monday through Friday."}
 
 	]}
-}
