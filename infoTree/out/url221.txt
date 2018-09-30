@@ -1,19 +1,21 @@
 {
-	"title": "Paper Cups or Coffee Cups",
-	"heading": "In recycling ? rinse first",
-	"list": {
-		"bullet": "Clean, dry and empty paper cups"
+	URL221:[
+		{"title": "Paper Cups or Coffee Cups"},
+		{"heading": "In recycling ? rinse first"},
+		{"list": [
+			{"bullet": "Clean, dry and empty paper cups"}
 
-	},
-	"heading": "In food and yard waste",
-	"list": {
-		"bullet": "Paper or coffee cups labeled as ?Compostable?"
+		]},
+		{"heading": "In food and yard waste"},
+		{"list": [
+			{"bullet": "Paper or coffee cups labeled as ?Compostable?"}
 
-	},
-	"heading": "In garbage",
-	"list": {
-		"bullet": "Styrofoam cups"
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Styrofoam cups"}
 
-	}
+		]}
 
+	]}
 }

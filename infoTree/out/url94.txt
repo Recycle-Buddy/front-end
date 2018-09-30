@@ -1,6 +1,8 @@
 {
-	"title": "Chip Bags",
-	"heading": "In garbage",
-	"para": "Chip bags go in the garbage because they are made from several different materials that can?t be separated for recycling."
+	URL94:[
+		{"title": "Chip Bags"},
+		{"heading": "In garbage"},
+		{"para": "Chip bags go in the garbage because they are made from several different materials that can?t be separated for recycling."}
 
+	]}
 }

@@ -1,18 +1,20 @@
 {
-	"title": "Compostable Bags",
-	"heading": "In food and yard waste",
-	"para": {
-		"text": "Bags labeled ?Compostable? from ",
-		"link": {"href": "../../../../../MyServices/FoodYard/HouseResidents/ApprovedCompostableBags/index.htm", "text": "approved brands"},
-		"text": " go in the food and yard waste."
+	URL34:[
+		{"title": "Compostable Bags"},
+		{"heading": "In food and yard waste"},
+		{"para": [
+			{"text": "Bags labeled ?Compostable? from "},
+			{"link": {"href": "../../../../../MyServices/FoodYard/HouseResidents/ApprovedCompostableBags/index.htm", "text": "approved brands"}},
+			{"text": " go in the food and yard waste."}
 
-	},
-	"heading": "In garbage",
-	"para": {
-		"text": "Bags that aren?t from ",
-		"link": {"href": "../../../../../MyServices/FoodYard/HouseResidents/ApprovedCompostableBags/index.htm", "text": "approved brands"},
-		"text": " go in the garbage. Biodegradable bags are not compostable, and go in the garbage."
+		]},
+		{"heading": "In garbage"},
+		{"para": [
+			{"text": "Bags that aren?t from "},
+			{"link": {"href": "../../../../../MyServices/FoodYard/HouseResidents/ApprovedCompostableBags/index.htm", "text": "approved brands"}},
+			{"text": " go in the garbage. Biodegradable bags are not compostable, and go in the garbage."}
 
-	}
+		]}
 
+	]}
 }

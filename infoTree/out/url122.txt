@@ -1,6 +1,8 @@
 {
-	"title": "Magazines",
-	"heading": "In recycling",
-	"para": "Magazines go in the recycling."
+	URL122:[
+		{"title": "Magazines"},
+		{"heading": "In recycling"},
+		{"para": "Magazines go in the recycling."}
 
+	]}
 }

@@ -1,17 +1,19 @@
 {
-	"title": "Solvents",
-	"heading": "Hazardous ? no charge",
-	"para": {
-		"text": "Bring solvents like paint thinner to a ",
-		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
-		"text": ":"
+	URL45:[
+		{"title": "Solvents"},
+		{"heading": "Hazardous ? no charge"},
+		{"para": [
+			{"text": "Bring solvents like paint thinner to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ":"}
 
-	},
-	"list": {
-		"bullet": "Put solvents in a sealed container that is 5-gallons or less.",
-		"bullet": "Limit 50-gallons per trip."
+		]},
+		{"list": [
+			{"bullet": "Put solvents in a sealed container that is 5-gallons or less."},
+			{"bullet": "Limit 50-gallons per trip."}
 
-	},
-	"para": "Solvents aren?t allowed in the garbage."
+		]},
+		{"para": "Solvents aren?t allowed in the garbage."}
 
+	]}
 }

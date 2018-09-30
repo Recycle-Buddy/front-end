@@ -1,27 +1,29 @@
 {
-	"title": "Sharps ? Needles & Syringes",
-	"heading": "Hazardous",
-	"para": "These can?t go in the garbage; they can injure other people.",
-	"para": "To dispose of syringes, needles, and lancets (also called ?sharps?), you must put them in a rigid and sealable container like a plastic soda bottle. Then bring to a designated disposal location:",
-	"list": {
-		"bullet": "Intersection of Airport Way South and South Holgate Street",
-		"bullet": "Intersection of 27th Avenue South and Cheasty Boulevard South (center median)",
-		"bullet": "Fremont Canal Park (199 North Canal St, Seattle, WA 98103)",
-		"bullet": "Freeway Park (700 Seneca St)",
-		"bullet": "Mineral Springs Park (1500 North 105th St, Seattle, WA 98133)",
-		"bullet": "Roxhill Park (2850 SW Roxbury St, Seattle, WA 98126)",
-		"bullet": {
-			"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "North or South transfer stations"}
+	URL177:[
+		{"title": "Sharps ? Needles & Syringes"},
+		{"heading": "Hazardous"},
+		{"para": "These can?t go in the garbage; they can injure other people."},
+		{"para": "To dispose of syringes, needles, and lancets (also called ?sharps?), you must put them in a rigid and sealable container like a plastic soda bottle. Then bring to a designated disposal location:"},
+		{"list": [
+			{"bullet": "Intersection of Airport Way South and South Holgate Street"},
+			{"bullet": "Intersection of 27th Avenue South and Cheasty Boulevard South (center median)"},
+			{"bullet": "Fremont Canal Park (199 North Canal St, Seattle, WA 98103)"},
+			{"bullet": "Freeway Park (700 Seneca St)"},
+			{"bullet": "Mineral Springs Park (1500 North 105th St, Seattle, WA 98133)"},
+			{"bullet": "Roxhill Park (2850 SW Roxbury St, Seattle, WA 98126)"},
+			{"bullet": [
+				{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "North or South transfer stations"}}
 
-		}
+			]}
 
-	},
-	"para": {
-		"text": "If you find a syringe on public property, report it as ",
-		"link": {"href": "https://seattle-csrprodcwi.motorolasolutions.com/ServiceRequest.mvc/SRIntakeStep2?id=PUILDUMP", "text": "illegal dumping"},
-		"text": "."
+		]},
+		{"para": [
+			{"text": "If you find a syringe on public property, report it as "},
+			{"link": {"href": "https://seattle-csrprodcwi.motorolasolutions.com/ServiceRequest.mvc/SRIntakeStep2?id=PUILDUMP", "text": "illegal dumping"}},
+			{"text": "."}
 
-	},
-	"para": "If you are a business and need to dispose of sharps, call the Households Hazards Line at (206) 296-4692."
+		]},
+		{"para": "If you are a business and need to dispose of sharps, call the Households Hazards Line at (206) 296-4692."}
 
+	]}
 }

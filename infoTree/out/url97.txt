@@ -1,32 +1,34 @@
 {
-	"title": "Small Gas Canisters",
-	"heading": "Drop-off locations",
-	"para": {
-		"text": "Empty small backpacking-style isobutane fuel canisters (excluding green ?Coleman? style propane canisters) can be dropped off for free at the ",
-		"link": {"href": "https://thesummitregister.com/seattle-repair-shop-keeping-timeless-gear-alive/", "text": "MSR Repair Shop"},
-		"text": ", in SODO, or at the ",
-		"link": {"href": "https://www.mountaineers.org/locations-lodges/seattle-program-center/bookstore", "text": "Mountaineers Bookstore"},
-		"text": ", in NE Seattle."
+	URL97:[
+		{"title": "Small Gas Canisters"},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Empty small backpacking-style isobutane fuel canisters (excluding green ?Coleman? style propane canisters) can be dropped off for free at the "},
+			{"link": {"href": "https://thesummitregister.com/seattle-repair-shop-keeping-timeless-gear-alive/", "text": "MSR Repair Shop"}},
+			{"text": ", in SODO, or at the "},
+			{"link": {"href": "https://www.mountaineers.org/locations-lodges/seattle-program-center/bookstore", "text": "Mountaineers Bookstore"}},
+			{"text": ", in NE Seattle."}
 
-	},
-	"para": {
-		"text": "Empty small ?Coleman? style canisters can be dropped off at a ",
-		"link": {"href": "http://www.recology.com/store", "text": "Recology Store"},
-		"text": ". For more information visit ",
-		"link": {"href": "http://www.recology.com/store", "text": "recology.com/store"},
-		"text": " or email ",
-		"link": {"href": "mailto:store@recology.com", "text": "store@recology.com"},
-		"text": ". Limits and fees may apply."
+		]},
+		{"para": [
+			{"text": "Empty small ?Coleman? style canisters can be dropped off at a "},
+			{"link": {"href": "http://www.recology.com/store", "text": "Recology Store"}},
+			{"text": ". For more information visit "},
+			{"link": {"href": "http://www.recology.com/store", "text": "recology.com/store"}},
+			{"text": " or email "},
+			{"link": {"href": "mailto:store@recology.com", "text": "store@recology.com"}},
+			{"text": ". Limits and fees may apply."}
 
-	},
-	"heading": "Hazardous ? no charge",
-	"para": {
-		"text": "Small gas canisters with any amount of gas or butane must be taken to a ",
-		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
-		"text": ". No fee."
+		]},
+		{"heading": "Hazardous ? no charge"},
+		{"para": [
+			{"text": "Small gas canisters with any amount of gas or butane must be taken to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
 
-	},
-	"heading": "In garbage",
-	"para": "Empty butane and gas canisters under 2-pounds can go in the garbage."
+		]},
+		{"heading": "In garbage"},
+		{"para": "Empty butane and gas canisters under 2-pounds can go in the garbage."}
 
+	]}
 }

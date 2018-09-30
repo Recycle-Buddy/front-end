@@ -12,8 +12,8 @@ replace = {
     'strong' : '"bold"',
     'h1': '"title"',
     'li': '"bullet"',
-    'ul': '"list"'
-    #'div': 'CONTAINER'
+    'ul': '"list"',
+    #'div': '"CONTAINER"'
     
 }
 
@@ -34,6 +34,11 @@ class Scrape(object):
         soup = BS(page.content, "html.parser")    
             
         root = soup.find(id = 'region')
+        
+        self.outfile.write('{\n')
+        self.indent = self.indent + 1
+        self.write_Indent('URL' + str(self.count) + ':' ,None,'','',True)
+
 
         try :
             self.write_tree_into_JSON(root, True)
@@ -44,6 +49,7 @@ class Scrape(object):
             file.write('error with URL ' + str(self.count) + '\n')
             file.close()
         
+        self.outfile.write('}')
         self.outfile.close()
         return self.count + 1
         
@@ -54,12 +60,12 @@ class Scrape(object):
     def quoteWrap(self,str):
         return '"' + str + '"'
 
-    def write_Indent(self,text, child, mod, isLast):
+    def write_Indent(self,text, child, mod, mod2, isLast):
         parsed = ''
         if child: parsed = self.quoteWrap(self.ParseNavStr(child))
         comma = ','
         if isLast: comma = ''
-        str = '\t' * self.indent + text + parsed + comma + mod
+        str = '\t' * self.indent + text + parsed + mod2 + comma + mod
         self.outfile.write(str)
         if self.debug: print(str)
         
@@ -104,14 +110,14 @@ class Scrape(object):
             if node.name == 'a':
                 comma = ','
                 if isLast: comma = ''
-                self.outfile.write('{"href": ' + self.quoteWrap(node['href']) + ', "text": ' + self.quoteWrap(self.ParseNavStr(node.contents[0])) + '}' + comma + '\n' )
+                self.outfile.write('{"href": ' + self.quoteWrap(node['href']) + ', "text": ' + self.quoteWrap(self.ParseNavStr(node.contents[0])) + '}}' + comma + '\n' )
             else:
                 #just iterate thru and print text ***actually if you get here it should be just one string
                 for child in node.contents:
                     parsed = self.quoteWrap(self.ParseNavStr(child))
                     mod = ','
                     if isLast: mod = ''
-                    out_str = parsed + mod
+                    out_str = parsed + '}' + mod
                     self.outfile.write(out_str + '\n')
                     if self.debug: print(out_str + '\n')
                 
@@ -119,12 +125,13 @@ class Scrape(object):
         #means we have tags and text to explore
         else:
             #open object and increase indent
-            self.outfile.write('{\n')
+            self.outfile.write('[\n')
             self.indent = self.indent + 1
             #run through node.contents, create non_garbage list, then start alg
             contents, last_child_index = self.filterNode(node)
             counter = 0
             isLastChild = False
+            #if more than 1 elt, need to make an array
             for child in contents:
                 if counter >= last_child_index:
                     isLastChild = True
@@ -133,15 +140,15 @@ class Scrape(object):
                     replaceString = ''
                     if tagType in replace:
                         replaceString = replace[tagType] + ': '
-                    self.write_Indent(replaceString, None, '', True) #true, because this is only for printing property names
+                    self.write_Indent('{' + replaceString, None, '', '', True) #true, because this is only for printing property names
                     self.write_tree_into_JSON(child, isLastChild)
                 elif type(child) == NavigableString:
                     parsed = self.ParseNavStr(child)
-                    self.write_Indent('"text": ',child, '\n', isLastChild)
+                    self.write_Indent('{"text": ',child, '\n', '}', isLastChild)
                 counter = counter + 1
             self.indent = self.indent - 1
             self.outfile.write('\n')
-            self.write_Obj('}', isLast)
+            self.write_Obj(']}', isLast)
             
 
 

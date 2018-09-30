@@ -1,15 +1,17 @@
 {
-	"title": "Bedding or Linens",
-	"heading": "Donate",
-	"para": {
-		"text": "Stained, worn out, ripped, or damaged bedding, linens, towels, and other fabrics can be turned into new products through ",
-		"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm", "text": "Threadcycle"},
-		"text": ". Some ",
-		"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift and second-hand stores"},
-		"text": " are partners and will accept these items at their regular collection or drop box locations."
+	URL207:[
+		{"title": "Bedding or Linens"},
+		{"heading": "Donate"},
+		{"para": [
+			{"text": "Stained, worn out, ripped, or damaged bedding, linens, towels, and other fabrics can be turned into new products through "},
+			{"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm", "text": "Threadcycle"}},
+			{"text": ". Some "},
+			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift and second-hand stores"}},
+			{"text": " are partners and will accept these items at their regular collection or drop box locations."}
 
-	},
-	"heading": "In garbage",
-	"para": "Bedding, linens, towels, and other fabrics can go in the garbage."
+		]},
+		{"heading": "In garbage"},
+		{"para": "Bedding, linens, towels, and other fabrics can go in the garbage."}
 
+	]}
 }

@@ -1,8 +1,10 @@
 {
-	"title": "Pet Food Bags",
-	"heading": "In recycling",
-	"para": "Paper pet food bags go in the recycling. Remove any string stitching first.",
-	"heading": "In garbage",
-	"para": "Plastic pet food bags, and bags made of multiple materials, go in the garbage."
+	URL88:[
+		{"title": "Pet Food Bags"},
+		{"heading": "In recycling"},
+		{"para": "Paper pet food bags go in the recycling. Remove any string stitching first."},
+		{"heading": "In garbage"},
+		{"para": "Plastic pet food bags, and bags made of multiple materials, go in the garbage."}
 
+	]}
 }

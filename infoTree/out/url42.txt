@@ -1,10 +1,12 @@
 {
-	"title": "Meat or Food Trays",
-	"heading": "In food and yard waste",
-	"para": "Brown or beige trays for meat, poultry, and fish go in the food and yard waste.",
-	"heading": "In garbage",
-	"para": "Styrofoam meat trays and the plastic absorbent insert go in the garbage.",
-	"heading": "Did you know?",
-	"para": "Brown or beige trays for meat, poultry, and fish are made from plant-based material and are compostable."
+	URL42:[
+		{"title": "Meat or Food Trays"},
+		{"heading": "In food and yard waste"},
+		{"para": "Brown or beige trays for meat, poultry, and fish go in the food and yard waste."},
+		{"heading": "In garbage"},
+		{"para": "Styrofoam meat trays and the plastic absorbent insert go in the garbage."},
+		{"heading": "Did you know?"},
+		{"para": "Brown or beige trays for meat, poultry, and fish are made from plant-based material and are compostable."}
 
+	]}
 }

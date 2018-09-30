@@ -1,24 +1,26 @@
 {
-	"title": "Grocery or Shopping Bags",
-	"heading": "In recycling",
-	"list": {
-		"bullet": "Clean and empty plastic grocery bags ? bundle into one bag and tie off",
-		"bullet": "Clean and dry paper bags or paper sacks"
+	URL81:[
+		{"title": "Grocery or Shopping Bags"},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Clean and empty plastic grocery bags ? bundle into one bag and tie off"},
+			{"bullet": "Clean and dry paper bags or paper sacks"}
 
-	},
-	"heading": "In food and yard waste",
-	"list": {
-		"bullet": "Paper bags that are wet or food-soiled"
+		]},
+		{"heading": "In food and yard waste"},
+		{"list": [
+			{"bullet": "Paper bags that are wet or food-soiled"}
 
-	},
-	"heading": "In garbage",
-	"list": {
-		"bullet": "Plastic bags that are wet or food-soiled",
-		"bullet": "Plastic produce bags",
-		"bullet": "Single plastic bags"
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Plastic bags that are wet or food-soiled"},
+			{"bullet": "Plastic produce bags"},
+			{"bullet": "Single plastic bags"}
 
-	},
-	"heading": "Did you know?",
-	"para": "Single plastic bags go in the garbage because they jam the machinery at the recycling facility. Produce bags are not recyclable because they often contain food or moisture that contaminate the recycling."
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Single plastic bags go in the garbage because they jam the machinery at the recycling facility. Produce bags are not recyclable because they often contain food or moisture that contaminate the recycling."}
 
+	]}
 }

@@ -1,15 +1,17 @@
 {
-	"title": "Fluorescent Light Bulbs",
-	"heading": "Hazardous ? no charge",
-	"para": {
-		"text": "Bring up to 10 fluorescent tubes and CFLs per a trip to a ",
-		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
-		"text": " or to a ",
-		"link": {"href": "http://www.lightrecycle.org/", "text": "LightRecycle"},
-		"text": " location. No fee."
+	URL220:[
+		{"title": "Fluorescent Light Bulbs"},
+		{"heading": "Hazardous ? no charge"},
+		{"para": [
+			{"text": "Bring up to 10 fluorescent tubes and CFLs per a trip to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": " or to a "},
+			{"link": {"href": "http://www.lightrecycle.org/", "text": "LightRecycle"}},
+			{"text": " location. No fee."}
 
-	},
-	"heading": "Did you know?",
-	"para": "Fluorescent tubes and CFLs are banned from the garbage because they contain mercury, which is highly toxic. To prevent breaking the tubes or bulbs and releasing mercury when storing or transporting, wrap them in newspaper or put back in their original packaging."
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Fluorescent tubes and CFLs are banned from the garbage because they contain mercury, which is highly toxic. To prevent breaking the tubes or bulbs and releasing mercury when storing or transporting, wrap them in newspaper or put back in their original packaging."}
 
+	]}
 }

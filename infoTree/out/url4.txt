@@ -1,8 +1,10 @@
 {
-	"title": "Paper Napkins",
-	"heading": "In food and yard waste",
-	"para": "Paper napkins and towels that have food or grease on them go in the food and yard waste.",
-	"heading": "In garbage",
-	"para": "Paper napkins and towels used with cleaning products or that have bodily fluids go in the garbage."
+	URL4:[
+		{"title": "Paper Napkins"},
+		{"heading": "In food and yard waste"},
+		{"para": "Paper napkins and towels that have food or grease on them go in the food and yard waste."},
+		{"heading": "In garbage"},
+		{"para": "Paper napkins and towels used with cleaning products or that have bodily fluids go in the garbage."}
 
+	]}
 }

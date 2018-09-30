@@ -1,26 +1,28 @@
 {
-	"title": "Glues or Adhesives",
-	"heading": "Hazardous ? no charge",
-	"para": {
-		"text": "Bring glues and adhesives labeled with ",
-		"bold": "caution",
-		"text": ", ",
-		"bold": "warning",
-		"text": ", ",
-		"bold": "danger",
-		"text": ", or ",
-		"bold": "poison",
-		"text": " to a ",
-		"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
-		"text": ". No fee."
+	URL186:[
+		{"title": "Glues or Adhesives"},
+		{"heading": "Hazardous ? no charge"},
+		{"para": [
+			{"text": "Bring glues and adhesives labeled with "},
+			{"bold": "caution"},
+			{"text": ", "},
+			{"bold": "warning"},
+			{"text": ", "},
+			{"bold": "danger"},
+			{"text": ", or "},
+			{"bold": "poison"},
+			{"text": " to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
 
-	},
-	"list": {
-		"bullet": "All containers must be 5-gallons or less.",
-		"bullet": "Limit 50-gallons per trip."
+		]},
+		{"list": [
+			{"bullet": "All containers must be 5-gallons or less."},
+			{"bullet": "Limit 50-gallons per trip."}
 
-	},
-	"heading": "In garbage",
-	"para": "Non-toxic glues go in the garbage. This includes Elmer?s, glue sticks, and other glues used in schools."
+		]},
+		{"heading": "In garbage"},
+		{"para": "Non-toxic glues go in the garbage. This includes Elmer?s, glue sticks, and other glues used in schools."}
 
+	]}
 }

@@ -1,19 +1,21 @@
 {
-	"title": "Hot Cups or Coffee Cups",
-	"heading": "In recycling ? rinse first",
-	"list": {
-		"bullet": "Paper coffee cups with a small amount of liquid"
+	URL30:[
+		{"title": "Hot Cups or Coffee Cups"},
+		{"heading": "In recycling ? rinse first"},
+		{"list": [
+			{"bullet": "Paper coffee cups with a small amount of liquid"}
 
-	},
-	"heading": "In food and yard waste",
-	"list": {
-		"bullet": "Hot or coffee cups labeled as ?Compostable?"
+		]},
+		{"heading": "In food and yard waste"},
+		{"list": [
+			{"bullet": "Hot or coffee cups labeled as ?Compostable?"}
 
-	},
-	"heading": "In garbage",
-	"list": {
-		"bullet": "Styrofoam coffee cups"
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Styrofoam coffee cups"}
 
-	}
+		]}
 
+	]}
 }

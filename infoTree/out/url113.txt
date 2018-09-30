@@ -1,14 +1,16 @@
 {
-	"title": "Plastic Outdoor Furniture",
-	"heading": "In recycling",
-	"para": "Rigid plastic outdoor furniture can go in the recycling:",
-	"list": {
-		"bullet": "Should be 3-feet or less on all sides",
-		"bullet": "Small amounts of attached metal (such as hinges) are allowed",
-		"bullet": "Remove other materials such as fabric, foam, or wood."
+	URL113:[
+		{"title": "Plastic Outdoor Furniture"},
+		{"heading": "In recycling"},
+		{"para": "Rigid plastic outdoor furniture can go in the recycling:"},
+		{"list": [
+			{"bullet": "Should be 3-feet or less on all sides"},
+			{"bullet": "Small amounts of attached metal (such as hinges) are allowed"},
+			{"bullet": "Remove other materials such as fabric, foam, or wood."}
 
-	},
-	"heading": "Next to bin ? no charge",
-	"para": "Larger rigid plastic outdoor furniture that doesn?t fit in your recycling bin can be set next to the bin on your recycling collection day."
+		]},
+		{"heading": "Next to bin ? no charge"},
+		{"para": "Larger rigid plastic outdoor furniture that doesn?t fit in your recycling bin can be set next to the bin on your recycling collection day."}
 
+	]}
 }

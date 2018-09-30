@@ -1,33 +1,35 @@
 {
-	"title": "Hand Tools",
-	"heading": "Donate and reuse",
-	"para": {
-		"text": "Donate hand tools in good condition to ",
-		"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
-		"text": "."
+	URL156:[
+		{"title": "Hand Tools"},
+		{"heading": "Donate and reuse"},
+		{"para": [
+			{"text": "Donate hand tools in good condition to "},
+			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": "."}
 
-	},
-	"para": {
-		"text": "Resell or give it away using sites like ",
-		"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"},
-		"text": ", ",
-		"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"},
-		"text": ", and ",
-		"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"},
-		"text": "."
+		]},
+		{"para": [
+			{"text": "Resell or give it away using sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
 
-	},
-	"heading": "In recycling",
-	"list": {
-		"bullet": "Metal tools 3 inches or more in size",
-		"bullet": "Can include small amounts of wood, rubber, or plastic"
+		]},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Metal tools 3 inches or more in size"},
+			{"bullet": "Can include small amounts of wood, rubber, or plastic"}
 
-	},
-	"heading": "In garbage",
-	"list": {
-		"bullet": "Metal tools less than 3 inches",
-		"bullet": "Tools that contain large amounts of rubber, wood, or plastic"
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Metal tools less than 3 inches"},
+			{"bullet": "Tools that contain large amounts of rubber, wood, or plastic"}
 
-	}
+		]}
 
+	]}
 }

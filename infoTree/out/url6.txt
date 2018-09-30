@@ -1,6 +1,8 @@
 {
-	"title": "Foamcore",
-	"heading": "In garbage",
-	"para": "Foamcore and foam boards go in the garbage."
+	URL6:[
+		{"title": "Foamcore"},
+		{"heading": "In garbage"},
+		{"para": "Foamcore and foam boards go in the garbage."}
 
+	]}
 }

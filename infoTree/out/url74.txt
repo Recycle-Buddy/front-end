@@ -1,23 +1,25 @@
 {
-	"title": "Clamshell Containers",
-	"heading": "In recycling ? rinse first",
-	"list": {
-		"bullet": "Plastic clamshell containers",
-		"bullet": "Plastic-coated (shiny) clamshell containers",
-		"bullet": "Clean paper clamshell containers"
+	URL74:[
+		{"title": "Clamshell Containers"},
+		{"heading": "In recycling ? rinse first"},
+		{"list": [
+			{"bullet": "Plastic clamshell containers"},
+			{"bullet": "Plastic-coated (shiny) clamshell containers"},
+			{"bullet": "Clean paper clamshell containers"}
 
-	},
-	"heading": "In food and yard waste",
-	"list": {
-		"bullet": "Clamshell containers marked ?Compostable? or ?#7 PLA?",
-		"bullet": "Dirty paper clamshell containers without a plastic coating"
+		]},
+		{"heading": "In food and yard waste"},
+		{"list": [
+			{"bullet": "Clamshell containers marked ?Compostable? or ?#7 PLA?"},
+			{"bullet": "Dirty paper clamshell containers without a plastic coating"}
 
-	},
-	"heading": "In garbage",
-	"list": {
-		"bullet": "Styrofoam clamshell containers",
-		"bullet": "Dirty plastic or plastic-coated (shiny) clamshell containers"
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Styrofoam clamshell containers"},
+			{"bullet": "Dirty plastic or plastic-coated (shiny) clamshell containers"}
 
-	}
+		]}
 
+	]}
 }

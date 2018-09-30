@@ -1,49 +1,51 @@
 {
-	"title": "Cast Iron",
-	"para": "Metal parts larger than 3-inches go in the recycling.",
-	"heading": "In recycling",
-	"list": {
-		"bullet": "Rusted metal can be recycled unless the metal is falling apart.",
-		"bullet": "Small amounts of plastic, wood, or rubber can be attached."
+	URL144:[
+		{"title": "Cast Iron"},
+		{"para": "Metal parts larger than 3-inches go in the recycling."},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Rusted metal can be recycled unless the metal is falling apart."},
+			{"bullet": "Small amounts of plastic, wood, or rubber can be attached."}
 
-	},
-	"heading": "Next to bin ? no charge",
-	"para": "Large metal parts can be put at the curb for pickup on your recycling collection day.",
-	"list": {
-		"bullet": "These must be bundled or tied.",
-		"bullet": "The maximum size is 2-feet on all sides."
+		]},
+		{"heading": "Next to bin ? no charge"},
+		{"para": "Large metal parts can be put at the curb for pickup on your recycling collection day."},
+		{"list": [
+			{"bullet": "These must be bundled or tied."},
+			{"bullet": "The maximum size is 2-feet on all sides."}
 
-	},
-	"heading": "In garbage",
-	"list": {
-		"bullet": "Metal items with large amounts of plastic, wood, or rubber attached",
-		"bullet": "Metal items that are smaller than 3-inches"
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Metal items with large amounts of plastic, wood, or rubber attached"},
+			{"bullet": "Metal items that are smaller than 3-inches"}
 
-	},
-	"heading": "Curb-side pickup",
-	"para": {
-		"text": "Call SPU Customer Service at (206) 684-3000 to request ",
-		"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item collection"},
-		"text": ". Fees apply."
+		]},
+		{"heading": "Curb-side pickup"},
+		{"para": [
+			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
+			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item collection"}},
+			{"text": ". Fees apply."}
 
-	},
-	"heading": "Drop-off locations",
-	"para": {
-		"text": "All metal, except car parts, is accepted as recycling at ",
-		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
-		"text": ". There is no charge for recycling at the transfer station."
+		]},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "All metal, except car parts, is accepted as recycling at "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". There is no charge for recycling at the transfer station."}
 
-	},
-	"list": {
-		"bullet": {
-			"text": "All metal, except car parts, is accepted as recycling at ",
-			"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
-			"text": ". There is no charge for recycling at the transfer station."
+		]},
+		{"list": [
+			{"bullet": [
+				{"text": "All metal, except car parts, is accepted as recycling at "},
+				{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+				{"text": ". There is no charge for recycling at the transfer station."}
 
-		},
-		"bullet": "Maximum size is 8-feet long.",
-		"bullet": "There is a charge for appliances, limit 2 per load."
+			]},
+			{"bullet": "Maximum size is 8-feet long."},
+			{"bullet": "There is a charge for appliances, limit 2 per load."}
 
-	}
+		]}
 
+	]}
 }

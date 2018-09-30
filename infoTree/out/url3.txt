@@ -1,27 +1,29 @@
 {
-	"title": "Stoves",
-	"heading": "Reuse",
-	"para": {
-		"text": "Resell or give it away using sites like ",
-		"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"},
-		"text": ", ",
-		"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"},
-		"text": ", and ",
-		"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"},
-		"text": "."
+	URL3:[
+		{"title": "Stoves"},
+		{"heading": "Reuse"},
+		{"para": [
+			{"text": "Resell or give it away using sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
 
-	},
-	"heading": "Curb-side pickup",
-	"para": {
-		"text": "Call SPU Customer Service at (206) 684-3000 to request ",
-		"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
+		]},
+		{"heading": "Curb-side pickup"},
+		{"para": [
+			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
+			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}}
 
-	},
-	"heading": "Transfer station",
-	"para": {
-		"text": "Bring up to 2 residential appliances per visit to ",
-		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring up to 2 residential appliances per visit to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
 
-	}
+		]}
 
+	]}
 }

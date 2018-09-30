@@ -1,19 +1,21 @@
 {
-	"title": "Window Blinds",
-	"heading": "Reuse",
-	"para": {
-		"text": "Resell or give it away using sites like ",
-		"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"},
-		"text": ", ",
-		"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"},
-		"text": ", and ",
-		"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"},
-		"text": "."
+	URL48:[
+		{"title": "Window Blinds"},
+		{"heading": "Reuse"},
+		{"para": [
+			{"text": "Resell or give it away using sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
 
-	},
-	"heading": "In recycling",
-	"para": "Individual metal blind slats go in the recycling. Remove strings, cords, and plastic and put these in the garbage.",
-	"heading": "In garbage",
-	"para": "Plastic, vinyl, and wooden blinds go in the garbage."
+		]},
+		{"heading": "In recycling"},
+		{"para": "Individual metal blind slats go in the recycling. Remove strings, cords, and plastic and put these in the garbage."},
+		{"heading": "In garbage"},
+		{"para": "Plastic, vinyl, and wooden blinds go in the garbage."}
 
+	]}
 }

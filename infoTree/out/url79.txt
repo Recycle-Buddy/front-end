@@ -1,26 +1,28 @@
 {
-	"title": "Glass or Ceramic Household Items",
-	"heading": "Donate and reuse",
-	"para": {
-		"text": "Donate glass or ceramic household items in good condition to ",
-		"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
-		"text": "."
+	URL79:[
+		{"title": "Glass or Ceramic Household Items"},
+		{"heading": "Donate and reuse"},
+		{"para": [
+			{"text": "Donate glass or ceramic household items in good condition to "},
+			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": "."}
 
-	},
-	"para": "?",
-	"para": {
-		"text": "Resell or give it away using sites like ",
-		"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"},
-		"text": ", ",
-		"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"},
-		"text": ", and ",
-		"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"},
-		"text": "."
+		]},
+		{"para": "?"},
+		{"para": [
+			{"text": "Resell or give it away using sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
 
-	},
-	"heading": "In garbage",
-	"para": "Damaged glass or ceramic household items such as plates, bowls, or drinking glasses can go in the garbage.",
-	"heading": "Did you know?",
-	"para": "These items can?t be recycled by Seattle because they have different melting points than recyclable glass."
+		]},
+		{"heading": "In garbage"},
+		{"para": "Damaged glass or ceramic household items such as plates, bowls, or drinking glasses can go in the garbage."},
+		{"heading": "Did you know?"},
+		{"para": "These items can?t be recycled by Seattle because they have different melting points than recyclable glass."}
 
+	]}
 }

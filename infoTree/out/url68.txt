@@ -1,23 +1,25 @@
 {
-	"title": "Leaves or Non-Woody Yard Waste",
-	"heading": "In food and yard waste",
-	"para": "Leaves and non-woody yard waste go in the food and yard waste.",
-	"list": {
-		"bullet": "Items must fit in your bin with the lid closed.",
-		"bullet": {
-			"text": "Don?t exceed the ",
-			"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
-			"text": " printed on your bin."
+	URL68:[
+		{"title": "Leaves or Non-Woody Yard Waste"},
+		{"heading": "In food and yard waste"},
+		{"para": "Leaves and non-woody yard waste go in the food and yard waste."},
+		{"list": [
+			{"bullet": "Items must fit in your bin with the lid closed."},
+			{"bullet": [
+				{"text": "Don?t exceed the "},
+				{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
+				{"text": " printed on your bin."}
 
-		}
+			]}
 
-	},
-	"heading": "Drop-off locations",
-	"para": {
-		"text": "Bring leaves or non-woody yard waste to ",
-		"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
-		"text": ". Fees apply."
+		]},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring leaves or non-woody yard waste to "},
+			{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". Fees apply."}
 
-	}
+		]}
 
+	]}
 }

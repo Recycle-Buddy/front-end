@@ -1,23 +1,25 @@
 {
-	"title": "Cell Phones",
-	"heading": "Donate and reuse",
-	"para": {
-		"text": "Donate working cell phones to ",
-		"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
-		"text": " or recycle cellphones via the ",
-		"link": {"href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"},
-		"text": "."
+	URL112:[
+		{"title": "Cell Phones"},
+		{"heading": "Donate and reuse"},
+		{"para": [
+			{"text": "Donate working cell phones to "},
+			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": " or recycle cellphones via the "},
+			{"link": {"href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"}},
+			{"text": "."}
 
-	},
-	"para": {
-		"text": "Resell or give working cell phones through sites like ",
-		"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"},
-		"text": ", ",
-		"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"},
-		"text": ", and ",
-		"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"},
-		"text": "."
+		]},
+		{"para": [
+			{"text": "Resell or give working cell phones through sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
 
-	}
+		]}
 
+	]}
 }

@@ -1,25 +1,27 @@
 {
-	"title": "Reusable Lumber",
-	"heading": "In food and yard waste",
-	"para": "Unpainted and untreated wood can go in the food and yard waste:",
-	"list": {
-		"bullet": "Pieces should be less than 4-inches in diameter and under 4-feet long to avoid extra fees.",
-		"bullet": "Remove nails and all other non-wood materials.",
-		"bullet": "Avoid extra charges ? Break lumber and boards down so they fit in your bin with the lid closed."
+	URL127:[
+		{"title": "Reusable Lumber"},
+		{"heading": "In food and yard waste"},
+		{"para": "Unpainted and untreated wood can go in the food and yard waste:"},
+		{"list": [
+			{"bullet": "Pieces should be less than 4-inches in diameter and under 4-feet long to avoid extra fees."},
+			{"bullet": "Remove nails and all other non-wood materials."},
+			{"bullet": "Avoid extra charges ? Break lumber and boards down so they fit in your bin with the lid closed."}
 
-	},
-	"heading": "In garbage",
-	"para": "Painted or treated wood can go in the garbage:",
-	"list": {
-		"bullet": "All pieces must be less than 4-inches in diameter and under 4-feet long.",
-		"bullet": "Avoid extra charges ? Break lumber and boards down so they fit in your bin with the lid closed."
+		]},
+		{"heading": "In garbage"},
+		{"para": "Painted or treated wood can go in the garbage:"},
+		{"list": [
+			{"bullet": "All pieces must be less than 4-inches in diameter and under 4-feet long."},
+			{"bullet": "Avoid extra charges ? Break lumber and boards down so they fit in your bin with the lid closed."}
 
-	},
-	"heading": "Drop-off locations",
-	"para": {
-		"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "Donate or resell"},
-		"text": " reusable lumber through building supply businesses that specialize in salvage or reusable materials."
+		]},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "Donate or resell"}},
+			{"text": " reusable lumber through building supply businesses that specialize in salvage or reusable materials."}
 
-	}
+		]}
 
+	]}
 }

@@ -1,8 +1,10 @@
 {
-	"title": "Printer Cartridges",
-	"heading": "Reuse",
-	"para": "Some printer cartridge manufactures and stores that sell printer cartridges will take old cartridges back for recycling.",
-	"heading": "In garbage",
-	"para": "Printer cartridges can go in the garbage."
+	URL110:[
+		{"title": "Printer Cartridges"},
+		{"heading": "Reuse"},
+		{"para": "Some printer cartridge manufactures and stores that sell printer cartridges will take old cartridges back for recycling."},
+		{"heading": "In garbage"},
+		{"para": "Printer cartridges can go in the garbage."}
 
+	]}
 }

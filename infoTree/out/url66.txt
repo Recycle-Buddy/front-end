@@ -1,23 +1,25 @@
 {
-	"title": "Mattresses or Futons",
-	"heading": "Donate",
-	"para": {
-		"text": "Donate futon frames in good condition to ",
-		"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
-		"text": ".  Mattresses and futons are generally not accepted at thrift stores."
+	URL66:[
+		{"title": "Mattresses or Futons"},
+		{"heading": "Donate"},
+		{"para": [
+			{"text": "Donate futon frames in good condition to "},
+			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": ".  Mattresses and futons are generally not accepted at thrift stores."}
 
-	},
-	"heading": "Curb-side pickup",
-	"para": {
-		"text": "Call SPU Customer Service at (206) 684-3000 to request ",
-		"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
+		]},
+		{"heading": "Curb-side pickup"},
+		{"para": [
+			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
+			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}}
 
-	},
-	"heading": "Transfer station",
-	"para": {
-		"text": "Bring mattresses and futons to ",
-		"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring mattresses and futons to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
 
-	}
+		]}
 
+	]}
 }
