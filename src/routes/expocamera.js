@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Text, StyleSheet, Image, View, TouchableOpacity } from 'react-native';
+import { Button, Text, StyleSheet, Image, View, TouchableOpacity, ToastAndroid } from 'react-native';
 import { Svg, Camera, Permissions } from 'expo';
 
 import colors from '../assets/colors.js'
@@ -21,7 +21,6 @@ class CameraExample extends React.Component {
   }
 
   snap = async () => {
-    console.log('hit snap')
     if (this.camera) {
       this.camera.takePictureAsync()
         .then(photo => this.setState({ image: photo }))
@@ -40,7 +39,14 @@ sendPicture = async () => {
       imageBytes: this.state.image.uri
     })
   })
-  .then((response) => console.log(response.status))
+  .then((response) => { 
+    // TODO: Display server response to user by directing 
+    //       user to results page with server response data.
+    ToastAndroid.show("Waiting for Machine Learning Response...", ToastAndroid.SHORT)
+    setTimeout(() => this.props.navigation.navigate('Results', {
+      machineLearningResponse: response
+    }), 1000);
+  })
   .catch((error) => {
     console.error(error);
   });

@@ -11,16 +11,22 @@ import LargeText from '../components/LargeText.js'
 
 class Results extends React.Component {
   render() {
+    // Seth - This is how to pass state between routes with getParam from react-navigation.
+    const { navigation } = this.props;
+    const response = navigation.getParam('machineLearningResponse', 'NO-response');
+
+    console.log('response: ', response);
+
     return ( //The info here is hardcoded, but we will enevtually want to make the info change depending on the item scanned.
       <ContainerWithNavbar navigation={this.props.navigation}>
-        <LargeText style={styles.headerUpper} text = "How to recycle"/>
-        <LargeText style={styles.headerLower} text = "Beverage cans"/>
+        <LargeText style={styles.headerUpper} text = {"Response Status: " + response.status}/>
+        <LargeText style={styles.headerLower} text ={"Response Type: " + response.type}/>
         <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
             <Image source={images.recycleSymbol} style={styles.icon}/>
-            <LargeText text = "In recycling" style={styles.instructionHeader}/>
+            <LargeText text = {"Response URL: " + response.url} style={styles.instructionHeader}/>
           </View>
-          <LargeText text = "Empty soda and beverage cans should be rinsed first, then put in recycling"/>
+          <LargeText text = {"Response ok? " + response.ok}/>
         </FullWidthContainer>
         <Button
           title='Go To Landing'
@@ -44,10 +50,11 @@ const styles = StyleSheet.create({
   headerUpper: {
     fontSize: 15,
     fontStyle: 'italic',
-    marginTop: 16
+    marginTop: 16,
   },
   headerLower: {
-    fontSize: 30
+    fontSize: 25,
+    height: 30
   },
   instruction: {flexDirection: 'row', alignItems: 'center'},
   instructionHeader: {flex: 2},
