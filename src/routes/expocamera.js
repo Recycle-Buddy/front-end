@@ -7,7 +7,6 @@ import metrics from '../themes/metrics.js'
 
 import LargeText from '../components/LargeText';
 import Navbar from '../components/Navbar';
-import ContainerWithNavbar from '../components/ContainerWithNavbar';
 
 class CameraExample extends React.Component {
   state = {
@@ -22,15 +21,33 @@ class CameraExample extends React.Component {
   }
 
   snap = async () => {
-    console.log(this.state.hasCameraPermission)
+    console.log('hit snap')
     if (this.camera) {
       this.camera.takePictureAsync()
         .then(photo => this.setState({ image: photo }))
     }
   }
 
+sendPicture = async () => {
+  // fetch('http://localhost:8080/images/v1/recognize', {
+  fetch('https://postman-echo.com/post', {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      imageBytes: this.state.image.uri
+    })
+  })
+  .then((response) => console.log(response.status))
+  .catch((error) => {
+    console.error(error);
+  });
+}
+
   retakePicture = () => {
-    this.setState({image:null})
+    this.setState({image:null});
   }
 
   render() {
@@ -89,7 +106,7 @@ class CameraExample extends React.Component {
               style={{height: '40%'}}
               title='Send To Recycle Buddy'
               // This is the function we need to create to send the data to the backend for ML and wait for a response!
-              onPress={() => console.log('Pic button pressed.. this is where we will send the pic data to the backend')}
+              onPress={this.sendPicture}
             />
 
             <Image
