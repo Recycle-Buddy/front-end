@@ -43,9 +43,9 @@ sendPicture = async () => {
     // TODO: Display server response to user by directing 
     //       user to results page with server response data.
     ToastAndroid.show("Waiting for Machine Learning Response...", ToastAndroid.SHORT)
-    setTimeout(() => this.props.navigation.navigate('Results', {
-      machineLearningResponse: response
-    }), 1000);
+    // Seth - Here we are setting the response as part of the navigation params,
+    //        efectively passing the state to the next route.
+    this.props.navigation.navigate('Results', { machineLearningResponse: response });
   })
   .catch((error) => {
     console.error(error);
