@@ -6,14 +6,14 @@
 		{"list": [
 			{"bullet": "Pieces should be less than 4-inches in diameter and under 4-feet long to avoid extra fees."},
 			{"bullet": "Remove nails and all other non-wood materials."},
-			{"bullet": "Avoid extra charges ? Break lumber and boards down so they fit in your bin with the lid closed."}
+			{"bullet": "Avoid extra charges – Break lumber and boards down so they fit in your bin with the lid closed."}
 
 		]},
 		{"heading": "In garbage"},
 		{"para": "Painted or treated wood can go in the garbage:"},
 		{"list": [
 			{"bullet": "All pieces must be less than 4-inches in diameter and under 4-feet long."},
-			{"bullet": "Avoid extra charges ? Break lumber and boards down so they fit in your bin with the lid closed."}
+			{"bullet": "Avoid extra charges – Break lumber and boards down so they fit in your bin with the lid closed."}
 
 		]},
 		{"heading": "Drop-off locations"},

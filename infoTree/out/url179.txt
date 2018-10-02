@@ -21,6 +21,6 @@
 		{"heading": "In garbage"},
 		{"para": "Old and expired child car seats go in the garbage."},
 		{"heading": "Did you know?"},
-		{"para": "Don?t reuse broken car seats or car seats that have been in accidents. It isn?t safe."}
+		{"para": "Don’t reuse broken car seats or car seats that have been in accidents. It isn’t safe."}
 
 	]}

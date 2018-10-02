@@ -1,9 +1,9 @@
 {
 	"URL154":[
 		{"title": "Aluminum Foil or Trays"},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"list": [
-			{"bullet": "Aluminum foil ? don?t crumple into a ball"},
+			{"bullet": "Aluminum foil – don’t crumple into a ball"},
 			{"bullet": "Aluminum food pans"}
 
 		]},

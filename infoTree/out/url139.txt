@@ -3,10 +3,10 @@
 		{"title": "Other Vehicle Fluids"},
 		{"para": [
 			{"bold": "Caution:"},
-			{"text": " Don?t mix fluids with used motor oil!"}
+			{"text": " Don’t mix fluids with used motor oil!"}
 
 		]},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring automotive fluids (such as brake, transmission, hydraulic, or power steering fluids) to a "},
 			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},

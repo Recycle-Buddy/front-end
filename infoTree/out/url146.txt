@@ -8,7 +8,7 @@
 			{"bullet": "Rusted metal can be recycled unless the metal is falling apart."}
 
 		]},
-		{"heading": "Next to bin ? no charge"},
+		{"heading": "Next to bin – no charge"},
 		{"para": "Large metal parts can be put at the curb for pickup on your recycling collection day."},
 		{"list": [
 			{"bullet": "These must be bundled or tied."},

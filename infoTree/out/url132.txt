@@ -15,7 +15,7 @@
 
 		]},
 		{"heading": "In food and yard waste"},
-		{"para": "Plastic-like containers labeled ?Compostable? or ?#7 PLA? go in the food and yard waste."},
+		{"para": "Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."},
 		{"para": [
 			{"text": "Learn more about "},
 			{"link": {"href": "../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},
@@ -28,10 +28,10 @@
 			{"bullet": "Styrofoam plates and cups"},
 			{"bullet": "Plastic utensils"},
 			{"bullet": "Dirty plates and cups with a shiny coating"},
-			{"bullet": "Dirty plastic-like materials that aren?t marked ?Compostable? or ?#7 PLA?"}
+			{"bullet": "Dirty plastic-like materials that aren’t marked “Compostable” or “#7 PLA”"}
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Seattle doesn?t recycle by number because it?s not a reliable way to determine the recyclability of an item."}
+		{"para": "Seattle doesn’t recycle by number because it’s not a reliable way to determine the recyclability of an item."}
 
 	]}

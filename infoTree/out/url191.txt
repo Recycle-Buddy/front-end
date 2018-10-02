@@ -15,7 +15,7 @@
 			{"text": ". No charge for lawn mowers."}
 
 		]},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring gas and oil to a "},
 			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
@@ -23,7 +23,7 @@
 
 		]},
 		{"list": [
-			{"bullet": "Don?t mix fluids together!"},
+			{"bullet": "Don’t mix fluids together!"},
 			{"bullet": "Put fluids in a sealed container that is 5 gallons or less."},
 			{"bullet": "Limit 50 gallons per trip."}
 

@@ -1,13 +1,13 @@
 {
 	"URL62":[
 		{"title": "Aseptic or Tetra Pak"},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"list": [
 			{"bullet": "Empty milk, juice, and soup cartons"},
 			{"bullet": "Cartons labeled Tetra Pak"},
 			{"bullet": "Other aseptic cartons"}
 
 		]},
-		{"para": "Plastic spouts don?t need to be removed to recycle Tetra Pak cartons. Caps should be removed and placed in the garbage."}
+		{"para": "Plastic spouts don’t need to be removed to recycle Tetra Pak cartons. Caps should be removed and placed in the garbage."}
 
 	]}

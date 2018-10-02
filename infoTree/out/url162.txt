@@ -3,7 +3,7 @@
 		{"title": "Grass Clippings or Sod"},
 		{"heading": "In food and yard waste"},
 		{"para": [
-			{"text": "Grass clippings and small amounts of sod can go in the food and yard waste. Don?t exceed the "},
+			{"text": "Grass clippings and small amounts of sod can go in the food and yard waste. Don’t exceed the "},
 			{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
 			{"text": " printed on your bin."}
 

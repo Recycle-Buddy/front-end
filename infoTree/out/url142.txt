@@ -31,6 +31,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Studio and audio equipment can?t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"para": "Studio and audio equipment can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
 
 	]}

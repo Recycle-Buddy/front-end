@@ -9,7 +9,7 @@
 		]},
 		{"heading": "In food and yard waste"},
 		{"list": [
-			{"bullet": "Bottles labeled ?Compostable? or ?#7 PLA?"}
+			{"bullet": "Bottles labeled “Compostable” or “#7 PLA”"}
 
 		]}
 

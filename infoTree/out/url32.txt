@@ -3,12 +3,12 @@
 		{"title": "Thermometers or Mercury Items"},
 		{"para": [
 			{"bold": "Caution"},
-			{"text": ": Mercury can greatly harm your nervous, digestive, and respiratory systems. Don?t handle mercury directly, and try to avoid breaking items that contain mercury."}
+			{"text": ": Mercury can greatly harm your nervous, digestive, and respiratory systems. Don’t handle mercury directly, and try to avoid breaking items that contain mercury."}
 
 		]},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
-			{"text": "Mercury items can?t go in the garbage. Bring thermometers, thermostats, and other items containing mercury to a "},
+			{"text": "Mercury items can’t go in the garbage. Bring thermometers, thermostats, and other items containing mercury to a "},
 			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
 			{"text": ". No fee."}
 

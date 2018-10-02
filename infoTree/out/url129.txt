@@ -16,6 +16,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "VCRs can?t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"para": "VCRs can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
 
 	]}

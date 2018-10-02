@@ -9,6 +9,6 @@
 
 		]},
 		{"heading": "In garbage"},
-		{"para": "Plastic clothes hangers go in the garbage. They can?t be recycled."}
+		{"para": "Plastic clothes hangers go in the garbage. They can’t be recycled."}
 
 	]}

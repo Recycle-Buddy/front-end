@@ -1,7 +1,7 @@
 {
 	"URL220":[
 		{"title": "Fluorescent Light Bulbs"},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring up to 10 fluorescent tubes and CFLs per a trip to a "},
 			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},

@@ -1,7 +1,7 @@
 {
 	"URL38":[
 		{"title": "Cooking Oil"},
-		{"heading": "Recycle, next to bin ? no charge"},
+		{"heading": "Recycle, next to bin – no charge"},
 		{"para": "You can recycle up to 2 gallons of cooking oil on each recycling collection day:"},
 		{[
 			{"bullet": "Pour cooled oil into a 1-gallon plastic container with a tight-fitting, screw-on lid."},
@@ -11,6 +11,6 @@
 
 		]},
 		{"heading": "In garbage"},
-		{"para": "Put cooking oil in a closed container that will keep the oil contained, such as a Ziploc bag, or in a thick plastic bag that?s tightly tied."}
+		{"para": "Put cooking oil in a closed container that will keep the oil contained, such as a Ziploc bag, or in a thick plastic bag that’s tightly tied."}
 
 	]}

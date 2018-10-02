@@ -3,7 +3,7 @@
 		{"title": "Small Gas Canisters"},
 		{"heading": "Drop-off locations"},
 		{"para": [
-			{"text": "Empty small backpacking-style isobutane fuel canisters (excluding green ?Coleman? style propane canisters) can be dropped off for free at the "},
+			{"text": "Empty small backpacking-style isobutane fuel canisters (excluding green “Coleman” style propane canisters) can be dropped off for free at the "},
 			{"link": {"href": "https://thesummitregister.com/seattle-repair-shop-keeping-timeless-gear-alive/", "text": "MSR Repair Shop"}},
 			{"text": ", in SODO, or at the "},
 			{"link": {"href": "https://www.mountaineers.org/locations-lodges/seattle-program-center/bookstore", "text": "Mountaineers Bookstore"}},
@@ -11,7 +11,7 @@
 
 		]},
 		{"para": [
-			{"text": "Empty small ?Coleman? style canisters can be dropped off at a "},
+			{"text": "Empty small “Coleman” style canisters can be dropped off at a "},
 			{"link": {"href": "http://www.recology.com/store", "text": "Recology Store"}},
 			{"text": ". For more information visit "},
 			{"link": {"href": "http://www.recology.com/store", "text": "recology.com/store"}},
@@ -20,7 +20,7 @@
 			{"text": ". Limits and fees may apply."}
 
 		]},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Small gas canisters with any amount of gas or butane must be taken to a "},
 			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},

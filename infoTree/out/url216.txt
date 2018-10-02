@@ -12,6 +12,6 @@
 		{"heading": "In garbage"},
 		{"para": "Wire clothes hangers can go in the garbage."},
 		{"heading": "Did you know?"},
-		{"para": "Wire hangers get tangled in the machinery at the recycling processing facility, which is why they can?t be recycled."}
+		{"para": "Wire hangers get tangled in the machinery at the recycling processing facility, which is why they can’t be recycled."}
 
 	]}

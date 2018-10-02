@@ -1,7 +1,7 @@
 {
 	"URL31":[
 		{"title": "Motor Oil"},
-		{"heading": "Next to bin ? no charge"},
+		{"heading": "Next to bin – no charge"},
 		{"para": "You can recycle up to 2 gallons of motor oil on each recycling collection day:"},
 		{[
 			{"bullet": "Pour cooled oil into a 1-gallon plastic container with a tight-fitting, screw-on lid."},
@@ -17,7 +17,7 @@
 			{"text": ". No fee."}
 
 		]},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring contaminated oil that contains solvents, bleach, or other materials to a "},
 			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
@@ -25,7 +25,7 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Motor oil can be recycled if it doesn?t contain solvents, bleach, or other materials."},
+		{"para": "Motor oil can be recycled if it doesn’t contain solvents, bleach, or other materials."},
 		{"para": "Never pour motor oil on the ground or down the drain; it can pollute our waterways and the environment."}
 
 	]}

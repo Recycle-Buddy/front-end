@@ -26,7 +26,7 @@
 			{"bullet": "They must be between 3 inches and 2 feet on all sides."},
 			{"bullet": "Small amounts of plastic, wood, or rubber can be attached."},
 			{"bullet": [
-				{"text": "Don?t exceed the "},
+				{"text": "Don’t exceed the "},
 				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
 				{"text": " printed on your bin."}
 

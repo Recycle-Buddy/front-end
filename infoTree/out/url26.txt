@@ -5,9 +5,9 @@
 		{"para": "Trees, brush, and branches go in the food and yard waste:"},
 		{"list": [
 			{"bullet": "Cut down to 4 inches or less in diameter and 4 feet or less in length."},
-			{"bullet": "Avoid extra charges ? Items should fit in your bin with the lid closed."},
+			{"bullet": "Avoid extra charges – Items should fit in your bin with the lid closed."},
 			{"bullet": [
-				{"text": "Don?t exceed the "},
+				{"text": "Don’t exceed the "},
 				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
 				{"text": " printed on your bin."}
 

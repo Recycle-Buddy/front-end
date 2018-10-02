@@ -1,7 +1,7 @@
 {
 	"URL190":[
 		{"title": "Glass Bottles or Jars"},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"list": [
 			{"bullet": "Glass bottles and jars"},
 			{"bullet": "Lids 3-inches or larger"},

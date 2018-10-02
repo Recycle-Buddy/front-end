@@ -8,13 +8,13 @@
 			{"text": "."}
 
 		]},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring rechargeable and lithium-ion batteries to a "},
 			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
 			{"text": ". No fee."}
 
 		]},
-		{"para": "They can?t go in the garbage."}
+		{"para": "They can’t go in the garbage."}
 
 	]}

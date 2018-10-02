@@ -8,7 +8,7 @@
 			{"text": ". No fee. This includes tanks that are empty or that contain any amount of propane."}
 
 		]},
-		{"para": "For tanks larger than 5-gallons, call our household hazards line at (206) 296-4692. Hours are 9 a.m. ? 4:30 p.m., Monday through Friday."},
+		{"para": "For tanks larger than 5-gallons, call our household hazards line at (206) 296-4692. Hours are 9 a.m. – 4:30 p.m., Monday through Friday."},
 		{"heading": "In garbage"},
 		{"para": "Empty propane or gas canisters under 2-pounds can go in the garbage."}
 

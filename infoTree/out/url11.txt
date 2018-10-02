@@ -1,7 +1,7 @@
 {
 	"URL11":[
 		{"title": "Hobby Chemicals"},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring partially full containers of hobby chemicals labeled with "},
 			{"bold": "caution"},

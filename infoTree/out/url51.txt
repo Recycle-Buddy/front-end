@@ -26,6 +26,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Electronics can?t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"para": "Electronics can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
 
 	]}

@@ -6,7 +6,7 @@
 			{"bullet": "Metal parts larger than 3-inches go in the recycling."}
 
 		]},
-		{"heading": "Next to bin ? no charge"},
+		{"heading": "Next to bin – no charge"},
 		{"list": [
 			{"bullet": "Large metal parts can be put at the curb for pickup on your recycling collection day."},
 			{"bullet": "These must be bundled or tied."},

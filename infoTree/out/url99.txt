@@ -1,7 +1,7 @@
 {
 	"URL99":[
 		{"title": "Take-Out Containers"},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"list": [
 			{"bullet": "Empty and rinsed plastic clamshell containers"},
 			{"bullet": "Empty and rinsed plastic-coated (shiny) paper containers"}
@@ -10,7 +10,7 @@
 		{"heading": "In food and yard waste"},
 		{"list": [
 			{"bullet": "Dirty or clean uncoated (not shiny) paper take-out containers"},
-			{"bullet": "Dirty or clean take-out containers labeled ?Compostable? or ?#7 PLA?"},
+			{"bullet": "Dirty or clean take-out containers labeled “Compostable” or “#7 PLA”"},
 			{"bullet": "Greasy pizza boxes"}
 
 		]},
@@ -25,7 +25,7 @@
 		{"list": [
 			{"bullet": "Styrofoam containers"},
 			{"bullet": "Dirty plastic-coated (shiny) paper containers"},
-			{"bullet": "Dirty plastic containers that aren?t marked ?Compostable? or ?#7 PLA?"}
+			{"bullet": "Dirty plastic containers that aren’t marked “Compostable” or “#7 PLA”"}
 
 		]}
 

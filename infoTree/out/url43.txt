@@ -7,7 +7,7 @@
 			{"bullet": "Small amounts of plastic, wood, or rubber can be attached."}
 
 		]},
-		{"heading": "Next to bin ? no charge"},
+		{"heading": "Next to bin – no charge"},
 		{"para": "Large metal parts can be put at the curb for pickup on your recycling collection day."},
 		{"list": [
 			{"bullet": "These must be bundled or tied."},

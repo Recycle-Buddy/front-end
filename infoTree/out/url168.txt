@@ -10,7 +10,7 @@
 			{"bullet": "Bundle each section with sisal string or twine (not plastic)."}
 
 		]},
-		{"para": "At apartments ? One tree may be placed next to each food and yard waste cart at no extra charge each collection day."},
+		{"para": "At apartments – One tree may be placed next to each food and yard waste cart at no extra charge each collection day."},
 		{"heading": "Drop-off locations"},
 		{"para": [
 			{"text": "From 12/26/17 - 1/31/18, bring Christmas trees to "},

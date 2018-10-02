@@ -3,7 +3,7 @@
 		{"title": "Grocery or Shopping Bags"},
 		{"heading": "In recycling"},
 		{"list": [
-			{"bullet": "Clean and empty plastic grocery bags ? bundle into one bag and tie off"},
+			{"bullet": "Clean and empty plastic grocery bags – bundle into one bag and tie off"},
 			{"bullet": "Clean and dry paper bags or paper sacks"}
 
 		]},

@@ -16,6 +16,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Televisions and other electronics can?t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"para": "Televisions and other electronics can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
 
 	]}

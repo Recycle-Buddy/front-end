@@ -1,27 +1,27 @@
 {
 	"URL107":[
 		{"title": "Plastic without Recycle Symbol"},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"list": [
 			{"bullet": "Yogurt containers"},
 			{"bullet": "Deli containers"},
 			{"bullet": "Bottles and jugs"},
 			{"bullet": "Microwave trays"},
 			{"bullet": "Plastic lids 3-inches or larger"},
-			{"bullet": "Clean and empty plastic grocery bags ? bundle into one bag and tie off"},
+			{"bullet": "Clean and empty plastic grocery bags – bundle into one bag and tie off"},
 			{"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle"},
 			{"bullet": "Clean plastic plant pots"},
 			{"bullet": "Tupperware"},
 			{"bullet": "Pill bottles (not prescription vials)"},
-			{"bullet": "Rigid plastic toys ? 3-feet or less on all sides"},
-			{"bullet": "Rigid plastic sporting equipment ? 3-feet or less on all sides"},
-			{"bullet": "Rigid plastic furniture ? 3-feet or less on all sides"},
+			{"bullet": "Rigid plastic toys – 3-feet or less on all sides"},
+			{"bullet": "Rigid plastic sporting equipment – 3-feet or less on all sides"},
+			{"bullet": "Rigid plastic furniture – 3-feet or less on all sides"},
 			{"bullet": "Storage containers"},
 			{"bullet": "Buckets with no fabric, foam, or wood attached"}
 
 		]},
 		{"heading": "In food and yard waste"},
-		{"para": "Plastic-like containers labeled ?Compostable? or ?#7 PLA? go in the food and yard waste."},
+		{"para": "Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."},
 		{"para": [
 			{"text": "Learn more about "},
 			{"link": {"href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},
@@ -47,6 +47,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Seattle doesn?t recycle by number because it?s not a reliable way to determine the recyclability of an item."}
+		{"para": "Seattle doesn’t recycle by number because it’s not a reliable way to determine the recyclability of an item."}
 
 	]}

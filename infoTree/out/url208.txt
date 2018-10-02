@@ -22,7 +22,7 @@
 		]},
 		{"heading": "In garbage"},
 		{"para": [
-			{"text": "Porcelain sinks and fixtures can go in the garbage if they don?t exceed the "},
+			{"text": "Porcelain sinks and fixtures can go in the garbage if they don’t exceed the "},
 			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
 			{"text": " printed on your bin."}
 

@@ -1,7 +1,7 @@
 {
 	"URL155":[
 		{"title": "Plant Pots"},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"para": "Empty and rinsed plastic plant pots go in the recycling."},
 		{"heading": "In garbage"},
 		{"para": "Dirty or ceramic plant pots go in the garbage."},

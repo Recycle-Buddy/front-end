@@ -6,12 +6,12 @@
 		{"list": [
 			{"bullet": "Catalogs"},
 			{"bullet": "Fliers"},
-			{"bullet": "Envelopes ? with or without clear plastic windows"},
+			{"bullet": "Envelopes – with or without clear plastic windows"},
 			{"bullet": "Newspapers"},
 			{"bullet": "Phone books"}
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Paper and junk mail can?t go in the garbage."}
+		{"para": "Paper and junk mail can’t go in the garbage."}
 
 	]}

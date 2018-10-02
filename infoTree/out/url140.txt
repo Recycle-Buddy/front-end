@@ -6,6 +6,6 @@
 		{"heading": "In food and yard waste"},
 		{"para": "Smaller shredded paper like confetti and cross-cut goes in the food and yard waste."},
 		{"heading": "Did you know?"},
-		{"para": "Shredding paper lowers the quality of the paper fiber for recycling, so it?s best to shred only when necessary."}
+		{"para": "Shredding paper lowers the quality of the paper fiber for recycling, so it’s best to shred only when necessary."}
 
 	]}

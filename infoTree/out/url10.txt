@@ -25,7 +25,7 @@
 		{"para": [
 			{"text": "These batteries are different than "},
 			{"link": {"href": "../../../../../MyServices/WhereDoesItGo/Electronics/Batteries/RechargeableBatteries/index.htm", "text": "rechargeable lithium-ion batteries"}},
-			{"text": ", which can?t go in the garbage."}
+			{"text": ", which can’t go in the garbage."}
 
 		]},
 		{"heading": "Lithium batteries can not go in the garbage or recycling cart"}

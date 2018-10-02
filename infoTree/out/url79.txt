@@ -8,7 +8,7 @@
 			{"text": "."}
 
 		]},
-		{"para": "?"},
+		{"para": " "},
 		{"para": [
 			{"text": "Resell or give it away using sites like "},
 			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
@@ -22,6 +22,6 @@
 		{"heading": "In garbage"},
 		{"para": "Damaged glass or ceramic household items such as plates, bowls, or drinking glasses can go in the garbage."},
 		{"heading": "Did you know?"},
-		{"para": "These items can?t be recycled by Seattle because they have different melting points than recyclable glass."}
+		{"para": "These items can’t be recycled by Seattle because they have different melting points than recyclable glass."}
 
 	]}

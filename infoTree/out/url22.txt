@@ -1,7 +1,7 @@
 {
 	"URL22":[
 		{"title": "Cleaning Supplies"},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring partially full containers of cleaning supplies labeled with "},
 			{"bold": "caution"},
@@ -21,7 +21,7 @@
 			{"bullet": "Limit 50-gallons per trip."}
 
 		]},
-		{"heading": "In recycling ? rinse first"},
+		{"heading": "In recycling – rinse first"},
 		{"para": "Empty non-toxic cleaning supply containers go in the recycling."}
 
 	]}

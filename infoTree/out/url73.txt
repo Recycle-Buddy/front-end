@@ -1,7 +1,7 @@
 {
 	"URL73":[
 		{"title": "Paper Plates or Cups"},
-		{"heading": "In recycling ? no rinsing needed"},
+		{"heading": "In recycling – no rinsing needed"},
 		{"list": [
 			{"bullet": "Paper cups with a small amount of liquid"},
 			{"bullet": "Clean paper plates"}
@@ -9,7 +9,7 @@
 		]},
 		{"heading": "In food and yard waste"},
 		{"list": [
-			{"bullet": "Paper plates or cups labeled as ?Compostable?"},
+			{"bullet": "Paper plates or cups labeled as “Compostable”"},
 			{"bullet": "Uncoated (not shiny) paper plates (such as Chinet brand)"}
 
 		]},

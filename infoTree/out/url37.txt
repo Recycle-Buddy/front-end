@@ -25,6 +25,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Copiers and fax machines can?t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"para": "Copiers and fax machines can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
 
 	]}

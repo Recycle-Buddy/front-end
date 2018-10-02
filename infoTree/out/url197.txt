@@ -1,7 +1,7 @@
 {
 	"URL197":[
 		{"title": "Plastic Food Tubs"},
-		{"heading": "In recycling?rinse first"},
+		{"heading": "In recycling—rinse first"},
 		{"list": [
 			{"bullet": "Plastic food containers for yogurt, margarine, dips, salsa, etc."},
 			{"bullet": "Plastic lids 3-inches across or larger"}

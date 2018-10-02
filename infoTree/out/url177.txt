@@ -1,9 +1,9 @@
 {
 	"URL177":[
-		{"title": "Sharps ? Needles & Syringes"},
+		{"title": "Sharps – Needles & Syringes"},
 		{"heading": "Hazardous"},
-		{"para": "These can?t go in the garbage; they can injure other people."},
-		{"para": "To dispose of syringes, needles, and lancets (also called ?sharps?), you must put them in a rigid and sealable container like a plastic soda bottle. Then bring to a designated disposal location:"},
+		{"para": "These can’t go in the garbage; they can injure other people."},
+		{"para": "To dispose of syringes, needles, and lancets (also called “sharps”), you must put them in a rigid and sealable container like a plastic soda bottle. Then bring to a designated disposal location:"},
 		{"list": [
 			{"bullet": "Intersection of Airport Way South and South Holgate Street"},
 			{"bullet": "Intersection of 27th Avenue South and Cheasty Boulevard South (center median)"},

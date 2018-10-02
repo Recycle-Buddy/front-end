@@ -4,6 +4,6 @@
 		{"heading": "In garbage"},
 		{"para": "Photographs go in the garbage."},
 		{"heading": "Did you know?"},
-		{"para": "Photographs aren?t recyclable because of the chemicals used to create them and the short fibers used for their paper."}
+		{"para": "Photographs aren’t recyclable because of the chemicals used to create them and the short fibers used for their paper."}
 
 	]}

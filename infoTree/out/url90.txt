@@ -14,7 +14,7 @@
 
 		]},
 		{"heading": "In food and yard waste"},
-		{"para": "Plastic-like containers labeled ?Compostable? or ?#7 PLA? go in the food and yard waste."},
+		{"para": "Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."},
 		{"para": [
 			{"text": "Learn more about "},
 			{"link": {"href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},

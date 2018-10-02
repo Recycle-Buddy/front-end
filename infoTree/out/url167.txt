@@ -6,6 +6,6 @@
 		{"heading": "Drop-off locations"},
 		{"para": "Many scrap metal dealers will buy car parts."},
 		{"heading": "Did you know?"},
-		{"para": "Car parts aren?t accepted for recycling because they contain grease, which contaminates other recyclable items."}
+		{"para": "Car parts aren’t accepted for recycling because they contain grease, which contaminates other recyclable items."}
 
 	]}

@@ -6,7 +6,7 @@
 		{"list": [
 			{"bullet": "Items must fit in your bin with the lid closed."},
 			{"bullet": [
-				{"text": "Don?t exceed the "},
+				{"text": "Don’t exceed the "},
 				{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
 				{"text": " printed on your bin."}
 

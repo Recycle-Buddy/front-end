@@ -16,6 +16,6 @@
 
 		]},
 		{"heading": "Did you know?"},
-		{"para": "Computers and laptops can?t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"para": "Computers and laptops can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
 
 	]}

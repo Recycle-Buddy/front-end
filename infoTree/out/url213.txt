@@ -1,7 +1,7 @@
 {
 	"URL213":[
 		{"title": "Brake or Transmission Fluid"},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring brake and transmission fluids to a "},
 			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
@@ -13,8 +13,8 @@
 			{"bullet": "Limit 50-gallons per trip."}
 
 		]},
-		{"para": "For more information, call our household hazards line at (206) 296-4692. Hours are 9 a.m. ? 4:30 p.m., Monday through Friday."},
+		{"para": "For more information, call our household hazards line at (206) 296-4692. Hours are 9 a.m. – 4:30 p.m., Monday through Friday."},
 		{"heading": "Did you know?"},
-		{"para": "Don?t pour brake and transmission fluids down drains or toilets, down storm drains, or into soil. These all cause water pollution."}
+		{"para": "Don’t pour brake and transmission fluids down drains or toilets, down storm drains, or into soil. These all cause water pollution."}
 
 	]}

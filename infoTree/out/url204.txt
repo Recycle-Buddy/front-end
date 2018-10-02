@@ -3,7 +3,7 @@
 		{"title": "Flares"},
 		{"heading": "Drop-off locations"},
 		{"para": [
-			{"text": "Bring flares that don?t contain an explosive charge to a "},
+			{"text": "Bring flares that don’t contain an explosive charge to a "},
 			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
 			{"text": ". No fee."}
 

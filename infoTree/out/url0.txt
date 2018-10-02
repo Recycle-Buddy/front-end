@@ -1,7 +1,7 @@
 {
 	"URL0":[
 		{"title": "Aerosol Cans"},
-		{"heading": "Hazardous ? no charge"},
+		{"heading": "Hazardous – no charge"},
 		{"para": [
 			{"text": "Bring cans that contain hazardous materials like paint, solvents, or other flammables to a "},
 			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
