@@ -1,0 +1,16 @@
+{
+	"URL21":[
+		{"title": "Plant or Tree Salvage"},
+		{"heading": "In food and yard waste"},
+		{"para": "Plants and trees go in the food and yard waste. All pieces must be less than 4-inches in diameter and under 4-feet long."},
+		{"heading": "Did you know?"},
+		{"para": [
+			{"text": "You can give your plant a new home through your neighborhood "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": " group or "},
+			{"link": {"href": "http://www.plantamnesty.org/adopt-a-plant3", "text": "PlantAmnesty"}},
+			{"text": "."}
+
+		]}
+
+	]}

@@ -1,0 +1,9 @@
+{
+	"URL104":[
+		{"title": "Can Lids"},
+		{"heading": "In recycling – rinse first"},
+		{"para": "Keep can lids partially attached or push the lid into the can. You don’t need to remove the can label."},
+		{"heading": "In garbage"},
+		{"para": "Loose can lids (not attached) go in the garbage."}
+
+	]}

@@ -1,0 +1,18 @@
+{
+	"URL55":[
+		{"title": "Car Batteries"},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring vehicle batteries to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". Fees apply."}
+
+		]},
+		{"para": [
+			{"text": "Bring up to 5 vehicle batteries per trip to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]}
+
+	]}

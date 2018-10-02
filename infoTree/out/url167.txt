@@ -1,0 +1,11 @@
+{
+	"URL167":[
+		{"title": "Engines, Motors or Car Parts"},
+		{"heading": "In garbage"},
+		{"para": "Car parts 3-inches or smaller on any side can go in the garbage."},
+		{"heading": "Drop-off locations"},
+		{"para": "Many scrap metal dealers will buy car parts."},
+		{"heading": "Did you know?"},
+		{"para": "Car parts aren’t accepted for recycling because they contain grease, which contaminates other recyclable items."}
+
+	]}

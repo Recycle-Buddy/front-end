@@ -1,0 +1,14 @@
+{
+	"URL215":[
+		{"title": "Furnaces"},
+		{"heading": "Hazardous"},
+		{"para": [
+			{"text": "To dispose furnaces, furnace parts, or boilers that contain asbestos, contact the "},
+			{"link": {"href": "http://www.pscleanair.org/185/Asbestos", "text": "Puget Sound Clean Air Agency"}},
+			{"text": " at (206) 343-8800."}
+
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Many scrap metal dealers will buy asbestos-free metal duct and furnace parts."}
+
+	]}

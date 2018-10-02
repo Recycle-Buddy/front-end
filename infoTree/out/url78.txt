@@ -1,0 +1,18 @@
+{
+	"URL78":[
+		{"title": "Bottle Caps or Jar Lids"},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle"},
+			{"bullet": "Loose plastic and metal lids 3-inches in diameter or larger"}
+
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Loose lids less than 3-inches in diameter"},
+			{"bullet": "Loose plastic bottle caps"},
+			{"bullet": "Metal beer and soda caps"}
+
+		]}
+
+	]}

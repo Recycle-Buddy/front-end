@@ -1,0 +1,27 @@
+{
+	"URL22":[
+		{"title": "Cleaning Supplies"},
+		{"heading": "Hazardous – no charge"},
+		{"para": [
+			{"text": "Bring partially full containers of cleaning supplies labeled with "},
+			{"bold": "caution"},
+			{"text": ", "},
+			{"bold": "warning"},
+			{"text": ", "},
+			{"bold": "danger"},
+			{"text": ", or "},
+			{"bold": "poison"},
+			{"text": " to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]},
+		{"list": [
+			{"bullet": "All containers must be 5-gallons or less."},
+			{"bullet": "Limit 50-gallons per trip."}
+
+		]},
+		{"heading": "In recycling – rinse first"},
+		{"para": "Empty non-toxic cleaning supply containers go in the recycling."}
+
+	]}

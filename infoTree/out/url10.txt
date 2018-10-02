@@ -1,0 +1,33 @@
+{
+	"URL10":[
+		{"title": "Lithium Batteries"},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring lithium batteries to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". No fee."}
+
+		]},
+		{"para": [
+			{"text": "Bring lithium batteries to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": " where the materials in the batteries will be reclaimed and recycled. No fee."}
+
+		]},
+		{"para": [
+			{"text": "Find drop off and mail back recycling options at "},
+			{"link": {"href": "http://www.call2recycle.org/", "text": "Call2Recycle outlet"}},
+			{"text": "."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Disposable lithium batteries (small, button batteries) can go in the garbage."},
+		{"para": [
+			{"text": "These batteries are different than "},
+			{"link": {"href": "../../../../../MyServices/WhereDoesItGo/Electronics/Batteries/RechargeableBatteries/index.htm", "text": "rechargeable lithium-ion batteries"}},
+			{"text": ", which can’t go in the garbage."}
+
+		]},
+		{"heading": "Lithium batteries can not go in the garbage or recycling cart"}
+
+	]}

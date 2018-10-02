@@ -1,0 +1,27 @@
+{
+	"URL11":[
+		{"title": "Hobby Chemicals"},
+		{"heading": "Hazardous – no charge"},
+		{"para": [
+			{"text": "Bring partially full containers of hobby chemicals labeled with "},
+			{"bold": "caution"},
+			{"text": ", "},
+			{"bold": "warning"},
+			{"text": ", "},
+			{"bold": "danger"},
+			{"text": ", or "},
+			{"bold": "poison"},
+			{"text": " to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]},
+		{"list": [
+			{"bullet": "All containers must be 5-gallons or less."},
+			{"bullet": "Limit 50-gallons per trip."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Empty hobby chemical containers go in the garbage."}
+
+	]}

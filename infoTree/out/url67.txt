@@ -1,0 +1,27 @@
+{
+	"URL67":[
+		{"title": "Alkaline Batteries"},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring alkaline batteries to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". No fee."}
+
+		]},
+		{"para": [
+			{"text": "Bring alkaline batteries to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": " where the materials in the batteries will be reclaimed and recycled. No fee."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Non-rechargeable, household alkaline batteries (such as AAA, AA, C, D, or 9-volt) can go in the garbage."},
+		{"heading": "Household hazardous waste facility"},
+		{"para": [
+			{"text": "Bring alkaline batteries and rechargeable batteries to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ", where the materials in the batteries will be reclaimed and recycled. No fee."}
+
+		]}
+
+	]}

@@ -1,0 +1,18 @@
+{
+	"URL98":[
+		{"title": "Food Scraps"},
+		{"heading": "In food and yard waste"},
+		{"list": [
+			{"bullet": "Fruit and vegetables"},
+			{"bullet": "Bread, pasta, rice, and grains"},
+			{"bullet": "Eggshells and nutshells"},
+			{"bullet": "Coffee grounds and filters"},
+			{"bullet": "Tea bags"},
+			{"bullet": "Meat, fish, and chicken"},
+			{"bullet": "Dairy products like milk, butter, and cheese"},
+			{"bullet": "Bones and seafood shells"},
+			{"bullet": "Compostable (uncoated) paper such as paper napkins, paper towels, and pizza boxes"}
+
+		]}
+
+	]}

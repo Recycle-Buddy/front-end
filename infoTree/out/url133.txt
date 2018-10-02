@@ -1,0 +1,9 @@
+{
+	"URL133":[
+		{"title": "Ziploc Bags"},
+		{"heading": "In garbage"},
+		{"para": "Ziploc or other plastic food bags go in the garbage."},
+		{"heading": "Did you know?"},
+		{"para": "Ziploc and plastic food bags contain more than one type of plastic that can’t be recycled together. They also often contain food residue and moisture that contaminate recycling."}
+
+	]}

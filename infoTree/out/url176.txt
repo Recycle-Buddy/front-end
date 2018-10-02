@@ -1,0 +1,15 @@
+{
+	"URL176":[
+		{"title": "Propane Tanks"},
+		{"heading": "Hazardous"},
+		{"para": [
+			{"text": "Larger, barbeque-sized propane tanks (up to 5-gallons) must go to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee. This includes tanks that are empty or that contain any amount of propane."}
+
+		]},
+		{"para": "For tanks larger than 5-gallons, call our household hazards line at (206) 296-4692. Hours are 9 a.m. – 4:30 p.m., Monday through Friday."},
+		{"heading": "In garbage"},
+		{"para": "Empty propane or gas canisters under 2-pounds can go in the garbage."}
+
+	]}

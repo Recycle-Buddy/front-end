@@ -1,0 +1,14 @@
+{
+	"URL63":[
+		{"title": "Plastic Clothes Hangers"},
+		{"heading": "Donate"},
+		{"para": [
+			{"text": "Donate plastic clothes hangers in good condition to "},
+			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": "."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Plastic clothes hangers go in the garbage. They can’t be recycled."}
+
+	]}

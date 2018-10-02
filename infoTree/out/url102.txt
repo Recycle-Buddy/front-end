@@ -1,0 +1,23 @@
+{
+	"URL102":[
+		{"title": "Concrete or Asphalt"},
+		{"heading": "In garbage"},
+		{"para": [
+			{"text": "Concrete and asphalt can go in the garbage if it doesn’t exceed the "},
+			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
+			{"text": ", and fits in your bin with the lid closed. Each concrete or asphalt piece must be less than 2 cubic feet."}
+
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring concrete and asphalt to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+
+		]},
+		{"list": [
+			{"bullet": "Your load must be less than 200lbs."},
+			{"bullet": "Each concrete or asphalt piece must be less than 2' x 2' x 2' and less than 200 lbs."}
+
+		]}
+
+	]}

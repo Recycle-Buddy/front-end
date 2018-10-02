@@ -1,0 +1,25 @@
+{
+	"URL60":[
+		{"title": "Rechargeable Batteries"},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring rechargeable batteries to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". No fee."}
+
+		]},
+		{"para": [
+			{"text": "Bring rechargeable batteries to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": " where the materials in the batteries will be reclaimed and recycled. No fee."}
+
+		]},
+		{"para": [
+			{"text": "Find drop off and mail back recycling options at "},
+			{"link": {"href": "http://www.call2recycle.org/", "text": "Call2Recycle outlet"}},
+			{"text": "."}
+
+		]},
+		{"heading": "Rechargeable batteries can not go in the garbage or recycling cart"}
+
+	]}

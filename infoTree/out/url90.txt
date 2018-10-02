@@ -1,0 +1,26 @@
+{
+	"URL90":[
+		{"title": "Plastic Cups & Utensils"},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Empty and clean plastic cups"}
+
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Dirty plastic cups"},
+			{"bullet": "Plastic utensils"},
+			{"bullet": "Styrofoam cups"}
+
+		]},
+		{"heading": "In food and yard waste"},
+		{"para": "Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."},
+		{"para": [
+			{"text": "Learn more about "},
+			{"link": {"href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},
+			{"(pdf)"},
+			{"text": "."}
+
+		]}
+
+	]}

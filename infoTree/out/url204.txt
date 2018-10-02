@@ -1,0 +1,19 @@
+{
+	"URL204":[
+		{"title": "Flares"},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring flares that don’t contain an explosive charge to a "},
+			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]},
+		{"heading": "Hazardous"},
+		{"para": [
+			{"text": "For flares with an explosive charge, call the "},
+			{"link": {"href": "http://www.spaarange.com/", "text": "Seattle Police Firing Range"}},
+			{"text": " at (206) 684-7470."}
+
+		]}
+
+	]}
