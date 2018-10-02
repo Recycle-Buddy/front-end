@@ -54,7 +54,10 @@ class Scrape(object):
         return self.count + 1
         
     def ParseNavStr(self,elt):
-        return str(elt.string)
+        #escape all quotes
+        preescaped = elt.string
+        postescaped = preescaped.replace('"', '\"')
+        return postescaped
 
     def quoteWrap(self,str):
         return '"' + str + '"'
