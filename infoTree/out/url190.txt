@@ -1,14 +1,44 @@
 {
-	"URL190":[
-		{"title": "Glass Bottles or Jars"},
-		{"heading": "In recycling – rinse first"},
-		{"list": [
-			{"bullet": "Glass bottles and jars"},
-			{"bullet": "Lids 3-inches or larger"},
-			{"bullet": "Lids smaller than 3-inches can be recycled only if attached to the bottle or jar."}
+	"type": "URL190",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Glass Bottles or Jars"
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Jars coated with oily food like peanut butter can be wiped first with a paper towel (put the paper towel in the food and yard waste). Very small amounts of peanut butter or food residue are okay."}
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Glass bottles and jars"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Lids 3-inches or larger"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Lids smaller than 3-inches can be recycled only if attached to the bottle or jar."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Jars coated with oily food like peanut butter can be wiped first with a paper towel (put the paper towel in the food and yard waste). Very small amounts of peanut butter or food residue are okay."
+
+		]}
 
 	]}

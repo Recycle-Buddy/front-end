@@ -1,31 +1,83 @@
 {
-	"URL51":[
-		{"title": "E-waste"},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Find locations to recycle the following electronics via the "},
-			{"link": {"href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"}},
-			{"text": " (fees may apply):"}
+	"type": "URL51",
+	"children": [
+		{"type": "title",
+		"children": [
+			"E-waste"
 
 		]},
-		{"list": [
-			{"bullet": "TVs (size limits apply)"},
-			{"bullet": "Monitors"},
-			{"bullet": "CPUs"},
-			{"bullet": "E-readers (like Kindle or NOOK)"},
-			{"bullet": "Computers and laptops"},
-			{"bullet": "Tablets"},
-			{"bullet": "Portable DVD players"}
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
 
 		]},
-		{"heading": "Curb-side pickup"},
-		{"para": [
-			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
-			{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"}},
-			{"text": ". Fees apply."}
+		{"type": "para",
+		"children": [
+			"Find locations to recycle the following electronics via the ",
+{"type": "link", "href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"},
+			" (fees may apply):"
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Electronics can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"TVs (size limits apply)"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Monitors"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"CPUs"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"E-readers (like Kindle or NOOK)"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Computers and laptops"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Tablets"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Portable DVD players"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"},
+			". Fees apply."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Electronics can’t go in the garbage because they contain materials harmful to people, animals, and the environment."
+
+		]}
 
 	]}

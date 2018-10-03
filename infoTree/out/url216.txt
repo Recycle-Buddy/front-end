@@ -1,17 +1,47 @@
 {
-	"URL216":[
-		{"title": "Wire Clothes Hangers"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Donate wire clothes hangers in good condition to "},
-			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL216",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Wire Clothes Hangers"
 
 		]},
-		{"para": "Check with local dry cleaners. They may accept wire hangers."},
-		{"heading": "In garbage"},
-		{"para": "Wire clothes hangers can go in the garbage."},
-		{"heading": "Did you know?"},
-		{"para": "Wire hangers get tangled in the machinery at the recycling processing facility, which is why they can’t be recycled."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Donate wire clothes hangers in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Check with local dry cleaners. They may accept wire hangers."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Wire clothes hangers can go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Wire hangers get tangled in the machinery at the recycling processing facility, which is why they can’t be recycled."
+
+		]}
 
 	]}

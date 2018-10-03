@@ -1,18 +1,64 @@
 {
-	"URL172":[
-		{"title": "Food-soiled Paper"},
-		{"heading": "In food and yard waste"},
-		{"para": "Uncoated paper with food or grease on it goes in the food and yard waste. This includes:"},
-		{"list": [
-			{"bullet": "Pizza boxes"},
-			{"bullet": "Paper napkins"},
-			{"bullet": "Paper towels used to wipe up food"},
-			{"bullet": "Uncoated (not shiny) paper plates and bowls (such as Chinet brand)"}
+	"type": "URL172",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Food-soiled Paper"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Shiny, plastic-coated food packaging, paper plates, or bowls go in the garbage."},
-		{"heading": "Did you know?"},
-		{"para": "The shiny coating on paper plates and cups is usually plastic. Scrape the coating with your fingernail or a knife. If wax collects under your fingernail, the coating is wax. Wax-coated cups and plates can go in your food waste bin."}
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Uncoated paper with food or grease on it goes in the food and yard waste. This includes:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Pizza boxes"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Paper napkins"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Paper towels used to wipe up food"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Uncoated (not shiny) paper plates and bowls (such as Chinet brand)"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Shiny, plastic-coated food packaging, paper plates, or bowls go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"The shiny coating on paper plates and cups is usually plastic. Scrape the coating with your fingernail or a knife. If wax collects under your fingernail, the coating is wax. Wax-coated cups and plates can go in your food waste bin."
+
+		]}
 
 	]}

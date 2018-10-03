@@ -1,52 +1,200 @@
 {
-	"URL107":[
-		{"title": "Plastic without Recycle Symbol"},
-		{"heading": "In recycling – rinse first"},
-		{"list": [
-			{"bullet": "Yogurt containers"},
-			{"bullet": "Deli containers"},
-			{"bullet": "Bottles and jugs"},
-			{"bullet": "Microwave trays"},
-			{"bullet": "Plastic lids 3-inches or larger"},
-			{"bullet": "Clean and empty plastic grocery bags – bundle into one bag and tie off"},
-			{"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle"},
-			{"bullet": "Clean plastic plant pots"},
-			{"bullet": "Tupperware"},
-			{"bullet": "Pill bottles (not prescription vials)"},
-			{"bullet": "Rigid plastic toys – 3-feet or less on all sides"},
-			{"bullet": "Rigid plastic sporting equipment – 3-feet or less on all sides"},
-			{"bullet": "Rigid plastic furniture – 3-feet or less on all sides"},
-			{"bullet": "Storage containers"},
-			{"bullet": "Buckets with no fabric, foam, or wood attached"}
+	"type": "URL107",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Plastic without Recycle Symbol"
 
 		]},
-		{"heading": "In food and yard waste"},
-		{"para": "Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."},
-		{"para": [
-			{"text": "Learn more about "},
-			{"link": {"href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},
-			{"(pdf)"},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Loose lids less than 3-inches in diameter"},
-			{"bullet": "Loose plastic bottle caps"},
-			{"bullet": "Dirty plastic cups"},
-			{"bullet": "Plastic utensils"},
-			{"bullet": "Blister packs"},
-			{"bullet": "Flexible plastic (such as inflatable pools)"},
-			{"bullet": "Plastic molding"},
-			{"bullet": "Vinyl or plastic blinds"},
-			{"bullet": "CD and DVD cases"},
-			{"bullet": "Plastic clothes hangers"},
-			{"bullet": "Plastic tarps"},
-			{"bullet": "Ziploc or plastic bread bags"},
-			{"bullet": "Plastic liners and trays from food boxes"}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Yogurt containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Deli containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Bottles and jugs"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Microwave trays"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic lids 3-inches or larger"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Clean and empty plastic grocery bags – bundle into one bag and tie off"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Small plastic bottle caps if screwed onto an empty plastic bottle"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Clean plastic plant pots"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Tupperware"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Pill bottles (not prescription vials)"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Rigid plastic toys – 3-feet or less on all sides"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Rigid plastic sporting equipment – 3-feet or less on all sides"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Rigid plastic furniture – 3-feet or less on all sides"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Storage containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Buckets with no fabric, foam, or wood attached"
+
+			]}
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Seattle doesn’t recycle by number because it’s not a reliable way to determine the recyclability of an item."}
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Learn more about ",
+{"type": "link", "href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"},
+			{"type": ,
+			"children": [
+				"(pdf)"
+
+			]},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Loose lids less than 3-inches in diameter"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Loose plastic bottle caps"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty plastic cups"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic utensils"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Blister packs"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Flexible plastic (such as inflatable pools)"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic molding"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Vinyl or plastic blinds"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"CD and DVD cases"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic clothes hangers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic tarps"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Ziploc or plastic bread bags"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic liners and trays from food boxes"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Seattle doesn’t recycle by number because it’s not a reliable way to determine the recyclability of an item."
+
+		]}
 
 	]}

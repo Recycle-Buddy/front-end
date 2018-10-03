@@ -1,7 +1,20 @@
 {
-	"URL29":[
-		{"title": "Frozen Food Boxes"},
-		{"heading": "In recycling"},
-		{"para": "Clean frozen food boxes and other food boxes go in the recycling."}
+	"type": "URL29",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Frozen Food Boxes"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Clean frozen food boxes and other food boxes go in the recycling."
+
+		]}
 
 	]}

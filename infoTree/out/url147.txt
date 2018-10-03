@@ -1,7 +1,20 @@
 {
-	"URL147":[
-		{"title": "Kleenex, Facial Tissue"},
-		{"heading": "In garbage"},
-		{"para": "Kleenex (facial tissue) goes in the garbage."}
+	"type": "URL147",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Kleenex, Facial Tissue"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Kleenex (facial tissue) goes in the garbage."
+
+		]}
 
 	]}

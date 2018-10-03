@@ -1,17 +1,59 @@
 {
-	"URL218":[
-		{"title": "Junk Mail"},
-		{"heading": "In recycling"},
-		{"para": "All paper junk mail goes in the recycling. This includes:"},
-		{"list": [
-			{"bullet": "Catalogs"},
-			{"bullet": "Fliers"},
-			{"bullet": "Envelopes – with or without clear plastic windows"},
-			{"bullet": "Newspapers"},
-			{"bullet": "Phone books"}
+	"type": "URL218",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Junk Mail"
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Paper and junk mail can’t go in the garbage."}
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"All paper junk mail goes in the recycling. This includes:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Catalogs"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Fliers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Envelopes – with or without clear plastic windows"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Newspapers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Phone books"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Paper and junk mail can’t go in the garbage."
+
+		]}
 
 	]}

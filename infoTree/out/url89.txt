@@ -1,7 +1,20 @@
 {
-	"URL89":[
-		{"title": "Holiday Lights"},
-		{"heading": "In garbage"},
-		{"para": "Christmas and holiday lights can go in the garbage."}
+	"type": "URL89",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Holiday Lights"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Christmas and holiday lights can go in the garbage."
+
+		]}
 
 	]}

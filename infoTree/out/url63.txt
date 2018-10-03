@@ -1,14 +1,32 @@
 {
-	"URL63":[
-		{"title": "Plastic Clothes Hangers"},
-		{"heading": "Donate"},
-		{"para": [
-			{"text": "Donate plastic clothes hangers in good condition to "},
-			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL63",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Plastic Clothes Hangers"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Plastic clothes hangers go in the garbage. They can’t be recycled."}
+		{"type": "heading",
+		"children": [
+			"Donate"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Donate plastic clothes hangers in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic clothes hangers go in the garbage. They can’t be recycled."
+
+		]}
 
 	]}

@@ -1,13 +1,39 @@
 {
-	"URL62":[
-		{"title": "Aseptic or Tetra Pak"},
-		{"heading": "In recycling – rinse first"},
-		{"list": [
-			{"bullet": "Empty milk, juice, and soup cartons"},
-			{"bullet": "Cartons labeled Tetra Pak"},
-			{"bullet": "Other aseptic cartons"}
+	"type": "URL62",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Aseptic or Tetra Pak"
 
 		]},
-		{"para": "Plastic spouts don’t need to be removed to recycle Tetra Pak cartons. Caps should be removed and placed in the garbage."}
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Empty milk, juice, and soup cartons"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Cartons labeled Tetra Pak"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Other aseptic cartons"
+
+			]}
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic spouts don’t need to be removed to recycle Tetra Pak cartons. Caps should be removed and placed in the garbage."
+
+		]}
 
 	]}

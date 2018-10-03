@@ -1,7 +1,20 @@
 {
-	"URL47":[
-		{"title": "Tyvek Envelopes"},
-		{"heading": "In garbage"},
-		{"para": "Tyvek envelopes go in the garbage."}
+	"type": "URL47",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Tyvek Envelopes"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Tyvek envelopes go in the garbage."
+
+		]}
 
 	]}

@@ -1,25 +1,77 @@
 {
-	"URL81":[
-		{"title": "Grocery or Shopping Bags"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Clean and empty plastic grocery bags – bundle into one bag and tie off"},
-			{"bullet": "Clean and dry paper bags or paper sacks"}
+	"type": "URL81",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Grocery or Shopping Bags"
 
 		]},
-		{"heading": "In food and yard waste"},
-		{"list": [
-			{"bullet": "Paper bags that are wet or food-soiled"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Plastic bags that are wet or food-soiled"},
-			{"bullet": "Plastic produce bags"},
-			{"bullet": "Single plastic bags"}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Clean and empty plastic grocery bags – bundle into one bag and tie off"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Clean and dry paper bags or paper sacks"
+
+			]}
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Single plastic bags go in the garbage because they jam the machinery at the recycling facility. Produce bags are not recyclable because they often contain food or moisture that contaminate the recycling."}
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Paper bags that are wet or food-soiled"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Plastic bags that are wet or food-soiled"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic produce bags"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Single plastic bags"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Single plastic bags go in the garbage because they jam the machinery at the recycling facility. Produce bags are not recyclable because they often contain food or moisture that contaminate the recycling."
+
+		]}
 
 	]}

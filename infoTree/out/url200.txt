@@ -1,7 +1,20 @@
 {
-	"URL200":[
-		{"title": "Fireplace or Briquette Ashes"},
-		{"heading": "In garbage"},
-		{"para": "Fireplace and briquette ashes must be completely cooled, wetted, and placed in a closed box or bag. This prevents ash from scattering when your garbage is collected."}
+	"type": "URL200",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Fireplace or Briquette Ashes"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Fireplace and briquette ashes must be completely cooled, wetted, and placed in a closed box or bag. This prevents ash from scattering when your garbage is collected."
+
+		]}
 
 	]}

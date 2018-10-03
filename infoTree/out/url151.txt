@@ -1,7 +1,20 @@
 {
-	"URL151":[
-		{"title": "Landline Telephones"},
-		{"heading": "In garbage"},
-		{"para": "Landline telephones go in the garbage."}
+	"type": "URL151",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Landline Telephones"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Landline telephones go in the garbage."
+
+		]}
 
 	]}

@@ -1,9 +1,30 @@
 {
-	"URL44":[
-		{"title": "Garden Hoses"},
-		{"heading": "In garbage"},
-		{"para": "Hoses go in the garbage. Cut hose into pieces if it doesn’t fit in your bin with the lid closed."},
-		{"heading": "Did you know?"},
-		{"para": "Old garden hoses can be repurposed to pad ropes used to support new or weak trees."}
+	"type": "URL44",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Garden Hoses"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Hoses go in the garbage. Cut hose into pieces if it doesn’t fit in your bin with the lid closed."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Old garden hoses can be repurposed to pad ropes used to support new or weak trees."
+
+		]}
 
 	]}

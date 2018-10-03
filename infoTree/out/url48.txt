@@ -1,20 +1,46 @@
 {
-	"URL48":[
-		{"title": "Window Blinds"},
-		{"heading": "Reuse"},
-		{"para": [
-			{"text": "Resell or give it away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+	"type": "URL48",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Window Blinds"
 
 		]},
-		{"heading": "In recycling"},
-		{"para": "Individual metal blind slats go in the recycling. Remove strings, cords, and plastic and put these in the garbage."},
-		{"heading": "In garbage"},
-		{"para": "Plastic, vinyl, and wooden blinds go in the garbage."}
+		{"type": "heading",
+		"children": [
+			"Reuse"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Resell or give it away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Individual metal blind slats go in the recycling. Remove strings, cords, and plastic and put these in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic, vinyl, and wooden blinds go in the garbage."
+
+		]}
 
 	]}

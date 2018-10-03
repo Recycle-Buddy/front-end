@@ -1,27 +1,70 @@
 {
-	"URL186":[
-		{"title": "Glues or Adhesives"},
-		{"heading": "Hazardous – no charge"},
-		{"para": [
-			{"text": "Bring glues and adhesives labeled with "},
-			{"bold": "caution"},
-			{"text": ", "},
-			{"bold": "warning"},
-			{"text": ", "},
-			{"bold": "danger"},
-			{"text": ", or "},
-			{"bold": "poison"},
-			{"text": " to a "},
-			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": ". No fee."}
+	"type": "URL186",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Glues or Adhesives"
 
 		]},
-		{"list": [
-			{"bullet": "All containers must be 5-gallons or less."},
-			{"bullet": "Limit 50-gallons per trip."}
+		{"type": "heading",
+		"children": [
+			"Hazardous – no charge"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Non-toxic glues go in the garbage. This includes Elmer’s, glue sticks, and other glues used in schools."}
+		{"type": "para",
+		"children": [
+			"Bring glues and adhesives labeled with ",
+			{"type": "bold",
+			"children": [
+				"caution"
+
+			]},
+			", ",
+			{"type": "bold",
+			"children": [
+				"warning"
+
+			]},
+			", ",
+			{"type": "bold",
+			"children": [
+				"danger"
+
+			]},
+			", or ",
+			{"type": "bold",
+			"children": [
+				"poison"
+
+			]},
+			" to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			". No fee."
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"All containers must be 5-gallons or less."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Limit 50-gallons per trip."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Non-toxic glues go in the garbage. This includes Elmer’s, glue sticks, and other glues used in schools."
+
+		]}
 
 	]}

@@ -1,7 +1,20 @@
 {
-	"URL7":[
-		{"title": "Paperback Books"},
-		{"heading": "In recycling"},
-		{"para": "Paperback books can go in your recycling bin."}
+	"type": "URL7",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Paperback Books"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Paperback books can go in your recycling bin."
+
+		]}
 
 	]}

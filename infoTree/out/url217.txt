@@ -1,17 +1,32 @@
 {
-	"URL217":[
-		{"title": "Dirt or Soil"},
-		{"heading": "In garbage"},
-		{"para": [
-			{"text": "Soil can go in your garbage if it doesn’t exceed the "},
-			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-			{"text": " printed on your bin."}
+	"type": "URL217",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Dirt or Soil"
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring soil to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Soil can go in your garbage if it doesn’t exceed the ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			" printed on your bin."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring soil to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
 
 		]}
 

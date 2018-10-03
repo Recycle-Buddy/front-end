@@ -1,7 +1,20 @@
 {
-	"URL130":[
-		{"title": "Soup Boxes"},
-		{"heading": "In recycling – rinse first"},
-		{"para": "Plastic spouts don’t need to be removed to recycle soup boxes. Make sure they are empty and clean."}
+	"type": "URL130",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Soup Boxes"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic spouts don’t need to be removed to recycle soup boxes. Make sure they are empty and clean."
+
+		]}
 
 	]}

@@ -1,29 +1,58 @@
 {
-	"URL137":[
-		{"title": "Windows or Picture Glass"},
-		{"heading": "Donate"},
-		{"para": [
-			{"text": "Some "},
-			{"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply or second use stores"}},
-			{"text": " accept unbroken windows or other glass in good condition."}
+	"type": "URL137",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Windows or Picture Glass"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Unbroken windows and window glass can go in the garbage:"},
-		{"list": [
-			{"bullet": "Items must fit in your bin with the lid closed."},
-			{"bullet": [
-				{"text": "Don’t exceed the "},
-				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-				{"text": " printed on your bin."}
+		{"type": "heading",
+		"children": [
+			"Donate"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Some ",
+{"type": "link", "href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply or second use stores"},
+			" accept unbroken windows or other glass in good condition."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Unbroken windows and window glass can go in the garbage:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Items must fit in your bin with the lid closed."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Don’t exceed the ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}
+				" printed on your bin."
 
 			]}
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring windows and glass to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring windows and glass to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
 
 		]}
 

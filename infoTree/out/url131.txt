@@ -1,9 +1,30 @@
 {
-	"URL131":[
-		{"title": "Beverage Cans"},
-		{"heading": "In recycling – rinse first"},
-		{"para": "Empty soda and beverage cans go in the recycling."},
-		{"heading": "Did you know?"},
-		{"para": "Using recycled aluminum to make things takes 98% less energy than using new material."}
+	"type": "URL131",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Beverage Cans"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Empty soda and beverage cans go in the recycling."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Using recycled aluminum to make things takes 98% less energy than using new material."
+
+		]}
 
 	]}

@@ -1,15 +1,42 @@
 {
-	"URL5":[
-		{"title": "Cardboard and Metal Containers"},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Nut, chip, and coffee canisters"},
-			{"bullet": "Plastic lids less than 3-inches in diameter"}
+	"type": "URL5",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Cardboard and Metal Containers"
 
 		]},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Plastic lids 3-inches in diameter or more"}
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Nut, chip, and coffee canisters"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic lids less than 3-inches in diameter"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Plastic lids 3-inches in diameter or more"
+
+			]}
 
 		]}
 

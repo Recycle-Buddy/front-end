@@ -1,30 +1,54 @@
 {
-	"URL37":[
-		{"title": "Copiers & Fax Machines"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Find locations to recycle copiers and fax machines via the "},
-			{"link": {"href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"}},
-			{"text": " (fees may apply)."}
+	"type": "URL37",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Copiers & Fax Machines"
 
 		]},
-		{"para": [
-			{"text": "Resell or give away working copiers and fax machines using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
 
 		]},
-		{"heading": "Curb-side pickup"},
-		{"para": [
-			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
-			{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"}}
+		{"type": "para",
+		"children": [
+			"Find locations to recycle copiers and fax machines via the ",
+{"type": "link", "href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"},
+			" (fees may apply)."
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Copiers and fax machines can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"type": "para",
+		"children": [
+			"Resell or give away working copiers and fax machines using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"},
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Copiers and fax machines can’t go in the garbage because they contain materials harmful to people, animals, and the environment."
+
+		]}
 
 	]}
