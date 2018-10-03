@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Text, StyleSheet, Image, View, TouchableOpacity, ToastAndroid } from 'react-native';
-import { Svg, Camera, Permissions } from 'expo';
+import { Svg, Camera, Permissions, ImageManipulator, FileSystem } from 'expo';
+
+import { Base64 } from 'js-base64';
 
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
@@ -27,30 +29,50 @@ class CameraExample extends React.Component {
     }
   }
 
-sendPicture = async () => {
-  // fetch('http://localhost:8080/images/v1/recognize', {
-  fetch('https://postman-echo.com/post', {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      imageBytes: this.state.image.uri
+  // fileResizeAndBase64 = async (uri) => {
+  //   const resized = await ImageResizer.createResizedImage(uri, 1000, 1000, 'JPEG', 80);
+  //   console.log('Resized Image URI: ', resized);
+  //   const content = await FileSystem.readAsStringAsync(resized);
+  //   return Base64.encode(content);
+  // }
+
+
+
+  sendPicture = () => {
+    console.log('Sent URI: ', this.state.image.uri);
+    ImageManipulator.manipulate(this.state.image.uri, [{width: 500}], { compress: 0.8 })
+    .then((response) => {
+      console.log('Resized URI: ', response.uri);
+      return FileSystem.readAsStringAsync(response.uri);
     })
-  })
-  .then((response) => { 
-    // TODO: Display server response to user by directing 
-    //       user to results page with server response data.
-    ToastAndroid.show("Waiting for Machine Learning Response...", ToastAndroid.SHORT)
-    // Seth - Here we are setting the response as part of the navigation params,
-    //        efectively passing the state to the next route.
-    this.props.navigation.navigate('Results', { machineLearningResponse: response });
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-}
+    .then(fileBuffer => {
+      return Base64.encode(fileBuffer);
+    })
+    .then(base64String => {
+      ToastAndroid.show("Waiting for Machine Learning Response...", ToastAndroid.SHORT);
+      fetch('https://postman-echo.com/post', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          image: {
+            imageBytes: base64String,
+          }
+        })
+      })
+      .then((response) => {
+        // Seth - Here we are setting the response as part of the navigation params,
+        //        efectively passing the state to the next route.
+        this.props.navigation.navigate('Results', { machineLearningResponse: response });
+      })
+      .catch((fetchError) => {
+        console.error(fetchError);
+      });
+    })
+    .catch(err => console.log(err));
+  }
 
   retakePicture = () => {
     this.setState({image:null});
