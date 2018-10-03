@@ -1,18 +1,33 @@
 {
-	"URL162":[
-		{"title": "Grass Clippings or Sod"},
-		{"heading": "In food and yard waste"},
-		{"para": [
-			{"text": "Grass clippings and small amounts of sod can go in the food and yard waste. Don’t exceed the "},
-			{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-			{"text": " printed on your bin."}
+	"type": "URL162",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Grass Clippings or Sod"
 
 		]},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Bring large amounts of grass clippings and sod to "},
-			{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ". Fees apply."}
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Grass clippings and small amounts of sod can go in the food and yard waste. Don’t exceed the ",
+{"type": "link", "href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			" printed on your bin."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring large amounts of grass clippings and sod to ",
+{"type": "link", "href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+			". Fees apply."
 
 		]}
 

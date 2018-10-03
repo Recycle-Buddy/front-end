@@ -1,7 +1,20 @@
 {
-	"URL105":[
-		{"title": "Plastic Berry Trays"},
-		{"heading": "In recycling – rinse first"},
-		{"para": "Plastic berry trays larger than 3-inches on any side go in the recycling."}
+	"type": "URL105",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Plastic Berry Trays"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic berry trays larger than 3-inches on any side go in the recycling."
+
+		]}
 
 	]}

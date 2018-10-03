@@ -1,15 +1,42 @@
 {
-	"URL187":[
-		{"title": "Bottle Caps"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle"}
+	"type": "URL187",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Bottle Caps"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Loose plastic bottle caps"},
-			{"bullet": "Metal beer and soda caps"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Small plastic bottle caps if screwed onto an empty plastic bottle"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Loose plastic bottle caps"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Metal beer and soda caps"
+
+			]}
 
 		]}
 

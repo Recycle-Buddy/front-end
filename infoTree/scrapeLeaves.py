@@ -22,7 +22,7 @@ class Scrape(object):
     """docstring for ClassName"""
     def __init__(self, URL, count, debug):
         self.indent = 0
-        self.outfile = codecs.open('out/url' + str(count) + '.txt', 'w')
+        self.outfile = codecs.open('out/url' + str(count) + '.txt', 'w', 'utf-8')
         self.count = count
         self.URL = URL
         self.debug = debug
@@ -38,8 +38,8 @@ class Scrape(object):
         
         self.outfile.write('{\n')
         self.indent = self.indent + 1
-        self.write_Indent('"URL' + str(self.count) + '":' ,None,'','',True)
-
+        self.write_Indent('"type": "URL' + str(self.count) + '",' ,None,'\n','',True)
+        self.write_Indent('"children": ', None, '','', True)
 
         try :
             self.write_tree_into_JSON(root, True)
@@ -97,60 +97,39 @@ class Scrape(object):
         
 
     def write_tree_into_JSON(self,node, isLast):
-        #basecase: if no tag children just print and return, dont recurse
-
-        recurseNeeded = False
-        #first find out if leaf
-        for child in node.contents:
+       
+        self.outfile.write('[\n')
+        self.indent = self.indent + 1
+        #run through node.contents, create non_garbage list, then start alg
+        contents, last_child_index = self.filterNode(node)
+        counter = 0
+        isLastChild = False
+        #if more than 1 elt, need to make an array
+        for child in contents:
+            if counter >= last_child_index:
+                isLastChild = True
             if type(child) == Tag:
-                recurseNeeded = True
-                break
-
-        #now we can check if we hit base case or not
-        if not recurseNeeded:
-            #if link have to handle differently
-            if node.name == 'a':
-                comma = ','
-                if isLast: comma = ''
-                self.outfile.write('{"href": ' + self.quoteWrap(node['href']) + ', "text": ' + self.quoteWrap(self.ParseNavStr(node.contents[0])) + '}}' + comma + '\n' )
-            else:
-                #just iterate thru and print text ***actually if you get here it should be just one string
-                for child in node.contents:
-                    parsed = self.quoteWrap(self.ParseNavStr(child))
-                    mod = ','
-                    if isLast: mod = ''
-                    out_str = parsed + '}' + mod
-                    self.outfile.write(out_str + '\n')
-                    if self.debug: print(out_str + '\n')
-                
-
-        #means we have tags and text to explore
-        else:
-            #open object and increase indent
-            self.outfile.write('[\n')
-            self.indent = self.indent + 1
-            #run through node.contents, create non_garbage list, then start alg
-            contents, last_child_index = self.filterNode(node)
-            counter = 0
-            isLastChild = False
-            #if more than 1 elt, need to make an array
-            for child in contents:
-                if counter >= last_child_index:
-                    isLastChild = True
-                if type(child) == Tag:
-                    tagType = child.name
-                    replaceString = ''
-                    if tagType in replace:
-                        replaceString = replace[tagType] + ': '
-                    self.write_Indent('{' + replaceString, None, '', '', True) #true, because this is only for printing property names
-                    self.write_tree_into_JSON(child, isLastChild)
-                elif type(child) == NavigableString:
-                    parsed = self.ParseNavStr(child)
-                    self.write_Indent('{"text": ',child, '\n', '}', isLastChild)
-                counter = counter + 1
-            self.indent = self.indent - 1
-            self.outfile.write('\n')
-            self.write_Obj(']}', isLast)
+                tagType = child.name
+                if tagType == 'a':
+                    comma = ','
+                    if isLast: comma = ''
+                    self.outfile.write('{"type": "link", "href": ' + self.quoteWrap(child['href']) + ', "text": ' + self.quoteWrap(self.ParseNavStr(child.contents[0])) + '}' + comma + '\n' )
+                    counter = counter + 1
+                    continue
+                replaceString = ''
+                if tagType in replace:
+                    replaceString = replace[tagType]
+                self.write_Indent('{"type": ' + replaceString, None, '\n', '', False) #true, because this is only for printing property names
+                self.write_Indent('"children": ', None, '','',True)
+                self.write_tree_into_JSON(child, isLastChild)
+                #self.write_Indent('\n', None, '', '', isLastChild)
+            elif type(child) == NavigableString:
+                parsed = self.ParseNavStr(child)
+                self.write_Indent('',child, '\n', '', isLastChild)
+            counter = counter + 1
+        self.indent = self.indent - 1
+        self.outfile.write('\n')
+        self.write_Obj(']}', isLast)
             
 
 

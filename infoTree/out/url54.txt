@@ -1,9 +1,30 @@
 {
-	"URL54":[
-		{"title": "Fats, Oils, or Grease"},
-		{"heading": "In garbage"},
-		{"para": "Put fats, oil, or grease in a closed container, Ziploc bag, or in a thick plastic bag that’s tightly tied."},
-		{"heading": "Did you know?"},
-		{"para": "Fats, oils, and grease shouldn’t be poured down the drain because they clog pipes and create backups."}
+	"type": "URL54",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Fats, Oils, or Grease"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Put fats, oil, or grease in a closed container, Ziploc bag, or in a thick plastic bag that’s tightly tied."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Fats, oils, and grease shouldn’t be poured down the drain because they clog pipes and create backups."
+
+		]}
 
 	]}

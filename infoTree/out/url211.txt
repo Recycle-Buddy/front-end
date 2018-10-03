@@ -1,7 +1,20 @@
 {
-	"URL211":[
-		{"title": "LED Light Bulbs"},
-		{"heading": "In garbage"},
-		{"para": "LED light bulbs go in the garbage."}
+	"type": "URL211",
+	"children": [
+		{"type": "title",
+		"children": [
+			"LED Light Bulbs"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"LED light bulbs go in the garbage."
+
+		]}
 
 	]}

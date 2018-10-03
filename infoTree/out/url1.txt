@@ -1,20 +1,43 @@
 {
-	"URL1":[
-		{"title": "Rocks or Gravel"},
-		{"heading": "Donate"},
-		{"para": "Gravel in good condition may be accepted by local salvaged building material businesses."},
-		{"heading": "In garbage"},
-		{"para": [
-			{"text": "Rocks and gravel can go in your garbage if they don’t exceed the "},
-			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-			{"text": " printed on your bin, and fit in your bin with the lid completely closed. No individual rock should be larger than 2 feet by 2 feet."}
+	"type": "URL1",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Rocks or Gravel"
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring rocks and gravel to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ". They are charged as garbage. Charge for garbage is $145 per ton, minimum charge of $30 covers up to 420 lbs."}
+		{"type": "heading",
+		"children": [
+			"Donate"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Gravel in good condition may be accepted by local salvaged building material businesses."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Rocks and gravel can go in your garbage if they don’t exceed the ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			" printed on your bin, and fit in your bin with the lid completely closed. No individual rock should be larger than 2 feet by 2 feet."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring rocks and gravel to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+			". They are charged as garbage. Charge for garbage is $145 per ton, minimum charge of $30 covers up to 420 lbs."
 
 		]}
 

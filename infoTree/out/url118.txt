@@ -1,13 +1,27 @@
 {
-	"URL118":[
-		{"title": "Pool or Spa Chemicals"},
-		{"heading": "Hazardous – no charge"},
-		{"para": [
-			{"text": "Bring pool chemicals to a "},
-			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": ". No fee."}
+	"type": "URL118",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Pool or Spa Chemicals"
 
 		]},
-		{"para": "Pool and spa chemicals aren’t allowed in the garbage."}
+		{"type": "heading",
+		"children": [
+			"Hazardous – no charge"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring pool chemicals to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			". No fee."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Pool and spa chemicals aren’t allowed in the garbage."
+
+		]}
 
 	]}

@@ -1,32 +1,72 @@
 {
-	"URL108":[
-		{"title": "Toys or Sporting Goods"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Donate toys or sporting goods in good condition to "},
-			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL108",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Toys or Sporting Goods"
 
 		]},
-		{"para": [
-			{"text": "Resell or give it away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
 
 		]},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Clean metal toys and sporting equipment 2 feet or less on all sides. Can include small amounts of attached plastic, rubber, or wood."},
-			{"bullet": "Clean rigid plastic toys and sporting equipment 3 feet or less on all sides."}
+		{"type": "para",
+		"children": [
+			"Donate toys or sporting goods in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Sports equipment and toys not made of metal or rigid plastic."},
-		{"heading": "Transfer station"},
-		{"para": "Toys and sporting equipment greater than the above size limits can be taken to city transfer stations. Charge is $30 per trip or $145 per ton if part of a larger load ($30 minimum charge covers up to 420lbs)."}
+		{"type": "para",
+		"children": [
+			"Resell or give it away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Clean metal toys and sporting equipment 2 feet or less on all sides. Can include small amounts of attached plastic, rubber, or wood."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Clean rigid plastic toys and sporting equipment 3 feet or less on all sides."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Sports equipment and toys not made of metal or rigid plastic."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Toys and sporting equipment greater than the above size limits can be taken to city transfer stations. Charge is $30 per trip or $145 per ton if part of a larger load ($30 minimum charge covers up to 420lbs)."
+
+		]}
 
 	]}

@@ -1,7 +1,20 @@
 {
-	"URL49":[
-		{"title": "Laundry Detergent Boxes"},
-		{"heading": "In recycling"},
-		{"para": "Empty and flatten laundry detergent boxes and then put in the recycling."}
+	"type": "URL49",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Laundry Detergent Boxes"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Empty and flatten laundry detergent boxes and then put in the recycling."
+
+		]}
 
 	]}

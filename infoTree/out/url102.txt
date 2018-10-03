@@ -1,22 +1,46 @@
 {
-	"URL102":[
-		{"title": "Concrete or Asphalt"},
-		{"heading": "In garbage"},
-		{"para": [
-			{"text": "Concrete and asphalt can go in the garbage if it doesn’t exceed the "},
-			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-			{"text": ", and fits in your bin with the lid closed. Each concrete or asphalt piece must be less than 2 cubic feet."}
+	"type": "URL102",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Concrete or Asphalt"
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring concrete and asphalt to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+		{"type": "heading",
+		"children": [
+			"In garbage"
 
 		]},
-		{"list": [
-			{"bullet": "Your load must be less than 200lbs."},
-			{"bullet": "Each concrete or asphalt piece must be less than 2' x 2' x 2' and less than 200 lbs."}
+		{"type": "para",
+		"children": [
+			"Concrete and asphalt can go in the garbage if it doesn’t exceed the ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			", and fits in your bin with the lid closed. Each concrete or asphalt piece must be less than 2 cubic feet."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring concrete and asphalt to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Your load must be less than 200lbs."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Each concrete or asphalt piece must be less than 2' x 2' x 2' and less than 200 lbs."
+
+			]}
 
 		]}
 

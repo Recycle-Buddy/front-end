@@ -1,17 +1,32 @@
 {
-	"URL106":[
-		{"title": "Drywall"},
-		{"heading": "In garbage"},
-		{"para": [
-			{"text": "Drywall can go in the garbage. Break drywall down so it fits in your bin with the lid closed and does not exceed "},
-			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-			{"text": "."}
+	"type": "URL106",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Drywall"
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring drywall to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Drywall can go in the garbage. Break drywall down so it fits in your bin with the lid closed and does not exceed ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring drywall to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
 
 		]}
 

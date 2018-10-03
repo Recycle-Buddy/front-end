@@ -1,7 +1,20 @@
 {
-	"URL40":[
-		{"title": "Office Paper"},
-		{"heading": "In recycling"},
-		{"para": "Office paper and printer paper go in the recycling."}
+	"type": "URL40",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Office Paper"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Office paper and printer paper go in the recycling."
+
+		]}
 
 	]}

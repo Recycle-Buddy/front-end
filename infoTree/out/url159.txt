@@ -1,8 +1,25 @@
 {
-	"URL159":[
-		{"title": "Blister Packages"},
-		{"heading": "In garbage"},
-		{"para": "Put blister packages in the garbage. They aren’t recyclable."},
-		{"para": "Blister packages are the clear hard-to-open plastic packaging from items such as batteries and small electronics."}
+	"type": "URL159",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Blister Packages"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Put blister packages in the garbage. They aren’t recyclable."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Blister packages are the clear hard-to-open plastic packaging from items such as batteries and small electronics."
+
+		]}
 
 	]}

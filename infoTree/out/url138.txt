@@ -1,7 +1,20 @@
 {
-	"URL138":[
-		{"title": "Vitamins"},
-		{"heading": "In garbage"},
-		{"para": "Put vitamins in a closed bottle or bag and put in the garbage."}
+	"type": "URL138",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Vitamins"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Put vitamins in a closed bottle or bag and put in the garbage."
+
+		]}
 
 	]}

@@ -1,7 +1,20 @@
 {
-	"URL192":[
-		{"title": "Vehicles"},
-		{"heading": "Drop-off locations"},
-		{"para": "Many charitable organizations accept vehicles and provide a receipt for a tax deduction."}
+	"type": "URL192",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Vehicles"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Many charitable organizations accept vehicles and provide a receipt for a tax deduction."
+
+		]}
 
 	]}
