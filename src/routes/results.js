@@ -3,10 +3,11 @@ import { Button, StyleSheet, View, Image } from 'react-native';
 
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
+import metrics from '../themes/metrics.js'
+
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js'
-import {standardStyle} from '../assets/styles.js'
 import LargeText from '../components/LargeText.js'
 
 class Results extends React.Component {
@@ -14,20 +15,33 @@ class Results extends React.Component {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
+    const resizedImage = navigation.getParam('resizedImage', 'NO-image');
+    console.log(response);
 
-    console.log('response: ', response);
-
-    return ( //The info here is hardcoded, but we will enevtually want to make the info change depending on the item scanned.
+    return (
       <ContainerWithNavbar navigation={this.props.navigation}>
-        <LargeText style={styles.headerUpper} text = {"Response Status: " + response.status}/>
-        <LargeText style={styles.headerLower} text ={"Response Type: " + response.type}/>
         <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
-            <Image source={images.recycleSymbol} style={styles.icon}/>
-            <LargeText text = {"Response URL: " + response.url} style={styles.instructionHeader}/>
+            <Image
+              style={styles.icon}
+              source={images.recycleSymbol}
+            />
+            <LargeText
+              style={styles.headerUpper}
+              text = {"Material: " + response.result[0].label}
+            />
+            <LargeText
+              style={styles.headerUpper}
+              text = {"Probability: " + response.result[0].probability}
+            />
           </View>
-          <LargeText text = {"Response ok? " + response.ok}/>
         </FullWidthContainer>
+        <View style={styles.contentContainer}>
+          <Image
+            style={{ flex: 1, alignSelf: 'center', margin: 10 }}
+            resizeMode={'contain'}
+            source={resizedImage} />
+        </View>
         <Button
           title='Go To Landing'
           onPress={() => this.props.navigation.navigate('Landing')}
@@ -47,16 +61,28 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     backgroundColor: '#fff',
   },
+  contentContainer: {
+    marginBottom: metrics.navbarMargin,
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.transparent,
+  },
   headerUpper: {
     fontSize: 15,
     fontStyle: 'italic',
-    marginTop: 16,
+    margin: 5,
   },
   headerLower: {
     fontSize: 25,
     height: 30
   },
-  instruction: {flexDirection: 'row', alignItems: 'center'},
+  instruction: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    padding: 10
+  },
   instructionHeader: {flex: 2},
   icon: {width: 50}, 
 });
