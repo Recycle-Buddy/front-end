@@ -6,7 +6,8 @@ import Landing from './src/routes/landing.js';
 import Search from './src/routes/search.js';
 import Results from './src/routes/results.js';
 import CameraIntro from './src/routes/cameraintro.js';
-import CameraExample from './src/routes/expocamera';
+import MyCamera from './src/routes/expo-camera';
+import SendPicture from './src/routes/send-picture';
 
 
 // To add another Route just create it in the routes folder
@@ -17,7 +18,8 @@ const RootStack = createStackNavigator(
     Search: Search,
     Results: Results,
     CameraIntro: CameraIntro,
-    Camera: CameraExample,
+    Camera: MyCamera,
+    SendPicture: SendPicture,
   },
   {
     initialRouteName: 'Landing',
