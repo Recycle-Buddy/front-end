@@ -18,34 +18,57 @@ class Results extends React.Component {
     const { label, probability } = response.result[0];
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
+    let icon;
+    switch(label) {
+      case 'cardboard':
+      case 'metal':
+      case 'glass':
+      case 'plastic':
+      case 'paper':
+        icon = images.recycleSymbol;
+        break;
+      case 'trash':
+        icon = images.trashCan;
+        break;
+    }
+
     return (
       <ContainerWithNavbar navigation={this.props.navigation}>
         <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
             <Image
-              style={styles.icon}
-              source={images.recycleSymbol}
+            style={styles.icon}
+            source={icon}
             />
             <LargeText
-              style={styles.headerUpper}
-              text = {"Material: " + label}
+            style={styles.headerUpper}
+            text = {"Material: " + label}
             />
             <LargeText
-              style={styles.headerUpper}
-              text = {"Probability: " + probability}
+            style={styles.headerUpper}
+            text = {"Probability: " + probability}
             />
           </View>
         </FullWidthContainer>
+        <FullWidthContainer flex={containerFlex}>
+          <View style={styles.instruction}>
+            <LargeText
+              style={styles.headerUpper}
+              text={"Is this result wrong?"}
+            />
+            <Button
+              title='Take Another Picture'
+              onPress={() => this.props.navigation.navigate('Camera')}
+            />
+          </View>
+        </FullWidthContainer>
+
         <View style={styles.contentContainer}>
           <Image
             style={styles.resizedImage}
             resizeMode={'contain'}
             source={resizedImage} />
         </View>
-        <Button
-          title='Go To Landing'
-          onPress={() => this.props.navigation.navigate('Landing')}
-        />
       </ContainerWithNavbar>
     );
   }
