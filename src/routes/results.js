@@ -78,19 +78,18 @@ const styles = StyleSheet.create({
   headerUpper: {
     fontSize: 15,
     fontStyle: 'italic',
-    margin: 5,
-  },
-  headerLower: {
-    fontSize: 25,
-    height: 30
+    margin: 2,
   },
   instruction: {
     flexDirection: 'column',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     padding: 10
   },
   instructionHeader: {flex: 2},
-  icon: {width: 50}, 
+  icon: {
+    width: 50,
+    alignSelf: 'center'
+  }, 
 });
 
 export default Results;

@@ -23,10 +23,6 @@ class Landing extends React.Component {
           containerFlex={columnContainerFlex} 
         />
 
-        <LargeTouchable onPress={() => this.props.navigation.navigate('Results')}>
-          <LargeText style={styles.callToAction} text="Skip search and go to results" />
-        </LargeTouchable>
-
         <FullWidthContainer flex={columnContainerFlex}>
           <Image source={images.recycleSymbol}/>
           <LargeText text="Find local recycling center" />
