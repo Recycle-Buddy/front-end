@@ -1,0 +1,13 @@
+{
+	"URL120":[
+		{"title": "Cardboard Boxes"},
+		{"heading": "In recycling"},
+		{"para": "Cardboard and flattened cardboard boxes go in the recycling."},
+		{"heading": "Next to bin – no charge"},
+		{"para": "Cardboard that doesn't fit can go next to your bin on your recycling day. Bundle and set next to the bin, or put in a box or container next to your bin."},
+		{"para": "There is no charge for extra recycling."},
+		{"heading": "In food and yard waste"},
+		{"para": "Cardboard with grease or oil stains (like pizza boxes) go in the food and yard waste bin."},
+		{"para": "Put cardboard that is mostly wet in the food and yard waste bin."}
+
+	]}

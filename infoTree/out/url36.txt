@@ -1,0 +1,15 @@
+{
+	"URL36":[
+		{"title": "Jar Lids"},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Plastic and metal lids 3-inches in diameter or larger"}
+
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Loose lids less than 3-inches in diameter"}
+
+		]}
+
+	]}

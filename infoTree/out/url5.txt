@@ -1,0 +1,16 @@
+{
+	"URL5":[
+		{"title": "Cardboard and Metal Containers"},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "Nut, chip, and coffee canisters"},
+			{"bullet": "Plastic lids less than 3-inches in diameter"}
+
+		]},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Plastic lids 3-inches in diameter or more"}
+
+		]}
+
+	]}

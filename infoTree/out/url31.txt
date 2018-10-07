@@ -1,0 +1,31 @@
+{
+	"URL31":[
+		{"title": "Motor Oil"},
+		{"heading": "Next to bin – no charge"},
+		{"para": "You can recycle up to 2 gallons of motor oil on each recycling collection day:"},
+		{[
+			{"bullet": "Pour cooled oil into a 1-gallon plastic container with a tight-fitting, screw-on lid."},
+			{"bullet": "Label the container with your name and address."},
+			{"bullet": "Set up to 2 labeled 1-gallon containers on the curb next to your recycling bin."},
+			{"bullet": "Apartment / Condo residents: Set out up to 2 labeled 1-gallon containers per cart at your building/complex."}
+
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring up to 5 gallons of oil per a trip to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ". No fee."}
+
+		]},
+		{"heading": "Hazardous – no charge"},
+		{"para": [
+			{"text": "Bring contaminated oil that contains solvents, bleach, or other materials to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Motor oil can be recycled if it doesn’t contain solvents, bleach, or other materials."},
+		{"para": "Never pour motor oil on the ground or down the drain; it can pollute our waterways and the environment."}
+
+	]}

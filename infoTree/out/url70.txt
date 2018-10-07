@@ -1,0 +1,9 @@
+{
+	"URL70":[
+		{"title": "Paper Towels"},
+		{"heading": "In food and yard waste"},
+		{"para": "Paper towels and napkins that have food or grease on them go in the food and yard waste."},
+		{"heading": "In garbage"},
+		{"para": "Paper towels used with cleaning products or that have bodily fluids on them go in the garbage."}
+
+	]}

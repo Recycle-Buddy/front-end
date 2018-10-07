@@ -1,0 +1,14 @@
+{
+	"URL76":[
+		{"title": "Shrink Wrap"},
+		{"heading": "In recycling"},
+		{"para": "Clean and dry shrink wrap goes in the recycling:"},
+		{[
+			{"bullet": "Bundle with bubble wrap or recyclable plastic bags (such as newspaper bags, shopping bags, and dry cleaning bags)."},
+			{"bullet": "Put items in a single plastic bag and tie off."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Dirty or un-bagged shrink wrap goes in the garbage."}
+
+	]}

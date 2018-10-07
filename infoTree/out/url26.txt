@@ -1,0 +1,36 @@
+{
+	"URL26":[
+		{"title": "Trees or Brush"},
+		{"heading": "In food and yard waste"},
+		{"para": "Trees, brush, and branches go in the food and yard waste:"},
+		{"list": [
+			{"bullet": "Cut down to 4 inches or less in diameter and 4 feet or less in length."},
+			{"bullet": "Avoid extra charges – Items should fit in your bin with the lid closed."},
+			{"bullet": [
+				{"text": "Don’t exceed the "},
+				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
+				{"text": " printed on your bin."}
+
+			]}
+
+		]},
+		{"heading": "Next to bin"},
+		{"para": "Bundle trees and brush and set next to the bin. {{proj[7].rate_text}}"},
+		{"list": [
+			{"bullet": "Tie bundles with natural twine. No plastic allowed."},
+			{"bullet": "Bundles must be 2 feet or less in diameter."}
+
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring trees and brush to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+
+		]},
+		{"list": [
+			{"bullet": "All trees, brush, or branches must be 8 feet or less in length."},
+			{"bullet": "All pieces must be 8 inches or less in diameter."}
+
+		]}
+
+	]}

@@ -1,0 +1,15 @@
+{
+	"URL12":[
+		{"title": "Phone Books"},
+		{"heading": "In recycling"},
+		{"para": "Phone books go in the recycling."},
+		{"heading": "Did you know?"},
+		{"para": [
+			{"text": "You can "},
+			{"link": {"href": "https://www.yellowpagesoptout.com/", "text": "opt out of receiving phone books"}},
+			{"text": "."}
+
+		]},
+		{"para": "Phone books aren’t allowed in the garbage."}
+
+	]}

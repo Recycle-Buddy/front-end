@@ -1,0 +1,9 @@
+{
+	"URL169":[
+		{"title": "Peanut Butter or Mayonnaise Jars"},
+		{"heading": "In recycling—rinse first"},
+		{"para": "Clean jars coated with oily food like peanut butter or mayonnaise with a little bit of water and a brush. Then rinse jar clean."},
+		{"heading": "In garbage"},
+		{"para": "Jars coated with oily film that cannot be cleaned off should to go in the garbage."}
+
+	]}

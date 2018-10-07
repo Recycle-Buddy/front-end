@@ -1,0 +1,7 @@
+{
+	"URL148":[
+		{"title": "House Plants"},
+		{"heading": "In food and yard waste"},
+		{"para": "House plants go in the food and yard waste. Remove plants from potting soil and planters."}
+
+	]}

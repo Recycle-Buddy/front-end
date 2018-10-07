@@ -1,0 +1,14 @@
+{
+	"URL160":[
+		{"title": "Wood Clothes Hangers"},
+		{"heading": "Donate"},
+		{"para": [
+			{"text": "Donate wood clothes hangers in good condition to "},
+			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": "."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Wood clothes hangers go in the garbage."}
+
+	]}

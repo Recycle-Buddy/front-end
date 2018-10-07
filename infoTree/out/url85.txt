@@ -1,0 +1,34 @@
+{
+	"URL85":[
+		{"title": "Water Heaters"},
+		{"heading": "Reuse"},
+		{"para": [
+			{"text": "Resell or give it away using sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
+
+		]},
+		{"heading": "Curb-side pickup"},
+		{"para": [
+			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
+			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}}
+
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring water heaters to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ":"}
+
+		]},
+		{"list": [
+			{"bullet": "Fees apply for water heaters with insulation."},
+			{"bullet": "There is no fee for water heaters with all insulation removed."}
+
+		]}
+
+	]}

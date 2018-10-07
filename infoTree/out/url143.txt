@@ -1,0 +1,10 @@
+{
+	"URL143":[
+		{"title": "Pet Waste or Litter"},
+		{"heading": "In garbage"},
+		{"para": "Bag dog waste, cat waste, and used kitty litter. Tie off the bags and put in the garbage."},
+		{"heading": "Did you know?"},
+		{"para": "Never flush kitty litter down the toilet!"},
+		{"para": "Pet waste can’t be composted in the food and yard waste or in backyard composting bins."}
+
+	]}

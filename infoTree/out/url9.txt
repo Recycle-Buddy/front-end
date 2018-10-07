@@ -1,0 +1,39 @@
+{
+	"URL9":[
+		{"title": "Clean Wood Waste"},
+		{"heading": "In food and yard waste"},
+		{"para": "Clean, untreated and unpainted wood goes in the food and yard waste."},
+		{"list": [
+			{"bullet": "All pieces must be 4 inches or less in diameter and 4 feet or less in length."},
+			{"bullet": "Put sawdust or shavings in paper bags or boxes to keep from scattering."},
+			{"bullet": "Avoid extra charges – Items should fit in your bin with the lid closed."},
+			{"bullet": [
+				{"text": "Don’t exceed the "},
+				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
+				{"text": " printed on your bin."}
+
+			]}
+
+		]},
+		{"heading": "Next to bin"},
+		{"para": "Bundles can be set next to the bin. {{proj[7].rate_text}}"},
+		{"list": [
+			{"bullet": "Tie bundles with natural twine. No plastic allowed."},
+			{"bullet": "Bundles must be 2 feet or less in diameter."}
+
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring untreated wood waste to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+
+		]},
+		{"list": [
+			{"bullet": "All pieces must be 4 feet or less in length and 4 inches or less in diameter."},
+			{"bullet": "Nails and staples are okay."}
+
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Compost processing equipment removes metal staples and nails. However, the equipment can’t remove plastic."}
+
+	]}

@@ -1,0 +1,13 @@
+{
+	"URL135":[
+		{"title": "Milk, Juice, or Soup Cartons"},
+		{"heading": "In recycling – rinse first"},
+		{"list": [
+			{"bullet": "Milk, juice, and soup cartons"},
+			{"bullet": "Cartons labeled Tetra Pak"},
+			{"bullet": "Other aseptic cartons"}
+
+		]},
+		{"para": "Plastic spouts don’t need to be removed to recycle food cartons."}
+
+	]}

@@ -1,0 +1,30 @@
+{
+	"URL71":[
+		{"title": "CDs, DVDs, or Floppies"},
+		{"heading": "Donate and reuse"},
+		{"para": [
+			{"text": "Donate CDs and DVDs in good condition to "},
+			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": "."}
+
+		]},
+		{"para": [
+			{"text": "Resell or give away usable CDs and DVDs through sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
+
+		]},
+		{"heading": "In garbage"},
+		{"list": [
+			{"bullet": "CDs"},
+			{"bullet": "DVDs"},
+			{"bullet": "Floppy discs"},
+			{"bullet": "CD and DVD cases"}
+
+		]}
+
+	]}

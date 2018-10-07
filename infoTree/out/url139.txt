@@ -1,0 +1,22 @@
+{
+	"URL139":[
+		{"title": "Other Vehicle Fluids"},
+		{"para": [
+			{"bold": "Caution:"},
+			{"text": " Don’t mix fluids with used motor oil!"}
+
+		]},
+		{"heading": "Hazardous – no charge"},
+		{"para": [
+			{"text": "Bring automotive fluids (such as brake, transmission, hydraulic, or power steering fluids) to a "},
+			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ":"}
+
+		]},
+		{"list": [
+			{"bullet": "Put fluids in a sealed container that is 5-gallons or less."},
+			{"bullet": "Limit 50-gallons per trip."}
+
+		]}
+
+	]}

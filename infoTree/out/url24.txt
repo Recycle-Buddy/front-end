@@ -1,0 +1,24 @@
+{
+	"URL24":[
+		{"title": "Baking Trays or Cookie Sheets"},
+		{"heading": "Donate and reuse"},
+		{"para": [
+			{"text": "Donate baking trays or cookie sheets in good condition to "},
+			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
+			{"text": "."}
+
+		]},
+		{"para": [
+			{"text": "Resell or give them away using sites like "},
+			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
+			{"text": ", "},
+			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
+			{"text": ", and "},
+			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
+			{"text": "."}
+
+		]},
+		{"heading": "In recycling"},
+		{"para": "Baking trays and cookie sheets less than two feet in any direction and free of food residue go in the recycling."}
+
+	]}

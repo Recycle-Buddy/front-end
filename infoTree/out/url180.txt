@@ -1,0 +1,7 @@
+{
+	"URL180":[
+		{"title": "Buckets"},
+		{"heading": "In recycling"},
+		{"para": "Clean buckets go in your recycling bin or can be set at the curb next to your bin."}
+
+	]}

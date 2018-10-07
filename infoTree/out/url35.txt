@@ -1,0 +1,14 @@
+{
+	"URL35":[
+		{"title": "Clothes or Shoes"},
+		{"heading": "In garbage"},
+		{"para": "Clothes and shoes can go in the garbage."},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Stained, worn out, ripped, or damaged clothing and shoes can be turned into new products through "},
+			{"link": {"href": "../../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm", "text": "Threadcycle"}},
+			{"text": ". Some local thrift and second-hand stores are partners and will accept these items at their regular collection or drop box locations."}
+
+		]}
+
+	]}

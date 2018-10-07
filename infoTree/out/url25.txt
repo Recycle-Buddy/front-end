@@ -1,0 +1,8 @@
+{
+	"URL25":[
+		{"title": "Plastic Milk or Juice Jugs"},
+		{"heading": "In recycling – rinse first"},
+		{"para": "Empty milk and juice jugs and bottles go in the recycling."},
+		{"para": "Plastic lids and caps can be recycled if attached to the bottle."}
+
+	]}

@@ -1,0 +1,16 @@
+{
+	"URL101":[
+		{"title": "Medicine Bottles - Over the Counter"},
+		{"heading": "In recycling"},
+		{"para": "Pill bottles, such as aspirin or vitamin bottles, go in the recycling."},
+		{"heading": "In garbage"},
+		{"para": "Plastic prescription medicine vials go the garbage."},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring medicines to a "},
+			{"link": {"href": "https://kingcountysecuremedicinereturn.org/", "text": "secure medicine return site"}},
+			{"text": "."}
+
+		]}
+
+	]}

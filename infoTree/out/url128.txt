@@ -1,0 +1,9 @@
+{
+	"URL128":[
+		{"title": "Coffee Filters"},
+		{"heading": "In food and yard waste"},
+		{"para": "Paper coffee filters are compostable and go in the food and yard waste together with coffee grounds."},
+		{"heading": "In garbage"},
+		{"para": "Plastic, plastic-coated, or cloth coffee filters go in the garbage."}
+
+	]}

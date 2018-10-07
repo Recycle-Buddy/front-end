@@ -1,0 +1,19 @@
+{
+	"URL75":[
+		{"title": "Carpet or Padding"},
+		{"heading": "In garbage"},
+		{"para": "Carpet and padding can go in the garbage. Cut into smaller pieces if carpet or padding doesn’t fit in your bin with the lid closed."},
+		{"heading": "Curb-side pickup"},
+		{"para": [
+			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
+			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}}
+
+		]},
+		{"heading": "Transfer station"},
+		{"para": [
+			{"text": "Bring carpet and padding up to 8 feet long and 200 pounds to "},
+			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+
+		]}
+
+	]}

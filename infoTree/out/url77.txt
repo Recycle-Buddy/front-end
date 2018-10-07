@@ -1,0 +1,17 @@
+{
+	"URL77":[
+		{"title": "Paper Egg Cartons"},
+		{"heading": "In recycling"},
+		{"list": [
+			{"bullet": "Clean paper egg cartons"}
+
+		]},
+		{"heading": "In food and yard waste"},
+		{"list": [
+			{"bullet": "Paper egg cartons with food residue on them"}
+
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Many egg sellers at farmers' markets will take back clean egg cartons to reuse them."}
+
+	]}

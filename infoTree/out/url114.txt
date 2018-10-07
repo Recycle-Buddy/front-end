@@ -1,0 +1,21 @@
+{
+	"URL114":[
+		{"title": "Oil-Based Paint"},
+		{"heading": "Hazardous – no charge"},
+		{"para": [
+			{"text": "Bring oil-based paint to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Empty oil-based paint cans can go in the garbage:"},
+		{[
+			{"bullet": "Remove the lid and let fumes evaporate outside, away from children and animals."},
+			{"bullet": "Separate the lid from the dried paint can and put both in your garbage."}
+
+		]},
+		{"heading": "Did you know?"},
+		{"para": "Throwing out your dried paint can with the lid removed lets your garbage collector knows the paint is dried."}
+
+	]}

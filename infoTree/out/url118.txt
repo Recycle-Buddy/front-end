@@ -1,0 +1,13 @@
+{
+	"URL118":[
+		{"title": "Pool or Spa Chemicals"},
+		{"heading": "Hazardous – no charge"},
+		{"para": [
+			{"text": "Bring pool chemicals to a "},
+			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
+			{"text": ". No fee."}
+
+		]},
+		{"para": "Pool and spa chemicals aren’t allowed in the garbage."}
+
+	]}

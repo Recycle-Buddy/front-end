@@ -1,0 +1,26 @@
+{
+	"URL33":[
+		{"title": "Barrels or Drums"},
+		{"heading": "Hazardous"},
+		{"para": [
+			{"text": "Sealed drums and drums that held hazardous waste must go to "},
+			{"link": {"href": "http://your.kingcounty.gov/solidwaste/facilities/hazwaste.asp", "text": "King County Household Hazardous Waste"}},
+			{"text": "."}
+
+		]},
+		{"heading": "Drop-off locations"},
+		{"para": [
+			{"text": "Bring barrels and drums that held non-hazardous material to "},
+			{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
+			{"text": ":"}
+
+		]},
+		{"list": [
+			{"bullet": "Empty barrels and drums must be clean and cut in half."},
+			{"bullet": "Clean metal can be recycled for no fee."}
+
+		]},
+		{"heading": "In garbage"},
+		{"para": "Plastic and dirty metal drums that held non-hazardous material can go in the garbage."}
+
+	]}
