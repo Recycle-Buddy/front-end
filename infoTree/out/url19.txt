@@ -1,15 +1,41 @@
 {
-	"URL19":[
-		{"title": "Prescription Drug Bottles"},
-		{"heading": "In garbage"},
-		{"para": "Clear plastic prescription medicine vials go the garbage. The plastic is too brittle to recycle."},
-		{"heading": "In recycling"},
-		{"para": "Pill bottles, such as aspirin or vitamin bottles, go in the recycling."},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Bring medicines to a "},
-			{"link": {"href": "https://kingcountysecuremedicinereturn.org/", "text": "secure medicine return site"}},
-			{"text": "."}
+	"type": "URL19",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Prescription Drug Bottles"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Clear plastic prescription medicine vials go the garbage. The plastic is too brittle to recycle."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Pill bottles, such as aspirin or vitamin bottles, go in the recycling."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring medicines to a ",
+{"type": "link", "href": "https://kingcountysecuremedicinereturn.org/", "text": "secure medicine return site"}
+			"."
 
 		]}
 

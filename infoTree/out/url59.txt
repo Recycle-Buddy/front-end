@@ -1,20 +1,55 @@
 {
-	"URL59":[
-		{"title": "Camera or Watch Batteries"},
-		{"heading": "In garbage"},
-		{"para": "Button cell batteries used in watches and some older camera models can go in the garbage."},
-		{"para": "Button cell batteries are also used for:"},
-		{"list": [
-			{"bullet": "Digital thermometers"},
-			{"bullet": "Pocket calculators"},
-			{"bullet": "Hearing aids"}
+	"type": "URL59",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Camera or Watch Batteries"
 
 		]},
-		{"heading": "Household hazardous waste facility"},
-		{"para": [
-			{"text": "Bring camera and watch button cell batteries to a "},
-			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": ", where the metals and very small amount of hazardous metals in the batteries will be reclaimed and recycled. No fee."}
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Button cell batteries used in watches and some older camera models can go in the garbage."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Button cell batteries are also used for:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Digital thermometers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Pocket calculators"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Hearing aids"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Household hazardous waste facility"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring camera and watch button cell batteries to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}
+			", where the metals and very small amount of hazardous metals in the batteries will be reclaimed and recycled. No fee."
 
 		]}
 

@@ -1,9 +1,30 @@
 {
-	"URL18":[
-		{"title": "Smoke Detectors"},
-		{"heading": "In garbage"},
-		{"para": "Smoke detectors with batteries removed go in the garbage."},
-		{"heading": "Did you know?"},
-		{"para": "Some smoke detector manufacturers will take back their old alarms for disposal."}
+	"type": "URL18",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Smoke Detectors"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Smoke detectors with batteries removed go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Some smoke detector manufacturers will take back their old alarms for disposal."
+
+		]}
 
 	]}

@@ -1,16 +1,47 @@
 {
-	"URL164":[
-		{"title": "Aluminum Foil"},
-		{"heading": "In recycling – rinse first"},
-		{"list": [
-			{"bullet": "Aluminum foil – don’t crumple into a ball"},
-			{"bullet": "Aluminum food pans"}
+	"type": "URL164",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Aluminum Foil"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Dirty or food-covered aluminum foil or food pans"},
-			{"bullet": "Wine bottle foil"}
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Aluminum foil – don’t crumple into a ball"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Aluminum food pans"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Dirty or food-covered aluminum foil or food pans"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Wine bottle foil"
+
+			]}
 
 		]}
 

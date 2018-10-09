@@ -1,9 +1,30 @@
 {
-	"URL189":[
-		{"title": "Microwave Popcorn Bags"},
-		{"heading": "In garbage"},
-		{"para": "Microwave popcorn bags go in the garbage."},
-		{"heading": "In food and yard waste"},
-		{"para": "Any leftover popcorn or kernels go in the food and yard waste."}
+	"type": "URL189",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Microwave Popcorn Bags"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Microwave popcorn bags go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Any leftover popcorn or kernels go in the food and yard waste."
+
+		]}
 
 	]}

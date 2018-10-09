@@ -1,12 +1,30 @@
 {
-	"URL58":[
-		{"title": "Packing Peanuts"},
-		{"heading": "In garbage"},
-		{"para": "Put packing peanuts in a clear plastic bag and tie closed. Then put in the garbage."},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"link": {"href": "http://www.styrorecycle.com/index.php/what-we-accept/", "text": "Styro Recycle"}},
-			{"text": " in Kent accepts Styrofoam blocks, packing sheets, and packing peanuts for recycling."}
+	"type": "URL58",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Packing Peanuts"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Put packing peanuts in a clear plastic bag and tie closed. Then put in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+{"type": "link", "href": "http://www.styrorecycle.com/index.php/what-we-accept/", "text": "Styro Recycle"}
+			" in Kent accepts Styrofoam blocks, packing sheets, and packing peanuts for recycling."
 
 		]}
 

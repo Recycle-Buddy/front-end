@@ -1,43 +1,114 @@
 {
-	"URL146":[
-		{"title": "Iron or Steel"},
-		{"heading": "In recycling"},
-		{"para": "Metal parts larger than 3-inches go in the recycling."},
-		{"list": [
-			{"bullet": "Small amounts of plastic, wood, or rubber can be attached."},
-			{"bullet": "Rusted metal can be recycled unless the metal is falling apart."}
+	"type": "URL146",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Iron or Steel"
 
 		]},
-		{"heading": "Next to bin – no charge"},
-		{"para": "Large metal parts can be put at the curb for pickup on your recycling collection day."},
-		{"list": [
-			{"bullet": "These must be bundled or tied."},
-			{"bullet": "The maximum size is 2-feet on all sides."}
+		{"type": "heading",
+		"children": [
+			"In recycling"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Metal items with large amounts of plastic, wood, or rubber attached."},
-			{"bullet": "Metal items that are smaller than 3-inches."}
+		{"type": "para",
+		"children": [
+			"Metal parts larger than 3-inches go in the recycling."
 
 		]},
-		{"heading": "Curb-side pickup"},
-		{"para": [
-			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
-			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item collection"}},
-			{"text": ". Fees apply."}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Small amounts of plastic, wood, or rubber can be attached."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Rusted metal can be recycled unless the metal is falling apart."
+
+			]}
 
 		]},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "All metal, except car parts, is accepted as recycling at "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ". There is no fee for most metal."}
+		{"type": "heading",
+		"children": [
+			"Next to bin – no charge"
 
 		]},
-		{"list": [
-			{"bullet": "Maximum size is 8-feet long."},
-			{"bullet": "There is a charge for appliances, limit 2 per load."}
+		{"type": "para",
+		"children": [
+			"Large metal parts can be put at the curb for pickup on your recycling collection day."
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"These must be bundled or tied."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"The maximum size is 2-feet on all sides."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Metal items with large amounts of plastic, wood, or rubber attached."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Metal items that are smaller than 3-inches."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item collection"},
+			". Fees apply."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"All metal, except car parts, is accepted as recycling at ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			". There is no fee for most metal."
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Maximum size is 8-feet long."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"There is a charge for appliances, limit 2 per load."
+
+			]}
 
 		]}
 

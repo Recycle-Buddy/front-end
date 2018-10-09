@@ -1,14 +1,32 @@
 {
-	"URL160":[
-		{"title": "Wood Clothes Hangers"},
-		{"heading": "Donate"},
-		{"para": [
-			{"text": "Donate wood clothes hangers in good condition to "},
-			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL160",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Wood Clothes Hangers"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Wood clothes hangers go in the garbage."}
+		{"type": "heading",
+		"children": [
+			"Donate"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Donate wood clothes hangers in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Wood clothes hangers go in the garbage."
+
+		]}
 
 	]}

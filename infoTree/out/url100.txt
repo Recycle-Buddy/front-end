@@ -1,17 +1,40 @@
 {
-	"URL100":[
-		{"title": "Gasoline"},
-		{"heading": "Hazardous – no charge"},
-		{"para": [
-			{"text": "Bring gasoline to a "},
-			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": ":"}
+	"type": "URL100",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Gasoline"
 
 		]},
-		{"list": [
-			{"bullet": "Put gas in a sealed container that is 5-gallons or less."},
-			{"bullet": "Use gasoline-compatible containers (not food or milk jugs)."},
-			{"bullet": "Limit 30-gallons per trip."}
+		{"type": "heading",
+		"children": [
+			"Hazardous – no charge"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring gasoline to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			":"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Put gas in a sealed container that is 5-gallons or less."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Use gasoline-compatible containers (not food or milk jugs)."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Limit 30-gallons per trip."
+
+			]}
 
 		]}
 

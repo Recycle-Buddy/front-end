@@ -1,33 +1,62 @@
 {
-	"URL85":[
-		{"title": "Water Heaters"},
-		{"heading": "Reuse"},
-		{"para": [
-			{"text": "Resell or give it away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+	"type": "URL85",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Water Heaters"
 
 		]},
-		{"heading": "Curb-side pickup"},
-		{"para": [
-			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
-			{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}}
+		{"type": "heading",
+		"children": [
+			"Reuse"
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring water heaters to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ":"}
+		{"type": "para",
+		"children": [
+			"Resell or give it away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
 
 		]},
-		{"list": [
-			{"bullet": "Fees apply for water heaters with insulation."},
-			{"bullet": "There is no fee for water heaters with all insulation removed."}
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"},
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring water heaters to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			":"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Fees apply for water heaters with insulation."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"There is no fee for water heaters with all insulation removed."
+
+			]}
 
 		]}
 

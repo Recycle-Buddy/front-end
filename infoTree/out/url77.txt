@@ -1,17 +1,48 @@
 {
-	"URL77":[
-		{"title": "Paper Egg Cartons"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Clean paper egg cartons"}
+	"type": "URL77",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Paper Egg Cartons"
 
 		]},
-		{"heading": "In food and yard waste"},
-		{"list": [
-			{"bullet": "Paper egg cartons with food residue on them"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Many egg sellers at farmers' markets will take back clean egg cartons to reuse them."}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Clean paper egg cartons"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Paper egg cartons with food residue on them"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Many egg sellers at farmers' markets will take back clean egg cartons to reuse them."
+
+		]}
 
 	]}

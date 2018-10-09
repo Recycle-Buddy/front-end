@@ -1,34 +1,67 @@
 {
-	"URL84":[
-		{"title": "Bicycles or Bike Parts"},
-		{"heading": "In recycling"},
-		{"para": "Clean metal bike parts 3-inches or larger can go in the recycling:"},
-		{"list": [
-			{"bullet": "Items must fit in your bin with the lid closed."},
-			{"bullet": [
-				{"text": "Don’t exceed the "},
-				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-				{"text": " printed on your bin."}
+	"type": "URL84",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Bicycles or Bike Parts"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Clean metal bike parts 3-inches or larger can go in the recycling:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Items must fit in your bin with the lid closed."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Don’t exceed the ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}
+				" printed on your bin."
 
 			]}
 
 		]},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Donate or resell usable bikes and parts to scrap metal dealers or community-oriented bike shops like "},
-			{"link": {"href": "https://bikeworks.org/", "text": "Bike Works"}},
-			{"text": " or "},
-			{"link": {"href": "http://www.recycledcycles.com/", "text": "Recycled Cycles"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
 
 		]},
-		{"para": [
-			{"text": "Bring bikes and parts to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": " to be recycled. No fee."}
+		{"type": "para",
+		"children": [
+			"Donate or resell usable bikes and parts to scrap metal dealers or community-oriented bike shops like ",
+{"type": "link", "href": "https://bikeworks.org/", "text": "Bike Works"},
+			" or ",
+{"type": "link", "href": "http://www.recycledcycles.com/", "text": "Recycled Cycles"},
+			"."
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Bike parts smaller than 3-inches go in the garbage."}
+		{"type": "para",
+		"children": [
+			"Bring bikes and parts to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			" to be recycled. No fee."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bike parts smaller than 3-inches go in the garbage."
+
+		]}
 
 	]}

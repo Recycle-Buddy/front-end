@@ -1,7 +1,20 @@
 {
-	"URL65":[
-		{"title": "Wine Bottle Foil"},
-		{"heading": "In garbage"},
-		{"para": "Foil from wine bottles goes in the garbage."}
+	"type": "URL65",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Wine Bottle Foil"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Foil from wine bottles goes in the garbage."
+
+		]}
 
 	]}

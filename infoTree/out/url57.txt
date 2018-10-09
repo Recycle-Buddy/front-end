@@ -1,7 +1,20 @@
 {
-	"URL57":[
-		{"title": "Cookie Tins"},
-		{"heading": "In recycling"},
-		{"para": "Cookie tins clean of food debris go in the recycling."}
+	"type": "URL57",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Cookie Tins"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Cookie tins clean of food debris go in the recycling."
+
+		]}
 
 	]}

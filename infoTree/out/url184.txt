@@ -1,9 +1,30 @@
 {
-	"URL184":[
-		{"title": "Wire or Cable"},
-		{"heading": "In garbage"},
-		{"para": "Wire and cable go in the garbage."},
-		{"heading": "Drop-off locations"},
-		{"para": "Many scrap metal dealers will buy wire and cable."}
+	"type": "URL184",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Wire or Cable"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Wire and cable go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Many scrap metal dealers will buy wire and cable."
+
+		]}
 
 	]}

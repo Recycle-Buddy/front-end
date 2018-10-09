@@ -1,9 +1,30 @@
 {
-	"URL173":[
-		{"title": "Photographs"},
-		{"heading": "In garbage"},
-		{"para": "Photographs go in the garbage."},
-		{"heading": "Did you know?"},
-		{"para": "Photographs aren’t recyclable because of the chemicals used to create them and the short fibers used for their paper."}
+	"type": "URL173",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Photographs"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Photographs go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Photographs aren’t recyclable because of the chemicals used to create them and the short fibers used for their paper."
+
+		]}
 
 	]}

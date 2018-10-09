@@ -1,7 +1,20 @@
 {
-	"URL194":[
-		{"title": "Greeting Cards"},
-		{"heading": "In recycling"},
-		{"para": "Greeting cards and other paper cards go in the recycling."}
+	"type": "URL194",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Greeting Cards"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Greeting cards and other paper cards go in the recycling."
+
+		]}
 
 	]}

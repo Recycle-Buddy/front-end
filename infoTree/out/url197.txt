@@ -1,16 +1,47 @@
 {
-	"URL197":[
-		{"title": "Plastic Food Tubs"},
-		{"heading": "In recycling—rinse first"},
-		{"list": [
-			{"bullet": "Plastic food containers for yogurt, margarine, dips, salsa, etc."},
-			{"bullet": "Plastic lids 3-inches across or larger"}
+	"type": "URL197",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Plastic Food Tubs"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Containers with food inside"},
-			{"bullet": "Lids less than 3-inches across"}
+		{"type": "heading",
+		"children": [
+			"In recycling—rinse first"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Plastic food containers for yogurt, margarine, dips, salsa, etc."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic lids 3-inches across or larger"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Containers with food inside"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Lids less than 3-inches across"
+
+			]}
 
 		]}
 

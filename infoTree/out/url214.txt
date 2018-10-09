@@ -1,13 +1,31 @@
 {
-	"URL214":[
-		{"title": "Small Household Appliances"},
-		{"heading": "In garbage"},
-		{"para": "Toasters, blenders, food processors and mixers can go in the garbage."},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Some small household appliances can be recycled as scrap metal for free at "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": "."}
+	"type": "URL214",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Small Household Appliances"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Toasters, blenders, food processors and mixers can go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Some small household appliances can be recycled as scrap metal for free at ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+			"."
 
 		]}
 

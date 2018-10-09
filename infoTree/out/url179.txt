@@ -1,26 +1,53 @@
 {
-	"URL179":[
-		{"title": "Child Car Seats"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Donate car seats in good condition to "},
-			{"link": {"href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL179",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Child Car Seats"
 
 		]},
-		{"para": [
-			{"text": "Resell or give it away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Old and expired child car seats go in the garbage."},
-		{"heading": "Did you know?"},
-		{"para": "Don’t reuse broken car seats or car seats that have been in accidents. It isn’t safe."}
+		{"type": "para",
+		"children": [
+			"Donate car seats in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Resell or give it away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Old and expired child car seats go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Don’t reuse broken car seats or car seats that have been in accidents. It isn’t safe."
+
+		]}
 
 	]}
