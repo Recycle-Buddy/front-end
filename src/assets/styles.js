@@ -7,6 +7,8 @@ export const standardPadding = 16;
 export const standardFontSize = 14;
 export const largeFontSize = 16;
 export const largeLineheight = largeFontSize * 1.5;
+export const largerFontSize = 24;
+export const largerLineheight = largeFontSize * 1.5;
 
 export const standardStyle = StyleSheet.create({
     largeText: {

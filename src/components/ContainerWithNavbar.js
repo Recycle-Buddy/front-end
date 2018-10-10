@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, ScrollView} from 'react-native';
+import {View, ScrollView, StyleSheet} from 'react-native';
 
 import {standardStyle} from '../assets/styles.js';
 
@@ -7,18 +7,21 @@ import Navbar from '../components/Navbar.js'
 
 class ContainerWithNavbar extends React.Component {
   render() {
+    const containerStyles = [standardStyle.contentContainer, this.props.noPadding && style.noPadding]
     return (
-    // Seth - Using the array notation here for style allows us to pass
-    //        styles in from the props and combine them with the inline
-    //        styles defined in this components stylesheet.
     <View style={standardStyle.pageContainer}>
-      <ScrollView style={standardStyle.contentContainer} contentContainerStyle={standardStyle.scrollViewItems}>
+      <ScrollView style={containerStyles} contentContainerStyle={standardStyle.scrollViewItems}>
         {this.props.children}
       </ScrollView>
       <Navbar navigation={this.props.navigation}/>
-    </View> 
+    </View>
     );
   }
 }
 
+export const style = StyleSheet.create({
+  noPadding: {
+    padding: 0,
+  }
+})
 export default ContainerWithNavbar;

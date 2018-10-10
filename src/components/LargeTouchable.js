@@ -1,8 +1,6 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, TouchableNativeFeedback } from 'react-native';
+import { StyleSheet, View, TouchableNativeFeedback } from 'react-native';
 import colors from '../assets/colors.js'
-import images from '../assets/images.js'
-import metrics from '../themes/metrics.js'
 
 class LargeTouchable extends React.PureComponent {
 	render() {
@@ -25,7 +23,7 @@ const tStyles = StyleSheet.create({
 	touch: {
 		flex: 1,
 	},
-	childWrapper: { 
+	childWrapper: {
 		width: '100%',
 		padding: 0,
 		flex: 1,
