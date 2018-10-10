@@ -25,7 +25,8 @@ class SendPicture extends React.Component {
         // getbase64ForTag SUCCESS callback
         base64String => {
           ToastAndroid.show("Waiting for Machine Learning Response...", ToastAndroid.SHORT);
-          fetch('http://192.168.0.23:8080/images/v1/recognize', {
+          // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
+          fetch('http://172.16.1.80:8888/images/v1/recognize', {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
@@ -43,20 +44,23 @@ class SendPicture extends React.Component {
               //        efectively passing the state to the next route. We are also passing
               //        the resizedImage to be able to use it on the results route.
               // TODO: Remove LOADING state (set to null).
+              if(response.error){
+                throw new Error(response.message);
+              }
               this.props.navigation.navigate('Results', {
                 machineLearningResponse: response,
                 resizedImage: resizedImage
               });
             })
             .catch((fetchError) => {
-              console.error('Fetch Error: ', fetchError);
+              `console`.error('Fetch Error: ', fetchError);
             });
         },
         // getbase64ForTag FAILURE callback
-        error => console.log('ImageStore.getBase64ForTag: ', error)
+        error => console.error('ImageStore.getBase64ForTag: ', error)
       );
     })
-    .catch(err => console.log('Manipulate Error: ', err));
+    .catch(err => console.error('Manipulate Error: ', err));
   }
 
   render() {
