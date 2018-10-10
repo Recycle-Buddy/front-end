@@ -1,26 +1,66 @@
 {
-	"URL141":[
-		{"title": "Latex Paint"},
-		{"heading": "In garbage"},
-		{[
-			{"bullet": "Dry latex paint by leaving the can open and protected from children and animals."},
-			{"bullet": "Separate the lid from the dried paint can and put both in your garbage."}
+	"type": "URL141",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Latex Paint"
 
 		]},
-		{"para": [
-			{"bold": "Tip:"},
-			{"text": " You can harden large amounts of latex paint by adding cat litter to the can."}
+		{"type": "heading",
+		"children": [
+			"In garbage"
 
 		]},
-		{"heading": "Drop off locations"},
-		{"para": [
-			{"text": "Drop off unused latex paint, in the original container, "},
-			{"bold": "for a fee"},
-			{"text": " at local locations in the "},
-			{"link": {"href": "https://kingcounty.gov/depts/dnrp/solid-waste/programs/take-it-back/paint.aspx", "text": "Take it Back network"}}
+		{"type": ,
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Dry latex paint by leaving the can open and protected from children and animals."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Separate the lid from the dried paint can and put both in your garbage."
+
+			]}
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Throwing out your dried paint can with the lid removed lets your garbage collector knows the paint is dried."}
+		{"type": "para",
+		"children": [
+			{"type": "bold",
+			"children": [
+				"Tip:"
+
+			]},
+			" You can harden large amounts of latex paint by adding cat litter to the can."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Drop off unused latex paint, in the original container, ",
+			{"type": "bold",
+			"children": [
+				"for a fee"
+
+			]},
+			" at local locations in the ",
+{"type": "link", "href": "https://kingcounty.gov/depts/dnrp/solid-waste/programs/take-it-back/paint.aspx", "text": "Take it Back network"},
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Throwing out your dried paint can with the lid removed lets your garbage collector knows the paint is dried."
+
+		]}
 
 	]}

@@ -1,8 +1,25 @@
 {
-	"URL25":[
-		{"title": "Plastic Milk or Juice Jugs"},
-		{"heading": "In recycling – rinse first"},
-		{"para": "Empty milk and juice jugs and bottles go in the recycling."},
-		{"para": "Plastic lids and caps can be recycled if attached to the bottle."}
+	"type": "URL25",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Plastic Milk or Juice Jugs"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Empty milk and juice jugs and bottles go in the recycling."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic lids and caps can be recycled if attached to the bottle."
+
+		]}
 
 	]}

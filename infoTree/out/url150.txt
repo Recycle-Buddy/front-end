@@ -1,7 +1,20 @@
 {
-	"URL150":[
-		{"title": "Styrofoam Cups"},
-		{"heading": "In garbage"},
-		{"para": "Styrofoam cups go in the garbage."}
+	"type": "URL150",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Styrofoam Cups"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Styrofoam cups go in the garbage."
+
+		]}
 
 	]}

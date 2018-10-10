@@ -1,17 +1,28 @@
 {
-	"URL165":[
-		{"title": "Car Batteries"},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Bring vehicle batteries to "},
-			{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ". Fees apply."}
+	"type": "URL165",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Car Batteries"
 
 		]},
-		{"para": [
-			{"text": "Bring up to 5 vehicle batteries per trip to a "},
-			{"link": {"href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": ". No fee."}
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring vehicle batteries to ",
+{"type": "link", "href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			". Fees apply."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring up to 5 vehicle batteries per trip to a ",
+{"type": "link", "href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}
+			". No fee."
 
 		]}
 

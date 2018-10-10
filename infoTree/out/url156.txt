@@ -1,33 +1,70 @@
 {
-	"URL156":[
-		{"title": "Hand Tools"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Donate hand tools in good condition to "},
-			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL156",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Hand Tools"
 
 		]},
-		{"para": [
-			{"text": "Resell or give it away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
 
 		]},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Metal tools 3 inches or more in size"},
-			{"bullet": "Can include small amounts of wood, rubber, or plastic"}
+		{"type": "para",
+		"children": [
+			"Donate hand tools in good condition to ",
+{"type": "link", "href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Metal tools less than 3 inches"},
-			{"bullet": "Tools that contain large amounts of rubber, wood, or plastic"}
+		{"type": "para",
+		"children": [
+			"Resell or give it away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Metal tools 3 inches or more in size"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Can include small amounts of wood, rubber, or plastic"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Metal tools less than 3 inches"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Tools that contain large amounts of rubber, wood, or plastic"
+
+			]}
 
 		]}
 

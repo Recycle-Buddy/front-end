@@ -1,31 +1,88 @@
 {
-	"URL99":[
-		{"title": "Take-Out Containers"},
-		{"heading": "In recycling – rinse first"},
-		{"list": [
-			{"bullet": "Empty and rinsed plastic clamshell containers"},
-			{"bullet": "Empty and rinsed plastic-coated (shiny) paper containers"}
+	"type": "URL99",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Take-Out Containers"
 
 		]},
-		{"heading": "In food and yard waste"},
-		{"list": [
-			{"bullet": "Dirty or clean uncoated (not shiny) paper take-out containers"},
-			{"bullet": "Dirty or clean take-out containers labeled “Compostable” or “#7 PLA”"},
-			{"bullet": "Greasy pizza boxes"}
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
 
 		]},
-		{"para": [
-			{"text": "Learn more about "},
-			{"link": {"href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},
-			{"(pdf)"},
-			{"text": "."}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Empty and rinsed plastic clamshell containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Empty and rinsed plastic-coated (shiny) paper containers"
+
+			]}
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Styrofoam containers"},
-			{"bullet": "Dirty plastic-coated (shiny) paper containers"},
-			{"bullet": "Dirty plastic containers that aren’t marked “Compostable” or “#7 PLA”"}
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Dirty or clean uncoated (not shiny) paper take-out containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty or clean take-out containers labeled “Compostable” or “#7 PLA”"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Greasy pizza boxes"
+
+			]}
+
+		]},
+		{"type": "para",
+		"children": [
+			"Learn more about ",
+{"type": "link", "href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"},
+			{"type": ,
+			"children": [
+				"(pdf)"
+
+			]},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Styrofoam containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty plastic-coated (shiny) paper containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty plastic containers that aren’t marked “Compostable” or “#7 PLA”"
+
+			]}
 
 		]}
 

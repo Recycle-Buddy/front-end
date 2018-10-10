@@ -1,15 +1,42 @@
 {
-	"URL222":[
-		{"title": "Laundry Detergent Jugs"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Plastic laundry detergent jugs"},
-			{"bullet": "Caps screwed onto the bottle"}
+	"type": "URL222",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Laundry Detergent Jugs"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Loose caps"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Plastic laundry detergent jugs"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Caps screwed onto the bottle"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Loose caps"
+
+			]}
 
 		]}
 

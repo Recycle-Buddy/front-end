@@ -1,7 +1,20 @@
 {
-	"URL182":[
-		{"title": "Spiral Bound Notebooks"},
-		{"heading": "In recycling"},
-		{"para": "Spiral bound notebooks go in the recycling. You don’t need to remove the metal or plastic binding."}
+	"type": "URL182",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Spiral Bound Notebooks"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Spiral bound notebooks go in the recycling. You don’t need to remove the metal or plastic binding."
+
+		]}
 
 	]}

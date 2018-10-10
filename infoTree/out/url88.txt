@@ -1,9 +1,30 @@
 {
-	"URL88":[
-		{"title": "Pet Food Bags"},
-		{"heading": "In recycling"},
-		{"para": "Paper pet food bags go in the recycling. Remove any string stitching first."},
-		{"heading": "In garbage"},
-		{"para": "Plastic pet food bags, and bags made of multiple materials, go in the garbage."}
+	"type": "URL88",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Pet Food Bags"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Paper pet food bags go in the recycling. Remove any string stitching first."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic pet food bags, and bags made of multiple materials, go in the garbage."
+
+		]}
 
 	]}

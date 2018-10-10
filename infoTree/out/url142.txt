@@ -1,36 +1,61 @@
 {
-	"URL142":[
-		{"title": "Stereo or Audio Equipment"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Donate stereo or audio equipment in good condition to "},
-			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL142",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Stereo or Audio Equipment"
 
 		]},
-		{"para": [
-			{"text": "Resell or give them away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
 
 		]},
-		{"para": [
-			{"text": "Find locations to recycle studio and audio equipment via the "},
-			{"link": {"href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"}},
-			{"text": " (fees may apply)."}
+		{"type": "para",
+		"children": [
+			"Donate stereo or audio equipment in good condition to ",
+{"type": "link", "href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
 
 		]},
-		{"heading": "Curb-side pickup"},
-		{"para": [
-			{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
-			{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"}}
+		{"type": "para",
+		"children": [
+			"Resell or give them away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
 
 		]},
-		{"heading": "Did you know?"},
-		{"para": "Studio and audio equipment can’t go in the garbage because they contain materials harmful to people, animals, and the environment."}
+		{"type": "para",
+		"children": [
+			"Find locations to recycle studio and audio equipment via the ",
+{"type": "link", "href": "http://your.kingcounty.gov/solidwaste/takeitback/electronics/index.asp", "text": "Take It Back Network"},
+			" (fees may apply)."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "curbside electronics pickup"},
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Studio and audio equipment can’t go in the garbage because they contain materials harmful to people, animals, and the environment."
+
+		]}
 
 	]}

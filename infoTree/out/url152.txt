@@ -1,7 +1,20 @@
 {
-	"URL152":[
-		{"title": "Incandescent Light Bulbs"},
-		{"heading": "In garbage"},
-		{"para": "Unbroken incandescent light bulbs go in your garbage."}
+	"type": "URL152",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Incandescent Light Bulbs"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Unbroken incandescent light bulbs go in your garbage."
+
+		]}
 
 	]}

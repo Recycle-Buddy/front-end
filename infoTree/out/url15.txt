@@ -1,24 +1,43 @@
 {
-	"URL15":[
-		{"title": "Clock Radios"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "Donate working clock radios to "},
-			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"}},
-			{"text": "."}
+	"type": "URL15",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Clock Radios"
 
 		]},
-		{"para": [
-			{"text": "Resell or give them away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Clock radios go in the garbage."}
+		{"type": "para",
+		"children": [
+			"Donate working clock radios to ",
+{"type": "link", "href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Resell or give them away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Clock radios go in the garbage."
+
+		]}
 
 	]}

@@ -1,7 +1,20 @@
 {
-	"URL122":[
-		{"title": "Magazines"},
-		{"heading": "In recycling"},
-		{"para": "Magazines go in the recycling."}
+	"type": "URL122",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Magazines"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Magazines go in the recycling."
+
+		]}
 
 	]}

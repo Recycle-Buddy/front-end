@@ -1,13 +1,27 @@
 {
-	"URL205":[
-		{"title": "Computer Batteries"},
-		{"heading": "Hazardous – no charge"},
-		{"para": [
-			{"text": "Bring rechargeable and lithium-ion batteries to a "},
-			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": ". No fee."}
+	"type": "URL205",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Computer Batteries"
 
 		]},
-		{"para": "They can’t go in the garbage."}
+		{"type": "heading",
+		"children": [
+			"Hazardous – no charge"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring rechargeable and lithium-ion batteries to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			". No fee."
+
+		]},
+		{"type": "para",
+		"children": [
+			"They can’t go in the garbage."
+
+		]}
 
 	]}

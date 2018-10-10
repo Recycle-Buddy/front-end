@@ -1,19 +1,62 @@
 {
-	"URL93":[
-		{"title": "Gift Wrap"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Wrapping paper"},
-			{"bullet": "Paper gift bags"},
-			{"bullet": "Paper gift boxes"},
-			{"bullet": "Gift tissue paper"}
+	"type": "URL93",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Gift Wrap"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Plastic gift wrap"},
-			{"bullet": "Foil gift wrap"},
-			{"bullet": "Plastic or foil gift bows"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Wrapping paper"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Paper gift bags"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Paper gift boxes"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Gift tissue paper"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Plastic gift wrap"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Foil gift wrap"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic or foil gift bows"
+
+			]}
 
 		]}
 

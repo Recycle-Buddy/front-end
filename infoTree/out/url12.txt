@@ -1,15 +1,37 @@
 {
-	"URL12":[
-		{"title": "Phone Books"},
-		{"heading": "In recycling"},
-		{"para": "Phone books go in the recycling."},
-		{"heading": "Did you know?"},
-		{"para": [
-			{"text": "You can "},
-			{"link": {"href": "https://www.yellowpagesoptout.com/", "text": "opt out of receiving phone books"}},
-			{"text": "."}
+	"type": "URL12",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Phone Books"
 
 		]},
-		{"para": "Phone books aren’t allowed in the garbage."}
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Phone books go in the recycling."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can ",
+{"type": "link", "href": "https://www.yellowpagesoptout.com/", "text": "opt out of receiving phone books"},
+			"."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Phone books aren’t allowed in the garbage."
+
+		]}
 
 	]}
