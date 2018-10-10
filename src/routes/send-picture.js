@@ -17,6 +17,8 @@ class SendPicture extends React.Component {
     //        too large to send and/or takes too long.
     // TODO: Seth - make the resize options variables that can be set with environment variables.
     // TODO: Seth - Trigger the load state when the image is sent to show a loading graphic.
+    //              Use a fixed & centered GIF, need to update gradle file,
+    //              directions here: https://facebook.github.io/react-native/docs/image
     ImageManipulator.manipulate(this.state.image.uri, [{resize: {width: 500}}], { compress: 0.5 })
     .then((response) => {
       resizedImage = response;
