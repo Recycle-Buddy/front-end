@@ -1,5 +1,6 @@
 const images = {
     camera: require('./images/camera.png'),
+    chevron: require('./images/chevron-arrow.png'),
     gear: require('./images/gear.png'),
     home: require('./images/home.png'),
     listSymbol: require('./images/list-symbol.png'),
