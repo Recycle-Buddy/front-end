@@ -53,7 +53,7 @@ class SendPicture extends React.Component {
               });
             })
             .catch((fetchError) => {
-              `console`.error('Fetch Error: ', fetchError);
+              console.error('Fetch Error: ', fetchError);
             });
         },
         // getbase64ForTag FAILURE callback
