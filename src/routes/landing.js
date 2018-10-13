@@ -16,7 +16,7 @@ class Landing extends React.Component {
       <ContainerWithNavbar navigation={this.props.navigation}>
 
         <LargeTouchable onPress={() => this.props.navigation.navigate('Search')}>
-          <LargeText style={styles.callToAction} text="Go To Search (temporary)"/>
+          <LargeText style={styles.callToAction} text="Search for an tem"/>
         </LargeTouchable>
 
         <StaticInfo 
@@ -27,14 +27,9 @@ class Landing extends React.Component {
           <LargeText style={styles.callToAction} text="Skip search and go to results" />
         </LargeTouchable>
 
-        <FullWidthContainer flex={columnContainerFlex}>
-          <Image source={images.recycleSymbol}/>
-          <LargeText text="Find local recycling center" />
-        </FullWidthContainer>
-
         <LargeTouchable onPress={() => this.props.navigation.navigate('CameraIntro')}>
           <Image source={images.camera}/>
-          <LargeText style={styles.callToAction} text="Autodetect Item"/>
+          <LargeText style={styles.callToAction} text="Take a picture to detect an item"/>
         </LargeTouchable>
 
       </ContainerWithNavbar>
