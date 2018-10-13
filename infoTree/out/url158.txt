@@ -1,7 +1,20 @@
 {
-	"URL158":[
-		{"title": "Paper Berry Baskets"},
-		{"heading": "In food and yard waste"},
-		{"para": "Paper berry baskets go in the food and yard waste."}
+	"type": "URL158",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Paper Berry Baskets"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Paper berry baskets go in the food and yard waste."
+
+		]}
 
 	]}

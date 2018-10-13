@@ -1,33 +1,62 @@
 {
-	"URL206":[
-		{"title": "Refrigerators or Freezers"},
-		{"heading": "Reuse"},
-		{"para": [
-			{"text": "Resell or give it away using sites like "},
-			{"link": {"href": "https://seattle.craigslist.org/", "text": "Craigslist"}},
-			{"text": ", "},
-			{"link": {"href": "https://www.freecycle.org/", "text": "Freecycle"}},
-			{"text": ", and "},
-			{"link": {"href": "https://buynothingproject.org/", "text": "Buy Nothing"}},
-			{"text": "."}
+	"type": "URL206",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Refrigerators or Freezers"
 
 		]},
-		{"heading": "Curb-side pickup"},
-		{"para": "You must remove doors and latches from refrigerators and freezers."},
-		{"list": [
-			{"bullet": [
-				{"text": "Call SPU Customer Service at (206) 684-3000 to request "},
-				{"link": {"href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}}
+		{"type": "heading",
+		"children": [
+			"Reuse"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Resell or give it away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You must remove doors and latches from refrigerators and freezers."
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
 
 			]}
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring up to 2 residential refrigerators and freezers per visit to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+		{"type": "heading",
+		"children": [
+			"Transfer station"
 
 		]},
-		{"para": "You must remove doors and latches from refrigerators and freezers."}
+		{"type": "para",
+		"children": [
+			"Bring up to 2 residential refrigerators and freezers per visit to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+
+		]},
+		{"type": "para",
+		"children": [
+			"You must remove doors and latches from refrigerators and freezers."
+
+		]}
 
 	]}

@@ -1,9 +1,30 @@
 {
-	"URL116":[
-		{"title": "Gold, Silver, Etc."},
-		{"heading": "In garbage"},
-		{"para": "You can put gold, silver, and other precious metals in the garbage."},
-		{"heading": "Drop-off locations"},
-		{"para": "You can often sell gold, silver, and broken jewelry to jewelry buyers or coin and precious metal dealers."}
+	"type": "URL116",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Gold, Silver, Etc."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can put gold, silver, and other precious metals in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can often sell gold, silver, and broken jewelry to jewelry buyers or coin and precious metal dealers."
+
+		]}
 
 	]}

@@ -1,25 +1,73 @@
 {
-	"URL127":[
-		{"title": "Reusable Lumber"},
-		{"heading": "In food and yard waste"},
-		{"para": "Unpainted and untreated wood can go in the food and yard waste:"},
-		{"list": [
-			{"bullet": "Pieces should be less than 4-inches in diameter and under 4-feet long to avoid extra fees."},
-			{"bullet": "Remove nails and all other non-wood materials."},
-			{"bullet": "Avoid extra charges – Break lumber and boards down so they fit in your bin with the lid closed."}
+	"type": "URL127",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Reusable Lumber"
 
 		]},
-		{"heading": "In garbage"},
-		{"para": "Painted or treated wood can go in the garbage:"},
-		{"list": [
-			{"bullet": "All pieces must be less than 4-inches in diameter and under 4-feet long."},
-			{"bullet": "Avoid extra charges – Break lumber and boards down so they fit in your bin with the lid closed."}
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
 
 		]},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"link": {"href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "Donate or resell"}},
-			{"text": " reusable lumber through building supply businesses that specialize in salvage or reusable materials."}
+		{"type": "para",
+		"children": [
+			"Unpainted and untreated wood can go in the food and yard waste:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Pieces should be less than 4-inches in diameter and under 4-feet long to avoid extra fees."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Remove nails and all other non-wood materials."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Avoid extra charges – Break lumber and boards down so they fit in your bin with the lid closed."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Painted or treated wood can go in the garbage:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"All pieces must be less than 4-inches in diameter and under 4-feet long."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Avoid extra charges – Break lumber and boards down so they fit in your bin with the lid closed."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+{"type": "link", "href": "../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "Donate or resell"}
+			" reusable lumber through building supply businesses that specialize in salvage or reusable materials."
 
 		]}
 

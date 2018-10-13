@@ -1,23 +1,47 @@
 {
-	"URL123":[
-		{"title": "Auto Glass"},
-		{"heading": "In garbage"},
-		{"para": "Broken auto glass can go in the garbage:"},
-		{"list": [
-			{"bullet": "Glass must fit in your bin with the lid closed."},
-			{"bullet": [
-				{"text": "Don’t exceed the "},
-				{"link": {"href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}},
-				{"text": " printed on your bin."}
+	"type": "URL123",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Auto Glass"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Broken auto glass can go in the garbage:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Glass must fit in your bin with the lid closed."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Don’t exceed the ",
+{"type": "link", "href": "../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}
+				" printed on your bin."
 
 			]}
 
 		]},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Bring auto glass to "},
-			{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ". Fees apply."}
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring auto glass to ",
+{"type": "link", "href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+			". Fees apply."
 
 		]}
 

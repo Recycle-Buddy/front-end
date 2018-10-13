@@ -1,17 +1,52 @@
 {
-	"URL78":[
-		{"title": "Bottle Caps or Jar Lids"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Small plastic bottle caps if screwed onto an empty plastic bottle"},
-			{"bullet": "Loose plastic and metal lids 3-inches in diameter or larger"}
+	"type": "URL78",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Bottle Caps or Jar Lids"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Loose lids less than 3-inches in diameter"},
-			{"bullet": "Loose plastic bottle caps"},
-			{"bullet": "Metal beer and soda caps"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Small plastic bottle caps if screwed onto an empty plastic bottle"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Loose plastic and metal lids 3-inches in diameter or larger"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Loose lids less than 3-inches in diameter"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Loose plastic bottle caps"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Metal beer and soda caps"
+
+			]}
 
 		]}
 

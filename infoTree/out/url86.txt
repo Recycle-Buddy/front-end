@@ -1,7 +1,20 @@
 {
-	"URL86":[
-		{"Disposable Diapers"},
-		{"heading": "In garbage"},
-		{"para": "Put all disposable (even if marked "compostable") diapers in a bag, tie off, and place in garbage."}
+	"type": "URL86",
+	"children": [
+		{"type": ,
+		"children": [
+			"Disposable Diapers"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Put all disposable (even if marked "compostable") diapers in a bag, tie off, and place in garbage."
+
+		]}
 
 	]}

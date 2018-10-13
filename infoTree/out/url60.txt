@@ -1,25 +1,41 @@
 {
-	"URL60":[
-		{"title": "Rechargeable Batteries"},
-		{"heading": "Drop-off locations"},
-		{"para": [
-			{"text": "Bring rechargeable batteries to "},
-			{"link": {"href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}},
-			{"text": ". No fee."}
+	"type": "URL60",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Rechargeable Batteries"
 
 		]},
-		{"para": [
-			{"text": "Bring rechargeable batteries to a "},
-			{"link": {"href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"}},
-			{"text": " where the materials in the batteries will be reclaimed and recycled. No fee."}
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
 
 		]},
-		{"para": [
-			{"text": "Find drop off and mail back recycling options at "},
-			{"link": {"href": "http://www.call2recycle.org/", "text": "Call2Recycle outlet"}},
-			{"text": "."}
+		{"type": "para",
+		"children": [
+			"Bring rechargeable batteries to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			". No fee."
 
 		]},
-		{"heading": "Rechargeable batteries can not go in the garbage or recycling cart"}
+		{"type": "para",
+		"children": [
+			"Bring rechargeable batteries to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			" where the materials in the batteries will be reclaimed and recycled. No fee."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Find drop off and mail back recycling options at ",
+{"type": "link", "href": "http://www.call2recycle.org/", "text": "Call2Recycle outlet"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Rechargeable batteries can not go in the garbage or recycling cart"
+
+		]}
 
 	]}

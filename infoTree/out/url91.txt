@@ -1,9 +1,30 @@
 {
-	"URL91":[
-		{"title": "Wood Scraps, Shavings, or Sawdust"},
-		{"heading": "In food and yard waste"},
-		{"para": "Clean, untreated wood shavings, scraps, and sawdust go in the food and yard waste. Put sawdust or shavings in a closed paper bag or box to contain it."},
-		{"heading": "In garbage"},
-		{"para": "Painted or treated wood shavings, scraps, and sawdust go in the garbage. Put sawdust and shavings in a bag and tie off."}
+	"type": "URL91",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Wood Scraps, Shavings, or Sawdust"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Clean, untreated wood shavings, scraps, and sawdust go in the food and yard waste. Put sawdust or shavings in a closed paper bag or box to contain it."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Painted or treated wood shavings, scraps, and sawdust go in the garbage. Put sawdust and shavings in a bag and tie off."
+
+		]}
 
 	]}

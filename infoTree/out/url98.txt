@@ -1,17 +1,63 @@
 {
-	"URL98":[
-		{"title": "Food Scraps"},
-		{"heading": "In food and yard waste"},
-		{"list": [
-			{"bullet": "Fruit and vegetables"},
-			{"bullet": "Bread, pasta, rice, and grains"},
-			{"bullet": "Eggshells and nutshells"},
-			{"bullet": "Coffee grounds and filters"},
-			{"bullet": "Tea bags"},
-			{"bullet": "Meat, fish, and chicken"},
-			{"bullet": "Dairy products like milk, butter, and cheese"},
-			{"bullet": "Bones and seafood shells"},
-			{"bullet": "Compostable (uncoated) paper such as paper napkins, paper towels, and pizza boxes"}
+	"type": "URL98",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Food Scraps"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Fruit and vegetables"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Bread, pasta, rice, and grains"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Eggshells and nutshells"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Coffee grounds and filters"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Tea bags"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Meat, fish, and chicken"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dairy products like milk, butter, and cheese"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Bones and seafood shells"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Compostable (uncoated) paper such as paper napkins, paper towels, and pizza boxes"
+
+			]}
 
 		]}
 

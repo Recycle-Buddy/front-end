@@ -1,11 +1,33 @@
 {
-	"URL185":[
-		{"title": "Mugs, Plates or Bowls"},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Mugs"},
-			{"bullet": "Plates"},
-			{"bullet": "Bowls"}
+	"type": "URL185",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Mugs, Plates or Bowls"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Mugs"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plates"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Bowls"
+
+			]}
 
 		]}
 

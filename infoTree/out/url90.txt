@@ -1,25 +1,69 @@
 {
-	"URL90":[
-		{"title": "Plastic Cups & Utensils"},
-		{"heading": "In recycling"},
-		{"list": [
-			{"bullet": "Empty and clean plastic cups"}
+	"type": "URL90",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Plastic Cups & Utensils"
 
 		]},
-		{"heading": "In garbage"},
-		{"list": [
-			{"bullet": "Dirty plastic cups"},
-			{"bullet": "Plastic utensils"},
-			{"bullet": "Styrofoam cups"}
+		{"type": "heading",
+		"children": [
+			"In recycling"
 
 		]},
-		{"heading": "In food and yard waste"},
-		{"para": "Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."},
-		{"para": [
-			{"text": "Learn more about "},
-			{"link": {"href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}},
-			{"(pdf)"},
-			{"text": "."}
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Empty and clean plastic cups"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Dirty plastic cups"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Plastic utensils"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Styrofoam cups"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic-like containers labeled “Compostable” or “#7 PLA” go in the food and yard waste."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Learn more about ",
+{"type": "link", "href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"}
+			{"type": ,
+			"children": [
+				"(pdf)"
+
+			]},
+			"."
 
 		]}
 

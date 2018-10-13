@@ -1,17 +1,32 @@
 {
-	"URL52":[
-		{"title": "Salvaged materials"},
-		{"heading": "Donate and reuse"},
-		{"para": [
-			{"text": "You can often donate or resell these items to "},
-			{"link": {"href": "../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply stores"}},
-			{"text": " that specialize in salvage materials."}
+	"type": "URL52",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Salvaged materials"
 
 		]},
-		{"heading": "Transfer station"},
-		{"para": [
-			{"text": "Bring salvaged building materials to "},
-			{"link": {"href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}}
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can often donate or resell these items to ",
+{"type": "link", "href": "../../../../EnvironmentConservation/MyHome/ReduceReuse/DonateorResell/index.htm#supplies", "text": "building supply stores"},
+			" that specialize in salvage materials."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring salvaged building materials to ",
+{"type": "link", "href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
 
 		]}
 

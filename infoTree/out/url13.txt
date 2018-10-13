@@ -1,7 +1,20 @@
 {
-	"URL13":[
-		{"title": "Juice Boxes & Cartons"},
-		{"heading": "In recycling – rinse first"},
-		{"para": "Plastic spouts don’t need to be removed to recycle juice boxes and cartons."}
+	"type": "URL13",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Juice Boxes & Cartons"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Plastic spouts don’t need to be removed to recycle juice boxes and cartons."
+
+		]}
 
 	]}
