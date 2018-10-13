@@ -15,24 +15,13 @@ class Landing extends React.Component {
     return (
       <ContainerWithNavbar navigation={this.props.navigation}>
 
-        <LargeTouchable onPress={() => this.props.navigation.navigate('Search')}>
-          <LargeText style={styles.callToAction} text="Search for an tem"/>
+        <LargeTouchable onPress={() => this.props.navigation.navigate('QuestionTree')}>
+          <LargeText style={styles.callToAction} text="Search for an item in the question tree"/>
         </LargeTouchable>
 
         <StaticInfo 
           containerFlex={columnContainerFlex} 
         />
-
-<<<<<<< HEAD
-        <LargeTouchable onPress={() => this.props.navigation.navigate('Results')}>
-          <LargeText style={styles.callToAction} text="Skip search and go to results" />
-        </LargeTouchable>
-=======
-        <FullWidthContainer flex={columnContainerFlex}>
-          <Image source={images.recycleSymbol}/>
-          <LargeText text="Find local recycling center" />
-        </FullWidthContainer>
->>>>>>> 43d865d21c2e222c6bacea14b104ba055723a54d
 
         <LargeTouchable onPress={() => this.props.navigation.navigate('CameraIntro')}>
           <Image source={images.camera}/>
