@@ -5,15 +5,15 @@ import {largerFontSize, largerLineheight} from '../../assets/styles'
 
 export default class TopBar extends React.PureComponent {
   render () {
-    const { currentPath, navigateBack } = this.props
-    if(currentPath.length === 0) {
+    const { top, navigateBack, currentNode } = this.props
+    if(top) {
       return null
     } else {
       return (
         <TouchableNativeFeedback onPress={navigateBack}>
           <View style={styles.topBar}>
             <Image style={styles.chevronLeft} source={images.chevron}/>
-            <Text style={styles.topBarText}>{currentPath[currentPath.length-1]}</Text>
+            <Text style={styles.topBarText}>{currentNode.label}</Text>
           </View>
         </TouchableNativeFeedback>
       )
