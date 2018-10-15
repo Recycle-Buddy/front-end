@@ -8,11 +8,11 @@ import { standardMargin } from './../../assets/styles';
 export default class TouchableListItem extends React.PureComponent {
   onTouch = () => this.props.onTouch(this.props.name)
   render () {
-    const {name = '', hasChildren} = this.props
+    const {hasChildren, displayName, name} = this.props
     return (
       <TouchableNativeFeedback onPress={this.onTouch} key={name}>
         <View style={styles.listItem}>
-          <LargeText text={name} style={styles.text}/>
+          <LargeText text={displayName} style={styles.text}/>
           {hasChildren ? <Image style={styles.chevron} source={images.chevron}/> : null}
         </View>
       </TouchableNativeFeedback>

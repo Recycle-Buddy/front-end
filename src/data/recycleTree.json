@@ -1,0 +1,2716 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AirConditionersHeatPumps",
+              "label": "Air Conditioners or Heat Pumps"
+            },
+            {
+              "children": [],
+              "data": "Blenders",
+              "label": "Blenders"
+            },
+            {
+              "children": [],
+              "data": "FoodProcessors",
+              "label": "Food Processors"
+            },
+            {
+              "children": [],
+              "data": "Mixers",
+              "label": "Mixers"
+            },
+            {
+              "children": [],
+              "data": "OtherLargeAppliances",
+              "label": "Other Large Appliances"
+            },
+            {
+              "children": [],
+              "data": "RefrigeratorsFreezers",
+              "label": "Refrigerators or Freezers"
+            },
+            {
+              "children": [],
+              "data": "Stoves",
+              "label": "Stoves"
+            },
+            {
+              "children": [],
+              "data": "Toasters",
+              "label": "Toasters"
+            },
+            {
+              "children": [],
+              "data": "WashersDryers",
+              "label": "Washers or Dryers"
+            },
+            {
+              "children": [],
+              "data": "WaterHeaters",
+              "label": "Water Heaters"
+            }
+          ],
+          "data": "Appliances",
+          "label": "Appliances"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AlkalineBatteries",
+              "label": "Alkaline Batteries"
+            },
+            {
+              "children": [],
+              "data": "CameraWatchBatteries",
+              "label": "Camera or Watch Batteries"
+            },
+            {
+              "children": [],
+              "data": "ComputerBatteries",
+              "label": "Computer Batteries"
+            },
+            {
+              "children": [],
+              "data": "CellPhoneBatteries",
+              "label": "Cell Phone Batteries"
+            },
+            {
+              "children": [],
+              "data": "HearingAidBatteries",
+              "label": "Hearing Aid Batteries"
+            },
+            {
+              "children": [],
+              "data": "LithiumBatteries",
+              "label": "Lithium Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableBatteries",
+              "label": "Rechargeable Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableAppliances",
+              "label": "Rechargeable Appliances"
+            },
+            {
+              "children": [],
+              "data": "CarLead-AcidBatteries",
+              "label": "Car or Lead-Acid Batteries"
+            }
+          ],
+          "data": "Batteries",
+          "label": "Batteries"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "DisposableDiapers",
+              "label": "Disposable Diapers"
+            },
+            {
+              "children": [],
+              "data": "DryerSheets",
+              "label": "Dryer Sheets"
+            },
+            {
+              "children": [],
+              "data": "FlushableWipes",
+              "label": "Flushable Wipes"
+            },
+            {
+              "children": [],
+              "data": "MercuryThermometers",
+              "label": "Mercury Thermometers"
+            },
+            {
+              "children": [],
+              "data": "SinkTubsFixtures-Metal",
+              "label": "Metal Sinks, Tubs or Fixtures"
+            },
+            {
+              "children": [],
+              "data": "Mirrors",
+              "label": "Mirrors"
+            },
+            {
+              "children": [],
+              "data": "PorcelainItems",
+              "label": "Porcelain Sinks, Toilets or Tubs"
+            }
+          ],
+          "data": "BathroomLaundry",
+          "label": "Bathroom/Laundry"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BedFrames",
+              "label": "Bed Frames"
+            },
+            {
+              "children": [],
+              "data": "BeddingLinens",
+              "label": "Bedding or Linens"
+            },
+            {
+              "children": [],
+              "data": "ClothesShoes",
+              "label": "Clothes or Shoes"
+            },
+            {
+              "children": [],
+              "data": "MatressesFutons",
+              "label": "Mattresses or Futons"
+            },
+            {
+              "children": [],
+              "data": "PlasticClothesHangers",
+              "label": "Plastic Clothes Hangers"
+            },
+            {
+              "children": [],
+              "data": "ClothesHangersWire",
+              "label": "Wire Clothes Hangers"
+            },
+            {
+              "children": [],
+              "data": "ClothesHangersWood",
+              "label": "Wood Clothes Hangers"
+            }
+          ],
+          "data": "Bedroom",
+          "label": "Bedroom"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BicyclesBikeParts",
+              "label": "Bicycles or Bike Parts"
+            },
+            {
+              "children": [],
+              "data": "ChildCarSeats",
+              "label": "Child Car Seats"
+            },
+            {
+              "children": [],
+              "data": "GardenHoses",
+              "label": "Garden Hoses"
+            },
+            {
+              "children": [],
+              "data": "Paint-Latex",
+              "label": "Latex Paint"
+            },
+            {
+              "children": [],
+              "data": "LawnMowersPowerEquipment",
+              "label": "Lawn Mowers or Power Equipment"
+            },
+            {
+              "children": [],
+              "data": "Oil-BasedPaint",
+              "label": "Oil-Based Paint"
+            },
+            {
+              "children": [],
+              "data": "PlantTreeSalvage",
+              "label": "Plant or Tree Salvage"
+            },
+            {
+              "children": [],
+              "data": "PlantPots",
+              "label": "Plant Pots"
+            },
+            {
+              "children": [],
+              "data": "PlasticOutdoorFurniture",
+              "label": "Plastic Outdoor Furniture"
+            },
+            {
+              "children": [],
+              "data": "Tarps",
+              "label": "Tarps"
+            },
+            {
+              "children": [],
+              "data": "ToysSportingGoods",
+              "label": "Toys or Sporting Goods"
+            }
+          ],
+          "data": "GarageOutdoor",
+          "label": "Garage/Outdoor"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BakingTraysCookieSheets",
+              "label": "Baking Trays or Cookie Sheets"
+            },
+            {
+              "children": [],
+              "data": "Blenders",
+              "label": "Blenders"
+            },
+            {
+              "children": [],
+              "data": "CookieTins",
+              "label": "Cookie Tins"
+            },
+            {
+              "children": [],
+              "data": "FoodProcessors",
+              "label": "Food Processors"
+            },
+            {
+              "children": [],
+              "data": "Microwaves",
+              "label": "Microwaves"
+            },
+            {
+              "children": [],
+              "data": "Mixers",
+              "label": "Mixers"
+            },
+            {
+              "children": [],
+              "data": "MugsPlatesBowls",
+              "label": "Mugs, Plates, or Bowls"
+            },
+            {
+              "children": [],
+              "data": "Toasters",
+              "label": "Toasters"
+            },
+            {
+              "children": [],
+              "data": "RefrigeratorsFreezers",
+              "label": "Refrigerators or Freezers"
+            },
+            {
+              "children": [],
+              "data": "ReusableShoppingBags",
+              "label": "Reusable Shopping Bags"
+            },
+            {
+              "children": [],
+              "data": "Stoves",
+              "label": "Stoves"
+            }
+          ],
+          "data": "Kitchen",
+          "label": "Kitchen"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "LightBulbsFluorescent",
+              "label": "Fluorescent Light Bulbs"
+            },
+            {
+              "children": [],
+              "data": "LightBulbsHalogenXenon",
+              "label": "Halogen or Xenon Light Bulbs"
+            },
+            {
+              "children": [],
+              "data": "HolidayLights",
+              "label": "Holiday Lights"
+            },
+            {
+              "children": [],
+              "data": "LightBulbsIncandescent",
+              "label": "Incandescent Light Bulbs"
+            },
+            {
+              "children": [],
+              "data": "LightBulbsLED",
+              "label": "LED Light Bulbs"
+            }
+          ],
+          "data": "LightsBulbs",
+          "label": "Lights/Bulbs"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Candles",
+              "label": "Candles"
+            },
+            {
+              "children": [],
+              "data": "CarpetPadding",
+              "label": "Carpet or Padding"
+            },
+            {
+              "children": [],
+              "data": "DeadAnimals",
+              "label": "Dead Animals"
+            },
+            {
+              "children": [],
+              "data": "Ashes",
+              "label": "Fireplace or Briquette Ashes"
+            },
+            {
+              "children": [],
+              "data": "GelPacks",
+              "label": "Gel Packs"
+            },
+            {
+              "children": [],
+              "data": "HouseholdFurniture",
+              "label": "Household Furniture"
+            },
+            {
+              "children": [],
+              "data": "TelephonesLandline",
+              "label": "Landline Telephones"
+            },
+            {
+              "children": [],
+              "data": "OfficeFurnitureEquipment",
+              "label": "Office Furniture or Equipment"
+            },
+            {
+              "children": [],
+              "data": "PetFood",
+              "label": "Pet Food"
+            },
+            {
+              "children": [],
+              "data": "PetWasteLitter",
+              "label": "Pet Waste or Litter"
+            },
+            {
+              "children": [],
+              "data": "PrinterCartridgesToner",
+              "label": "Toner or Printer Cartridges"
+            },
+            {
+              "children": [],
+              "data": "SmokeDetectors",
+              "label": "Smoke Detectors"
+            },
+            {
+              "children": [],
+              "data": "WindowBlinds",
+              "label": "Window Blinds"
+            },
+            {
+              "children": [],
+              "data": "WindownPictureGlass",
+              "label": "Window or Picture Glass"
+            }
+          ],
+          "data": "MiscHousehold",
+          "label": "Misc Household"
+        }
+      ],
+      "data": "HouseholdItems",
+      "label": "Household Items"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Gutters",
+              "label": "Gutters"
+            },
+            {
+              "children": [],
+              "data": "MixedCD",
+              "label": "Mixed C & D"
+            },
+            {
+              "children": [],
+              "data": "PlantTreeSalvage",
+              "label": "Plant or Tree Salvage"
+            }
+          ],
+          "data": "Exterior",
+          "label": "Exterior"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AcousticCeilingTile",
+              "label": "Acoustic Ceiling Tile"
+            },
+            {
+              "children": [],
+              "data": "Asbestos",
+              "label": "Asbestos"
+            },
+            {
+              "children": [],
+              "data": "AsphaltRoofing",
+              "label": "Asphalt Roofing"
+            },
+            {
+              "children": [],
+              "data": "CarpetPadding",
+              "label": "Carpet or Padding"
+            }
+          ],
+          "data": "FloorsCeiling",
+          "label": "Floors/Ceiling"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Ducts",
+              "label": "Ducts. Furnace Parts, Fireplace Inserts"
+            },
+            {
+              "children": [],
+              "data": "Fiberglass",
+              "label": "Fiberglass"
+            },
+            {
+              "children": [],
+              "data": "Furnaces",
+              "label": "Furnaces"
+            },
+            {
+              "children": [],
+              "data": "SinkTubsFixtures--Metal",
+              "label": "Metal Sinks, Tubs or Fixtures"
+            },
+            {
+              "children": [],
+              "data": "PorcelainItems",
+              "label": "Porcelain Sinks, Toilets or Tubs"
+            }
+          ],
+          "data": "FurnacesFixtures",
+          "label": "Furnaces/Fixtures"
+        },
+        {
+          "children": [],
+          "data": "SalvagedMaterials",
+          "label": "Salvaged Materials"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Brick",
+              "label": "Brick"
+            },
+            {
+              "children": [],
+              "data": "ConcreteAsphalt",
+              "label": "Concrete or Asphalt"
+            },
+            {
+              "children": [],
+              "data": "ContaminatedSoil",
+              "label": "Contaminated Dirt or Soil"
+            },
+            {
+              "children": [],
+              "data": "DirtSoil",
+              "label": "Dirt or Soil"
+            },
+            {
+              "children": [],
+              "data": "RockGravel",
+              "label": "Rocks or Gravel"
+            }
+          ],
+          "data": "SoilRockBrickConcrete",
+          "label": "Soil, Rocks, Brick, Concrete"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BrokenGlass",
+              "label": "Broken Glass"
+            },
+            {
+              "children": [],
+              "data": "Drywall",
+              "label": "Drywall"
+            },
+            {
+              "children": [],
+              "data": "Paint--Latex",
+              "label": "Latex Paint"
+            },
+            {
+              "children": [],
+              "data": "Paint--Oil-Based",
+              "label": "Oil-Based Paint"
+            },
+            {
+              "children": [],
+              "data": "Windows",
+              "label": "Windows"
+            }
+          ],
+          "data": "WindowsWalls",
+          "label": "Widows/Walls"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "WoodWasteClean",
+              "label": "Clean Wood Waste"
+            },
+            {
+              "children": [],
+              "data": "PanelingCompositeWoods",
+              "label": "Composite Wood Paneling"
+            },
+            {
+              "children": [],
+              "data": "LumberBoards",
+              "label": "Lumber or Boards"
+            },
+            {
+              "children": [],
+              "data": "WoodWastePaintedTreated",
+              "label": "Painted or Treated Wood"
+            },
+            {
+              "children": [],
+              "data": "Pallets",
+              "label": "Pallets"
+            },
+            {
+              "children": [],
+              "data": "TreesBrush",
+              "label": "Trees or Brush"
+            }
+          ],
+          "data": "WoodWastes",
+          "label": "Wood Wastes"
+        }
+      ],
+      "data": "ConstructionDemolition",
+      "label": "Construction/Demolition"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "HouseholdAlkalineBatteries",
+              "label": "Alkaline Batteries"
+            },
+            {
+              "children": [],
+              "data": "CameraWatchBatteries",
+              "label": "Camera or Watch Batteries"
+            },
+            {
+              "children": [],
+              "data": "ComputerBatteries",
+              "label": "Computer Batteries"
+            },
+            {
+              "children": [],
+              "data": "CellPhoneBatteries",
+              "label": "Cell Phone Batteries"
+            },
+            {
+              "children": [],
+              "data": "HearingAidBatteries",
+              "label": "Hearing Aid Batteries"
+            },
+            {
+              "children": [],
+              "data": "Lithium",
+              "label": "Lithium Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableBatteries",
+              "label": "Rechargeable Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableAppliances",
+              "label": "Rechargeable Appliances"
+            },
+            {
+              "children": [],
+              "data": "CarLead-AcidBatteries",
+              "label": "Car or Lead-Acid Batteries"
+            }
+          ],
+          "data": "Batteries",
+          "label": "Batteries"
+        },
+        {
+          "children": [],
+          "data": "CDsDVDsFloppies",
+          "label": "CDs, DVDs, or Floppies"
+        },
+        {
+          "children": [],
+          "data": "CellPhones",
+          "label": "Cell Phones"
+        },
+        {
+          "children": [],
+          "data": "ClockRadios",
+          "label": "Clock Radios"
+        },
+        {
+          "children": [],
+          "data": "ComputersLaptops",
+          "label": "Computers or Laptops"
+        },
+        {
+          "children": [],
+          "data": "ComputerMonitors",
+          "label": "Computer Monitors"
+        },
+        {
+          "children": [],
+          "data": "CopiersFaxMachines",
+          "label": "Copiers or Fax Machines"
+        },
+        {
+          "children": [],
+          "data": "E-readers",
+          "label": "E-readers "
+        },
+        {
+          "children": [],
+          "data": "E-waste",
+          "label": "E-waste"
+        },
+        {
+          "children": [],
+          "data": "TelephonesLandline",
+          "label": "Landline Telephones"
+        },
+        {
+          "children": [],
+          "data": "OtherElectronicDevices",
+          "label": "Other Electronic Devices"
+        },
+        {
+          "children": [],
+          "data": "PrinterCartridgesToner",
+          "label": "Toner or Printer Cartridges"
+        },
+        {
+          "children": [],
+          "data": "PrintersPeripherals",
+          "label": "Printers or Peripherals"
+        },
+        {
+          "children": [],
+          "data": "StereoAudioEquipment",
+          "label": "Stereo or Audio Equipment"
+        },
+        {
+          "children": [],
+          "data": "Televisions",
+          "label": "Televisions"
+        },
+        {
+          "children": [],
+          "data": "VCRs",
+          "label": "VCRs"
+        }
+      ],
+      "data": "Electronics",
+      "label": "Electronics"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "BeddingLinens",
+          "label": "Bedding or Linens"
+        },
+        {
+          "children": [],
+          "data": "CarpetPadding",
+          "label": "Carpet or Padding"
+        },
+        {
+          "children": [],
+          "data": "ClothesShoes",
+          "label": "Clothes or Shoes"
+        },
+        {
+          "children": [],
+          "data": "DryerSheets",
+          "label": "Dryer Sheets"
+        },
+        {
+          "children": [],
+          "data": "FabricTextiles",
+          "label": "Fabric or Textiles"
+        },
+        {
+          "children": [],
+          "data": "ReusableShoppingBags",
+          "label": "Reusable Shopping Bags"
+        }
+      ],
+      "data": "Fabric",
+      "label": "Fabric"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "CookingOil",
+          "label": "Cooking Oil"
+        },
+        {
+          "children": [],
+          "data": "FatsOilsGrease",
+          "label": "Fats, Oils, or Grease"
+        },
+        {
+          "children": [],
+          "data": "FoodScraps--All",
+          "label": "Food Scraps"
+        },
+        {
+          "children": [],
+          "data": "PetFood",
+          "label": "Pet Food"
+        },
+        {
+          "children": [],
+          "data": "Vitamins",
+          "label": "Vitamins"
+        }
+      ],
+      "data": "Food",
+      "label": "Food"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "AluminumFoilTrays",
+          "label": "Aluminum Foil or Trays"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BreadBags",
+              "label": "Bread Bags"
+            },
+            {
+              "children": [],
+              "data": "CompostableBags",
+              "label": "Compostable Bags "
+            },
+            {
+              "children": [],
+              "data": "ChipBags",
+              "label": "Chip Bags"
+            },
+            {
+              "children": [],
+              "data": "FoodBoxLiners",
+              "label": "Food Box Liners"
+            },
+            {
+              "children": [],
+              "data": "GroceryBags",
+              "label": "Grocery Bags"
+            },
+            {
+              "children": [],
+              "data": "JuicePouches",
+              "label": "Juice Pouches"
+            },
+            {
+              "children": [],
+              "data": "MicrowavePopcornBags",
+              "label": "Microwave Popcorn Bags"
+            },
+            {
+              "children": [],
+              "data": "PlasticNoRecycleSymbol",
+              "label": "Plastic without Recycle Symbol"
+            },
+            {
+              "children": [],
+              "data": "PetFoodBags",
+              "label": "Pet Food Bags"
+            },
+            {
+              "children": [],
+              "data": "ProduceBulkFoodBags",
+              "label": "Produce or Bulk Food Bags"
+            },
+            {
+              "children": [],
+              "data": "ZiplocBags",
+              "label": "Ziploc Bags"
+            }
+          ],
+          "data": "BagsPouches",
+          "label": "Bags/Pouches"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BottleCapsJarLids",
+              "label": "Bottle Caps or Jar Lids"
+            },
+            {
+              "children": [],
+              "data": "PlasticBottlesWaterSoda",
+              "label": "Plastic Water or Soda Bottles"
+            },
+            {
+              "children": [],
+              "data": "PlasticMilkJuiceJug",
+              "label": "Plastic Milk or Juice Jugs"
+            },
+            {
+              "children": [],
+              "data": "PlasticNoRecycleSymbol",
+              "label": "Plastic without Recycle Symbol"
+            }
+          ],
+          "data": "BottlesJugs",
+          "label": "Bottles/Jugs"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AsepticTetraPak",
+              "label": "Aseptic or Tetra Pak"
+            },
+            {
+              "children": [],
+              "data": "ButterBoxes",
+              "label": "Butter Boxes"
+            },
+            {
+              "children": [],
+              "data": "CardboardMetalContainers",
+              "label": "Cardboard and Metal Containers"
+            },
+            {
+              "children": [],
+              "data": "CerealCrackerBoxes",
+              "label": "Cereal or Cracker Boxes"
+            },
+            {
+              "children": [],
+              "data": "FoodBoxLiners",
+              "label": "Food Box Liners"
+            },
+            {
+              "children": [],
+              "data": "FrozenFoodBoxes",
+              "label": "Frozen Food Boxes"
+            },
+            {
+              "children": [],
+              "data": "IceCreamCartons",
+              "label": "Ice Cream Cartons"
+            },
+            {
+              "children": [],
+              "data": "JuiceBoxes",
+              "label": "Juice Boxes"
+            },
+            {
+              "children": [],
+              "data": "MilkCartons",
+              "label": "Milk Cartons"
+            },
+            {
+              "children": [],
+              "data": "PaperBerryBaskets",
+              "label": "Paper Berry Baskets"
+            },
+            {
+              "children": [],
+              "data": "PaperEggCartons",
+              "label": "Paper Egg Cartons"
+            },
+            {
+              "children": [],
+              "data": "PizzaBoxes",
+              "label": "Pizza Boxes"
+            },
+            {
+              "children": [],
+              "data": "SoupBoxes",
+              "label": "Soup Boxes"
+            },
+            {
+              "children": [],
+              "data": "Take-OutContainers",
+              "label": "Take-Out Containers"
+            }
+          ],
+          "data": "BoxesCartonsLiners",
+          "label": "Boxes/Cartons/Liners"
+        },
+        {
+          "children": [],
+          "data": "ButterWrappers",
+          "label": "Butter Wrappers"
+        },
+        {
+          "children": [],
+          "data": "CoffeeFilters",
+          "label": "Coffee Filters "
+        },
+        {
+          "children": [],
+          "data": "CompostableFoodServiceItems",
+          "label": "Compostable Food Service Items"
+        },
+        {
+          "children": [],
+          "data": "Corks",
+          "label": "Corks"
+        },
+        {
+          "children": [],
+          "data": "EggCartons",
+          "label": "Egg Cartons"
+        },
+        {
+          "children": [],
+          "data": "GlassBottlesJars",
+          "label": "Glass Bottles or Jars"
+        },
+        {
+          "children": [],
+          "data": "HotCoffeeCups",
+          "label": "Hot Cups or Coffee Cups"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BottleCapsJarLids",
+              "label": "Bottle Caps or Jar Lids"
+            },
+            {
+              "children": [],
+              "data": "CanLids",
+              "label": "Can Lids"
+            },
+            {
+              "children": [],
+              "data": "LidsDeliCoffeeSoftDrink",
+              "label": "Deli, Coffee, or Soft Drink Lids"
+            },
+            {
+              "children": [],
+              "data": "Lids-Plastic",
+              "label": "Plastic Lids"
+            }
+          ],
+          "data": "Lids",
+          "label": "Lids"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AerosolCans",
+              "label": "Aerosol Cans"
+            },
+            {
+              "children": [],
+              "data": "BeverageCans",
+              "label": "Beverage Cans"
+            },
+            {
+              "children": [],
+              "data": "BottleCapsJarLids",
+              "label": "Bottle Caps or Jar Lids"
+            },
+            {
+              "children": [],
+              "data": "SteelTinCansLids",
+              "label": "Steel or Tin Cans and Lids"
+            }
+          ],
+          "data": "MetalCansMetalLids",
+          "label": "Metal Cans/Metal Lids"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "CardboardBoxes",
+              "label": "Cardboard Boxes"
+            },
+            {
+              "children": [],
+              "data": "PaperBerryBaskets",
+              "label": "Paper Berry Baskets"
+            },
+            {
+              "children": [],
+              "data": "PaperEggCartons",
+              "label": "Paper Egg Cartons"
+            },
+            {
+              "children": [],
+              "data": "PaperCupsCoffeeeCups",
+              "label": "Paper Plates or Cups"
+            },
+            {
+              "children": [],
+              "data": "PizzaBoxes",
+              "label": "Pizza Boxes"
+            },
+            {
+              "children": [],
+              "data": "CardboardSoiledorGreasy",
+              "label": "Soiled or Greasy Cardboard"
+            },
+            {
+              "children": [],
+              "data": "Take-OutContainers",
+              "label": "Take-Out Containers"
+            },
+            {
+              "children": [],
+              "data": "CardboardWaxed",
+              "label": "Waxed Cardboard"
+            },
+            {
+              "children": [],
+              "data": "WaxedPaper",
+              "label": "Waxed Paper"
+            }
+          ],
+          "data": "PaperCardboard",
+          "label": "Paper/Cardboard"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "ClamshellContainers",
+              "label": "Clamshell Containers"
+            },
+            {
+              "children": [],
+              "data": "Lids-DeliCoffeeSoftDrink",
+              "label": "Deli, Coffee, or Soft Drink Lids"
+            },
+            {
+              "children": [],
+              "data": "EggCartons",
+              "label": "Foam Egg Cartons"
+            },
+            {
+              "children": [],
+              "data": "MeatFoodTrays",
+              "label": "Meat or Food Trays"
+            },
+            {
+              "children": [],
+              "data": "PeanutButterMayonnaiseJars",
+              "label": "Peanut Butter or Mayonnaise Jars"
+            },
+            {
+              "children": [],
+              "data": "BerryBaskets",
+              "label": "Plastic Berry Baskets"
+            },
+            {
+              "children": [],
+              "data": "BerryTrays",
+              "label": "Plastic Berry Trays"
+            },
+            {
+              "children": [],
+              "data": "PlasticCupsUtensils",
+              "label": "Plastic Cups or Utensils"
+            },
+            {
+              "children": [],
+              "data": "PlasticFoodTubs",
+              "label": "Plastic Food Tubs"
+            },
+            {
+              "children": [],
+              "data": "PlasticNoRecycleSymbol",
+              "label": "Plastic without Recycle Symbol"
+            },
+            {
+              "children": [],
+              "data": "Take-OutContainers",
+              "label": "Take-Out Containers"
+            },
+            {
+              "children": [],
+              "data": "Tupperware",
+              "label": "Tupperware"
+            }
+          ],
+          "data": "PlasticStyrofoamContainers",
+          "label": "Plastic Styrofoam Containers"
+        },
+        {
+          "children": [],
+          "data": "Straws",
+          "label": "Straws"
+        }
+      ],
+      "data": "FoodPackaging",
+      "label": "Food Packaging"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "AutoGlass",
+          "label": "Auto Glass"
+        },
+        {
+          "children": [],
+          "data": "BrokenGlass",
+          "label": "Broken Glass"
+        },
+        {
+          "children": [],
+          "data": "DrinkingGlasses",
+          "label": "Drinking Glasses"
+        },
+        {
+          "children": [],
+          "data": "EyeGlasses",
+          "label": "Eyeglasses"
+        },
+        {
+          "children": [],
+          "data": "GlassBottlesJars",
+          "label": "Glass Bottles or Jars"
+        },
+        {
+          "children": [],
+          "data": "GlassCeramicHouseholdItems",
+          "label": "Glass or Ceramic Household Items"
+        },
+        {
+          "children": [],
+          "data": "LightBulbsFluorescent",
+          "label": "Fluorescent Light Bulbs"
+        },
+        {
+          "children": [],
+          "data": "LightBulbsHalogenXenon",
+          "label": "Halogen or Xenon Light Bulbs"
+        },
+        {
+          "children": [],
+          "data": "LightBulbsIncandescent",
+          "label": "Incandescent Light Bulbs"
+        },
+        {
+          "children": [],
+          "data": "LightBulbsLED",
+          "label": "LED Light Bulbs"
+        },
+        {
+          "children": [],
+          "data": "MercuryThermometers",
+          "label": "Mercury Thermometers"
+        },
+        {
+          "children": [],
+          "data": "Mirrors",
+          "label": "Mirrors"
+        },
+        {
+          "children": [],
+          "data": "MugsPlatesBowls",
+          "label": "Mugs, Plates, or Bowls"
+        },
+        {
+          "children": [],
+          "data": "WindowPictureGlass",
+          "label": "Window or Picture Glass"
+        }
+      ],
+      "data": "GlassCeramics",
+      "label": "Glass Ceramics"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "AerosolCans",
+          "label": "Aerosol Cans"
+        },
+        {
+          "children": [],
+          "data": "AmmunitionGuns",
+          "label": "Ammunition or Guns"
+        },
+        {
+          "children": [],
+          "data": "Asbestos",
+          "label": "Asbestos"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AlkalineBatteries",
+              "label": "Alkaline Batteries"
+            },
+            {
+              "children": [],
+              "data": "CameraWatchBatteries",
+              "label": "Camera or Watch Batteries"
+            },
+            {
+              "children": [],
+              "data": "ComputerBatteries",
+              "label": "Computer Batteries"
+            },
+            {
+              "children": [],
+              "data": "CellPhoneBatteries",
+              "label": "Cell Phone Batteries"
+            },
+            {
+              "children": [],
+              "data": "HearingAidBatteries",
+              "label": "Hearing Aid Batteries"
+            },
+            {
+              "children": [],
+              "data": "Lithium",
+              "label": "Lithium Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableBatteries",
+              "label": "Rechargeable Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableAppliances",
+              "label": "Rechargeable Appliances"
+            },
+            {
+              "children": [],
+              "data": "CarLead-AcidBatteries",
+              "label": "Car or Lead-Acid Batteries"
+            }
+          ],
+          "data": "Batteries",
+          "label": "Batteries"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AerosolCans",
+              "label": "Aerosol Cans"
+            },
+            {
+              "children": [],
+              "data": "FireExtinguishers",
+              "label": "Fire Extinguishers"
+            },
+            {
+              "children": [],
+              "data": "HeliumTanks",
+              "label": "Helium Tanks"
+            },
+            {
+              "children": [],
+              "data": "OxygenAcetyleneTanks",
+              "label": "Oxygen and Acetylene Tanks"
+            },
+            {
+              "children": [],
+              "data": "PropaneTanks",
+              "label": "Propane Tanks"
+            },
+            {
+              "children": [],
+              "data": "GasCanistersSmall",
+              "label": "Small Gas Canisters"
+            }
+          ],
+          "data": "CompressedGasContainers",
+          "label": "Compressed Gas Containers"
+        },
+        {
+          "children": [],
+          "data": "ContaminatedSoil",
+          "label": "Contaminated Dirt or Soil"
+        },
+        {
+          "children": [],
+          "data": "Fiberglass",
+          "label": "Fiberglass"
+        },
+        {
+          "children": [],
+          "data": "Fireworks",
+          "label": "Fireworks"
+        },
+        {
+          "children": [],
+          "data": "LightBulbsFluorescent",
+          "label": "Fluorescent Light Bulbs"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Anti-Freeze",
+              "label": "Antifreeze"
+            },
+            {
+              "children": [],
+              "data": "Bleach",
+              "label": "Bleach"
+            },
+            {
+              "children": [],
+              "data": "BrakeTransmissionFluid",
+              "label": "Brake or Transmission Fluid"
+            },
+            {
+              "children": [],
+              "data": "CleaningSupplies",
+              "label": "Cleaning Supplies"
+            },
+            {
+              "children": [],
+              "data": "Gasoline",
+              "label": "Gasoline"
+            },
+            {
+              "children": [],
+              "data": "GluesAdhesives",
+              "label": "Glues or Adhesives"
+            },
+            {
+              "children": [],
+              "data": "HobbyChemicals",
+              "label": "Hobby Chemicals"
+            },
+            {
+              "children": [],
+              "data": "Paint--Latex",
+              "label": "Latex Paint"
+            },
+            {
+              "children": [],
+              "data": "MotorOil",
+              "label": "Motor Oil"
+            },
+            {
+              "children": [],
+              "data": "Paint--Oil-Based",
+              "label": "Oil-Based Paint"
+            },
+            {
+              "children": [],
+              "data": "PoolSpaChemicals",
+              "label": "Pool or Spa Chemicals"
+            },
+            {
+              "children": [],
+              "data": "Solvents",
+              "label": "Solvents"
+            }
+          ],
+          "data": "LiquidsHouseholdSupplies",
+          "label": "Liquids/Household Supplies"
+        },
+        {
+          "children": [],
+          "data": "Medicine",
+          "label": "Medicines"
+        },
+        {
+          "children": [],
+          "data": "MotorOilContainers",
+          "label": "Motor Oil Containers"
+        },
+        {
+          "children": [],
+          "data": "NeedlesSyringes",
+          "label": "Needles or Syringes"
+        },
+        {
+          "children": [],
+          "data": "OilFilters",
+          "label": "Oil Filters"
+        },
+        {
+          "children": [],
+          "data": "OilTanks",
+          "label": "Oil Tanks"
+        },
+        {
+          "children": [],
+          "data": "Pesticides",
+          "label": "Pesticides"
+        },
+        {
+          "children": [],
+          "data": "PrinterCartridgesToner",
+          "label": "Toner or Printer Cartridges"
+        },
+        {
+          "children": [],
+          "data": "SmokeDetectors",
+          "label": "Smoke Detectors"
+        },
+        {
+          "children": [],
+          "data": "MercuryThermometersItems",
+          "label": "Thermometers or Mercury Items"
+        }
+      ],
+      "data": "HazardousItems",
+      "label": "Hazardous Items"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AirConditionersHeatPumps",
+              "label": "Air Conditioners or Heat Pumps"
+            },
+            {
+              "children": [],
+              "data": "Blenders",
+              "label": "Blenders"
+            },
+            {
+              "children": [],
+              "data": "FoodProcessors",
+              "label": "Food Processors"
+            },
+            {
+              "children": [],
+              "data": "Mixers",
+              "label": "Mixers"
+            },
+            {
+              "children": [],
+              "data": "OtherLargeAppliances",
+              "label": "Other Large Appliances"
+            },
+            {
+              "children": [],
+              "data": "RefrigeratorsFreezers",
+              "label": "Refrigerators or Freezers"
+            },
+            {
+              "children": [],
+              "data": "Stoves",
+              "label": "Stoves"
+            },
+            {
+              "children": [],
+              "data": "Toasters",
+              "label": "Toasters"
+            },
+            {
+              "children": [],
+              "data": "WashersDryers",
+              "label": "Washers or Dryers"
+            },
+            {
+              "children": [],
+              "data": "WaterHeaters",
+              "label": "Water Heaters"
+            }
+          ],
+          "data": "Appliances",
+          "label": "Appliances"
+        },
+        {
+          "children": [],
+          "data": "BarrelsDrums",
+          "label": "Barrels or Drums"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "CameraWatchBatteries",
+              "label": "Camera or Watch Batteries"
+            },
+            {
+              "children": [],
+              "data": "ComputerBatteries",
+              "label": "Computer Batteries"
+            },
+            {
+              "children": [],
+              "data": "CellPhoneBatteries",
+              "label": "Cell Phone Batteries"
+            },
+            {
+              "children": [],
+              "data": "HearingAidBatteries",
+              "label": "Hearing Aid Batteries"
+            },
+            {
+              "children": [],
+              "data": "Lithium",
+              "label": "Lithium Batteries"
+            },
+            {
+              "children": [],
+              "data": "AlkalineBatteries",
+              "label": "Alkaline Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableBatteries",
+              "label": "Rechargeable Batteries"
+            },
+            {
+              "children": [],
+              "data": "RechargeableAppliances",
+              "label": "Rechargeable Appliances"
+            },
+            {
+              "children": [],
+              "data": "CarLead-AcidBatteries",
+              "label": "Car or Lead-Acid Batteries"
+            }
+          ],
+          "data": "Batteries",
+          "label": "Batteries"
+        },
+        {
+          "children": [],
+          "data": "BicyclesBikeParts",
+          "label": "Bicycles or Bike Parts"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AerosolCans",
+              "label": "Aerosol Cans"
+            },
+            {
+              "children": [],
+              "data": "BeverageCans",
+              "label": "Beverage Cans"
+            },
+            {
+              "children": [],
+              "data": "CanLids",
+              "label": "Can Lids"
+            },
+            {
+              "children": [],
+              "data": "PaintCans",
+              "label": "Paint Cans"
+            },
+            {
+              "children": [],
+              "data": "SteelTinCans",
+              "label": "Steel or Tin Cans"
+            }
+          ],
+          "data": "Cans",
+          "label": "Cans"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "AerosolCans",
+              "label": "Aerosol Cans"
+            },
+            {
+              "children": [],
+              "data": "CO2Chargers",
+              "label": "CO2 Chargers"
+            },
+            {
+              "children": [],
+              "data": "FireExtinguishers",
+              "label": "Fire Extinguishers"
+            },
+            {
+              "children": [],
+              "data": "HeliumTanks",
+              "label": "Helium Tanks"
+            },
+            {
+              "children": [],
+              "data": "OxygenAcetyleneTanks",
+              "label": "Oxygen and Acetylene Tanks"
+            },
+            {
+              "children": [],
+              "data": "PropaneTanks",
+              "label": "Propane Tanks"
+            },
+            {
+              "children": [],
+              "data": "GasCanistersSmall",
+              "label": "Small Gas Canisters"
+            }
+          ],
+          "data": "CompressedGasContainers",
+          "label": "Compressed Gas Containers"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BakingTraysCookieSheets",
+              "label": "Baking Trays or Cookie Sheets"
+            },
+            {
+              "children": [],
+              "data": "CookieTins",
+              "label": "Cookie Tins"
+            },
+            {
+              "children": [],
+              "data": "FoilPiePans",
+              "label": "Foil Pie Pans"
+            },
+            {
+              "children": [],
+              "data": "JarLids",
+              "label": "Jar Lids"
+            },
+            {
+              "children": [],
+              "data": "Microwaves",
+              "label": "Microwaves"
+            },
+            {
+              "children": [],
+              "data": "PotsPans",
+              "label": "Pots or Pans"
+            },
+            {
+              "children": [],
+              "data": "Silverware",
+              "label": "Silverware"
+            },
+            {
+              "children": [],
+              "data": "SmallAppliances",
+              "label": "Small Appliances"
+            },
+            {
+              "children": [],
+              "data": "WineBottleFoil",
+              "label": "Wine Bottle Foil "
+            },
+            {
+              "children": [],
+              "data": "AluminumFoil",
+              "label": "Aluminum Foil"
+            }
+          ],
+          "data": "FromtheKitchen",
+          "label": "From the Kitchen"
+        },
+        {
+          "children": [],
+          "data": "HandTools",
+          "label": "Hand Tools"
+        },
+        {
+          "children": [],
+          "data": "JewelryCoins",
+          "label": "Jewelry or Coins"
+        },
+        {
+          "children": [],
+          "data": "LawnMowersPowerEquipment",
+          "label": "Lawn Mowers or Power Equipment"
+        },
+        {
+          "children": [],
+          "data": "LicensePlates",
+          "label": "License Plates"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Aluminum",
+              "label": "Aluminum"
+            },
+            {
+              "children": [],
+              "data": "CastIron",
+              "label": "Cast Iron"
+            },
+            {
+              "children": [],
+              "data": "CopperBronzeBrass",
+              "label": "Copper, Bronze, or Brass"
+            },
+            {
+              "children": [],
+              "data": "GoldSilverEtc",
+              "label": "Gold, Silver and Precious Metals"
+            },
+            {
+              "children": [],
+              "data": "IronSteel",
+              "label": "Iron or Steel"
+            },
+            {
+              "children": [],
+              "data": "Lead",
+              "label": "Lead"
+            },
+            {
+              "children": [],
+              "data": "ScrapMetal",
+              "label": "Scrap Metal"
+            },
+            {
+              "children": [],
+              "data": "StainlessSteel",
+              "label": "Stainless Steel"
+            }
+          ],
+          "data": "MetalsbyType",
+          "label": "Metals by Type"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Keys",
+              "label": "Keys"
+            },
+            {
+              "children": [],
+              "data": "ScrewsNailsNutsBolts",
+              "label": "Screws, Nails, Nuts or Bolts"
+            }
+          ],
+          "data": "SmallMetalItems",
+          "label": "Small Metal Items"
+        },
+        {
+          "children": [],
+          "data": "WindowBlinds",
+          "label": "Window Blinds"
+        },
+        {
+          "children": [],
+          "data": "WireClothesHangers",
+          "label": "Wire Clothes Hangers"
+        },
+        {
+          "children": [],
+          "data": "WireCable",
+          "label": "Wire or Cable"
+        }
+      ],
+      "data": "MetalandMetalItems",
+      "label": "Metal and Metal Items"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "CardboardBoxes",
+              "label": "Cardboard Boxes"
+            },
+            {
+              "children": [],
+              "data": "CardboardCorrugated",
+              "label": "Corrugated Cardboard"
+            },
+            {
+              "children": [],
+              "data": "Foamcore",
+              "label": "Foamcore"
+            },
+            {
+              "children": [],
+              "data": "CardboardSoiledorGreasy",
+              "label": "Soiled or Greasy Cardboard"
+            },
+            {
+              "children": [],
+              "data": "CardboardWaxed",
+              "label": "Waxed Cardboard"
+            }
+          ],
+          "data": "Cardboard",
+          "label": "Cardboard"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "ButterBoxes",
+              "label": "Butter Boxes"
+            },
+            {
+              "children": [],
+              "data": "CerealCrackerBoxes",
+              "label": "Cereal or Cracker Boxes"
+            },
+            {
+              "children": [],
+              "data": "FoodBoxLiners",
+              "label": "Food Box Liners"
+            },
+            {
+              "children": [],
+              "data": "IceCreamCartons",
+              "label": "Ice Cream Cartons"
+            },
+            {
+              "children": [],
+              "data": "LaundryDetergentBoxes",
+              "label": "Laundry Detergent Boxes"
+            },
+            {
+              "children": [],
+              "data": "MilkJuiceCartons",
+              "label": "Milk, Juice, or Soup Cartons"
+            },
+            {
+              "children": [],
+              "data": "PaperBerryBaskets",
+              "label": "Paper Berry Baskets"
+            },
+            {
+              "children": [],
+              "data": "PaperCupsCoffeeCups",
+              "label": "Paper Cups or Coffee Cups"
+            },
+            {
+              "children": [],
+              "data": "PaperEggCartons",
+              "label": "Paper Egg Cartons"
+            },
+            {
+              "children": [],
+              "data": "PizzaBoxes",
+              "label": "Pizza Boxes"
+            },
+            {
+              "children": [],
+              "data": "Take-OutContainers",
+              "label": "Take-Out Containers"
+            },
+            {
+              "children": [],
+              "data": "TissueBoxes",
+              "label": "Tissue Boxes"
+            }
+          ],
+          "data": "ContainersBoxesCartons",
+          "label": "Container, Boxes, Cartons"
+        },
+        {
+          "children": [],
+          "data": "Food-soiledPaper",
+          "label": "Food-soiled Paper"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "Envelopes",
+              "label": "Envelopes"
+            },
+            {
+              "children": [],
+              "data": "FacialTissue",
+              "label": "Facial Tissue (Kleenex)"
+            },
+            {
+              "children": [],
+              "data": "FlushableWipes",
+              "label": "Flushable Wipes"
+            },
+            {
+              "children": [],
+              "data": "GiftWrap",
+              "label": "Gift Wrap"
+            },
+            {
+              "children": [],
+              "data": "Napkins",
+              "label": "Napkins"
+            },
+            {
+              "children": [],
+              "data": "PaperBags",
+              "label": "Paper Bags"
+            },
+            {
+              "children": [],
+              "data": "PaperPlatesCups",
+              "label": "Paper Plates or Cups"
+            },
+            {
+              "children": [],
+              "data": "PaperPunchHoles",
+              "label": "Paper Punch Holes"
+            },
+            {
+              "children": [],
+              "data": "PaperTowels",
+              "label": "Paper Towels"
+            },
+            {
+              "children": [],
+              "data": "PaperTowelRolls",
+              "label": "Paper Towel Rolls"
+            },
+            {
+              "children": [],
+              "data": "PetFoodBags",
+              "label": "Pet Food Bags"
+            },
+            {
+              "children": [],
+              "data": "Receipts",
+              "label": "Receipts"
+            },
+            {
+              "children": [],
+              "data": "ShreddedPaper",
+              "label": "Shredded Paper"
+            },
+            {
+              "children": [],
+              "data": "Notebooks-SpiralBound",
+              "label": "Spiral Bound Notebooks"
+            },
+            {
+              "children": [],
+              "data": "WaxedPaper",
+              "label": "Waxed Paper"
+            }
+          ],
+          "data": "Misc.Paper",
+          "label": "Misc Paper"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "EnvelopesBubblepack",
+              "label": "Bubble Pack Envelopes"
+            },
+            {
+              "children": [],
+              "data": "Envelopes",
+              "label": "Envelopes"
+            },
+            {
+              "children": [],
+              "data": "GreetingCards",
+              "label": "Greeting Cards"
+            },
+            {
+              "children": [],
+              "data": "BooksHardback",
+              "label": "Hardback Books"
+            },
+            {
+              "children": [],
+              "data": "JunkMail",
+              "label": "Junk Mail"
+            },
+            {
+              "children": [],
+              "data": "Magazines",
+              "label": "Magazines"
+            },
+            {
+              "children": [],
+              "data": "Newspapers",
+              "label": "Newspapers"
+            },
+            {
+              "children": [],
+              "data": "OfficePaper",
+              "label": "Office Paper"
+            },
+            {
+              "children": [],
+              "data": "BooksPaperback",
+              "label": "Paperback Books"
+            },
+            {
+              "children": [],
+              "data": "PhoneBooks",
+              "label": "Phone Books"
+            },
+            {
+              "children": [],
+              "data": "Photographs",
+              "label": "Photographs"
+            },
+            {
+              "children": [],
+              "data": "Receipts",
+              "label": "Receipts"
+            },
+            {
+              "children": [],
+              "data": "Notebooks-Spiralbound",
+              "label": "Spiral Bound Notebooks"
+            },
+            {
+              "children": [],
+              "data": "EnvelopesTyvek",
+              "label": "Tyvek Envelopes"
+            }
+          ],
+          "data": "PaperPrintedReading",
+          "label": "Paper - Printed / Reading"
+        }
+      ],
+      "data": "Paper",
+      "label": "Paper"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BreadBags",
+              "label": "Bread Bags"
+            },
+            {
+              "children": [],
+              "data": "ChipBags",
+              "label": "Chip Bags"
+            },
+            {
+              "children": [],
+              "data": "DryCleanerBags",
+              "label": "Dry Cleaner Bags"
+            },
+            {
+              "children": [],
+              "data": "FoodBoxLiners",
+              "label": "Food Box Liners"
+            },
+            {
+              "children": [],
+              "data": "GroceryBags",
+              "label": "Grocery or Shopping Bags"
+            },
+            {
+              "children": [],
+              "data": "NewspaperBags",
+              "label": "Newspaper Bags"
+            },
+            {
+              "children": [],
+              "data": "ProduceBulkFoodBags",
+              "label": "Produce Bags or Bulk Food Bags"
+            },
+            {
+              "children": [],
+              "data": "ReusableShoppingBags",
+              "label": "Reusable Shopping Bags"
+            },
+            {
+              "children": [],
+              "data": "ZiplocBags",
+              "label": "Ziploc Bags"
+            }
+          ],
+          "data": "Bags",
+          "label": "Bags"
+        },
+        {
+          "children": [],
+          "data": "WithRecycleNumbers",
+          "label": "Recycle Numbers 1-7"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "6-packPlasticRings",
+              "label": "6-pack Plastic Rings "
+            },
+            {
+              "children": [],
+              "data": "BlisterPackages",
+              "label": "Blister Packages"
+            },
+            {
+              "children": [],
+              "data": "ClamshellContainers",
+              "label": "Clamshell Containers"
+            },
+            {
+              "children": [],
+              "data": "FoamEggCartons",
+              "label": "Foam Egg Cartons"
+            },
+            {
+              "children": [],
+              "data": "MeatFoodTrays",
+              "label": "Meat or Food Trays"
+            },
+            {
+              "children": [],
+              "data": "PeanutButterMayonnaiseJars",
+              "label": "Peanut Butter or Mayonnaise Jars"
+            },
+            {
+              "children": [],
+              "data": "BerryBaskets",
+              "label": "Plastic Berry Baskets"
+            },
+            {
+              "children": [],
+              "data": "BerryTrays",
+              "label": "Plastic Berry Trays"
+            },
+            {
+              "children": [],
+              "data": "PlasticCupsUtensils",
+              "label": "Plastic Cups or Utensils"
+            },
+            {
+              "children": [],
+              "data": "PlasticLids",
+              "label": "Plastic Lids"
+            },
+            {
+              "children": [],
+              "data": "PlasticMilkJuiceJug",
+              "label": "Plastic Milk or Juice Jugs"
+            },
+            {
+              "children": [],
+              "data": "PlasticBottlesWaterSoda",
+              "label": "Plastic Water or Soda Bottles"
+            },
+            {
+              "children": [],
+              "data": "TubsMargarineYogurt",
+              "label": "Margarine Tubs, Yogurt Tubs, Etc."
+            },
+            {
+              "children": [],
+              "data": "Tupperware",
+              "label": "Tupperware"
+            },
+            {
+              "children": [],
+              "data": "PlasticTubs",
+              "label": "Plastic Food Tubs"
+            }
+          ],
+          "data": "FoodBeverageContainers",
+          "label": "Food/Beverage Containers"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BiodegradableFoamPeanuts",
+              "label": "Biodegradable Foam Peanuts"
+            },
+            {
+              "children": [],
+              "data": "BubbleWrap",
+              "label": "Bubble Wrap"
+            },
+            {
+              "children": [],
+              "data": "EnvelopesBubblepack",
+              "label": "Bubble Pack Envelopes"
+            },
+            {
+              "children": [],
+              "data": "PackingPeanuts",
+              "label": "Packing Peanuts"
+            },
+            {
+              "children": [],
+              "data": "FoamBlocksPackingSheets",
+              "label": "Packing Sheets or Styrofoam Blocks"
+            },
+            {
+              "children": [],
+              "data": "EnvelopesTyvek",
+              "label": "Tyvek Envelopes"
+            }
+          ],
+          "data": "MailPackaging",
+          "label": "Mail Packaging"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "6-packPlasticRings",
+              "label": "6-pack Plastic Rings "
+            },
+            {
+              "children": [],
+              "data": "BiodegradableFoamPeanuts",
+              "label": "Biodegradable Foam Peanuts"
+            },
+            {
+              "children": [],
+              "data": "BlisterPackages",
+              "label": "Blister Packages"
+            },
+            {
+              "children": [],
+              "data": "BottleCaps",
+              "label": "Bottle Caps"
+            },
+            {
+              "children": [],
+              "data": "BubbleWrap",
+              "label": "Bubble Wrap"
+            },
+            {
+              "children": [],
+              "data": "CDCases",
+              "label": "CD or DVD Cases"
+            },
+            {
+              "children": [],
+              "data": "CDsDVDsFloppies",
+              "label": "CDs, DVDs, or Floppies"
+            },
+            {
+              "children": [],
+              "data": "PlasticClothesHangers",
+              "label": "Plastic Clothes Hangers"
+            },
+            {
+              "children": [],
+              "data": "Corks",
+              "label": "Corks"
+            },
+            {
+              "children": [],
+              "data": "EyeglassFrames",
+              "label": "Eyeglass Frames"
+            },
+            {
+              "children": [],
+              "data": "PlantPots",
+              "label": "Plant Pots"
+            },
+            {
+              "children": [],
+              "data": "PlasticNoRecycleSymbol",
+              "label": "Plastic without Recycle Symbol"
+            },
+            {
+              "children": [],
+              "data": "PlasticOutdoorFurniture",
+              "label": "Plastic Outdoor Furniture"
+            },
+            {
+              "children": [],
+              "data": "PrinterCartridges",
+              "label": "Printer Cartridges"
+            },
+            {
+              "children": [],
+              "data": "ShrinkWrap",
+              "label": "Shrink Wrap"
+            },
+            {
+              "children": [],
+              "data": "Tarps",
+              "label": "Tarps"
+            },
+            {
+              "children": [],
+              "data": "ToysSportingGoods",
+              "label": "Toys or Sporting Goods"
+            }
+          ],
+          "data": "Misc.Plastic",
+          "label": "Misc. Plastic"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "BlisterPackages",
+              "label": "Blister Packages"
+            },
+            {
+              "children": [],
+              "data": "BottleCaps",
+              "label": "Bottle Caps"
+            },
+            {
+              "children": [],
+              "data": "Buckets",
+              "label": "Buckets"
+            },
+            {
+              "children": [],
+              "data": "LaundryDetergentJugs",
+              "label": "Laundry Detergent Jugs"
+            },
+            {
+              "children": [],
+              "data": "MedicineBottles",
+              "label": "Medicine Bottles - Over the Counter"
+            },
+            {
+              "children": [],
+              "data": "PesticideContainers",
+              "label": "Pesticide Containers"
+            },
+            {
+              "children": [],
+              "data": "PlasticBottles",
+              "label": "Plastic Bottles"
+            },
+            {
+              "children": [],
+              "data": "PlasticJugs",
+              "label": "Plastic Jugs"
+            },
+            {
+              "children": [],
+              "data": "PrescriptionDrugContainers",
+              "label": "Prescription Drug Bottles"
+            },
+            {
+              "children": [],
+              "data": "ShampooLotionBottles",
+              "label": "Shampoo or Lotion Bottles"
+            },
+            {
+              "children": [],
+              "data": "VitaminBottles",
+              "label": "Vitamin Bottles"
+            }
+          ],
+          "data": "Non-FoodContainers",
+          "label": "Non-Food Containers"
+        },
+        {
+          "children": [],
+          "data": "Straws",
+          "label": "Straws"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": "FoamEggCartons",
+              "label": "Foam Egg Cartons"
+            },
+            {
+              "children": [],
+              "data": "FoamPackingSheets",
+              "label": "Foam Packing Sheets"
+            },
+            {
+              "children": [],
+              "data": "MeatFoodTrays",
+              "label": "Meat or Food Trays"
+            },
+            {
+              "children": [],
+              "data": "PackingPeanuts",
+              "label": "Packing Peanuts"
+            },
+            {
+              "children": [],
+              "data": "StyrofoamBlocks",
+              "label": "Styrofoam Blocks"
+            },
+            {
+              "children": [],
+              "data": "StyrofoamCupsUtensils",
+              "label": "Styrofoam Cups"
+            },
+            {
+              "children": [],
+              "data": "Take-OutContainers",
+              "label": "Take-Out Containers"
+            }
+          ],
+          "data": "Styrofoam",
+          "label": "Styrofoam"
+        }
+      ],
+      "data": "Plastic",
+      "label": "Plastic"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "Anti-Freeze",
+          "label": "Antifreeze"
+        },
+        {
+          "children": [],
+          "data": "AutoGlass",
+          "label": "Auto Glass"
+        },
+        {
+          "children": [],
+          "data": "BicyclesBikeParts",
+          "label": "Bicycles or Bike Parts"
+        },
+        {
+          "children": [],
+          "data": "BrakeTransmissionFluid",
+          "label": "Brake or Transmission Fluid"
+        },
+        {
+          "children": [],
+          "data": "VehicleBatteries",
+          "label": "Car Batteries"
+        },
+        {
+          "children": [],
+          "data": "ChildCarSeats",
+          "label": "Child Car Seats"
+        },
+        {
+          "children": [],
+          "data": "EnginesMotorsandCarParts",
+          "label": "Engines, Motors or Car Parts"
+        },
+        {
+          "children": [],
+          "data": "Flares",
+          "label": "Flares"
+        },
+        {
+          "children": [],
+          "data": "GasCans",
+          "label": "Gas Cans"
+        },
+        {
+          "children": [],
+          "data": "Gasoline",
+          "label": "Gasoline"
+        },
+        {
+          "children": [],
+          "data": "LawnMowersPowerEquipment",
+          "label": "Lawn Mowers or Power Equipment"
+        },
+        {
+          "children": [],
+          "data": "LicensePlates",
+          "label": "License Plates"
+        },
+        {
+          "children": [],
+          "data": "MotorOil",
+          "label": "Motor Oil"
+        },
+        {
+          "children": [],
+          "data": "MotorOilContainers",
+          "label": "Motor Oil Containers"
+        },
+        {
+          "children": [],
+          "data": "MotorOilFilters",
+          "label": "Motor Oil Filters"
+        },
+        {
+          "children": [],
+          "data": "OtherVehicleFluids",
+          "label": "Other Vehicle Fluids"
+        },
+        {
+          "children": [],
+          "data": "Tires",
+          "label": "Tires"
+        },
+        {
+          "children": [],
+          "data": "Vehicles",
+          "label": "Vehicles"
+        },
+        {
+          "children": [],
+          "data": "AutoParts",
+          "label": "Starters, Carburetors, Etc."
+        }
+      ],
+      "data": "VehiclesVehicle-related",
+      "label": "Vehicles/Vehicle-related"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "ChristmasTrees",
+          "label": "Christmas Trees"
+        },
+        {
+          "children": [],
+          "data": "WoodWasteClean",
+          "label": "Clean Wood Waste"
+        },
+        {
+          "children": [],
+          "data": "Corks",
+          "label": "Corks"
+        },
+        {
+          "children": [],
+          "data": "Ashes",
+          "label": "Fireplace or Briquette Ashes"
+        },
+        {
+          "children": [],
+          "data": "PaintedTreatedWood",
+          "label": "Painted or Treated Wood"
+        },
+        {
+          "children": [],
+          "data": "Pallets",
+          "label": "Pallets"
+        },
+        {
+          "children": [],
+          "data": "ReusableLumber",
+          "label": "Reusable Lumber"
+        },
+        {
+          "children": [],
+          "data": "WoodScrapsShavings",
+          "label": "Wood Scraps, Shavings, or Sawdust"
+        }
+      ],
+      "data": "Wood",
+      "label": "Wood"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "data": "ChristmasTrees",
+          "label": "Christmas Trees"
+        },
+        {
+          "children": [],
+          "data": "ContaminatedSoil",
+          "label": "Contaminated Dirt or Soil"
+        },
+        {
+          "children": [],
+          "data": "DirtSoil",
+          "label": "Dirt or Soil"
+        },
+        {
+          "children": [],
+          "data": "GrassClipingsSod",
+          "label": "Grass Clippings or Sod"
+        },
+        {
+          "children": [],
+          "data": "HousePlants",
+          "label": "House Plants"
+        },
+        {
+          "children": [],
+          "data": "LeavesNon-WoodyYardwaste",
+          "label": "Leaves or Non-Woody Yard Waste"
+        },
+        {
+          "children": [],
+          "data": "PetWasteLitter",
+          "label": "Pet Waste or Litter"
+        },
+        {
+          "children": [],
+          "data": "PlantsTreeSalvage",
+          "label": "Plant or Tree Salvage"
+        },
+        {
+          "children": [],
+          "data": "PlantPots",
+          "label": "Plant Pots"
+        },
+        {
+          "children": [],
+          "data": "RocksGravel",
+          "label": "Rocks or Gravel"
+        },
+        {
+          "children": [],
+          "data": "TreesBrush",
+          "label": "Trees or Brush"
+        },
+        {
+          "children": [],
+          "data": "WoodScrapsShavings",
+          "label": "Wood Scraps, Shavings, or Sawdust"
+        }
+      ],
+      "data": "YardWaste",
+      "label": "Yard Waste"
+    }
+  ],
+  "data": "root"
+}

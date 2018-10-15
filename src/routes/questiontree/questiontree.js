@@ -34,13 +34,14 @@ class QuestionTree extends React.Component {
 		const {currentPath, currentNode} = this.state
 		return (
 			<ContainerWithNavbar navigation={this.props.navigation} noPadding>
-				<TopBar currentPath={currentPath} navigateBack={this.navigateBack}/>
+				<TopBar top={currentPath.length === 0} currentNode={currentNode} navigateBack={this.navigateBack}/>
         <FlatList
           data={currentNode.children}
           style={styles.list}
           renderItem={({item}) =>
 	          <TouchableListItem
 		          name={item.data}
+              displayName={item.label}
 		          hasChildren={item.children.length > 0}
 		          onTouch={this.navigateForward}/>
           }
