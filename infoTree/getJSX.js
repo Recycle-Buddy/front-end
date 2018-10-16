@@ -2,12 +2,12 @@ var requireJSON = require('./requireJSON.js');
 
 var replace = {
     link :  "Link",
-    heading : "LargeText",
-    para : "LargeText",
-    bold : "LargeText",
+    heading : "Header",
+    para : "Paragraph",
+    bold : "Bold",
     title : "LargeText",
-    bullet : "LargeText",
-    list : "LargeText"
+    bullet : "Paragraph",
+    list : "Paragraph"
 };
 
 

@@ -34,4 +34,17 @@ export const standardStyle = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    //these are just copied styles from largeText, to be styled
+    Header: {
+        margin: standardMargin,
+        lineHeight: largeLineheight,
+        fontSize: largeFontSize,
+        color: colors.black,
+    },
+    Paragraph: {
+        margin: standardMargin,
+        lineHeight: largeLineheight,
+        fontSize: largeFontSize,
+        color: colors.black,
+    },
 });
