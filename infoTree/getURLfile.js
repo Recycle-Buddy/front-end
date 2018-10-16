@@ -1,3 +1,6 @@
+import leafURLS from './URLs.js';
+import whereDoesItGo from './whereDoesItGo.js'
+
 function getURLindex(label){
     //first find which URL maps to it
     const targetURL= whereDoesItGo.find(el => el.label === label)

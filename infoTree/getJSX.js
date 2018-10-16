@@ -1,3 +1,5 @@
+import {Button} from './button.js';
+
 var requireJSON = require('./requireJSON.js');
 
 var replace = {
