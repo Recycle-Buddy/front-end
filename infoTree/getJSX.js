@@ -1,3 +1,5 @@
+var requireJSON = require('./requireJSON.js');
+
 var replace = {
     link :  "Link",
     heading : "LargeText",
@@ -6,7 +8,7 @@ var replace = {
     title : "LargeText",
     bullet : "LargeText",
     list : "LargeText"
-}
+};
 
 
 function getJSX(node) {
@@ -33,8 +35,8 @@ function getJSX(node) {
 }
 
 function URLindexToObj(index){
-    //need to open "URL" + index + ".txt"
-    var obj = JSON.parse(file)
+    var file = varMapper(index);
+    var obj = JSON.parse(file);
     return obj;
 }
 
