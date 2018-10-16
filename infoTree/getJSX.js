@@ -1,6 +1,13 @@
 import {Button} from './button.js';
+import LargeText from '../components/LargeText.js';
+import Link from '../components/Link.js';
+import Header from '../components/Header.js';
+import Paragraph from '../components/Paragraph.js';
+import Bold from '../components/Bold.js';
 
 var requireJSON = require('./requireJSON.js');
+
+
 
 var replace = {
     link :  "Link",
