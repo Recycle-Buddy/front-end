@@ -4,7 +4,7 @@ import colors from '../assets/colors.js'
 
 class LargeTouchable extends React.PureComponent {
 	render() {
-		const { styles = {}, onPress, ...otherProps } = this.props;
+    const { styles = {}, onPress, ...otherProps } = this.props;
 		return (
 			<TouchableNativeFeedback
 				onPress={onPress}
@@ -25,7 +25,9 @@ const tStyles = StyleSheet.create({
 	},
 	childWrapper: {
 		width: '100%',
-		padding: 0,
+    padding: 0,
+    paddingTop: 5,
+    margin: 5,
 		flex: 1,
 		borderWidth: 2,
 		borderRadius: 5,
