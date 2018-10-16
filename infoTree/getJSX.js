@@ -1,19 +1,17 @@
-var obj = JSON.parse(a)
-
 var replace = {
-    link :  "Link"
-    heading : "Header"
-    para : "Paragraph"
-    bold : "Bold"
-    title : "LargeText"
-    bullet : "Bullet"
-    list : 
+    link :  "Link",
+    heading : "LargeText",
+    para : "LargeText",
+    bold : "LargeText",
+    title : "LargeText",
+    bullet : "LargeText",
+    list : "LargeText"
 }
 
 
-function getjsx(node) {
+function getJSX(node) {
     //obj format:
-    //type : tag
+    //type : ta
     //children array of object or string
     let nodeType = node.type;
     let children = node.children;
@@ -33,6 +31,12 @@ function getjsx(node) {
         }
     );
 }
-getjsx(obj.children)
+
+function URLindexToObj(index){
+    //need to open "URL" + index + ".txt"
+    var obj = JSON.parse(file)
+    return obj;
+}
+
 
 //https://medium.com/@Carmichaelize/dynamic-tag-names-in-react-and-jsx-17e366a684e9

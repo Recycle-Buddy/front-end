@@ -4,6 +4,7 @@ import { Button, StyleSheet, View, Image } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 import metrics from '../themes/metrics.js'
+import whereDoesItGo from ../../infoTree/whereDoesItGo.js
 
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
@@ -15,7 +16,8 @@ class Results extends React.Component {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    const { label, probability } = response.result[0];
+    //const { label, probability } = response.result[0];
+    const label = "Screw Top Bottles";
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
     let icon;
@@ -40,14 +42,7 @@ class Results extends React.Component {
             style={styles.icon}
             source={icon}
             />
-            <LargeText
-            style={styles.headerUpper}
-            text = {"Material: " + label}
-            />
-            <LargeText
-            style={styles.headerUpper}
-            text = {"Probability: " + probability}
-            />
+            getJSX(URLindexToObj(getURLindex(label)))
           </View>
         </FullWidthContainer>
         <FullWidthContainer flex={containerFlex}>
