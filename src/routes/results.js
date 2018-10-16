@@ -15,8 +15,11 @@ class Results extends React.Component {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    const { label, probability } = response.result[0];
+    let { label, probability } = response.result[0];
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
+
+    probability = probability.toFixed(2) * 100;
+    label = label.toUpperCase();
 
     let icon;
     switch(label) {
@@ -42,26 +45,20 @@ class Results extends React.Component {
             />
             <LargeText
             style={styles.headerUpper}
-            text = {"Material: " + label}
+            text = {"Material:        " + label}
             />
             <LargeText
             style={styles.headerUpper}
-            text = {"Probability: " + probability}
+            text = {"Probability:    " + probability +'%'}
             />
           </View>
         </FullWidthContainer>
-        <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
-            <LargeText
-              style={styles.headerUpper}
-              text={"Is this result wrong?"}
-            />
             <Button
               title='Take Another Picture'
               onPress={() => this.props.navigation.navigate('Camera')}
             />
           </View>
-        </FullWidthContainer>
 
         <View style={styles.contentContainer}>
           <Image
@@ -102,6 +99,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontStyle: 'italic',
     margin: 2,
+    fontWeight: 'bold',
   },
   instruction: {
     flexDirection: 'column',
