@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
   instructionHeader: {flex: 2},
   icon: {
     width: 50,
+    height: 50,
     alignSelf: 'center'
   }, 
 });
