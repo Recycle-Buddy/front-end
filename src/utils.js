@@ -1,8 +1,8 @@
-import data from './data/recycleTree'
+import data from './data/recycleTree.json'
 import {ToastAndroid} from 'react-native'
 
 export function getDataWithPath(path = []) {
-  const recycleTreeInfo = data.root
+  const recycleTreeInfo = data
   return _getDataWithPath(recycleTreeInfo, path)
 }
 

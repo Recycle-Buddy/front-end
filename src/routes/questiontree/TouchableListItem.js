@@ -3,15 +3,16 @@ import {Image, StyleSheet, TouchableNativeFeedback, View} from 'react-native'
 import LargeText from '../../components/LargeText'
 import images from '../../assets/images'
 import colors from '../../assets/colors'
+import { standardMargin } from './../../assets/styles';
 
 export default class TouchableListItem extends React.PureComponent {
   onTouch = () => this.props.onTouch(this.props.name)
   render () {
-    const {name = '', hasChildren} = this.props
+    const {hasChildren, displayName, name} = this.props
     return (
       <TouchableNativeFeedback onPress={this.onTouch} key={name}>
         <View style={styles.listItem}>
-          <LargeText text={name} style={styles.text}/>
+          <LargeText text={displayName} style={styles.text}/>
           {hasChildren ? <Image style={styles.chevron} source={images.chevron}/> : null}
         </View>
       </TouchableNativeFeedback>
@@ -26,7 +27,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     padding: 5,
     paddingTop: 0,
+    marginTop: standardMargin,
+    marginBottom: standardMargin,
     borderBottomWidth: 1,
+    borderTopWidth: 1,
     borderColor: colors.black,
   },
   chevron: {
