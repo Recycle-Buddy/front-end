@@ -1,13 +1,14 @@
-import {Button} from './button.js';
-import LargeText from '../components/LargeText.js';
-import Link from '../components/Link.js';
-import Header from '../components/Header.js';
-import Paragraph from '../components/Paragraph.js';
-import Bold from '../components/Bold.js';
+import React from 'react'
+import { Button, StyleSheet, Text, View, Image } from 'react-native';
 
-var requireJSON = require('./requireJSON.js');
+import LargeText from '../src/components/LargeText.js';
+import Link from '../src/components/Link.js';
+import Header from '../src/components/Header.js';
+import Paragraph from '../src/components/Paragraph.js';
+import Bold from '../src/components/Bold.js';
+import getURLindex from './getURLfile'
 
-
+import varMapper from './requireJSON.js'
 
 var replace = {
     link :  "Link",
@@ -30,24 +31,21 @@ function getJSX(node) {
     //check dictionary to see what tag we should use
     let TagName = replace[nodeType];
 
-    children.map(child => 
-        switch (typeof(child)) {
-            case "string":
-                return <TagName>{child}</TagName>
-            case "object":
-                //for links
-                return <View>{getjsx(child)}</View>
-            default:
-                return "no mapping available"
-        }
-    );
+    return children.map(child => {
+      switch (typeof(child)) {
+        case "string":
+          return <TagName>{child}</TagName>
+        case "object":
+          //for links
+          return <View>{getJSX(child)}</View>
+        default:
+          return "no mapping available"
+      }
+    })
 }
 
-function URLindexToObj(index){
-    var file = varMapper(index);
-    var obj = JSON.parse(file);
-    return obj;
+export default function renderInfo(label){
+  return getJSX(varMapper(getURLindex(label)))
 }
-
 
 //https://medium.com/@Carmichaelize/dynamic-tag-names-in-react-and-jsx-17e366a684e9

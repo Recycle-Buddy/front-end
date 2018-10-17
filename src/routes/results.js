@@ -4,12 +4,13 @@ import { Button, StyleSheet, View, Image } from 'react-native';
 import colors from '../assets/colors.js';
 import images from '../assets/images.js';
 import metrics from '../themes/metrics.js';
-import whereDoesItGo from '../../infoTree/whereDoesItGo.js';
-
+import renderInfo from '../../infoTree/getJSX.js';
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js';
 import LargeText from '../components/LargeText.js';
+
+
 
 class Results extends React.Component {
   render() {
@@ -42,7 +43,7 @@ class Results extends React.Component {
             style={styles.icon}
             source={icon}
             />
-            getJSX(URLindexToObj(getURLindex(label)))
+            {renderInfo(label)}
           </View>
         </FullWidthContainer>
         <FullWidthContainer flex={containerFlex}>
@@ -107,7 +108,7 @@ const styles = StyleSheet.create({
   icon: {
     width: 50,
     alignSelf: 'center'
-  }, 
+  },
 });
 
 export default Results;

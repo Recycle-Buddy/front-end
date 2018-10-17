@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linking, Text } from 'react-native';
+import { Linking, Text, StyleSheet} from 'react-native';
 
 import {standardStyle} from '../assets/styles.js';
 
@@ -10,18 +10,13 @@ class Link extends React.Component {
       this.openLink = this.openLink.bind(this);
   }
 
-  static propTypes = {
-    href: React.PropTypes.string.isRequired,
-    text: React.PropTypes.string.isRequired,
-  }
-
   render() {
 
     const {text} = this.props;
 
     return(
       <Text style={styles.text} onPress={this.openLink}>
-		{text}
+		    {text}
       </Text>
     );
   }
