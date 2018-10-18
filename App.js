@@ -1,5 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation';
+import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 
 
 import Landing from './src/routes/landing';
@@ -27,8 +28,20 @@ const RootStack = createStackNavigator(
   }
 );
 
+const theme = {
+  ...DefaultTheme,
+  colors: {
+    primary: 'green',
+    accent: 'gray',
+  },
+};
+
 export default class App extends React.Component {
   render() {
-    return <RootStack />;
+    return (
+      <PaperProvider theme={theme}>
+        <RootStack />
+      </PaperProvider>
+    );
   }
 }
