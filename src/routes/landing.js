@@ -1,68 +1,56 @@
 import React from 'react';
-import { StyleSheet, Image } from 'react-native';
+import { Button, Card, Paragraph } from 'react-native-paper'
+import { View } from 'react-native';
 import colors from '../assets/colors.js'
 import images from '../assets/images.js'
 import metrics from '../themes/metrics.js'
+import { standardStyle } from '../assets/styles'
 
-import LargeText from '../components/LargeText.js'
 import StaticInfo from '../components/StaticInfo';
-import ContainerWithNavbar from '../components/ContainerWithNavbar';
-import LargeTouchable from '../components/LargeTouchable';
 
 console.disableYellowBox = true;
 
 class Landing extends React.Component {
   render() {
     return (
-      <ContainerWithNavbar navigation={this.props.navigation}>
+      <View>
+        <Button
+          style={standardStyle.defaultButton}
+          icon="add-a-photo"
+          mode="outlined"
+          onPress={() => this.props.navigation.navigate('Camera')}
+        >
+          Take a picture to detect an item.
+        </Button>
+        <Button
+          style={standardStyle.defaultButton}
+          icon={images.recycleQuestions}
+          mode="contained"
+          onPress={() => this.props.navigation.navigate('QuestionTree')}
+        >
+          Search for an Item.
+        </Button>
 
-        <LargeTouchable onPress={() => this.props.navigation.navigate('QuestionTree')}>
-          <Image
+        <Card
+          style={standardStyle.defaultCard}
+          elevation={4}
+          onPress={() => this.props.navigation.navigate('QuestionTree')}
+          >
+          <Card.Cover
             source={images.recycleQuestions}
-            style={styles.icon}
-          />
-          <LargeText style={styles.callToAction} text="Search for an item in the question tree"/>
-        </LargeTouchable>
-
-        <StaticInfo 
-          containerFlex={columnContainerFlex} 
-        />
-
-        <LargeTouchable onPress={() => this.props.navigation.navigate('CameraIntro')}>
-          <Image
-            source={images.camera}
-            style={styles.icon}
+            style={standardStyle.largeCardIcon}
             />
-          <LargeText style={styles.callToAction} text="Take a picture to detect an item"/>
-        </LargeTouchable>
+          <Card.Content>
+            <Paragraph>
+            Search for an item in the question tree.
+            </Paragraph>
+          </Card.Content>
+        </Card>
 
-      </ContainerWithNavbar>
+        <StaticInfo />
+      </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  contentContainer: {
-    marginBottom: metrics.navbarMargin,
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.transparent,
-  },
-  callToAction: {
-    textAlign: 'center',
-    fontWeight: 'bold',
-  },
-  icon: {
-    width: 50,
-    height: 50,
-    alignSelf: 'center'
-  }, 
-});
-
-// This value is equal to 1/(number of FullWidthContainer components)
-// It ensures the components will be equally distributed on the screen
-const columnContainerFlex = .2;
 
 export default Landing;

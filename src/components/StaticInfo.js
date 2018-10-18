@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
-
-import FullWidthContainer from './FullWidthContainer';
-import LargeText from './LargeText';
-import LargeTouchable from '../components/LargeTouchable';
+import { Card, Paragraph, Title } from 'react-native-paper'
+import { standardStyle } from '../assets/styles'
 
 import recycleFacts from '../data/recycling-facts.json';
 
@@ -25,27 +23,18 @@ class StaticInfo extends Component {
 
   render() {
     return(
-        <LargeTouchable
-          onPress={() =>this.getRandomFact()}
-          styles={styles.touchable}
-          >
-          <LargeText
-            style={styles.largeText}
-            text={this.state.randomFact} />
-        </LargeTouchable>
+        <Card
+        style={standardStyle.defaultCard}
+        elevation={4}
+        onPress={()=>this.getRandomFact()}
+        >
+          <Card.Content>
+          <Title> Recycle Facts </Title>
+            <Paragraph>{this.state.randomFact}</Paragraph>
+          </Card.Content>
+        </Card>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  largeText: {
-    padding: 0,
-  },
-  touchable: {
-    margin: '1%',
-    borderColor: 'green'
-  },
-});
-
 
 export default StaticInfo;

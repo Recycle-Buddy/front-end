@@ -11,8 +11,6 @@ import QuestionTree from './src/routes/questiontree/questiontree';
 import MyCamera from './src/routes/expo-camera';
 import SendPicture from './src/routes/send-picture';
 
-// To add another Route just create it in the routes folder
-//        then import above and add to the RootStack below.
 const RootStack = createStackNavigator(
   {
     Landing: Landing,
@@ -30,9 +28,16 @@ const RootStack = createStackNavigator(
 
 const theme = {
   ...DefaultTheme,
+  roundness: 8,
   colors: {
+    ...DefaultTheme.colors,
     primary: 'green',
-    accent: 'gray',
+    accent: 'darkgreen',
+    background: 'white',
+    surface: 'white',
+    text:'black',
+    disabled:'gray',
+    backdrop: 'white'
   },
 };
 

@@ -12,4 +12,4 @@ const images = {
     compost: require('./images/compost.png')
 }
 
-export default images
+export default images;
