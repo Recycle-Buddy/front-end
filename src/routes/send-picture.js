@@ -1,22 +1,23 @@
 import React from 'react';
-import { Button, StyleSheet, Image, View, ToastAndroid, ImageStore } from 'react-native';
+import { Button, StyleSheet, Image, View, ImageStore, Modal } from 'react-native';
 import { ImageManipulator } from 'expo';
 
 import colors from '../assets/colors.js'
 import metrics from '../themes/metrics.js'
 
 import Navbar from '../components/Navbar';
+import LargeText from '../components/LargeText';
 
 class SendPicture extends React.Component {
   state = {
-    image: this.props.navigation.getParam('image', 'NO-Image')
+    image: this.props.navigation.getParam('image', 'NO-Image'),
+    sendingPicture: false,
   }
   sendPicture = () => {
     let resizedImage;
-    // Seth - resizing and compressing the image before sending, other wise the base64string is
-    //        too large to send and/or takes too long.
-    // TODO: Seth - make the resize options variables that can be set with environment variables.
-    // TODO: Seth - Trigger the load state when the image is sent to show a loading graphic.
+    // Seth - resizing and compressing the image before sending, other wise the base64string is too large to send and/or takes too long.
+    // TODO: Seth - make the resize options variables that can set with environment variables.
+    // TODO: Seth - Trigger the load state when the image is to show a loading graphic.
     ImageManipulator.manipulate(this.state.image.uri, [{resize: {width: 500}}], { compress: 0.5 })
     .then((response) => {
       resizedImage = response;
@@ -24,9 +25,9 @@ class SendPicture extends React.Component {
         resizedImage.uri,
         // getbase64ForTag SUCCESS callback
         base64String => {
-          ToastAndroid.show("Sent to AutoML Machine Learning API.", ToastAndroid.SHORT);
           // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
-          fetch('http://10.0.0.17:8899/images/v1/recognize', {
+          this.setState({sendingPicture: true});
+         /* fetch('http://10.0.0.17:8899/images/v1/recognize', {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
@@ -40,6 +41,7 @@ class SendPicture extends React.Component {
           })
             .then((response) => response.json())
             .then(response => {
+              this.setState({sendingPicture: false});
               console.log('Response: ', response.result[0]);
               
               if(!response){
@@ -48,7 +50,6 @@ class SendPicture extends React.Component {
               // Seth - Setting the response as part of the navigation params,
               //        efectively passing the state to the next route. We are also passing
               //        the resizedImage to be able to use it on the results route.
-              // TODO: Remove LOADING state (set to null).
               if(response.error){
                 throw new Error(response.message);
               }
@@ -59,13 +60,14 @@ class SendPicture extends React.Component {
             })
             .catch((fetchError) => {
               console.error('Fetch Error: ', fetchError);
-            });
+            });*/
         },
         // getbase64ForTag FAILURE callback
         error => console.error('ImageStore.getBase64ForTag: ', error)
       );
     })
     .catch(err => console.error('Manipulate Error: ', err));
+    setTimeout(() => this.setState({ sendingPicture: false }), 10000);
   }
 
   render() {
@@ -89,6 +91,24 @@ class SendPicture extends React.Component {
             title='Re-take Picture'
             onPress={() => goBack()}
           />
+          <Modal
+            animationType="fade"
+            transparent={true}
+            visible={this.state.sendingPicture}
+            onRequestClose={() => this.setState({sendingPicture:fasle})}>
+            <View style={styles.modalViewOuter}>
+              <View style={styles.modalViewInner}>
+                <LargeText 
+                  style={styles.modalText}
+                  text="Sent to AutoML Machine Learning API."
+                />
+                <LargeText 
+                  style={styles.modalText}
+                  text="Waiting for Response..."
+                />
+              </View>
+            </View>
+          </Modal>
         </View>
         <Navbar navigation={this.props.navigation} />
       </View>
@@ -115,6 +135,24 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: colors.transparent,
   },
+  modalText: {
+    // textAlign: 'center',
+    // fontWeight: 'normal',
+  },
+  modalViewOuter: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#ffffff90'
+  },
+  modalViewInner: {
+    // marginTop: '10%',
+    backgroundColor: colors.white,
+    width: '90%',
+    // minHeight: 275,
+    borderRadius: 10,
+  }
 });
 
 export default SendPicture;

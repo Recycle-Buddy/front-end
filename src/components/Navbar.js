@@ -14,7 +14,7 @@ class Navbar extends React.Component {
         </TouchableNativeFeedback>
         <TouchableNativeFeedback
           style={styles.imageContainer}
-          onPress={() => this.props.navigation.navigate('CameraIntro')}>
+          onPress={() => this.props.navigation.navigate('Camera')}>
           <Image style={styles.image} source={images.camera}/>
         </TouchableNativeFeedback>
         <TouchableNativeFeedback
