@@ -31,7 +31,7 @@
 			{"type": "bullet",
 			"children": [
 				"Don’t exceed the ",
-{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
 				" printed on your bin."
 
 			]}
@@ -69,7 +69,7 @@
 		{"type": "para",
 		"children": [
 			"Bring trees and brush to ",
-{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
 
 		]},
 		{"type": "list",

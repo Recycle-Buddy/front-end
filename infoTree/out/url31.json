@@ -16,7 +16,7 @@
 			"You can recycle up to 2 gallons of motor oil on each recycling collection day:"
 
 		]},
-		{"type": ,
+		{"type": "olist",
 		"children": [
 			{"type": "bullet",
 			"children": [

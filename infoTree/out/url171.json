@@ -26,7 +26,7 @@
 			{"type": "bullet",
 			"children": [
 				"Don’t exceed the ",
-{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
 				" printed on your bin."
 
 			]}
@@ -52,7 +52,7 @@
 		{"type": "para",
 		"children": [
 			"If you believe the ceiling tile contains asbestos, contact the ",
-{"type": "link", "href": "http://www.pscleanair.org/185/Asbestos", "text": "Puget Sound Clean Air Agency"}
+{"type": "link", "href": "http://www.pscleanair.org/185/Asbestos", "text": "Puget Sound Clean Air Agency"},
 			" at (206) 343-8800."
 
 		]}

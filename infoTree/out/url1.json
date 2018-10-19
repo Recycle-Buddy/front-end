@@ -36,7 +36,7 @@
 		{"type": "para",
 		"children": [
 			"Bring rocks and gravel to ",
-			{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
 			". They are charged as garbage. Charge for garbage is $145 per ton, minimum charge of $30 covers up to 420 lbs."
 
 		]}

@@ -53,7 +53,7 @@
 		"children": [
 			"Learn more about ",
 {"type": "link", "href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"},
-			{"type": ,
+			{"type": "span",
 			"children": [
 				"(pdf)"
 

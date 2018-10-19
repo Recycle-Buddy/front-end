@@ -26,16 +26,11 @@
 		{"type": "para",
 		"children": [
 			"Bring concrete and asphalt to ",
-{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
 
 		]},
 		{"type": "list",
 		"children": [
-			{"type": "bullet",
-			"children": [
-				"Your load must be less than 200lbs."
-
-			]},
 			{"type": "bullet",
 			"children": [
 				"Each concrete or asphalt piece must be less than 2' x 2' x 2' and less than 200 lbs."

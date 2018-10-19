@@ -11,7 +11,7 @@
 			"In garbage"
 
 		]},
-		{"type": ,
+		{"type": "olist",
 		"children": [
 			{"type": "bullet",
 			"children": [
@@ -49,7 +49,7 @@
 
 			]},
 			" at local locations in the ",
-{"type": "link", "href": "https://kingcounty.gov/depts/dnrp/solid-waste/programs/take-it-back/paint.aspx", "text": "Take it Back network"},
+{"type": "link", "href": "https://kingcounty.gov/depts/dnrp/solid-waste/programs/take-it-back/paint.aspx", "text": "Take it Back network"}
 
 		]},
 		{"type": "heading",

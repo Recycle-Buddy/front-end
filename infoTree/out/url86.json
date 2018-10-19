@@ -1,7 +1,7 @@
 {
 	"type": "URL86",
 	"children": [
-		{"type": ,
+		{"type": "h2",
 		"children": [
 			"Disposable Diapers"
 
@@ -13,7 +13,7 @@
 		]},
 		{"type": "para",
 		"children": [
-			"Put all disposable (even if marked "compostable") diapers in a bag, tie off, and place in garbage."
+			"Put all disposable (even if marked \"compostable\") diapers in a bag, tie off, and place in garbage."
 
 		]}
 

@@ -28,7 +28,7 @@
 			"Empty oil-based paint cans can go in the garbage:"
 
 		]},
-		{"type": ,
+		{"type": "olist",
 		"children": [
 			{"type": "bullet",
 			"children": [

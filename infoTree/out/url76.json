@@ -16,7 +16,7 @@
 			"Clean and dry shrink wrap goes in the recycling:"
 
 		]},
-		{"type": ,
+		{"type": "olist",
 		"children": [
 			{"type": "bullet",
 			"children": [

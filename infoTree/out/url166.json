@@ -56,7 +56,7 @@
 			{"type": "bullet",
 			"children": [
 				"Don’t exceed the ",
-{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"}
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
 				" printed on your bin."
 
 			]}
@@ -70,7 +70,7 @@
 		{"type": "para",
 		"children": [
 			"Call SPU Customer Service at (206) 684-3000 to request ",
-{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"},
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
 
 		]},
 		{"type": "heading",

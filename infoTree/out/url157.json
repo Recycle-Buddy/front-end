@@ -24,9 +24,9 @@
 		{"type": "para",
 		"children": [
 			"You can donate eyeglasses to ",
-{"type": "link", "href": "http://www.lionsclubs.org/EN/our-work/sight-programs/eyeglass-recycling/how-you-can-help.php", "text": "The Lions Club"}
+{"type": "link", "href": "http://www.lionsclubs.org/EN/our-work/sight-programs/eyeglass-recycling/how-you-can-help.php", "text": "The Lions Club"},
 			" or organizations affiliated with ",
-{"type": "link", "href": "https://onesight.org/faqs/", "text": "OneSight"}
+{"type": "link", "href": "https://onesight.org/faqs/", "text": "OneSight"},
 			"."
 
 		]}
