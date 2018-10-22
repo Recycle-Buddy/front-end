@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Button, StyleSheet } from 'react-native';
-import tabBarIcon from '../assets/incons'
+import {tabBarIcon} from '../assets/incons'
 
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
@@ -23,7 +23,7 @@ class CameraIntro extends React.Component {
         <View style={styles.instruction}>
           <Button 
             title="Got it"
-            onPress={() => this.props.navigation.navigate('Camera')} />
+            onPress={() => this.props.navigation.navigate('MyCamera')} />
         </View>
       </View>
       );

@@ -1,6 +1,6 @@
 import React from 'react'
 import { createStackNavigator } from 'react-navigation'
-import tabBarIcon from '../assets/incons'
+import {tabBarIcon} from '../assets/incons'
 
 
 import MyCamera from './expo-camera'

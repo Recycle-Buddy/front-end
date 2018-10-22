@@ -7,16 +7,16 @@ import TopBar from './TopBar'
 import TouchableListItem from './TouchableListItem'
 
 import images from '../../assets/images'
-import tabBarIcon from '../../assets/incons'
-import {standardIconSize} from '../../assets/styles.js'
-console.log(standardIconSize)
+import { tabBarIcon, questionTreeSvg} from '../../assets/incons'
+import { standardIconSize } from '../../assets/styles.js'
 
 class QuestionTree extends React.Component {
   static navigationOptions = {
     title: 'Find your item',
-    tabBarIcon: (
-      <Image style={{ width: standardIconSize, height: standardIconSize }} source={images.recycleQuestions} />
-    ),
+    tabBarIcon: questionTreeSvg,
+    // tabBarIcon: (
+    //   <Image style={{ width: standardIconSize, height: standardIconSize }} source={images.recycleQuestionsWhiteSVG} />
+    // ),
     tabBarColor: '#607D8B'
   }
   

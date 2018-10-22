@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, StyleSheet, Image, View, ImageStore, Modal } from 'react-native';
-import { ImageManipulator } from '../../../../../.cache/typescript/2.9/node_modules/@types/expo';
+import { ImageManipulator } from 'expo';
 
 import colors from '../assets/colors'
 import metrics from '../themes/metrics'

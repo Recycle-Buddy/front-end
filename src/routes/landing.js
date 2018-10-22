@@ -5,7 +5,7 @@ import colors from '../assets/colors'
 import images from '../assets/images'
 import metrics from '../themes/metrics'
 import { standardStyle } from '../assets/styles'
-import tabBarIcon from '../assets/incons'
+import {tabBarIcon, questionTreeSvg } from '../assets/incons'
 
 import StaticInfo from '../components/StaticInfo';
 
@@ -51,6 +51,16 @@ class Landing extends React.Component {
             <Paragraph>
             Search for an item in the question tree.
             </Paragraph>
+          </Card.Content>
+        </Card>
+
+        <Card
+          style={standardStyle.defaultCard}
+          elevation={4}
+          onPress={() => this.props.navigation.navigate('QuestionTree')}
+          >
+          <Card.Content>
+           {questionTreeSvg}
           </Card.Content>
         </Card>
 

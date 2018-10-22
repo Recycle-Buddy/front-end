@@ -32,6 +32,7 @@ class MyCamera extends React.Component {
   render() {
     const { hasCameraPermission } = this.state;
     const { Circle } = Svg;
+    const { goBack } = this.props.navigation;
 
     const cameraView = (
       <View style={{
