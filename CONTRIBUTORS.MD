@@ -4,3 +4,4 @@
 Adam Simpson
 Seth Donohue
 Gavin Look
+Sooz Richman
