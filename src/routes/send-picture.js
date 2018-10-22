@@ -108,7 +108,6 @@ class SendPicture extends React.Component {
             </View>
           </Modal>
         </View>
-        <Navbar navigation={this.props.navigation} />
       </View>
     );
   }

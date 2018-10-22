@@ -1,25 +1,11 @@
 import React from 'react';
-import { ToastAndroid, StyleSheet, FlatList, View, Image } from 'react-native';
-import ContainerWithNavbar from '../../components/ContainerWithNavbar';
+import { ToastAndroid, StyleSheet, FlatList, View } from 'react-native';
 import { getDataWithPath } from '../../utils'
 
 import TopBar from './TopBar'
 import TouchableListItem from './TouchableListItem'
 
-import images from '../../assets/images'
-import { tabBarIcon, questionTreeSvg} from '../../assets/incons'
-import { standardIconSize } from '../../assets/styles.js'
-
 class QuestionTree extends React.Component {
-  static navigationOptions = {
-    title: 'Find your item',
-    tabBarIcon: questionTreeSvg,
-    // tabBarIcon: (
-    //   <Image style={{ width: standardIconSize, height: standardIconSize }} source={images.recycleQuestionsWhiteSVG} />
-    // ),
-    tabBarColor: '#607D8B'
-  }
-  
 	constructor() {
 		super()
     this.state = {currentPath: [], currentNode: getDataWithPath([]) }

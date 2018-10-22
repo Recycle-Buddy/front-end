@@ -5,19 +5,11 @@ import colors from '../assets/colors'
 import images from '../assets/images'
 import metrics from '../themes/metrics'
 import { standardStyle } from '../assets/styles'
-import {tabBarIcon, questionTreeSvg } from '../assets/incons'
+import { tabBarIcon, questionTreeSvg } from '../assets/incons'
 
 import StaticInfo from '../components/StaticInfo';
 
-console.disableYellowBox = true;
-
 class Landing extends React.Component {
-  static navigationOptions = {
-    title: 'Home',
-    tabBarIcon: tabBarIcon('home'),
-    tabBarColor: '#3F51B5',
-  }
-
   render() {
     return (
       <View>

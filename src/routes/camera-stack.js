@@ -6,11 +6,13 @@ import {tabBarIcon} from '../assets/incons'
 import MyCamera from './expo-camera'
 import CameraIntro from './cameraintro'
 import Results from './results'
+import SendPicture from './send-picture'
 
 const CameraStack = createStackNavigator(
   {
     CameraIntro,
     MyCamera,
+    SendPicture,
     Results
   },
   {
@@ -19,12 +21,6 @@ const CameraStack = createStackNavigator(
 )
 
 export default class CameraRoutes extends React.Component {
-  static navigationOptions = {
-    title: 'Camera',
-    tabBarIcon: tabBarIcon('add-a-photo'),
-    tabBarColor: '#3F51B5',
-  }
-
   render () {
     return <CameraStack />
   }
