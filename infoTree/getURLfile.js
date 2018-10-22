@@ -3,7 +3,8 @@ import whereDoesItGo from './whereDoesItGo.js'
 
 export default function getURLindex(label){
     //first find which URL maps to it
-    const targetURL= whereDoesItGo.find(el => el.label === label)
+    const targetURLobj= whereDoesItGo.find(el => el.label === label);
+    const targetURL = targetURLobj.value;
 
     //found mapped URL, now check in URLS.js array to find which file to use
     let URLindex;
