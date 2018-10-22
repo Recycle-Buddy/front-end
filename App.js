@@ -1,25 +1,46 @@
 import React from 'react';
-import { createStackNavigator } from 'react-navigation';
-import { BottomNavigation, DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
-import images from './src/assets/images.js';
-
+import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
+
+import { tabBarIcon, questionTreeSvg } from './src/assets/incons'
 
 import Landing from './src/routes/landing'
 import CameraRoutes from './src/routes/camera-stack'
 import QuestionTree from './src/routes/questiontree/questiontree'
 
+// Seth - Temporar to disable Warnings that show up with QuestionTree
+console.disableYellowBox = true;
+
 const MainStack = createMaterialBottomTabNavigator(
   {
-    Landing: { screen: Landing },
-    Camera: { screen: CameraRoutes },
-    QuestionTree: { screen: QuestionTree },
+    Landing: {
+      screen: Landing,
+      navigationOptions: () => ({
+        title: "Home",
+        tabBarIcon: tabBarIcon('home'),
+        tabBarColor: '#3F51B5',
+      })
+    },
+    Camera: {
+      screen: CameraRoutes,
+      navigationOptions: () => ({
+        title: 'Camera',
+        tabBarIcon: tabBarIcon('add-a-photo'),
+        tabBarColor: '#3F51B5',
+      })
+    },
+    QuestionTree: {
+      screen: QuestionTree,
+      navigationOptions: () => ({     
+        title: 'Find your item',
+        tabBarIcon: questionTreeSvg,
+        // tabBarIcon: (
+        //   <Image style={{ width: standardIconSize, height: standardIconSize }} source={images.recycleQuestionsWhiteSVG} />
+        // ),
+        tabBarColor: '#607D8B'
+      })
+    },
   },
-  // {
-  //   Landing,
-    // CameraStack,
-  //   QuestionTree,
-  // },
   {
     shifting: false,
     initialRouteName: 'Landing',
@@ -44,7 +65,6 @@ const theme = {
     backdrop: 'white'
   },
 };
-
 
 export default class App extends React.Component {
   render() {
