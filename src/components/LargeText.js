@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-import {standardStyle} from '../assets/styles.js';
+import {standardStyle} from '../assets/styles';
 
 class LargeText extends React.Component {
   render() {

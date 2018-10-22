@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from 'react-native';
 import { Svg, Camera, Permissions } from 'expo';
 
-import colors from '../assets/colors.js'
+import colors from '../assets/colors'
 
 import LargeText from '../components/LargeText';
 
@@ -31,7 +31,6 @@ class MyCamera extends React.Component {
 
   render() {
     const { hasCameraPermission } = this.state;
-    const { goBack } = this.props.navigation;
     const { Circle } = Svg;
 
     const cameraView = (

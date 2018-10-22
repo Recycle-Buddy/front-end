@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import colors from './colors';
-import metrics from '../themes/metrics.js'
+import metrics from '../themes/metrics'
 
 export const standardMargin = 16;
 export const standardPadding = 16;
@@ -9,6 +9,7 @@ export const largeFontSize = 16;
 export const largeLineheight = largeFontSize * 1.5;
 export const largerFontSize = 24;
 export const largerLineheight = largeFontSize * 1.5;
+export const standardIconSize = 25;
 
 export const standardStyle = StyleSheet.create({
   largeText: {

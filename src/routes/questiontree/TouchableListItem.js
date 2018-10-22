@@ -3,7 +3,7 @@ import {Image, StyleSheet, TouchableNativeFeedback, View} from 'react-native'
 import LargeText from '../../components/LargeText'
 import images from '../../assets/images'
 import colors from '../../assets/colors'
-import { standardMargin } from './../../assets/styles';
+import { standardMargin } from '../../assets/styles';
 
 export default class TouchableListItem extends React.PureComponent {
   onTouch = () => this.props.onTouch(this.props.name)

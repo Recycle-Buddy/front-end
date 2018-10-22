@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Image, TouchableNativeFeedback, ToastAndroid } from 'react-native';
-import colors from '../assets/colors.js'
-import images from '../assets/images.js'
+import colors from '../assets/colors'
+import images from '../assets/images'
 
 class Navbar extends React.Component {
   render() {

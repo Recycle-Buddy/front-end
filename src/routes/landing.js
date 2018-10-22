@@ -1,16 +1,23 @@
 import React from 'react';
 import { Button, Card, Paragraph } from 'react-native-paper'
 import { View } from 'react-native';
-import colors from '../assets/colors.js'
-import images from '../assets/images.js'
-import metrics from '../themes/metrics.js'
+import colors from '../assets/colors'
+import images from '../assets/images'
+import metrics from '../themes/metrics'
 import { standardStyle } from '../assets/styles'
+import tabBarIcon from '../assets/incons'
 
 import StaticInfo from '../components/StaticInfo';
 
 console.disableYellowBox = true;
 
 class Landing extends React.Component {
+  static navigationOptions = {
+    title: 'Home',
+    tabBarIcon: tabBarIcon('home'),
+    tabBarColor: '#3F51B5',
+  }
+
   render() {
     return (
       <View>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button, StyleSheet, Image, View, ImageStore, Modal } from 'react-native';
-import { ImageManipulator } from 'expo';
+import { ImageManipulator } from '../../../../../.cache/typescript/2.9/node_modules/@types/expo';
 
-import colors from '../assets/colors.js'
-import metrics from '../themes/metrics.js'
+import colors from '../assets/colors'
+import metrics from '../themes/metrics'
 
 import Navbar from '../components/Navbar';
 import LargeText from '../components/LargeText';
@@ -16,7 +16,6 @@ class SendPicture extends React.Component {
   sendPicture = () => {
     let resizedImage;
     // Seth - resizing and compressing the image before sending, other wise the base64string is too large to send and/or takes too long.
-    // TODO: Seth - make the resize options variables that can set with environment variables.
     // TODO: Seth - Trigger the load state when the image is to show a loading graphic.
     ImageManipulator.manipulate(this.state.image.uri, [{resize: {width: 500}}], { compress: 0.5 })
     .then((response) => {
@@ -79,7 +78,6 @@ class SendPicture extends React.Component {
           <Button
             style={{height: '40%'}}
             title='Send To Recycle Buddy'
-            // This is the function we need to create to send the data to the backend for ML and wait for a response!
             onPress={this.sendPicture}
           />
 
@@ -95,7 +93,7 @@ class SendPicture extends React.Component {
             animationType="fade"
             transparent={true}
             visible={this.state.sendingPicture}
-            onRequestClose={() => this.setState({sendingPicture:fasle})}>
+            onRequestClose={() => this.setState({sendingPicture:false})}>
             <View style={styles.modalViewOuter}>
               <View style={styles.modalViewInner}>
                 <LargeText 
