@@ -13,7 +13,6 @@ import Results from './src/routes/results'
 import SendPicture from './src/routes/send-picture'
 
 
-
 // Seth - Temporary to disable Warnings that show up with QuestionTree
 console.disableYellowBox = true;
 
@@ -30,6 +29,10 @@ const CameraStack = createStackNavigator(
   }
 )
 
+CameraStack.navigationOptions = ({
+
+})
+
 // --------------- MAIN Tab Navigation  ---------------
 const MainStack = createMaterialBottomTabNavigator(
   {
@@ -38,16 +41,23 @@ const MainStack = createMaterialBottomTabNavigator(
       navigationOptions: () => ({
         title: "Home",
         tabBarIcon: tabBarIcon('home'),
-        tabBarColor: '#3F51B5',
+        tabBarColor: '#fff',
       })
     },
     Camera: {
       screen: CameraStack,
-      navigationOptions: () => ({
-        title: 'Camera',
-        tabBarIcon: tabBarIcon('add-a-photo'),
-        tabBarColor: '#3F51B5',
-      })
+      navigationOptions: ({ navigation }) => {
+        // Seth - Hide Tab bar when using the camera.
+        let tabBarVisible = true;
+        if(navigation.state.index === 1) tabBarVisible = false;
+        
+        return {
+          title: 'Camera',
+          tabBarIcon: tabBarIcon('add-a-photo'),
+          tabBarColor: '#3F51B5',
+          tabBarVisible,
+        };
+      }
     },
     QuestionTree: {
       screen: QuestionTree,
@@ -65,9 +75,9 @@ const MainStack = createMaterialBottomTabNavigator(
     shifting: false,
     initialRouteName: 'Landing',
     labeled: false,
-    activeColor: '#f0edf6',
+    activeColor: '#fff',
     inactiveColor: '#3e2465',
-    barStyle: { backgroundColor: '#694fad' },
+    // barStyle: { backgroundColor: '#694fad' },
   }
 )
 
@@ -89,9 +99,9 @@ const theme = {
 export default class App extends React.Component {
   render() {
     return (
-      <PaperProvider theme={theme}>
+      // <PaperProvider >
         <MainStack />
-      </PaperProvider>
+      // </PaperProvider>
     );
   }
 }
