@@ -1,16 +1,36 @@
 import React from 'react';
 import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
+import { createStackNavigator } from 'react-navigation'
 
 import { tabBarIcon, questionTreeSvg } from './src/assets/incons'
 
 import Landing from './src/routes/landing'
-import CameraRoutes from './src/routes/camera-stack'
 import QuestionTree from './src/routes/questiontree/questiontree'
+import MyCamera from './src/routes/expo-camera'
+import CameraIntro from './src/routes/cameraintro'
+import Results from './src/routes/results'
+import SendPicture from './src/routes/send-picture'
 
-// Seth - Temporar to disable Warnings that show up with QuestionTree
+
+
+// Seth - Temporary to disable Warnings that show up with QuestionTree
 console.disableYellowBox = true;
 
+//  --------------- Stack Navigation for CHILD views that are nested in the Bottom Tabs  ---------------
+const CameraStack = createStackNavigator(
+  {
+    CameraIntro,
+    MyCamera,
+    SendPicture,
+    Results
+  },
+  {
+    initialRouteName: 'CameraIntro'
+  }
+)
+
+// --------------- MAIN Tab Navigation  ---------------
 const MainStack = createMaterialBottomTabNavigator(
   {
     Landing: {
@@ -22,7 +42,7 @@ const MainStack = createMaterialBottomTabNavigator(
       })
     },
     Camera: {
-      screen: CameraRoutes,
+      screen: CameraStack,
       navigationOptions: () => ({
         title: 'Camera',
         tabBarIcon: tabBarIcon('add-a-photo'),
