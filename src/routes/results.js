@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, StyleSheet, View, Image } from 'react-native';
+import { Button, StyleSheet, View, Image, Text } from 'react-native';
 
 import colors from '../assets/colors.js';
 import images from '../assets/images.js';
@@ -18,7 +18,7 @@ class Results extends React.Component {
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
     //const { label, probability } = response.result[0];
-    const label = "Box Liners";
+    const label = "Dish Washers";
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
     let icon;
