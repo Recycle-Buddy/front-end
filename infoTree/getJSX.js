@@ -15,7 +15,7 @@ var replace = {
     heading : "Header",
     para : "Paragraph",
     bold : "Bold",
-    title : "largeText",
+    title : "LargeText",
     bullet : "Paragraph",
     list : "Paragraph",
     olist: "Paragraph"
