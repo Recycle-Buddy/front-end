@@ -17,7 +17,7 @@ import SendPicture from './src/routes/send-picture'
 // Seth - Temporary to disable Warnings that show up with QuestionTree
 console.disableYellowBox = true;
 
-//  --------------- Stack Navigation for CHILD views that are nested in the Bottom Tabs  ---------------
+//  --------------- Stack Navigators for CHILD views that are nested in the Main Tabs  ---------------
 const CameraStack = createStackNavigator(
   {
     CameraIntro,
