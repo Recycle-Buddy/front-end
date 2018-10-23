@@ -63,7 +63,8 @@ const MainStack = createMaterialBottomTabNavigator(
       screen: QuestionTree,
       navigationOptions: () => ({     
         title: 'Find your item',
-        tabBarIcon: questionTreeSvg,
+        tabBarIcon: tabBarIcon('search'),
+        // tabBarIcon: 'questionTreeSvg',
         // tabBarIcon: (
         //   <Image style={{ width: standardIconSize, height: standardIconSize }} source={images.recycleQuestionsWhiteSVG} />
         // ),
