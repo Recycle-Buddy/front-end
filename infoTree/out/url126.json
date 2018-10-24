@@ -1,0 +1,57 @@
+{
+	"type": "URL126",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Composite Wood Paneling"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Wood paneling and composite materials can go in the garbage:"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Break paneling down so it fits in your bin with the lid closed."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Make sure it doesn’t exceed the ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/GarbageRates/index.htm", "text": "weight limits"},
+				" printed on your bin."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Next to bin"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Paneling that does not fit in your bin with the lid closed can be put in a plastic bag and set next to your garbage can on collection day. {{proj[4].rate_text}}"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring wood paneling and composite materials to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+		]}
+
+	]}

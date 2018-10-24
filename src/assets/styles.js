@@ -34,4 +34,23 @@ export const standardStyle = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    Header: {
+        margin: standardMargin,
+        lineHeight: largeLineheight,
+        fontSize: largeFontSize,
+        color: colors.black,
+    },
+    Paragraph: {
+        margin: standardMargin,
+        lineHeight: largeLineheight,
+        fontSize: standardFontSize,
+        color: colors.black,
+    },
+    Bold: {
+        margin: standardMargin,
+        lineHeight: largeLineheight,
+        fontSize: standardFontSize,
+        color: colors.black,
+        fontWeight: 'bold'
+    },
 });

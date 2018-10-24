@@ -1,0 +1,44 @@
+{
+	"type": "URL66",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Mattresses or Futons"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Donate"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Donate futon frames in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			".  Mattresses and futons are generally not accepted at thrift stores."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring mattresses and futons to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+		]}
+
+	]}
