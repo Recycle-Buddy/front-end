@@ -12,7 +12,8 @@ class Link extends React.Component {
 
   render() {
 
-    const {text} = this.props;
+    const {children} = this.props;
+    const {text} = children;
 
     return(
       <Text style={styles.text} onPress={this.openLink}>
@@ -22,10 +23,11 @@ class Link extends React.Component {
   }
 
   openLink() {
-    const {href} = this.props;
+    const {children} = this.props;
+    const {href} = children;
     Linking.canOpenURL(href).then(supported => {
       if (supported) {
-        Linking.openURL(this.props.href);
+        Linking.openURL(href);
       } else {
         return;
       }

@@ -23,7 +23,7 @@ const RootStack = createStackNavigator(
     QuestionTree: QuestionTree,
   },
   {
-    initialRouteName: 'Results',
+    initialRouteName: 'Landing',
   }
 );
 

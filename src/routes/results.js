@@ -18,11 +18,11 @@ class Results extends React.Component {
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
     //const { label, probability } = response.result[0];
-    const label = "Dish Washers";
+    const label = "Cardboard";
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
     let icon;
-    switch(label) {
+    switch(label.toLowerCase()) {
       case 'cardboard':
       case 'metal':
       case 'glass':
