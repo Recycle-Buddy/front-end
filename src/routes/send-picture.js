@@ -26,10 +26,6 @@ class SendPicture extends React.Component {
         base64String => {
           // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
           this.setState({sendingPicture: true});
-          this.props.navigation.navigate('Results', {
-            machineLearningResponse: response,
-            resizedImage: resizedImage
-          });
          /* fetch('http://10.0.0.17:8899/images/v1/recognize', {
             method: 'POST',
             headers: {
@@ -70,7 +66,12 @@ class SendPicture extends React.Component {
       );
     })
     .catch(err => console.error('Manipulate Error: ', err));
-    setTimeout(() => this.setState({ sendingPicture: false }), 10000);
+    setTimeout(() => this.setState({ sendingPicture: false }, ()=> {
+      this.props.navigation.navigate('Results', {
+        // machineLearningResponse: response,
+        resizedImage: resizedImage
+      });
+    }), 500);
   }
 
   render() {

@@ -8,9 +8,6 @@ import renderInfo from '../../infoTree/getJSX.js';
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer.js';
-import LargeText from '../components/LargeText.js';
-
-
 
 class Results extends React.Component {
   render() {
@@ -22,7 +19,7 @@ class Results extends React.Component {
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
     let icon;
-    switch (label) {
+    switch(label.toLowerCase()) {
       case 'cardboard':
       case 'metal':
       case 'glass':
@@ -36,6 +33,7 @@ class Results extends React.Component {
     }
 
     return (
+      <View flex={1}>
       <ContainerWithNavbar navigation={this.props.navigation}>
         <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
@@ -62,6 +60,7 @@ class Results extends React.Component {
             source={resizedImage} />
         </View>
       </ContainerWithNavbar>
+      </View>
     );
   }
 }

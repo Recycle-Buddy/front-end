@@ -13,7 +13,6 @@ class Intermediate extends React.Component {
   render() {
   	let componentType = this.props.type;
   	let returnComp = <Text>Hello</Text>;
-  	console.log(componentType);
 
     switch(componentType){
         case 'link':
