@@ -4,6 +4,7 @@ import { Button, StyleSheet, View, Image, Text } from 'react-native';
 import colors from '../assets/colors.js';
 import images from '../assets/images.js';
 import metrics from '../themes/metrics.js';
+import { standardStyle } from '../assets/styles'
 import renderInfo from '../../infoTree/getJSX.js';
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
@@ -34,33 +35,20 @@ class Results extends React.Component {
 
     return (
       <View flex={1}>
-      <ContainerWithNavbar navigation={this.props.navigation}>
-        <FullWidthContainer flex={containerFlex}>
-          <View style={styles.instruction}>
-            <Image
-              style={styles.icon}
-              source={icon}
-            />
-            {renderInfo(label)}
-          </View>
-        </FullWidthContainer>
-        <FullWidthContainer flex={containerFlex}>
-          <View style={styles.instruction}>
-            <Button
-              title='Take Another Picture'
-              onPress={() => this.props.navigation.navigate('Camera')}
-            />
-          </View>
-        </FullWidthContainer>
-
-        <View style={styles.contentContainer}>
+        <View style={styles.instruction}>
           <Image
-            style={styles.resizedImage}
-            resizeMode={'contain'}
-            source={resizedImage} />
+            style={styles.icon}
+            source={icon}
+          />
+          {renderInfo(label)}
         </View>
-      </ContainerWithNavbar>
-      </View>
+        <View style={styles.instruction}>
+          <Button
+            title='Take Another Picture'
+            onPress={() => this.props.navigation.navigate('Camera')}
+          />
+        </View>
+      </View>   
     );
   }
 }
