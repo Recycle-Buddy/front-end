@@ -3,7 +3,7 @@ import whereDoesItGo from './whereDoesItGo.js'
 
 export default function getURLindex(label){
     //first find which URL maps to it
-    const targetURLobj= whereDoesItGo.find(el => el.label === label);
+    const targetURLobj= whereDoesItGo.find(el => splitOnSeps(el.label) === label);
     const targetURL = targetURLobj.value;
 
     //found mapped URL, now check in URLS.js array to find which file to use
@@ -15,4 +15,10 @@ export default function getURLindex(label){
     }
 
     return URLindex;
+}
+
+function splitOnSeps(str){
+    const separators = ['-',' '];
+    let prejoin = str.split(new RegExp(separators.join('|'), 'g'));
+    return prejoin.join('');
 }

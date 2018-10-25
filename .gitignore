@@ -18,3 +18,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.DS_Store
+infoTree/.DS_Store
+infoTree/errog.txt
+infoTree/out/.DS_Store
+infoTree/temp.txt
+infoTree/writeCase.py
+infoTree/writeRequireOutFiles.py
+src/.DS_Store
+src/routes/.DS_Store
+package-lock.json
