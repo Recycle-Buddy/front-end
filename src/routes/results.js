@@ -7,24 +7,22 @@ import metrics from '../themes/metrics.js';
 import renderInfo from '../../infoTree/getJSX.js';
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
-import FullWidthContainer from '../components/FullWidthContainer'
-import LargeText from '../components/LargeText'
+import FullWidthContainer from '../components/FullWidthContainer.js';
+import LargeText from '../components/LargeText.js';
+
+
 
 class Results extends React.Component {
   render() {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    // let { label, probability } = response.result[0];
     //const { label, probability } = response.result[0];
-    label = "Dish Washers";
+    const label = "Dish Washers";
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
-    // probability = probability.toFixed(2) * 100;
-    label = label.toUpperCase();
-
     let icon;
-    switch(label) {
+    switch (label) {
       case 'cardboard':
       case 'metal':
       case 'glass':
@@ -42,22 +40,20 @@ class Results extends React.Component {
         <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
             <Image
-            style={styles.icon}
-            source={icon}
-            />
-            <LargeText
-            style={styles.headerUpper}
-            text = {"Material:        " + label}
+              style={styles.icon}
+              source={icon}
             />
             {renderInfo(label)}
           </View>
         </FullWidthContainer>
+        <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
             <Button
               title='Take Another Picture'
               onPress={() => this.props.navigation.navigate('Camera')}
             />
           </View>
+        </FullWidthContainer>
 
         <View style={styles.contentContainer}>
           <Image
@@ -98,17 +94,15 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontStyle: 'italic',
     margin: 2,
-    fontWeight: 'bold',
   },
   instruction: {
     flexDirection: 'column',
     alignItems: 'flex-start',
     padding: 10
   },
-  instructionHeader: {flex: 2},
+  instructionHeader: { flex: 2 },
   icon: {
     width: 50,
-    height: 50,
     alignSelf: 'center'
   },
 });
