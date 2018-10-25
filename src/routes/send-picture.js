@@ -5,8 +5,8 @@ import { ImageManipulator } from 'expo';
 import colors from '../assets/colors'
 import metrics from '../themes/metrics'
 
-import Navbar from '../components/Navbar';
 import LargeText from '../components/LargeText';
+import MyModal from '../components/MyModal'
 
 class SendPicture extends React.Component {
   state = {
@@ -26,6 +26,10 @@ class SendPicture extends React.Component {
         base64String => {
           // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
           this.setState({sendingPicture: true});
+          this.props.navigation.navigate('Results', {
+            machineLearningResponse: response,
+            resizedImage: resizedImage
+          });
          /* fetch('http://10.0.0.17:8899/images/v1/recognize', {
             method: 'POST',
             headers: {
@@ -89,24 +93,13 @@ class SendPicture extends React.Component {
             title='Re-take Picture'
             onPress={() => goBack()}
           />
-          <Modal
-            animationType="fade"
-            transparent={true}
+          <MyModal
             visible={this.state.sendingPicture}
-            onRequestClose={() => this.setState({sendingPicture:false})}>
-            <View style={styles.modalViewOuter}>
-              <View style={styles.modalViewInner}>
-                <LargeText 
-                  style={styles.modalText}
-                  text="Sent to AutoML Machine Learning API."
-                />
-                <LargeText 
-                  style={styles.modalText}
-                  text="Waiting for Response..."
-                />
-              </View>
-            </View>
-          </Modal>
+            text={`Sent to AutoML Machine Learning API. \n
+             Waiting for Response...`}
+            onRequestClose={() => this.setState({ sendingPicture: false })}
+            onPress={null}
+          />
         </View>
       </View>
     );

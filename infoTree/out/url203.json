@@ -1,0 +1,31 @@
+{
+	"type": "URL203",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Styrofoam Blocks or Packing Sheets"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Styrofoam blocks and packing sheets go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+{"type": "link", "href": "http://www.styrorecycle.com/index.php/what-we-accept/", "text": "Styro Recycle"},
+			" in Kent accepts Styrofoam blocks, packing sheets, and packing peanuts for recycling."
+
+		]}
+
+	]}

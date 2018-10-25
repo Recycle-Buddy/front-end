@@ -63,4 +63,23 @@ export const standardStyle = StyleSheet.create({
     margin: 4,
     backgroundColor: 'transparent'
   },
+  Header: {
+      margin: standardMargin,
+      lineHeight: largeLineheight,
+      fontSize: largeFontSize,
+      color: colors.black,
+  },
+  Paragraph: {
+      margin: standardMargin,
+      lineHeight: largeLineheight,
+      fontSize: standardFontSize,
+      color: colors.black,
+  },
+  Bold: {
+      margin: standardMargin,
+      lineHeight: largeLineheight,
+      fontSize: standardFontSize,
+      color: colors.black,
+      fontWeight: 'bold'
+  },
 });

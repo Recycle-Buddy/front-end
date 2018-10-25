@@ -43,16 +43,7 @@ class Landing extends React.Component {
             <Paragraph>
             Search for an item in the question tree.
             </Paragraph>
-          </Card.Content>
-        </Card>
-
-        <Card
-          style={standardStyle.defaultCard}
-          elevation={4}
-          onPress={() => this.props.navigation.navigate('QuestionTree')}
-          >
-          <Card.Content>
-           {questionTreeSvg}
+            {questionTreeSvg}
           </Card.Content>
         </Card>
 

@@ -1,0 +1,65 @@
+{
+	"type": "URL64",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Household Furniture"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Donate and reuse"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Donate furniture in good condition to ",
+{"type": "link", "href": "../../../../../MyServices/Recycling/ReduceReuse/DonateorResell/index.htm", "text": "local thrift stores"},
+			"."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Resell or give away using sites like ",
+{"type": "link", "href": "https://seattle.craigslist.org/", "text": "Craigslist"},
+			", ",
+{"type": "link", "href": "https://www.freecycle.org/", "text": "Freecycle"},
+			", and ",
+{"type": "link", "href": "https://buynothingproject.org/", "text": "Buy Nothing"},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Furniture can go in the garbage. Break furniture down so it fits in your bin with the lid closed."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Curb-side pickup"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Call SPU Customer Service at (206) 684-3000 to request ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/HouseResidentsGarbage/ExtraorBulkyGarbage/index.htm", "text": "bulky item pickup"}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can also bring furniture to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"}
+
+		]}
+
+	]}

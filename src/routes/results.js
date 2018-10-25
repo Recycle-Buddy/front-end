@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, StyleSheet, View, Image } from 'react-native';
+import { Button, StyleSheet, View, Image, Text } from 'react-native';
 
-import colors from '../assets/colors'
-import images from '../assets/images'
-import metrics from '../themes/metrics'
-
+import colors from '../assets/colors.js';
+import images from '../assets/images.js';
+import metrics from '../themes/metrics.js';
+import renderInfo from '../../infoTree/getJSX.js';
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer'
@@ -15,10 +15,12 @@ class Results extends React.Component {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    let { label, probability } = response.result[0];
+    // let { label, probability } = response.result[0];
+    //const { label, probability } = response.result[0];
+    label = "Dish Washers";
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
-    probability = probability.toFixed(2) * 100;
+    // probability = probability.toFixed(2) * 100;
     label = label.toUpperCase();
 
     let icon;
@@ -47,10 +49,7 @@ class Results extends React.Component {
             style={styles.headerUpper}
             text = {"Material:        " + label}
             />
-            <LargeText
-            style={styles.headerUpper}
-            text = {"Probability:    " + probability +'%'}
-            />
+            {renderInfo(label)}
           </View>
         </FullWidthContainer>
           <View style={styles.instruction}>
@@ -111,7 +110,7 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     alignSelf: 'center'
-  }, 
+  },
 });
 
 export default Results;

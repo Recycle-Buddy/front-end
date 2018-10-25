@@ -1,0 +1,89 @@
+{
+	"type": "URL99",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Take-Out Containers"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In recycling – rinse first"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Empty and rinsed plastic clamshell containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Empty and rinsed plastic-coated (shiny) paper containers"
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In food and yard waste"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Dirty or clean uncoated (not shiny) paper take-out containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty or clean take-out containers labeled “Compostable” or “#7 PLA”"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Greasy pizza boxes"
+
+			]}
+
+		]},
+		{"type": "para",
+		"children": [
+			"Learn more about ",
+{"type": "link", "href": "../../../../../cs/groups/public/@spu/@foodyard/documents/webcontent/spu02_014960.pdf", "text": "compostable packaging"},
+			{"type": "span",
+			"children": [
+				"(pdf)"
+
+			]},
+			"."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "list",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Styrofoam containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty plastic-coated (shiny) paper containers"
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Dirty plastic containers that aren’t marked “Compostable” or “#7 PLA”"
+
+			]}
+
+		]}
+
+	]}

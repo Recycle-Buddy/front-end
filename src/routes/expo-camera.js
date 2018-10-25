@@ -21,7 +21,7 @@ class MyCamera extends React.Component {
   snap = async () => {
     if (this.camera) {
       this.camera.takePictureAsync()
-        .then(image => {
+      .then(image => {
           this.props.navigation.navigate('SendPicture', {
             image: image,
           });
