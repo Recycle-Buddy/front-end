@@ -2,7 +2,7 @@ import * as React from 'react'
 import { MaterialIcons } from '@expo/vector-icons'
 import { Svg } from 'expo'
 
-import { standardIconSize } from '../assets/styles'
+import { standardIconSize } from './styles'
 
 export const tabBarIcon = name => ({ tintColor }) => (
   <MaterialIcons

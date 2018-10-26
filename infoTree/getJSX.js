@@ -16,7 +16,7 @@ function getJSX(node) {
     let children = node.children;
 
     return children.map((child, index) => {
-      console.log(child)
+      // console.log(child)
       switch (typeof(child)) {
         case "string":
           return <Intermediate key={index} type = {nodeType} text = {child}></Intermediate>;

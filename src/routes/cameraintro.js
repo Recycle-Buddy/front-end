@@ -1,17 +1,15 @@
 import React from 'react';
-import { View, Button, StyleSheet } from 'react-native';
-import {tabBarIcon} from '../assets/incons'
+import { View, StyleSheet } from 'react-native';
+import {tabBarIcon} from '../assets/icons'
+import { Paper, Button } from 'react-native-paper'
 
-
-import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import FullWidthContainer from '../components/FullWidthContainer'
 import LargeText from '../components/LargeText'
+import { standardStyle } from '../assets/styles'
 
 class CameraIntro extends React.Component {
   static navigationOptions = {
     title: 'Camera Intro',
-    tabBarIcon: tabBarIcon('add-a-photo'),
-    tabBarColor: '#3F51B5',
   }
 
   render() {
@@ -21,9 +19,15 @@ class CameraIntro extends React.Component {
           <LargeText text="For best results, make sure the picture is clear and centered."/>
         </FullWidthContainer>
         <View style={styles.instruction}>
-          <Button 
-            title="Got it"
-            onPress={() => this.props.navigation.navigate('MyCamera')} />
+          <Button
+            style={standardStyle.defaultButton}
+            icon="add-a-photo"
+            mode="contained"
+            onPress={() => this.props.navigation.navigate('MyCamera')}
+          >
+            Take a picture
+        </Button>
+
         </View>
       </View>
       );
@@ -33,7 +37,7 @@ class CameraIntro extends React.Component {
 const styles = StyleSheet.create({
   instruction: {
     flexDirection: 'column',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     padding: 10
   },
 });

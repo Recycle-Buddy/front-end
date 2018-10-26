@@ -1,14 +1,21 @@
 import React from 'react';
-import { Button, StyleSheet, Image, View, ImageStore, Modal } from 'react-native';
+import { StyleSheet, Image, View, ImageStore, Modal } from 'react-native';
 import { ImageManipulator } from 'expo';
+import { Paper, Button } from 'react-native-paper'
+
 
 import colors from '../assets/colors'
 import metrics from '../themes/metrics'
+import { standardStyle } from '../assets/styles'
 
 import LargeText from '../components/LargeText';
 import MyModal from '../components/MyModal'
 
 class SendPicture extends React.Component {
+  static navigationOptions = {
+    title: 'Picture Review',
+  }
+
   state = {
     image: this.props.navigation.getParam('image', 'NO-Image'),
     sendingPicture: false,
@@ -25,53 +32,45 @@ class SendPicture extends React.Component {
         // getbase64ForTag SUCCESS callback
         base64String => {
           // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
-          this.setState({sendingPicture: true});
-         /* fetch('http://10.0.0.17:8899/images/v1/recognize', {
-            method: 'POST',
-            headers: {
-              'Accept': 'application/json',
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              image: {
-                imageBytes: base64String,
-              }
+          this.setState({sendingPicture: true}, () => {
+            fetch('http://192.168.2.24:8899/images/v1/recognize', {
+              method: 'POST',
+              headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                image: {
+                  imageBytes: base64String,
+                }
+              })
             })
-          })
-            .then((response) => response.json())
-            .then(response => {
-              this.setState({sendingPicture: false});
-              console.log('Response: ', response.result[0]);
-              
-              if(!response){
-                throw new Error('Response empty!');                
-              }
-              // Seth - Setting the response as part of the navigation params,
-              //        efectively passing the state to the next route. We are also passing
-              //        the resizedImage to be able to use it on the results route.
-              if(response.error){
-                throw new Error(response.message);
-              }
-              this.props.navigation.navigate('Results', {
-                machineLearningResponse: response,
-                resizedImage: resizedImage
+              .then((response) => response.json())
+              .then(response => {
+                if(!response){
+                  throw new Error('Response empty!');
+                }
+                if(response.error){
+                  throw new Error(response.message);
+                }
+                this.setState({sendingPicture: false}, () => {
+                  // Seth - Setting the response as part of the navigation params, efectively passing the state to the next route. We are also passing the resizedImage to be able to use it on the results route.
+                  this.props.navigation.navigate('Results', {
+                    machineLearningResponse: response,
+                    resizedImage: resizedImage
+                  });
+                });
+              })
+              .catch((fetchError) => {
+                console.error('Fetch Error: ', fetchError);
               });
-            })
-            .catch((fetchError) => {
-              console.error('Fetch Error: ', fetchError);
-            });*/
+          });
         },
         // getbase64ForTag FAILURE callback
         error => console.error('ImageStore.getBase64ForTag: ', error)
       );
     })
     .catch(err => console.error('Manipulate Error: ', err));
-    setTimeout(() => this.setState({ sendingPicture: false }, ()=> {
-      this.props.navigation.navigate('Results', {
-        // machineLearningResponse: response,
-        resizedImage: resizedImage
-      });
-    }), 500);
   }
 
   render() {
@@ -81,19 +80,27 @@ class SendPicture extends React.Component {
       <View style={styles.pageContainer}>
         <View style={styles.contentContainer}>
           <Button
-            style={{height: '40%'}}
-            title='Send To Recycle Buddy'
+            style={standardStyle.defaultButton}
+            icon="file-upload"
+            mode="contained"
             onPress={this.sendPicture}
-          />
+          >
+            Send to Recycle Buddy
+        </Button>
 
           <Image
           style={styles.image}
           resizeMode={'contain'}
           source={this.state.image} />
           <Button
-            title='Re-take Picture'
+            style={standardStyle.defaultButton}
+            icon="add-a-photo"
+            mode="contained"
             onPress={() => goBack()}
-          />
+          >
+            Re-take Picture
+        </Button>
+
           <MyModal
             visible={this.state.sendingPicture}
             text={`Sent to AutoML Machine Learning API. \n

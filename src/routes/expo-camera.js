@@ -1,12 +1,16 @@
 import React from 'react';
 import { Text, StyleSheet, View, TouchableOpacity } from 'react-native';
-import { Svg, Camera, Permissions } from 'expo';
+import { Svg, Camera, Permissions } from 'expo'
 
 import colors from '../assets/colors'
 
 import LargeText from '../components/LargeText';
 
 class MyCamera extends React.Component {
+  static navigationOptions = {
+    title: 'Camera',
+  }
+
   state = {
     hasCameraPermission: null,
     type: Camera.Constants.Type.back,

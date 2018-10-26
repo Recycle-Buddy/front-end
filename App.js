@@ -3,7 +3,7 @@ import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
 import { createStackNavigator } from 'react-navigation'
 
-import { tabBarIcon, questionTreeSvg } from './src/assets/incons'
+import { tabBarIcon, questionTreeSvg } from './src/assets/icons'
 
 import Landing from './src/routes/landing'
 import QuestionTree from './src/routes/questiontree/questiontree'

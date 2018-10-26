@@ -40,7 +40,8 @@ export const standardStyle = StyleSheet.create({
     borderColor: 'black',
     borderWidth: 2,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    // flex: 1
   },
   defaultButton: {
     padding: 10,
