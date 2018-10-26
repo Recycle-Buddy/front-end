@@ -14,7 +14,8 @@ replace = {
     'h1': '"title"',
     'li': '"bullet"',
     'ul': '"list"',
-    'div': '"CONTAINER"'
+    'div': '"CONTAINER"',
+    'ol' :'"olist"'
     
 }
 
@@ -22,7 +23,7 @@ class Scrape(object):
     """docstring for ClassName"""
     def __init__(self, URL, count, debug):
         self.indent = 0
-        self.outfile = codecs.open('out/url' + str(count) + '.txt', 'w', 'utf-8')
+        self.outfile = codecs.open('out/url' + str(count) + '.json', 'w', 'utf-8')
         self.count = count
         self.URL = URL
         self.debug = debug
@@ -56,7 +57,7 @@ class Scrape(object):
     def ParseNavStr(self,elt):
         #escape all quotes
         preescaped = elt.string
-        postescaped = preescaped.replace('"', '\"')
+        postescaped = preescaped.replace('"', '\\\"')
         return postescaped
 
     def quoteWrap(self,str):
@@ -112,13 +113,15 @@ class Scrape(object):
                 tagType = child.name
                 if tagType == 'a':
                     comma = ','
-                    if isLast: comma = ''
+                    if isLastChild: comma = ''
                     self.outfile.write('{"type": "link", "href": ' + self.quoteWrap(child['href']) + ', "text": ' + self.quoteWrap(self.ParseNavStr(child.contents[0])) + '}' + comma + '\n' )
                     counter = counter + 1
                     continue
                 replaceString = ''
                 if tagType in replace:
                     replaceString = replace[tagType]
+                else:
+                    replaceString = self.quoteWrap(str(tagType))
                 self.write_Indent('{"type": ' + replaceString, None, '\n', '', False) #true, because this is only for printing property names
                 self.write_Indent('"children": ', None, '','',True)
                 self.write_tree_into_JSON(child, isLastChild)

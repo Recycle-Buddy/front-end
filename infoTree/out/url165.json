@@ -1,0 +1,29 @@
+{
+	"type": "URL165",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Car Batteries"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring vehicle batteries to ",
+{"type": "link", "href": "../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			". Fees apply."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring up to 5 vehicle batteries per trip to a ",
+{"type": "link", "href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			". No fee."
+
+		]}
+
+	]}

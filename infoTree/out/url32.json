@@ -1,0 +1,32 @@
+{
+	"type": "URL32",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Thermometers or Mercury Items"
+
+		]},
+		{"type": "para",
+		"children": [
+			{"type": "bold",
+			"children": [
+				"Caution"
+
+			]},
+			": Mercury can greatly harm your nervous, digestive, and respiratory systems. Don’t handle mercury directly, and try to avoid breaking items that contain mercury."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Hazardous – no charge"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Mercury items can’t go in the garbage. Bring thermometers, thermostats, and other items containing mercury to a ",
+{"type": "link", "href": "../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			". No fee."
+
+		]}
+
+	]}

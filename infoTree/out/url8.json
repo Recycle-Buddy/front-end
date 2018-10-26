@@ -1,0 +1,34 @@
+{
+	"type": "URL8",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Eyeglass Frames"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"In garbage"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Eyeglass frames can go in the garbage."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Drop-off locations"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can donate eyeglass frames to ",
+{"type": "link", "href": "http://www.lionsclubs.org/EN/our-work/sight-programs/eyeglass-recycling/how-you-can-help.php", "text": "The Lions Club"},
+			" or organizations affiliated with ",
+{"type": "link", "href": "https://onesight.org/faqs/", "text": "OneSight"},
+			"."
+
+		]}
+
+	]}

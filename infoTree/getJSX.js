@@ -1,38 +1,38 @@
-var obj = JSON.parse(a)
+import React from 'react'
+import { Button, StyleSheet, Text, View, Image } from 'react-native';
 
-var replace = {
-    link :  "Link"
-    heading : "Header"
-    para : "Paragraph"
-    bold : "Bold"
-    title : "LargeText"
-    bullet : "Bullet"
-    list : 
-}
+import Intermediate from '../src/components/Intermediate.js';
+import Link from '../src/components/Link.js';
+import getURLindex from './getURLfile'
+
+import varMapper from './requireJSON.js'
 
 
-function getjsx(node) {
+function getJSX(node) {
     //obj format:
-    //type : tag
+    //type : ta
     //children array of object or string
     let nodeType = node.type;
     let children = node.children;
+    console.log("IN GETJSX FUNC\n");
 
-    //check dictionary to see what tag we should use
-    let TagName = replace[nodeType];
-
-    children.map(child => 
-        switch (typeof(child)) {
-            case "string":
-                return <TagName>{child}</TagName>
-            case "object":
-                //for links
-                return <View>{getjsx(child)}</View>
-            default:
-                return "no mapping available"
-        }
-    );
+    return children.map(child => {
+      switch (typeof(child)) {
+        case "string":
+          return <Intermediate type = {nodeType} text = {child}></Intermediate>;
+        case "object":
+          //for links
+          if (child.type == "link"){
+            return <Link>{child}</Link>;
+          }
+          else
+          return <View>{getJSX(child)}</View>;
+        default:
+          return "no mapping available";
+      }
+    })
 }
-getjsx(obj.children)
 
-//https://medium.com/@Carmichaelize/dynamic-tag-names-in-react-and-jsx-17e366a684e9
+export default function renderInfo(label){
+  return getJSX(varMapper(getURLindex(label)))
+}

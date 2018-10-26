@@ -1,0 +1,83 @@
+{
+	"type": "URL31",
+	"children": [
+		{"type": "title",
+		"children": [
+			"Motor Oil"
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Next to bin – no charge"
+
+		]},
+		{"type": "para",
+		"children": [
+			"You can recycle up to 2 gallons of motor oil on each recycling collection day:"
+
+		]},
+		{"type": "olist",
+		"children": [
+			{"type": "bullet",
+			"children": [
+				"Pour cooled oil into a 1-gallon plastic container with a tight-fitting, screw-on lid."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Label the container with your name and address."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Set up to 2 labeled 1-gallon containers on the curb next to your recycling bin."
+
+			]},
+			{"type": "bullet",
+			"children": [
+				"Apartment / Condo residents: Set out up to 2 labeled 1-gallon containers per cart at your building/complex."
+
+			]}
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Transfer station"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring up to 5 gallons of oil per a trip to ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/DumpTransferStation/index.htm", "text": "city transfer stations"},
+			". No fee."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Hazardous – no charge"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Bring contaminated oil that contains solvents, bleach, or other materials to a ",
+{"type": "link", "href": "../../../../../MyServices/Garbage/SpecialorHazardousItems/HouseholdHazardousWaste/WheretoDisposeofHazardousWaste/index.htm", "text": "household hazardous waste facility"},
+			". No fee."
+
+		]},
+		{"type": "heading",
+		"children": [
+			"Did you know?"
+
+		]},
+		{"type": "para",
+		"children": [
+			"Motor oil can be recycled if it doesn’t contain solvents, bleach, or other materials."
+
+		]},
+		{"type": "para",
+		"children": [
+			"Never pour motor oil on the ground or down the drain; it can pollute our waterways and the environment."
+
+		]}
+
+	]}

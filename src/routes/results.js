@@ -1,25 +1,28 @@
 import React from 'react';
-import { Button, StyleSheet, View, Image } from 'react-native';
+import { Button, StyleSheet, View, Image, Text } from 'react-native';
 
-import colors from '../assets/colors.js'
-import images from '../assets/images.js'
-import metrics from '../themes/metrics.js'
-
+import colors from '../assets/colors.js';
+import images from '../assets/images.js';
+import metrics from '../themes/metrics.js';
+import renderInfo from '../../infoTree/getJSX.js';
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
-import FullWidthContainer from '../components/FullWidthContainer.js'
-import LargeText from '../components/LargeText.js'
+import FullWidthContainer from '../components/FullWidthContainer.js';
+import LargeText from '../components/LargeText.js';
+
+
 
 class Results extends React.Component {
   render() {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    const { label, probability } = response.result[0];
+    //const { label, probability } = response.result[0];
+    const label = "Dish Washers";
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
 
     let icon;
-    switch(label) {
+    switch(label.toLowerCase()) {
       case 'cardboard':
       case 'metal':
       case 'glass':
@@ -40,22 +43,11 @@ class Results extends React.Component {
             style={styles.icon}
             source={icon}
             />
-            <LargeText
-            style={styles.headerUpper}
-            text = {"Material: " + label}
-            />
-            <LargeText
-            style={styles.headerUpper}
-            text = {"Probability: " + probability}
-            />
+            {renderInfo(label)}
           </View>
         </FullWidthContainer>
         <FullWidthContainer flex={containerFlex}>
           <View style={styles.instruction}>
-            <LargeText
-              style={styles.headerUpper}
-              text={"Is this result wrong?"}
-            />
             <Button
               title='Take Another Picture'
               onPress={() => this.props.navigation.navigate('Camera')}
@@ -112,7 +104,7 @@ const styles = StyleSheet.create({
   icon: {
     width: 50,
     alignSelf: 'center'
-  }, 
+  },
 });
 
 export default Results;
