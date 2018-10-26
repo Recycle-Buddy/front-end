@@ -1,11 +1,13 @@
 import leafURLS from './URLs.js';
 import whereDoesItGo from './whereDoesItGo.js'
 
+const errorPage = 223;
+
 export default function getURLindex(label){
     //first find which URL maps to it
     const targetURLobj= whereDoesItGo.find(el => splitOnSeps(el.label) === label);
     if (!targetURLobj){
-        return 223; //TODO add render page where content says NOT FOUND
+        return errorPage; //TODO add render page where content says NOT FOUND
     }
     const targetURL = targetURLobj.value;
 
