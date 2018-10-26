@@ -23,7 +23,13 @@ function getJSX(node) {
         case "object":
           //for links
           if (child.type == "link"){
-            return <Link key={index} >{child}</Link>;
+            console.log(child)
+            return (<Link style={{
+              fontSize: 30,
+              margin: 30,
+              borderWidth: 2,
+              borderColor: 'black',
+            }} key={index} >{child}</Link>);
           }
           else
           return <View key={index} >{getJSX(child)}</View>;
@@ -32,6 +38,15 @@ function getJSX(node) {
       }
     })
 }
+
+const styles = StyleSheet.create({
+  link: {
+    fontSize: 30,
+    margin: 30,
+    borderWidth: 2,
+    borderColor: 'black',
+  },
+})
 
 export default function renderInfo(label){
   return getJSX(varMapper(getURLindex(label)))

@@ -18,10 +18,11 @@ class Results extends React.Component {
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
     // const label = "Dish Washers";
-    let label = response.result[0].label;
-    console.log('Response: ', response.result[0]);
+    // let response.result[0] = {label: 'test'};
+    // let label = response.result[0].label;
+    // console.log('Response: ', response.result[0]);
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
-    label = "Boxes - Cardboard";
+    let label = "Cans - Aerosol";
 
     // let icon;
     // switch(label.toLowerCase()) {
@@ -36,19 +37,15 @@ class Results extends React.Component {
     //     icon = images.trashCan;
     //     break;
     // }
-
+    // console.log(renderInfo(label));
     return (
-        <ScrollView style={{ flex: 1, paddingVertical: 40 }}>
+        <ScrollView style={{ flex: 1, paddingVertical: 0 }}>
         {/* <View style={styles.instruction}>
           <Image
             style={styles.icon}
             source={icon}
           />
         </View> */}
-        <View style={styles.instruction}>
-          <Button
-            title='Take Another Picture'
-          />
           <Button
             style={standardStyle.defaultButton}
             icon="add-a-photo"
@@ -57,7 +54,6 @@ class Results extends React.Component {
           >
             Take Another Picture
           </Button>
-        </View>
         {renderInfo(label)}
       </ScrollView>   
     );

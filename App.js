@@ -26,7 +26,7 @@ const CameraStack = createStackNavigator(
     Results
   },
   {
-    initialRouteName: 'CameraIntro'
+    initialRouteName: 'Results'
   }
 )
 
@@ -75,7 +75,7 @@ const MainStack = createMaterialBottomTabNavigator(
   },
   {
     shifting: false,
-    initialRouteName: 'QuestionTree',
+    initialRouteName: 'Camera',
     labeled: false,
     activeColor: '#fff',
     inactiveColor: colors.inactivePurple,
