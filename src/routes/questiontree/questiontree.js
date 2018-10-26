@@ -30,7 +30,7 @@ class QuestionTree extends React.Component {
 	render() {
 		const {currentPath, currentNode} = this.state
 		return (
-			<View flex={1}>
+			<View style={{flex:1, paddingTop: 40}}>
 				<TopBar top={currentPath.length === 0} currentNode={currentNode} navigateBack={this.navigateBack}/>
         <FlatList
           data={currentNode.children}

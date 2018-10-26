@@ -75,7 +75,7 @@ const MainStack = createMaterialBottomTabNavigator(
   },
   {
     shifting: false,
-    initialRouteName: 'Landing',
+    initialRouteName: 'QuestionTree',
     labeled: false,
     activeColor: '#fff',
     inactiveColor: colors.inactivePurple,
