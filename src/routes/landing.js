@@ -12,47 +12,44 @@ import StaticInfo from '../components/StaticInfo';
 
 class Landing extends React.Component {
   render() {
-    const containerStyles = [standardStyle.contentContainer]
-
     return (
-      <View>
-          <Button
-            style={standardStyle.defaultButton}
-            icon="add-a-photo"
-            mode="outlined"
-            onPress={() => this.props.navigation.navigate('Camera')}
-          >
-            Take a Picture of an Item
-          </Button>
-          <Button
-            style={standardStyle.defaultButton}
-            icon={images.recycleQuestions}
-            mode="contained"
-            onPress={() => this.props.navigation.navigate('QuestionTree')}
-          >
-            Search for an Item
-          </Button>
+      <View style={standardStyle.pageContainerFixedTop}>
+        <Button
+          style={standardStyle.defaultButton}
+          icon="add-a-photo"
+          mode="contained"
+          onPress={() => this.props.navigation.navigate('Camera')}
+        >
+          Take a Picture of an Item
+        </Button>
+        {/* <Button
+          style={standardStyle.defaultButton}
+          icon={images.recycleQuestions}
+          mode="contained"
+          onPress={() => this.props.navigation.navigate('QuestionTree')}
+        >
+          Search for an Item
+          </Button> */}
 
-          <Card
-            style={standardStyle.defaultCard}
-            elevation={4}
-            onPress={() => this.props.navigation.navigate('QuestionTree')}
-            >
-            <Card.Cover
-              source={images.recycleQuestions}
-              style={standardStyle.largeCardIcon}
-              />
-            <Card.Content>
-              <Paragraph>
-              Search for an Item in the Question Tree.
-              </Paragraph>
-              {questionTreeSvg}
-            </Card.Content>
-          </Card>
+        <Card
+          style={standardStyle.touchableCard}
+          elevation={4}
+          onPress={() => this.props.navigation.navigate('QuestionTree')}
+          >
+          <Card.Cover
+            source={images.recycleQuestions}
+            style={standardStyle.largeCardIcon}
+            />
+          <Card.Content>
+            <Paragraph>
+            Search for an Item in the Question Tree.
+            </Paragraph>
+            {/* {questionTreeSvg} */}
+          </Card.Content>
+        </Card>
 
-          <StaticInfo />
-          <StaticInfo />
-      </View>
+        <StaticInfo />
+        </View>
     );
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import {tabBarIcon} from '../assets/icons'
-import { Paper, Button } from 'react-native-paper'
+import { tabBarIcon } from '../assets/icons'
+import { Card, Button, Paragraph } from 'react-native-paper'
 
 import FullWidthContainer from '../components/FullWidthContainer'
 import LargeText from '../components/LargeText'
@@ -15,10 +15,16 @@ class CameraIntro extends React.Component {
   render() {
     return (
       <View flex={1}>
-        <FullWidthContainer flex={0.4}>
-          <LargeText text="For best results, make sure the picture is clear and centered."/>
-        </FullWidthContainer>
-        <View style={styles.instruction}>
+        <Card
+          style={standardStyle.importantCard}
+          elevation={4}
+        >
+          <Card.Content>
+            <Paragraph>
+              For best results, make sure the picture is clear and centered.
+            </Paragraph>
+          </Card.Content>
+        </Card>
           <Button
             style={standardStyle.defaultButton}
             icon="add-a-photo"
@@ -28,7 +34,6 @@ class CameraIntro extends React.Component {
             Take a picture
         </Button>
 
-        </View>
       </View>
       );
   }

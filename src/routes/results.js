@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Image, Text } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import { Paper, Button } from 'react-native-paper'
 
 import colors from '../assets/colors.js';
@@ -38,7 +38,7 @@ class Results extends React.Component {
     // }
 
     return (
-      <View flex={1}>
+        <ScrollView style={{ flex: 1, paddingVertical: 40 }}>
         {/* <View style={styles.instruction}>
           <Image
             style={styles.icon}
@@ -56,12 +56,10 @@ class Results extends React.Component {
             onPress={() => this.props.navigation.navigate('MyCamera')}
           >
             Take Another Picture
-        </Button>
-
+          </Button>
         </View>
-
         {renderInfo(label)}
-      </View>   
+      </ScrollView>   
     );
   }
 }

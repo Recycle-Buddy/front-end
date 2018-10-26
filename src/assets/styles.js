@@ -13,27 +13,32 @@ export const standardIconSize = 25;
 
 export const standardStyle = StyleSheet.create({
   largeText: {
-      margin: standardMargin,
-      lineHeight: largeLineheight,
-      fontSize: largeFontSize,
-      color: colors.black,
+    margin: standardMargin,
+    lineHeight: largeLineheight,
+    fontSize: largeFontSize,
+    color: colors.black,
   },
   wrapper: {
-      flex: 1,
-      justifyContent: 'space-between',
+    flex: 1,
+    justifyContent: 'space-between',
   },
   pageContainer: {
-      flex: 1,
+    flex: 1,
+    justifyContent: 'center'
+  },
+  pageContainerFixedTop: {
+    flex: 1,
+    paddingTop: '25%'
   },
   contentContainer: {
-      padding: standardMargin,
-      marginBottom: metrics.navbarMargin,
-      flex:1,
-      flexDirection: 'column',
+    padding: standardMargin,
+    marginBottom: metrics.navbarMargin,
+    flex:1,
+    flexDirection: 'column',
   },
   scrollViewItems: {
-      alignItems: 'center',
-      justifyContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   defaultCard: {
     margin: 10,
@@ -41,7 +46,20 @@ export const standardStyle = StyleSheet.create({
     borderWidth: 2,
     alignItems: 'center',
     justifyContent: 'center',
-    // flex: 1
+  },
+  importantCard: {
+    margin: 10,
+    borderColor: colors.inactivePurple,
+    borderWidth: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  touchableCard: {
+    margin: 10,
+    borderColor: colors.mainPurple,
+    borderWidth: 4,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   defaultButton: {
     padding: 10,
@@ -65,22 +83,22 @@ export const standardStyle = StyleSheet.create({
     backgroundColor: 'transparent'
   },
   Header: {
-      margin: standardMargin,
-      lineHeight: largeLineheight,
-      fontSize: largeFontSize,
-      color: colors.black,
+    margin: standardMargin,
+    lineHeight: largeLineheight,
+    fontSize: largeFontSize,
+    color: colors.black,
   },
   Paragraph: {
-      margin: standardMargin,
-      lineHeight: largeLineheight,
-      fontSize: standardFontSize,
-      color: colors.black,
+    margin: standardMargin,
+    lineHeight: largeLineheight,
+    fontSize: standardFontSize,
+    color: colors.black,
   },
   Bold: {
-      margin: standardMargin,
-      lineHeight: largeLineheight,
-      fontSize: standardFontSize,
-      color: colors.black,
-      fontWeight: 'bold'
+    margin: standardMargin,
+    lineHeight: largeLineheight,
+    fontSize: standardFontSize,
+    color: colors.black,
+    fontWeight: 'bold'
   },
 });

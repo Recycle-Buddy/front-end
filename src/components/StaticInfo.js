@@ -24,7 +24,7 @@ class StaticInfo extends Component {
   render() {
     return(
         <Card
-        style={standardStyle.defaultCard}
+        style={standardStyle.touchableCard}
         elevation={4}
         onPress={()=>this.getRandomFact()}
         >

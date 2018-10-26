@@ -4,6 +4,7 @@ import { createMaterialBottomTabNavigator } from 'react-navigation-material-bott
 import { createStackNavigator } from 'react-navigation'
 
 import { tabBarIcon, questionTreeSvg } from './src/assets/icons'
+import colors from './src/assets/colors'
 
 import Landing from './src/routes/landing'
 import QuestionTree from './src/routes/questiontree/questiontree'
@@ -41,7 +42,7 @@ const MainStack = createMaterialBottomTabNavigator(
       navigationOptions: () => ({
         title: "Home",
         tabBarIcon: tabBarIcon('home'),
-        tabBarColor: '#fff',
+        // tabBarColor: 'green',
       })
     },
     Camera: {
@@ -54,7 +55,7 @@ const MainStack = createMaterialBottomTabNavigator(
         return {
           title: 'Camera',
           tabBarIcon: tabBarIcon('add-a-photo'),
-          tabBarColor: '#3F51B5',
+          // tabBarColor: '#3F51B5',
           tabBarVisible,
         };
       }
@@ -68,7 +69,7 @@ const MainStack = createMaterialBottomTabNavigator(
         // tabBarIcon: (
         //   <Image style={{ width: standardIconSize, height: standardIconSize }} source={images.recycleQuestionsWhiteSVG} />
         // ),
-        tabBarColor: '#607D8B'
+        // tabBarColor: '#607D8B'
       })
     },
   },
@@ -77,8 +78,8 @@ const MainStack = createMaterialBottomTabNavigator(
     initialRouteName: 'Landing',
     labeled: false,
     activeColor: '#fff',
-    inactiveColor: '#3e2465',
-    // barStyle: { backgroundColor: '#694fad' },
+    inactiveColor: colors.inactivePurple,
+    barStyle: { backgroundColor: colors.mainPurple },
   }
 )
 
@@ -86,8 +87,8 @@ const theme = {
   ...DefaultTheme,
   roundness: 8,
   colors: {
-    ...DefaultTheme.colors,
-    primary: 'green',
+    // ...DefaultTheme.colors,
+    primary: colors.mainPurple,
     accent: 'darkgreen',
     background: 'white',
     surface: 'white',
@@ -100,9 +101,9 @@ const theme = {
 export default class App extends React.Component {
   render() {
     return (
-      // <PaperProvider >
+      <PaperProvider theme={theme}>
         <MainStack />
-      // </PaperProvider>
+      </PaperProvider>
     );
   }
 }
