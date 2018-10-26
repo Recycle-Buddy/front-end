@@ -23,11 +23,13 @@ function getJSX(node) {
         case "object":
           //for links
           if (child.type == "link"){
-            console.log(child)
+            console.log('getJSX.js Object case: ', child);
             return (<Link key={index}>{child}</Link>);
           }
-          else
-          return <View key={index} >{getJSX(child)}</View>;
+          else {
+            console.log('getJSX.js Hit Object else case: ', child)
+            return <View key={index} >{getJSX(child)}</View>;
+          }
         default:
           return "no mapping available";
       }

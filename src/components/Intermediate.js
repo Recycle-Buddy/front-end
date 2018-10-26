@@ -16,6 +16,7 @@ class Intermediate extends React.Component {
 
     switch(componentType){
         case 'link':
+        console.log('HREF from Intermediate.js: ', this.props.href);
         returnComp = <Link 
                 // style={styles.header}
                 href = {this.props.href}
