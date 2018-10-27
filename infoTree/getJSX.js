@@ -3,6 +3,7 @@ import { Button, StyleSheet, Text, View, Image } from 'react-native';
 
 import Intermediate from '../src/components/Intermediate.js';
 import Link from '../src/components/Link.js';
+import LargeText from '../src/components/LargeText.js';
 import getURLindex from './getURLfile'
 
 import varMapper from './requireJSON.js'
@@ -34,5 +35,12 @@ function getJSX(node) {
 }
 
 export default function renderInfo(label){
-  return getJSX(varMapper(getURLindex(label)))
+  const URLindex = getURLindex(label);
+  if (URLindex === -1) return errorPage();
+  return getJSX(varMapper(URLindex));
+}
+
+function errorPage(){
+  const errorMessage = "Error: Item not found. Please take another picture and try again";
+  return <LargeText text={errorMessage}></LargeText>;
 }

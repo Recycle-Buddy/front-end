@@ -1,7 +1,7 @@
 import leafURLS from './URLs.js';
 import whereDoesItGo from './whereDoesItGo.js'
 
-const errorPage = 223;
+const errorPage = -1;
 
 export default function getURLindex(label){
     //first find which URL maps to it
@@ -23,7 +23,5 @@ export default function getURLindex(label){
 }
 
 function splitOnSeps(str){
-    const separators = ['-',' '];
-    let prejoin = str.split(new RegExp(separators.join('|'), 'g'));
-    return prejoin.join('');
+    return str.replace(/-|\s/g,"")
 }
