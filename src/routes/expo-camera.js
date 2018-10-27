@@ -5,16 +5,19 @@ import { Svg, Camera, Permissions } from 'expo'
 import colors from '../assets/colors'
 
 import LargeText from '../components/LargeText';
+import MyModal from '../components/MyModal'
+
 
 class MyCamera extends React.Component {
   static navigationOptions = {
     title: 'Camera',
   }
-
+  
   state = {
     hasCameraPermission: null,
     type: Camera.Constants.Type.back,
-    image: null
+    image: null,
+    takingPicture: false,
   };
 
   async componentWillMount() {
@@ -24,12 +27,16 @@ class MyCamera extends React.Component {
 
   snap = async () => {
     if (this.camera) {
-      this.camera.takePictureAsync()
-      .then(image => {
-          this.props.navigation.navigate('SendPicture', {
-            image: image,
+      this.setState({ takingPicture: true}, () => {
+        this.camera.takePictureAsync()
+        .then(image => {
+          this.setState({ takingPicture: false }, () => {
+            this.props.navigation.navigate('SendPicture', {
+              image: image,
+            });
           });
         });
+      })
     }
   }
 
@@ -78,6 +85,13 @@ class MyCamera extends React.Component {
                   />
                 </Svg>
               </TouchableOpacity>
+            <MyModal
+              visible={this.state.takingPicture}
+              text={`Taking Photo...`}
+              onRequestClose={() => this.setState({ takingPicture: false })}
+              onPress={null}
+            />
+
           </View>
         </Camera>
       </View>);
