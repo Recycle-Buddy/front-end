@@ -5,6 +5,7 @@ from bs4.element import NavigableString
 from bs4.element import Tag
 import os
 import codecs
+import re
 
 replace = {
     'a' : '"link"',
@@ -23,7 +24,7 @@ class Scrape(object):
     """docstring for ClassName"""
     def __init__(self, URL, count, debug):
         self.indent = 0
-        self.outfile = codecs.open('out/url' + str(count) + '.json', 'w', 'utf-8')
+        self.outfile = None
         self.count = count
         self.URL = URL
         self.debug = debug
@@ -34,7 +35,10 @@ class Scrape(object):
         
         page = requests.get(scrape)
         soup = BS(page.content, "html.parser")    
+        outfileName = self.URL.split('/')[-2]
             
+        self.outfile = codecs.open('out/' + outfileName + '.json', 'w', 'utf-8')
+        
         root = soup.find(id = 'region')
         
         self.outfile.write('{\n')
