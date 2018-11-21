@@ -1,51 +1,50 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, Image, ToastAndroid } from 'react-native';
-import colors from '../assets/colors.js'
-import images from '../assets/images.js'
-import metrics from '../themes/metrics.js'
+import { View, StyleSheet } from 'react-native';
+import { tabBarIcon } from '../assets/icons'
+import { Card, Button, Paragraph } from 'react-native-paper'
 
-import ContainerWithNavbar from '../components/ContainerWithNavbar';
-import FullWidthContainer from '../components/FullWidthContainer.js'
-import LargeText from '../components/LargeText.js'
+import FullWidthContainer from '../components/FullWidthContainer'
+import LargeText from '../components/LargeText'
+import { standardStyle } from '../assets/styles'
 
 class CameraIntro extends React.Component {
+  static navigationOptions = {
+    title: 'Camera Intro',
+  }
+
   render() {
     return (
-      <ContainerWithNavbar navigation={this.props.navigation}>
-        <FullWidthContainer flex={0.4}>
-          <Image source={images.camera}/>
-          <LargeText text="Autodetect item can take a picture of an item and get infomation about it."/>
-        </FullWidthContainer>
+      <View flex={1}>
+        <Card
+          style={standardStyle.importantCard}
+          elevation={4}
+        >
+          <Card.Content>
+            <Paragraph>
+              For best results, make sure the picture is clear and centered.
+            </Paragraph>
+          </Card.Content>
+        </Card>
+          <Button
+            style={standardStyle.defaultButton}
+            icon="add-a-photo"
+            mode="contained"
+            onPress={() => this.props.navigation.navigate('MyCamera')}
+          >
+            Take a picture
+        </Button>
 
-        <FullWidthContainer flex={0.4}>
-          <LargeText text="For best results, make sure the picture is clear and centered."/>
-        </FullWidthContainer>
-
-        <FullWidthContainer flex={0.2}>
-          <Button 
-          title="Got it"
-              onPress={() => this.props.navigation.navigate('Camera')} />
-        </FullWidthContainer>
-      </ContainerWithNavbar>
-    );
+      </View>
+      );
   }
 }
 
 const styles = StyleSheet.create({
-  pageContainer: {
-    flex: 1
-  },
-  contentContainer: {
-    marginBottom: metrics.navbarMargin,
-    flex: 1,
+  instruction: {
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.transparent,
+    padding: 10
   },
-  text: {
-    color: colors.black
-  }
 });
 
 export default CameraIntro;

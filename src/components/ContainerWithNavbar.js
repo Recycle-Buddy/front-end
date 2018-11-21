@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, ScrollView, StyleSheet} from 'react-native';
 
-import {standardStyle} from '../assets/styles.js';
+import {standardStyle} from '../assets/styles';
 
-import Navbar from '../components/Navbar.js'
+import Navbar from './Navbar'
 
 class ContainerWithNavbar extends React.Component {
   render() {

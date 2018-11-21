@@ -14,19 +14,22 @@ function getJSX(node) {
     //children array of object or string
     let nodeType = node.type;
     let children = node.children;
-    console.log("IN GETJSX FUNC\n");
 
-    return children.map(child => {
+    return children.map((child, index) => {
+      // console.log(child)
       switch (typeof(child)) {
         case "string":
-          return <Intermediate type = {nodeType} text = {child}></Intermediate>;
+          return <Intermediate key={index} type = {nodeType} text = {child}></Intermediate>;
         case "object":
           //for links
           if (child.type == "link"){
-            return <Link>{child}</Link>;
+            console.log('getJSX.js Object case: ', child);
+            return (<Link key={index}>{child}</Link>);
           }
-          else
-          return <View>{getJSX(child)}</View>;
+          else {
+            console.log('getJSX.js Hit Object else case: ', child)
+            return <View key={index} >{getJSX(child)}</View>;
+          }
         default:
           return "no mapping available";
       }

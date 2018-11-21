@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import colors from '../assets/colors.js'
-import metrics from '../themes/metrics.js'
+import colors from '../assets/colors'
+import metrics from '../themes/metrics'
 
 class FullWidthContainer extends React.Component {
   render() {

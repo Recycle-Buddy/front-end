@@ -1,67 +1,59 @@
 import React from 'react';
-import { Button, StyleSheet, View, Image, Text } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
+import { Paper, Button } from 'react-native-paper'
 
 import colors from '../assets/colors.js';
 import images from '../assets/images.js';
 import metrics from '../themes/metrics.js';
+import { standardStyle } from '../assets/styles'
 import renderInfo from '../../infoTree/getJSX.js';
 
-import ContainerWithNavbar from '../components/ContainerWithNavbar';
-import FullWidthContainer from '../components/FullWidthContainer.js';
-import LargeText from '../components/LargeText.js';
-
-
-
 class Results extends React.Component {
+  static navigationOptions = {
+    title: 'Results',
+  }
+
   render() {
     // Seth - This is how to pass state between routes with getParam from react-navigation.
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    //const { label, probability } = response.result[0];
-    const label = "Dish Washers";
+    let label = response.result[0].label;
+    console.log('Response: ', response.result[0].label);
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
+    // let label = "Cans - Aerosol";
 
-    let icon;
-    switch(label.toLowerCase()) {
-      case 'cardboard':
-      case 'metal':
-      case 'glass':
-      case 'plastic':
-      case 'paper':
-        icon = images.recycleSymbol;
-        break;
-      case 'trash':
-        icon = images.trashCan;
-        break;
-    }
-
+    // let icon;
+    // switch(label.toLowerCase()) {
+    //   case 'cardboard':
+    //   case 'metal':
+    //   case 'glass':
+    //   case 'plastic':
+    //   case 'paper':
+    //     icon = images.recycleSymbol;
+    //     break;
+    //   case 'trash':
+    //     icon = images.trashCan;
+    //     break;
+    // }
+    // console.log(renderInfo(label));
     return (
-      <ContainerWithNavbar navigation={this.props.navigation}>
-        <FullWidthContainer flex={containerFlex}>
-          <View style={styles.instruction}>
-            <Image
+        <ScrollView style={{ flex: 1, paddingVertical: 0 }}>
+        {/* <View style={styles.instruction}>
+          <Image
             style={styles.icon}
             source={icon}
-            />
-            {renderInfo(label)}
-          </View>
-        </FullWidthContainer>
-        <FullWidthContainer flex={containerFlex}>
-          <View style={styles.instruction}>
-            <Button
-              title='Take Another Picture'
-              onPress={() => this.props.navigation.navigate('Camera')}
-            />
-          </View>
-        </FullWidthContainer>
-
-        <View style={styles.contentContainer}>
-          <Image
-            style={styles.resizedImage}
-            resizeMode={'contain'}
-            source={resizedImage} />
-        </View>
-      </ContainerWithNavbar>
+          />
+        </View> */}
+          <Button
+            style={standardStyle.defaultButton}
+            icon="add-a-photo"
+            mode="contained"
+            onPress={() => this.props.navigation.navigate('MyCamera')}
+          >
+            Take Another Picture
+          </Button>
+        {renderInfo(label)}
+      </ScrollView>   
     );
   }
 }
@@ -100,7 +92,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     padding: 10
   },
-  instructionHeader: {flex: 2},
+  instructionHeader: { flex: 2 },
   icon: {
     width: 50,
     alignSelf: 'center'
