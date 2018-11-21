@@ -26,7 +26,7 @@ class SendPicture extends React.Component {
         base64String => {
           ToastAndroid.show("Waiting for Machine Learning Response...", ToastAndroid.SHORT);
           // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
-          fetch('http://172.16.1.80:8888/images/v1/recognize', {
+          fetch('http://10.0.0.17:8899/images/v1/recognize', {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
