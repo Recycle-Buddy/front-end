@@ -116,6 +116,7 @@ class SendPicture extends React.Component {
              Waiting for Response...`}
             onRequestClose={() => this.setState({ sendingPicture: false })}
             onPress={null}
+            loader
           />
         </View>
       </View>

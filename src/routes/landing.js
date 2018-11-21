@@ -9,6 +9,7 @@ import { standardStyle } from '../assets/styles'
 import { tabBarIcon, questionTreeSvg } from '../assets/icons'
 
 import StaticInfo from '../components/StaticInfo';
+import MyModal from '../components/MyModal'
 
 class Landing extends React.Component {
   render() {
@@ -22,15 +23,6 @@ class Landing extends React.Component {
         >
           Take a Picture of an Item
         </Button>
-        {/* <Button
-          style={standardStyle.defaultButton}
-          icon={images.recycleQuestions}
-          mode="contained"
-          onPress={() => this.props.navigation.navigate('QuestionTree')}
-        >
-          Search for an Item
-          </Button> */}
-
         <Card
           style={standardStyle.touchableCard}
           elevation={4}
@@ -44,10 +36,8 @@ class Landing extends React.Component {
             <Paragraph>
             Search for an Item in the Question Tree.
             </Paragraph>
-            {/* {questionTreeSvg} */}
           </Card.Content>
         </Card>
-
         <StaticInfo />
         </View>
     );

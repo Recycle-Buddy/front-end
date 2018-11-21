@@ -89,6 +89,7 @@ class MyCamera extends React.Component {
               text={`Taking Photo...`}
               onRequestClose={() => this.setState({ takingPicture: false })}
               onPress={null}
+              loader
             />
           </View>
         </Camera>
