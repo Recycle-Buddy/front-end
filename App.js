@@ -8,7 +8,7 @@ import colors from './src/assets/colors'
 
 import Landing from './src/routes/landing'
 import QuestionTree from './src/routes/questiontree/questiontree'
-import MyCamera from './src/routes/expo-camera'
+import MyCamera from './src/routes/mycamera'
 import CameraIntro from './src/routes/cameraintro'
 import Results from './src/routes/results'
 import SendPicture from './src/routes/send-picture'
@@ -26,7 +26,7 @@ const CameraStack = createStackNavigator(
     Results
   },
   {
-    initialRouteName: 'Results'
+    initialRouteName: 'CameraIntro'
   }
 )
 
@@ -75,7 +75,7 @@ const MainStack = createMaterialBottomTabNavigator(
   },
   {
     shifting: false,
-    initialRouteName: 'Camera',
+    initialRouteName: 'Landing',
     labeled: false,
     activeColor: '#fff',
     inactiveColor: colors.inactivePurple,

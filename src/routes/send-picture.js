@@ -33,7 +33,7 @@ class SendPicture extends React.Component {
         base64String => {
           // THE URL NEEDS TO CHANGE DEPENDING ON THE NETWORK to work locally
           this.setState({sendingPicture: true}, () => {
-            fetch('http://192.168.2.24:8899/images/v1/recognize', {
+            fetch('http://10.0.0.17:8899/images/v1/recognize', {
               method: 'POST',
               headers: {
                 'Accept': 'application/json',
@@ -47,11 +47,17 @@ class SendPicture extends React.Component {
             })
               .then((response) => response.json())
               .then(response => {
-                if(!response){
-                  throw new Error('Response empty!');
+                // response = {};
+                if(!response.result[0].label){
+                  this.setState({ sendingPicture: false }, () => {
+                    throw new Error('Response empty!');
+                  });
                 }
                 if(response.error){
-                  throw new Error(response.message);
+                  this.setState({ sendingPicture: false }, () => {
+                    throw new Error(response.message);
+                  });
+
                 }
                 this.setState({sendingPicture: false}, () => {
                   // Seth - Setting the response as part of the navigation params, efectively passing the state to the next route. We are also passing the resizedImage to be able to use it on the results route.
@@ -62,7 +68,9 @@ class SendPicture extends React.Component {
                 });
               })
               .catch((fetchError) => {
-                console.error('Fetch Error: ', fetchError);
+                this.setState({ sendingPicture: false }, () => {
+                  console.error('Fetch Error: ', fetchError);
+                });
               });
           });
         },

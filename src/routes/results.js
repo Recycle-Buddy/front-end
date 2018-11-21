@@ -18,9 +18,10 @@ class Results extends React.Component {
     const { navigation } = this.props;
     const response = navigation.getParam('machineLearningResponse', 'NO-response');
     // const label = "Dish Washers";
-    // let response.result[0] = {label: 'test'};
+    // let response = response.result[0] = {label: 'test'};
     // let label = response.result[0].label;
     // console.log('Response: ', response.result[0]);
+    console.log('Response: ', response);
     const resizedImage = navigation.getParam('resizedImage', 'NO-image');
     let label = "Cans - Aerosol";
 

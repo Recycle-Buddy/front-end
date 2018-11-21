@@ -7,7 +7,6 @@ import colors from '../assets/colors'
 import LargeText from '../components/LargeText';
 import MyModal from '../components/MyModal'
 
-
 class MyCamera extends React.Component {
   static navigationOptions = {
     title: 'Camera',
@@ -91,7 +90,6 @@ class MyCamera extends React.Component {
               onRequestClose={() => this.setState({ takingPicture: false })}
               onPress={null}
             />
-
           </View>
         </Camera>
       </View>);
