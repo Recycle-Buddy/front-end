@@ -1,12 +1,13 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
+import { Title, Paragraph } from 'react-native-paper'
 
 import {standardStyle} from '../assets/styles.js';
 
 import LargeText from './LargeText.js';
 import Link from './Link.js';
 import Header from './Header.js';
-import Paragraph from './Paragraph.js';
+// import Paragraph from './Paragraph.js';
 import Bold from './Bold.js';
 
 class Intermediate extends React.Component {
@@ -18,7 +19,6 @@ class Intermediate extends React.Component {
         case 'link':
         console.log('HREF from Intermediate.js: ', this.props.href);
         returnComp = <Link 
-                // style={styles.header}
                 href = {this.props.href}
                 text = {this.props.text}
                 >
@@ -28,10 +28,10 @@ class Intermediate extends React.Component {
           returnComp = <Header style={styles.header} text={this.props.text}></Header>;
           break;
         case 'para':
-          returnComp = <Paragraph style={styles.paragraph} text={this.props.text}></Paragraph>;
+          returnComp = <Paragraph>{this.props.text}</Paragraph>;
           break;
         case 'title':
-        returnComp = <LargeText style={styles.largeText} text={this.props.text}></LargeText>;
+        returnComp = <Title style={styles.title}>{this.props.text}</Title>;
           break;
         case 'bold':
           returnComp = <Bold text={this.props.text}></Bold>;
@@ -39,7 +39,6 @@ class Intermediate extends React.Component {
     }
     
     return returnComp;
-
   }
 }
 
@@ -55,22 +54,17 @@ const styles = StyleSheet.create({
     fontSize: 16,
     margin: 10,
     padding: 2,
-    borderWidth: 1,
-    borderColor: 'black',
   },
   paragraph: {
-    fontSize: 16,
+    fontSize: 14,
     margin: 10,
     padding: 2,
-    borderWidth: 1,
-    borderColor: 'green',
   },
-  largeText: {
+  title: {
     fontSize: 18,
     margin: 10,
     padding: 2,
-    borderWidth: 1,
-    borderColor: 'red',
+    textAlign: 'center',
   },
 })
 

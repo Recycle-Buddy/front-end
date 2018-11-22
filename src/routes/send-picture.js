@@ -19,7 +19,9 @@ class SendPicture extends React.Component {
   state = {
     image: this.props.navigation.getParam('image', 'NO-Image'),
     sendingPicture: false,
+    errorModal: false,
   }
+
   sendPicture = () => {
     let resizedImage;
     // Seth - resizing and compressing the image before sending, other wise the base64string is too large to send and/or takes too long.
@@ -48,18 +50,6 @@ class SendPicture extends React.Component {
               .then((response) => response.json())
               .then(response => {
                 console.log('response: ', response);
-                // response = {};
-                if (!response.result || !response.result[0].label){
-                  this.setState({ sendingPicture: false }, () => {
-                    throw new Error('Response empty!');
-                  });
-                }
-                if(response.error){
-                  this.setState({ sendingPicture: false }, () => {
-                    throw new Error(response.message);
-                  });
-
-                }
                 this.setState({sendingPicture: false}, () => {
                   // Seth - Setting the response as part of the navigation params, efectively passing the state to the next route. We are also passing the resizedImage to be able to use it on the results route.
                   this.props.navigation.navigate('Results', {
@@ -69,13 +59,16 @@ class SendPicture extends React.Component {
                 });
               })
               .catch((fetchError) => {
-                this.setState({ sendingPicture: false }, () => {
-                  console.error('Fetch Error: ', fetchError);
+                console.log(fetchError)
+                this.setState({ 
+                  sendingPicture: false,
+                  errorModal: true }, () => {
+                    // console.error('Fetch Error: ', fetchError);
+                    setTimeout(() => this.setState({ errorModal: false }), 5000);
                 });
               });
           });
         },
-        // getbase64ForTag FAILURE callback
         error => console.error('ImageStore.getBase64ForTag: ', error)
       );
     })
@@ -117,6 +110,13 @@ class SendPicture extends React.Component {
             onRequestClose={() => this.setState({ sendingPicture: false })}
             onPress={null}
             loader
+          />
+
+          <MyModal
+            visible={!!this.state.errorModal}
+            text={`There's an error on the back end!`}
+            onRequestClose={() => this.setState({ errorModal: false })}
+            onPress={() => this.setState({ errorModal: false })}
           />
         </View>
       </View>
