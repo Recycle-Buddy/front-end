@@ -22,11 +22,9 @@ function getJSX(node) {
         case "object":
           //for links
           if (child.type == "link"){
-            console.log('getJSX.js Object case: ', child);
             return (<Link key={index}>{child}</Link>);
           }
           else {
-            console.log('getJSX.js Hit Object else case: ', child)
             return <View key={index} >{getJSX(child)}</View>;
           }
         default:

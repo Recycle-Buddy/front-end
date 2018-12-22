@@ -2,12 +2,8 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 import { Title, Paragraph } from 'react-native-paper'
 
-import {standardStyle} from '../assets/styles.js';
-
-import LargeText from './LargeText.js';
 import Link from './Link.js';
 import Header from './Header.js';
-// import Paragraph from './Paragraph.js';
 import Bold from './Bold.js';
 
 class Intermediate extends React.Component {
@@ -43,20 +39,8 @@ class Intermediate extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  link: {
-    fontSize: 30,
-    margin: 30,
-    borderWidth: 2,
-    borderColor: 'black',
-
-  },
   header: {
     fontSize: 16,
-    margin: 10,
-    padding: 2,
-  },
-  paragraph: {
-    fontSize: 14,
     margin: 10,
     padding: 2,
   },
@@ -69,8 +53,3 @@ const styles = StyleSheet.create({
 })
 
 export default Intermediate;
-
-/*
-case 'bullet':
-  			returnComp = <Bullet text={this.props.children}></Bullet>;
-  			break;*/

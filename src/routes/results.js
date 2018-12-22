@@ -6,7 +6,7 @@ import colors from '../assets/colors.js';
 import images from '../assets/images.js';
 import { standardStyle } from '../assets/styles'
 import renderInfo from '../../infoTree/getJSX.js';
-import MyModal from '../components/MyModal'
+import MyModal from '../components/MyModal';
 
 class Results extends React.Component {
   static navigationOptions = {
@@ -15,29 +15,34 @@ class Results extends React.Component {
 
   state = {
     errorModal: false,
+    response: navigation.getParam('machineLearningResponse', 'NO-response'),
   }
 
-  render() {
-    const { navigation } = this.props;
-    const response = navigation.getParam('machineLearningResponse', 'NO-response');
-    const resizedImage = navigation.getParam('resizedImage', 'NO-image');
-    
-    if (!response.result || !response.result[0].label){
+  componentDidMount() {
+    const response = this.state;
+
+    if (!response.result || !response.result[0].label) {
       this.setState({
         errorModal: `There was no response from the Machine Learning API. \n
         Please try taking another picture.` }, () => {
           setTimeout(() => this.setState({ errorModal: false }), 5000);
         });
     }
-    
-    if(response.error){
+
+    if (response.error) {
       this.setState({
-        errorModal: response.error.message }, () => {
-          setTimeout(() => this.setState({ errorModal: false }), 5000);
-        });
+        errorModal: response.error.message
+      }, () => {
+        setTimeout(() => this.setState({ errorModal: false }), 5000);
+      });
     }
-        
-    let label = response.result[0].label.toLowerCase();
+  }
+
+  render() {
+    const { navigation } = this.props;
+    const resizedImage = navigation.getParam('resizedImage', 'NO-image');
+            
+    let label = this.state.response.result[0].label.toLowerCase();
     // Seth - label is currently hard coded as the AutoML Model does not have enough, or the proper labels.
     label = 'Cans - Aerosol';
 

@@ -49,8 +49,7 @@ const MainStack = createMaterialBottomTabNavigator(
       screen: CameraStack,
       navigationOptions: ({ navigation }) => {
         // Seth - Hide Tab bar when using the camera.
-        let tabBarVisible = true;
-        if(navigation.state.index === 1) tabBarVisible = false;
+        const tabBarVisible = navigation.state.index !== 1;
         
         return {
           title: 'Camera',
