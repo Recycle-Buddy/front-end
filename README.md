@@ -27,3 +27,11 @@ See CONTRIBUTING.md
 Prashanth Adhikari - Project Owner and our source of inspiration
 Andy Ernst - Great person to go to for infinite guidance and pet pictures
 Kyle Aardal - Great ideas all around and knows how to use so many technologies
+
+### TODO for V.2:
+- Add Loading Intro page
+- Complete README w/ instrucitons
+- Re-Style
+- Animate
+- Train ML better
+- more to come...

@@ -1,7 +1,15 @@
 ## CONTRIBUTORS
-### If you're contributing to this project, please write your name here \/
 
-Adam Simpson
-Seth Donohue
-Gavin Look
-Sooz Richman
+
+Adam Simpson,
+Andy Ernst,
+Erick Dagenais,
+Robert Harshberger,
+Seth Donohue,
+Sooz Richman,
+Gene Pieterson,
+Kyle Aardal,
+Maria ,
+Prashanth Adhikari,
+Chloe
+

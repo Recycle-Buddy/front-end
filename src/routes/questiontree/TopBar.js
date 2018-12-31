@@ -2,7 +2,7 @@ import React from 'react'
 import {Image, StyleSheet, Text, TouchableNativeFeedback, View} from 'react-native'
 import images from '../../assets/images'
 import {largerFontSize, largerLineheight} from '../../assets/styles'
-import { standardMargin } from './../../assets/styles';
+import { standardMargin } from '../../assets/styles';
 
 export default class TopBar extends React.PureComponent {
   render () {

@@ -1,14 +1,11 @@
 import React from 'react';
-import { ToastAndroid, StyleSheet, FlatList} from 'react-native';
-import ContainerWithNavbar from '../../components/ContainerWithNavbar';
+import { ToastAndroid, StyleSheet, FlatList, View } from 'react-native';
 import { getDataWithPath } from '../../utils'
+
 import TopBar from './TopBar'
 import TouchableListItem from './TouchableListItem'
 
 class QuestionTree extends React.Component {
-  static navigationOptions = {
-    title: 'Find your item',
-  }
 	constructor() {
 		super()
     this.state = {currentPath: [], currentNode: getDataWithPath([]) }
@@ -33,7 +30,7 @@ class QuestionTree extends React.Component {
 	render() {
 		const {currentPath, currentNode} = this.state
 		return (
-			<ContainerWithNavbar navigation={this.props.navigation} noPadding>
+			<View style={{flex:1, paddingTop: 40}}>
 				<TopBar top={currentPath.length === 0} currentNode={currentNode} navigateBack={this.navigateBack}/>
         <FlatList
           data={currentNode.children}
@@ -46,7 +43,7 @@ class QuestionTree extends React.Component {
 		          onTouch={this.navigateForward}/>
           }
         />
-			</ContainerWithNavbar>
+      </View>
 		)
 	}
 }

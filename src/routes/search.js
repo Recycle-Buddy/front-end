@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button, StyleSheet, View } from 'react-native';
-import LargeText from './../components/LargeText';
+import LargeText from '../components/LargeText';
 
-import colors from '../assets/colors.js'
-import metrics from '../themes/metrics.js'
+import colors from '../assets/colors'
+import metrics from '../themes/metrics'
 
 import ContainerWithNavbar from '../components/ContainerWithNavbar';
 import StaticInfo from '../components/StaticInfo';

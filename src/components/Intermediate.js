@@ -1,22 +1,19 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
+import { Title, Paragraph } from 'react-native-paper'
 
-import {standardStyle} from '../assets/styles.js';
-
-import LargeText from './LargeText.js';
 import Link from './Link.js';
 import Header from './Header.js';
-import Paragraph from './Paragraph.js';
 import Bold from './Bold.js';
 
 class Intermediate extends React.Component {
   render() {
   	let componentType = this.props.type;
   	let returnComp = <Text>Hello</Text>;
-  	console.log(componentType);
 
     switch(componentType){
         case 'link':
+        console.log('HREF from Intermediate.js: ', this.props.href);
         returnComp = <Link 
                 href = {this.props.href}
                 text = {this.props.text}
@@ -24,13 +21,13 @@ class Intermediate extends React.Component {
               </Link>;
         break;
         case 'heading': 
-          returnComp = <Header text={this.props.text}></Header>;
+          returnComp = <Header style={styles.header} text={this.props.text}></Header>;
           break;
         case 'para':
-          returnComp = <Paragraph text={this.props.text}></Paragraph>;
+          returnComp = <Paragraph>{this.props.text}</Paragraph>;
           break;
         case 'title':
-          returnComp = <LargeText text={this.props.text}></LargeText>;
+        returnComp = <Title style={styles.title}>{this.props.text}</Title>;
           break;
         case 'bold':
           returnComp = <Bold text={this.props.text}></Bold>;
@@ -38,13 +35,21 @@ class Intermediate extends React.Component {
     }
     
     return returnComp;
-
   }
 }
 
-export default Intermediate;
+const styles = StyleSheet.create({
+  header: {
+    fontSize: 16,
+    margin: 10,
+    padding: 2,
+  },
+  title: {
+    fontSize: 18,
+    margin: 10,
+    padding: 2,
+    textAlign: 'center',
+  },
+})
 
-/*
-case 'bullet':
-  			returnComp = <Bullet text={this.props.children}></Bullet>;
-  			break;*/
+export default Intermediate;

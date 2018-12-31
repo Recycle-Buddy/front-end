@@ -2,6 +2,7 @@ import leafURLS from './URLs.js';
 import whereDoesItGo from './whereDoesItGo.js'
 
 export default function getURLindex(label){
+  console.log('getURLFile LABEL: ', label);
     //first find which URL maps to it
     const targetURLobj= whereDoesItGo.find(el => el.label === label);
     const targetURL = targetURLobj.value;

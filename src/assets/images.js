@@ -9,7 +9,8 @@ const images = {
     recycleSymbol: require('./images/recycle-symbol.png'),
     recycleQuestions: require('./images/recycle-questions.png'),
     trashCan: require('./images/trash-can.png'),
-    compost: require('./images/compost.png')
+    compost: require('./images/compost.png'),
+    loader: require('./images/loader.gif'),
 }
 
-export default images
+export default images;
